@@ -1,12 +1,29 @@
 body {
     margin: 0;
+    background-color: #bbe4e9;
+}
+
+.header {
+    padding: 20px;
 }
 
 .contact-banner {
     float: none;
     display: block;
-    background-color: #085f63;
     position: relative;
+    padding-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-banner a {
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 50px;
+    
+}
+
+.contact-banner svg {
+    vertical-align: baseline;
 }
 
 .menu {
@@ -15,6 +32,7 @@ body {
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
+    border-radius: 10px;
 }
 
 .navbar {
@@ -27,6 +45,7 @@ body {
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 25px;
     border-radius: 4px;
 }
@@ -53,4 +72,10 @@ body {
     font-size: 25px;
     font-weight: bold;
     margin-right:60%
+}
+
+.homeimg {
+    display: flex;
+    float: right;
+    padding-right: 50px;
 }
