@@ -4,12 +4,15 @@ html, body {
 
 body {
     margin: 0;
+    
 }
 
+
 .header {
-    padding: 2%;
     display: flex;
     flex-direction: column;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .contact-banner {
@@ -20,6 +23,9 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
     padding-bottom: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    background-color: #f1f1f1;
 }
 
 
@@ -54,8 +60,8 @@ body {
     align-items: center;
     overflow: hidden;
     background-color: #f1f1f1;
-    padding: 20px 10px;
-    border-radius: 10px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 .navbar {
@@ -86,22 +92,32 @@ body {
 
 .logo-container {
     float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
+    padding-left: 4%;
     line-height: 25px;
     border-radius: 4px;
     font-size: 25px;
     font-weight: bold;
-    margin-right:60%
+    margin-right: 50%;
+    width: 10%;
+    height: 5%;
 }
 
-.homeimg {
+
+.container {
     display: flex;
-    padding-right: 5%;
-    object-fit:cover;
+    padding-bottom: 5%;
+    background-image: url('/images/doc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactButton {
+    background-color: #5b9ad5;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    
 }
 
 .content {
@@ -116,8 +132,8 @@ body {
     line-height: 1.8;
 }
 
-.container {
-    display: flex;
+.content-2 {
+    padding-bottom: 10%;
 }
 
 .service-summary {
@@ -130,12 +146,10 @@ body {
     line-height: 1.8;
 }
 
-
-hr {
+.hr-2 {
     border: 1px solid #132743; 
     margin-left: 40%;
     margin-right: 40%;
-
 }
 
 .summary {
@@ -147,7 +161,6 @@ hr {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 10%;
-    margin-bottom: 10%;
 }
 
 .sum-1 {
@@ -209,7 +222,7 @@ hr {
     height: 70%;
     width: 70%;
     background-color: #f2f2f2;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
     border-radius: 8%;
     display: flex;
     align-items: center;
@@ -223,7 +236,7 @@ hr {
     height: 70%;
     width: 70%;
     background-color: #f2f2f2;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
     border-radius: 8%;
     display: flex;
     flex-direction: column;
@@ -238,7 +251,7 @@ hr {
     height: 70%;
     width: 70%;
     background-color: #f2f2f2;
-    box-shadow:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
     border-radius: 8%;
     display: flex;
     margin: 2%;
