@@ -6,13 +6,11 @@ body {
     margin: 0;
 }
 
-
 .header {
     display: flex;
     flex-direction: column;
     padding-bottom: 0;
     padding-top: 0;
-    border-color: #41506b;
 }
 
 .contact-banner {
@@ -28,13 +26,11 @@ body {
     background-color: #f1f1f1;
 }
 
-
 .phones {
     display: flex;
     justify-content: center;
     height: 100%;
 }
-
 
 .mails {
     display: flex;
@@ -92,6 +88,7 @@ body {
     cursor: pointer;
 }
 
+
 .menu {
     display: flex;
     align-items: center;
@@ -138,7 +135,6 @@ body {
     width: 10%;
     height: 5%;
 }
-
 
 .container {
     display: flex;
@@ -201,7 +197,6 @@ body {
   transform: translateY(0);
 }
 
-
 .content {
     display: flex;
     flex-direction: column;
@@ -221,9 +216,6 @@ body {
 
 }
 
-.content-2 {
-    padding-bottom: 10%;
-}
 
 .service-summary {
     display: flex;
@@ -233,12 +225,18 @@ body {
     font-size: x-large;
     text-align: center;
     line-height: 1.8;
+    background-image: url(/images/pexels-etatics-inc-12512669.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+
+
 
 .hr-2 {
     border: 1px solid #132743; 
-    margin-left: 40%;
-    margin-right: 40%;
+    padding-left: 40%;
+    padding-right: 40%;
 }
 
 .summary {
@@ -298,7 +296,7 @@ body {
 }
 
 .footer {
-    background-color: #41506b;
+    background-color: #41506b; 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -310,8 +308,7 @@ body {
 .logo-box {
     height: 70%;
     width: 70%;
-    background-color: #e4f0f9;
-    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    background-color: #41506b;
     border-radius: 8%;
     display: flex;
     align-items: center;
@@ -331,6 +328,36 @@ body {
     flex-direction: column;
     align-items: flex-start;
     margin: 2%;
+
+}
+
+.contact-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-whatsapp {
+    border: none;
+    background-image: url(/icons/footer-whatsapp.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.footer-instagram {
+    border: none;
+    background-image: url(/icons/footer-instagram.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.footer-facebook {
+    border: none;
+    background-image: url(/icons/footer-facebook.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
 
 }
 
