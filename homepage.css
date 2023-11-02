@@ -4,7 +4,6 @@ html, body {
 
 body {
     margin: 0;
-    
 }
 
 
@@ -13,6 +12,7 @@ body {
     flex-direction: column;
     padding-bottom: 0;
     padding-top: 0;
+    border-color: #41506b;
 }
 
 .contact-banner {
@@ -53,6 +53,43 @@ body {
 
 .contact-banner svg {
     height: 1.25em;
+}
+
+.socials {
+    display: flex;
+    float: none;
+    position: relative;
+    height: 20%;
+    align-items: center;
+    padding-left: 50%;
+
+}
+
+.btn-whatsapp {
+    border: none;
+    background-image: url(/icons/whatsapp.svg);
+    background-repeat: no-repeat;
+    padding: 12px 25px;
+    cursor: pointer;
+    width: 20%;
+    height: 20%;
+}
+
+.btn-instagram {
+    border: none;
+    background-image: url(/icons/instagram.svg);
+    background-repeat: no-repeat;
+    padding: 12px 25px;
+    cursor: pointer;
+    
+}
+
+.btn-facebook {
+    border: none;
+    background-image: url(/icons/facebook.svg);
+    background-repeat: no-repeat;
+    padding: 12px 16px;
+    cursor: pointer;
 }
 
 .menu {
@@ -120,6 +157,51 @@ body {
     
 }
 
+.contact-button {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #5b9ad5;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #5b9ad5;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  margin-left: 5%;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 50%;
+}
+
+.contact-button:disabled {
+  pointer-events: none;
+}
+
+.contact-button:hover {
+  color: #fff;
+  background-color: #5b9ad5;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.contact-button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
 .content {
     display: flex;
     flex-direction: column;
@@ -130,6 +212,13 @@ body {
     padding-bottom: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.8;
+}
+
+.hr-1 {
+    border: 1px solid #5b9ad5; 
+    margin-left: 5%;
+    margin-right: 70%;
+
 }
 
 .content-2 {
@@ -166,9 +255,9 @@ body {
 .sum-1 {
     width: 250px;
     height: 250px;
-    background-color: #f2f2f2;
+    background-color: #e4f0f9;
     border-radius: 8%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -178,9 +267,9 @@ body {
 .sum-2 {
     width: 250px;
     height: 250px;
-    background-color: #f2f2f2;
+    background-color: #e4f0f9;
     border-radius: 8%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     text-align: center;
     align-items: center;
     display: flex;
@@ -189,9 +278,9 @@ body {
 .sum-3 {
     width: 250px;
     height: 250px;
-    background-color: #f2f2f2;
+    background-color: #e4f0f9;
     border-radius: 8%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     text-align: center;
     align-items: center;
     display: flex;
@@ -200,16 +289,16 @@ body {
 .sum-4 {
     width: 250px;
     height: 250px;
-    background-color: #f2f2f2;
+    background-color: #e4f0f9;
     border-radius: 8%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     text-align: center;
     align-items: center;
     display: flex;
 }
 
 .footer {
-    background-color: #5b9ad5;
+    background-color: #41506b;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -221,7 +310,7 @@ body {
 .logo-box {
     height: 70%;
     width: 70%;
-    background-color: #f2f2f2;
+    background-color: #e4f0f9;
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
     border-radius: 8%;
     display: flex;
@@ -235,14 +324,12 @@ body {
 .contact-box {
     height: 70%;
     width: 70%;
-    background-color: #f2f2f2;
+    background-color: #e4f0f9;
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
     border-radius: 8%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    align-items: flex-start;
     margin: 2%;
 
 }
