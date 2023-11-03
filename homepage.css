@@ -24,6 +24,7 @@ body {
     padding-left: 1%;
     padding-top: 1%;
     background-color: #f1f1f1;
+    border-bottom: 1px solid #5b9ad5;
 }
 
 .phones {
@@ -144,6 +145,11 @@ body {
     background-size: cover;
 }
 
+.container-2 {
+    border-top: 0.5px solid #5b9ad5;
+    background-color: #E0F5F8;
+}
+
 .contactButton {
     background-color: #5b9ad5;
     color: white;
@@ -225,12 +231,8 @@ body {
     font-size: x-large;
     text-align: center;
     line-height: 1.8;
-    background-image: url(/images/pexels-etatics-inc-12512669.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     
 }
-
 
 
 .hr-2 {
@@ -244,10 +246,11 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(transparent, to bottom rgba(73, 190, 183));
+    
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 10%;
+    background-color: #E0F5F8;
 }
 
 .sum-1 {
