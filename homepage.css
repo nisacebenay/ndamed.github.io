@@ -236,7 +236,7 @@ body {
 
 
 .hr-2 {
-    border: 1px solid #132743; 
+    border: 0.5px solid #132743; 
     padding-left: 40%;
     padding-right: 40%;
 }
@@ -266,10 +266,8 @@ body {
 }
 
 .sum-1 img {
-    width: 20%;
-    height: 20%;
-    background-color: #5b9ad5;
-    
+    width: 25%;
+    height: 25%;  
 }
 
 
@@ -284,13 +282,11 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
-
 }
 
 .sum-2 img {
-    width: 20%;
-    height: 20%;
-    background-color: #5b9ad5;
+    width: 25%;
+    height: 25%;
 }
 
 .sum-3 {
@@ -307,9 +303,8 @@ body {
 }
 
 .sum-3 img {
-    width: 20%;
-    height: 20%;
-    background-color: #5b9ad5;
+    width: 25%;
+    height: 25%;
 }
 
 .sum-4 {
@@ -326,9 +321,8 @@ body {
 }
 
 .sum-4 img {
-    width: 20%;
-    height: 20%;
-    background-color: #5b9ad5;
+    width: 25%;
+    height: 25%;
 }
 
 .footer {
