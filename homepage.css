@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -82,7 +83,7 @@ body {
     background-repeat: no-repeat;
     padding: 12px 25px;
     cursor: pointer;
-    
+
 }
 
 .btn-facebook {
@@ -144,7 +145,7 @@ body {
 .container {
     display: flex;
     padding-bottom: 5%;
-    background-image: url("./images/doc.png");
+    background-image: url("./images/doc-s.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -160,51 +161,51 @@ body {
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    
+
 }
 
 .contact-button {
-  appearance: none;
-  background-color: transparent;
-  border: 2px solid #5b9ad5;
-  border-radius: 15px;
-  box-sizing: border-box;
-  color: #5b9ad5;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 16px;
-  font-weight: 600;
-  line-height: normal;
-  margin: 0;
-  min-height: 60px;
-  min-width: 0;
-  outline: none;
-  padding: 16px 24px;
-  margin-left: 5%;
-  text-align: center;
-  text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: 50%;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #5b9ad5;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #5b9ad5;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    margin-left: 5%;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 50%;
 }
 
 .contact-button:disabled {
-  pointer-events: none;
+    pointer-events: none;
 }
 
 .contact-button:hover {
-  color: #fff;
-  background-color: #5b9ad5;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
+    color: #fff;
+    background-color: #5b9ad5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
 }
 
 .contact-button:active {
-  box-shadow: none;
-  transform: translateY(0);
+    box-shadow: none;
+    transform: translateY(0);
 }
 
 .content {
@@ -212,7 +213,7 @@ body {
     flex-direction: column;
     padding-left: 5%;
     padding-right: 10%;
-    float: left;   
+    float: left;
     margin-top: 10%;
     padding-bottom: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -220,7 +221,7 @@ body {
 }
 
 .hr-1 {
-    border: 1px solid #5b9ad5; 
+    border: 1px solid #5b9ad5;
     margin-left: 5%;
     margin-right: 70%;
 
@@ -235,12 +236,12 @@ body {
     font-size: x-large;
     text-align: center;
     line-height: 1.8;
-    
+
 }
 
 
 .hr-2 {
-    border: 0.5px solid #132743; 
+    border: 0.5px solid #132743;
     padding-left: 40%;
     padding-right: 40%;
 }
@@ -271,7 +272,7 @@ body {
 
 .sum-1 img {
     width: 25%;
-    height: 25%;  
+    height: 25%;
     margin-bottom: 5%;
 }
 
@@ -331,7 +332,7 @@ body {
 }
 
 .footer {
-    background-color: #41506b; 
+    background-color: #41506b;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
