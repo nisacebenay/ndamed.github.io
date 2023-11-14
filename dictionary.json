@@ -1,0 +1,56 @@
+{
+    "langs": [
+        {
+            "name": "Turkish",
+            "short": "TR",
+            "texts":[
+                {
+                    "id": "homepage-text",
+                    "text": "Anasayfa"
+                },
+                {
+                    "id": "home-text",
+                    "text": "Anasayfa"
+                },
+                {
+                    "id": "about-text",
+                    "text": "Hakkımızda"
+                },
+                {
+                    "id": "services-text",
+                    "text": "Hizmetlerimiz"
+                },
+                {
+                    "id": "contact-text",
+                    "text": "İletişim"
+                }
+            ]
+        },
+        {
+            "name": "English",
+            "short": "EN",
+            "texts":[
+                {
+                    "id": "homepage-text",
+                    "text": "Home"
+                },
+                {
+                    "id": "home-text",
+                    "text": "Home"
+                },
+                {
+                    "id": "about-text",
+                    "text": "About Us"
+                },
+                {
+                    "id": "services-text",
+                    "text": "Our Services"
+                },
+                {
+                    "id": "contact-text",
+                    "text": "Contact Us"
+                }
+            ]
+        }
+    ]
+}
