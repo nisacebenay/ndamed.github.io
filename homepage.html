@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ana Sayfa</title>
+    <title id="homepage-text" class="text">Ana Sayfa</title>
     <link rel="stylesheet" href="homepage.css">
+    <script src="index.js"></script>
 </head>
 
-<body>
-
+<body onload="">
     <header class="header">
         <div class="contact-banner">
             <div class="phones">
@@ -51,60 +51,73 @@
         <div class="menu">
             <img src="./images/logo-s2.jpg" alt="" class="logo-container" style="cursor: pointer;" href="">
             <div class="navbar">
-                <a class="menuButton active" id="menuButton active" href="#home">Ana Sayfa</a>
-                <a class="menuButton passive" id="menuButton passive" href="#about">Hakkımızda</a>
-                <a class="menuButton passive" id="menubutton passive" href="#services">Hizmetlerimiz</a>
-                <a class="menuButton passive" id="menubutton passive" href="#contact">İletişim</a>
-                <select name="" id=""></select>
+                <a id="home-text" class="menuButton active text" href="#home">Ana Sayfa</a>
+                <a id="about-text" class="menuButton passive text" href="./about-us.html" target="_blank">Hakkımızda</a>
+                <a id="services-text" class="menuButton passive text" href="#services">Hizmetlerimiz</a>
+                <a id="contact-text" class="menuButton passive text" href="#contact">İletişim</a>
+                <select name="" class="languageSelector"></select>
             </div>
         </div>
         </div>
     </header>
 
+    <header class="mobile-header">
+        <div class="mobile-menu">
+            <img src="./images/logo-s2.jpg" alt="" class="logo-container" style="cursor: pointer;" href="">
+            <img src= "./icons/hamburger.svg" class="hamburger-menu" onclick="hamburgerOnClick()">
+        </div>
+        <div class="mobile-navbar" id="mobile-navbar">
+            <a id="home-text" class="menuButton active text" href="#home">Ana Sayfa</a>
+            <a id="about-text" class="menuButton passive text" href="./about-us.html">Hakkımızda</a>
+            <a id="services-text" class="menuButton passive text" href="#services">Hizmetlerimiz</a>
+            <a id="contact-text" class="menuButton passive text" href="#contact">İletişim</a>
+            <select name="" class="languageSelector"></select>
+        </div>
+    </header>
+
     <div class="container">
         <div class="content">
-            <h1
-                style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding-left: 5%; color: #5b9ad5;">
-                NDA Med'e hoşgeldiniz.</h1>
+            <h1 id="welcome-text" class="text">NDA Med'e hoşgeldiniz.</h1>
             <hr class="hr-1">
-            <h4 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding-left: 5%; padding-bottom: 3%; color: #393e46;">
+            <h4 id="intro-text" class="text">
                 NDA Med. Sağlık Hizmetleri olarak yurtiçi ve yurtdışından <br> estetik veya rekonstrüktif operasyon için
                 gelen tüm misafirlerimize <br> eşsiz bir deneyim sunuyoruz. Modern tıp teknolojileri ile tam donanımlı
                 <br> hastane, klinik ve muayenehanelerde aradığınız
-                tüm hizmetlere ulaşmanız için buradayız.</h4>
+                tüm hizmetlere ulaşmanız için buradayız.
+            </h4>
 
             <button class="contact-button" role="button" href="#contact">Bize Ulaşın</button>
         </div>
     </div>
 
-    <div class="container-2" style="padding-bottom: 10%;">
+    <div class="container-2">
         <div class="service-summary">
-            <h2 style="color: #5b9ad5;"> Kaliteli Bir Sağlık Hizmeti İçin <br> Kaliteli Bir Özel Hizmet Yelpazesi</h2>
-            <hr class="hr-2" style="color: #5b9ad5;">
+            <h2 id="summary-text" class="text"> Kaliteli Bir Sağlık Hizmeti İçin <br> Kaliteli Bir Özel Hizmet Yelpazesi</h2>
+            <hr class="hr-2">
         </div>
 
         <div class="summary">
             <div class="sum-1">
                 <img src="./icons/transportation.svg" alt="">
-                <h4>Ulaşım</h4>
-                <p style="color:#393e46;">Ziyaretiniz boyunca ulaşmanız gereken her yere ulaşım hizmeti sağlıyoruz.</p>
+                <h4 id="transportation-text" class="text">Ulaşım</h4>
+                <p id="transportation-service-text" class="text">Ziyaretiniz boyunca ulaşmanız gereken her yere ulaşım hizmeti sağlıyoruz.</p>
             </div>
             <div class="sum-2">
                 <img src="./icons/hotel.svg" alt="">
-                <h4>Konaklama</h4>
-                <p style="color:#393e46">Anlaşmalı otellerimizde konaklama hizmeti sunuyoruz. Farklı bir otel
+                <h4 id="accomodation-text" class="text">Konaklama</h4>
+                <p id="accomodation-service-text" class="text">Anlaşmalı otellerimizde konaklama hizmeti sunuyoruz. Farklı bir otel
                     isteğinizde iletişimi sizin için bizler sağlıyoruz.</p>
             </div>
             <div class="sum-3">
                 <img src="./icons/language.svg" alt="">
-                <h4>Dil Desteği</h4>
-                <p style=" padding-bottom: 5%; color:#393e46;">İngilizce, Fransızca, Hollandaca dillerinde sınırsız
+                <h4 id="translations-text" class="text">Dil Desteği</h4>
+                <p id="translations-service-text" class="text">İngilizce, Fransızca, Hollandaca dillerinde sınırsız
                     çeviri hizmeti sunuyoruz.</p>
             </div>
             <div class="sum-4">
                 <img src="./icons/communication.svg" alt="">
-                <h4>7/24 İletişim</h4>
-                <p style=" padding-bottom: 10%; color:#393e46">Saat farketmeksizin size şehrin her yerinde eşlik
+                <h4 id="communication-text" class="text">7/24 İletişim</h4>
+                <p id="communication-service-text" class="text">Saat farketmeksizin size şehrin her yerinde eşlik
                     ediyoruz.</p>
             </div>
         </div>
@@ -115,11 +128,10 @@
         </div>
         <div class="contact-box">
             <div>
-                <h2 style="padding: 30% 80% 10% 10%; color:#fffdf6;">İletişim</h2>
-                <hr style="border: 1px solid #fffdf6; margin-left: 20%;">
+                <h2 id="all-contact-text" class="text">İletişim</h2>
+                <hr>
             </div>
-            <p style=" padding: 5%; padding-top: 0%; padding-top: 5%; color: #fffdf6; word-spacing: 5px; "> Kırkkonaklar Mahallesi, 450.
-                Cadde, 381. Sokak no: 7/4 Çankaya - Ankara / Türkiye</p>
+            <p id="address-text" class="text"> Kırkkonaklar Mahallesi, 450. Cadde, 381. Sokak no: 7/4 Çankaya - Ankara / Türkiye</p>
             <div class="contact-social">
                 <button class="footer-whatsapp"><i class="whatsapp"></i></button>
                 <button class="footer-instagram"><i class="instagram"></i></button>
@@ -130,15 +142,14 @@
             <div class="map-container"
                 style="max-width:100%;overflow:hidden;color:red;width:100%;height:100%;border-radius: 8%;">
                 <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;">
-                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" 
-                    src="https://www.google.com/maps/embed/v1/place?q=+Kirkkonaklar+Mahallesi,+450.+Cadde,+381.+sokak+no+7/4&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                    <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+                        src="https://www.google.com/maps/embed/v1/place?q=+Kirkkonaklar+Mahallesi,+450.+Cadde,+381.+sokak+no+7/4&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
 
+                </div>
             </div>
-        </div>
 
 </body>
 
 </html>
 <!-- https://en.wikipedia.org/wiki/KISS_principle -->
 <!-- https://en.wikipedia.org/wiki/Don%27t_repeat_yourself-->
-    

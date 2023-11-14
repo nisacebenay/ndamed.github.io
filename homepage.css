@@ -13,6 +13,10 @@ body {
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
+.mobile-header {
+    display:none
+}
+
 .contact-banner {
     float: none;
     display: flex;
@@ -101,7 +105,7 @@ body {
 }
 
 .navbar {
-    display: inline-block;
+    display: flex;
 }
 
 .menuButton {
@@ -129,10 +133,7 @@ body {
 .logo-container {
     float: left;
     padding-left: 4%;
-    line-height: 25px;
     border-radius: 4px;
-    font-size: 25px;
-    font-weight: bold;
     margin-right: 50%;
     width: 10%;
     height: 5%;
@@ -149,6 +150,7 @@ body {
 .container-2 {
     border-top: 0.5px solid #5b9ad5;
     background-color: #E0F5F8;
+    padding-bottom: 10%;
 }
 
 .contactButton {
@@ -216,6 +218,19 @@ body {
     line-height: 1.8;
 }
 
+.content h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    padding-left: 5%; 
+    color: #5b9ad5;
+}
+
+.content h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    padding-left: 5%; 
+    padding-bottom: 3%; 
+    color: #393e46;
+}
+
 .hr-1 {
     border: 1px solid #5b9ad5;
     margin-left: 5%;
@@ -235,11 +250,15 @@ body {
 
 }
 
+.service-summary h2 {
+    color: #5b9ad5;
+}
 
 .hr-2 {
     border: 0.5px solid #132743;
     padding-left: 40%;
     padding-right: 40%;
+    color: #5b9ad5;
 }
 
 .summary {
@@ -253,6 +272,9 @@ body {
     background-color: #E0F5F8;
 }
 
+.summary p {
+    color: #393e46;
+}
 
 .sum-1 {
     width: 300px;
@@ -305,6 +327,10 @@ body {
     flex-direction: column;
 }
 
+.sum-3 p {
+    padding-bottom: 5%;
+}
+
 .sum-3 img {
     width: 25%;
     height: 25%;
@@ -321,6 +347,10 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
+}
+
+.sum-4 p {
+    padding-bottom: 10%;
 }
 
 .sum-4 img {
@@ -358,6 +388,25 @@ body {
     align-items: center;
 }
 
+.contact-box h2 {
+    padding: 30% 80% 10% 10%;
+    color: #fffdf6;
+}
+
+.contact-box hr {
+    border: 1px solid #fffdf6;
+    margin-left: 20%;
+}
+
+.contact-box p {
+    padding: 5%;
+    padding-top: 0%;
+    color: #fffdf6;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+
 .contact-social {
     display: flex;
     height: 20%;
@@ -374,7 +423,7 @@ body {
     background-image: url("./icons/whatsapp-2.jpg");
     background-repeat: no-repeat;
     cursor: pointer;
-    background-size:contain;
+    background-size: contain;
     background-color: #41506b;
 
 }
@@ -420,26 +469,110 @@ body {
 
 @media screen and (max-width: 768px) {
     .contact-banner {
-    display: none;
+        display: none;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .mobile-header{
+        display: block;
+        color: #f1f1f1;
+    }
+
+    .mobile-menu {
+        display: flex;
+        justify-content: space-between;
+        height: 10%;
+        background-color: #f1f1f1;
+    }
+
+    .logo-container{
+        height: 100%;
+        width: auto;
+    }
+
+    .hamburger-menu{
+        height: 50%;
+        padding-top: 2%;
+        padding-right: 4%;
+        float: right;
+    }
+
+    .mobile-navbar{
+        display: none;
+        flex-direction: column;
+        background-color: #f1f1f1;
     }
 }
 
 @media screen and (max-width: 600px) {
+    .header{
+        display: none;
+    }
+
+    .mobile-header{
+        display: block;
+        color: #f1f1f1;
+    }
+
+    .mobile-menu {
+        display: flex;
+        height: 10%;
+        background-color: #f1f1f1;
+    }
+
+    .hamburger-menu{
+        height: 50%;
+        padding-top: 4%;
+    }
+
+    .mobile-navbar{
+        display: none;
+        flex-direction: column;
+        background-color: #f1f1f1;
+    }
+
     .summary {
-    flex-direction: column;
-    gap: 15px;
+        flex-direction: column;
+        gap: 15px;
     }
-    
+
     .logo-box {
-      display: none;
+        display: none;
     }
-        
+
     .contact-social {
-      flex-direction: row;
-      width: 50%; 
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
     }
 
     .footer {
         flex-direction: column;
-      }
-  }
+    }
+
+    .footer-whatsapp {
+        margin-left: 20%;
+        height: 100%;
+    }
+
+    .footer-instagram {
+        height: 100%;
+    }
+
+    .footer-facebook {
+        height: 100%;
+    }
+    
+    .map-box {
+        margin-top: 5%;
+    }
+
+    .logo-container {
+        width: 30%;
+        height: 100%;
+    }
+
+}
