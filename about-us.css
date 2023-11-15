@@ -508,6 +508,16 @@ li {
         display: none;
     }
 
+    .logo-container {
+        float: left;
+        padding-left: 4%;
+        line-height: 25px;
+        border-radius: 4px;
+        font-size: 25px;
+        font-weight: bold;
+        margin-right: 30%;
+    }
+
     .mobile-header{
         display: block;
         color: #f1f1f1;
@@ -624,5 +634,24 @@ li {
 
     .logo-box {
         display: none;
+    }
+
+    .footer {
+        background-color: #41506b;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 80%;
+    }
+
+    .contact-social {
+        display: flex;
+        height: 50%;
+        width: 80%;
+        align-items: center;
+        background-color: #41506b;
+        flex-direction: row;
+        padding-left: 10%;
     }
 }
