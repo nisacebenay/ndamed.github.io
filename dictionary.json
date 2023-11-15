@@ -1,56 +1,45 @@
 {
-    "langs": [
+    "languages": [
         {
-            "name": "Turkish",
-            "short": "TR",
-            "texts":[
-                {
-                    "id": "homepage-text",
-                    "text": "Anasayfa"
-                },
-                {
-                    "id": "home-text",
-                    "text": "Anasayfa"
-                },
-                {
-                    "id": "about-text",
-                    "text": "Hakkımızda"
-                },
-                {
-                    "id": "services-text",
-                    "text": "Hizmetlerimiz"
-                },
-                {
-                    "id": "contact-text",
-                    "text": "İletişim"
-                }
-            ]
+            "id": "en",
+            "name": "English",
+            "short": "en"
         },
         {
-            "name": "English",
-            "short": "EN",
-            "texts":[
-                {
-                    "id": "homepage-text",
-                    "text": "Home"
-                },
-                {
-                    "id": "home-text",
-                    "text": "Home"
-                },
-                {
-                    "id": "about-text",
-                    "text": "About Us"
-                },
-                {
-                    "id": "services-text",
-                    "text": "Our Services"
-                },
-                {
-                    "id": "contact-text",
-                    "text": "Contact Us"
-                }
-            ]
+            "id": "tr",
+            "name": "Türkçe",
+            "short": "tr"
+        },
+        {
+            "id": "de",
+            "name": "Deutsch",
+            "short": "de"
+        }
+    ],
+    "texts": [
+        {
+            "id": "homepage-text",
+            "tr": "ANA SAYFA",
+            "en": "HOME",
+            "de": "STARTSEITE"    
+        },
+        {
+            "id": "home-text",
+            "tr": "ANA SAYFA",
+            "en": "HOME",
+            "de": "STARTSEITE"    
+        },
+        {
+            "id": "about-text",
+            "tr": "HAKKIMIZDA",
+            "en": "ABOUT US",
+            "de": "ÜBER UNS"    
+        },
+        {
+            "id": "services-text",
+            "tr": "HİZMETLERİMİZ",
+            "en": "OUR SERVICES",
+            "de": "UNSERE DEINSTLEISTUNGEN"    
         }
     ]
 }
