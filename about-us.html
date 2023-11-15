@@ -59,28 +59,121 @@
         </div>
         </div>
     </header>
+
+    <header class="mobile-header" onload="">
+        <div class="mobile-menu">
+            <img src="./images/logo-s2.jpg" alt="" class="logo-container" style="cursor: pointer;" href="">
+            <img src="./icons/hamburger.svg" class="hamburger-menu" onclick="hamburgerOnClick()">
+        </div>
+        <div class="mobile-navbar" id="mobile-navbar">
+            <a id="home-text" class="menuButton active text" href="./index.html">Ana Sayfa</a>
+            <a id="about-text" class="menuButton passive text" href="./about-us.html">Hakkımızda</a>
+            <a id="services-text" class="menuButton passive text" href="#services">Hizmetlerimiz</a>
+            <a id="contact-text" class="menuButton passive text" href="#contact">İletişim</a>
+            <select name="" class="languageSelector" onchange="changelang(event)"></select>
+        </div>
+    </header>
+
     <div class="about-part">
         <div class="about-us-text">
             <h1>Biz Kimiz?</h1>
             <hr>
-            <h1>NDA Sağlık Turizmi</h1>
-            <p>NDA Med. Sağlık Hizmetleri olarak yurtiçi ve yurtdışından estetik veya rekonstrüktif <br> operasyon için gelen tüm misafirlerimize eşsiz bir deneyim sunuyoruz. Plastik, estetik ve <br> rekonstrüktif cerrahi, saç ekimi, diş estetiği, göz çizdirme ameliyatı ve daha birçok sağlık <br> ve estetik hizmeti veriyoruz. Türkiye’nin başkenti ve bir kültür abidesi olan Ankara’mızda <br> sizlere ulaşım hizmeti ve konaklama fırsatı sunuyor, ülkemizde bulunduğunuz süre zarfında <br> size kendinizi evinizde hissettirecek rahatlığı sağlıyoruz.
-                Yurtdışından gelen misafirlerimizin <br> ülkemize geldiklerinde yabancı kalmamaları için onları Ankara’ya ulaştıktan sonra özel araçla <br> otellerine ulaştırıyor, yapılacak estetik veya sağlık işlemi için kliniğe ulaştırıyor ve işlem bitip <br> yapılan kontrollerden sonra tekrar otellerine ulaştırıyoruz. Ülkenizden uzakta olduğunuzun <br> farkında olup sizi şehrin en iyi otellerine yönlendiriyoruz. Son olarak ülkemizden ayrılmak <br> üzere tekrar havaalanına profesyonel ulaştırma sağlıyoruz.
-                Vaktinizin değerli olduğunu bildiğimiz <br> için koordine şekilde, size danışarak programınıza uygun şekilde bir plan yapıp plana sadık <br> kalıyoruz. Böylece vakit kaybetmeksizin ihtiyacınız olan hizmeti size ayrılan süre içinde sunuyor <br> ve tüm gereken işleri en verimli şekilde yerine getiriyoruz. <br> <br>
-             Özellikle operasyon ve sonraki süreç hakkında birçok soru işareti olan <br> misafirlerimize aşağıdaki garantileri sunmayı kendimize bir görev bildik:
-                </p>
-                <ul>
-                    <li>Sağlık turizm sertifikalı hekim ve uzmanlar</li>
-                    <li>%100 steril ortam</li>
-                    <li>Operasyon/işlem sonrası takipler (doktor/uzman danışmanlığı ile)</li>
-                    <li>Kaliteli ve güvenilir hizmet anlayışı </li>
-                    <li>İhtiyaca göre ek hizmetler (bilgilendirme formunu inceleyiniz)</li>
-                </ul>
+            <h2>NDA Sağlık Turizmi</h2>
+            <p>NDA Med. Sağlık Hizmetleri olarak yurtiçi ve yurtdışından estetik veya rekonstrüktif operasyon için gelen
+                tüm misafirlerimize eşsiz bir deneyim sunuyoruz. Plastik, estetik ve rekonstrüktif cerrahi, saç ekimi,
+                diş estetiği, göz çizdirme ameliyatı ve daha birçok sağlık ve estetik hizmeti veriyoruz. Türkiye’nin
+                başkenti ve bir kültür abidesi olan Ankara’mızda sizlere ulaşım hizmeti ve konaklama fırsatı sunuyor,
+                ülkemizde bulunduğunuz süre zarfında size kendinizi evinizde hissettirecek rahatlığı sağlıyoruz.
+                Yurtdışından gelen misafirlerimizin ülkemize geldiklerinde yabancı kalmamaları için onları Ankara’ya
+                ulaştıktan sonra özel araçla otellerine ulaştırıyor, yapılacak estetik veya sağlık işlemi için kliniğe
+                ulaştırıyor ve işlem bitip yapılan kontrollerden sonra tekrar otellerine ulaştırıyoruz. Ülkenizden
+                uzakta olduğunuzun farkında olup sizi şehrin en iyi otellerine yönlendiriyoruz. Son olarak ülkemizden
+                ayrılmak üzere tekrar havaalanına profesyonel ulaştırma sağlıyoruz.
+                Vaktinizin değerli olduğunu bildiğimiz için koordine şekilde, size danışarak programınıza uygun şekilde
+                bir plan yapıp plana sadık kalıyoruz. Böylece vakit kaybetmeksizin ihtiyacınız olan hizmeti size ayrılan
+                süre içinde sunuyor ve tüm gereken işleri en verimli şekilde yerine getiriyoruz. <br> <br>
+                Özellikle operasyon ve sonraki süreç hakkında birçok soru işareti olan misafirlerimize aşağıdaki
+                garantileri sunmayı kendimize bir görev bildik:
+            </p>
+            <ul>
+                <li>Sağlık turizm sertifikalı hekim ve uzmanlar</li>
+                <li>%100 steril ortam</li>
+                <li>Operasyon/işlem sonrası takipler (doktor/uzman danışmanlığı ile)</li>
+                <li>Kaliteli ve güvenilir hizmet anlayışı </li>
+                <li>İhtiyaca göre ek hizmetler (bilgilendirme formunu inceleyiniz)</li>
+            </ul>
         </div>
         <div class="about-us-pics">
-            <img src="./images/about-us-1.jpg" alt="">
-            <img src="./images/about-us-2.jpg" alt="">
+            <img src="./images/about-us-1.2.jpg" alt="" class="img1">
+            <img src="./images/about-us-2.2.jpg" alt="" class="img2">
+        </div>
+    </div>
+    <div class="contact-line">
+        <img src="./icons/hand-holding-heart-solid.svg" alt="" class="hand">
+        <p>Tüm Sağlık Sorunlarınızda Tedavi Yöntemlerimizle Yanınızdayız.</p>
+        <button class="contact-button" role="button" href="#contact">Bize Ulaşın</button>
+    </div>
+
+    <div class="about-part2">
+
+        <div class="about-ankara-pics">
+            <img src="./images/gol1.jpg" alt="" class="img3">
+            <img src="./images/anitkabir1.jpg" alt="" class="img4">
+        </div>
+        <div class="about-ankara">
+            <h1>Neden Ankara?</h1>
+            <hr>
+            <p> Ülkemiz dünyanın merkezinde bulunuyor diyebiliriz ve birçok farklı açıdan ilgi odağı olup her yıl
+                milyonlarca turist ağırlıyor. Başkent Ankara ise Türkiye’nin merkezinde bulunuyor ve böylece her
+                kesime hitap eden turistik tesisleriyle Ankara’da ziyaret edilebilecek şeyler listesinde başta
+                Anıtkabir, Ankara Kalesi, Eski Meclis, Kocatepe Camii ve birçok müze geliyor. Bunların dışında
+                doğasıyla da ünlü başkentimizde Eymir Gölü ve Kızılcahamam ormanları gibi farklı doğa harikasını
+                içinde barındırıyor. Merkezi konumu sayesinde Ankara’ya yakın olan birçok turistik yer mevcut.
+                Kapadokya’da Peribacaları ve balon turu veya Ilgaz dağında kayak keyfi yapmak isteyenlere Ankara’dan
+                sadece iki saatte ulaşım sağlanabiliyor. <br> <br> Alışveriş severler içinse Ankara adeta bir cennet. Kentte
+                toplamda 32 adet AVM bulunuyor ve size eşsiz bir alışveriş deneyimi sunmak için sizleri bekliyor. En
+                iyi AVM’ler için bize ulaştığınız formu doldururken tavsiyelerimizi talep etmeyi unutmayın!
+                Yukarıdaki sebepler Ankara’ya gelmeniz için sadece birkaçı. Söz konusu sağlık olunca Ankara’da
+                hizmet alabilecek hekim ve sağlık uzmanı sayısı son derece yüksek. Ayrıca her yıl Türkiye’nin en
+                değerli üniversitelerinden mezun olup başkentimizde cerrah olarak hizmet veren birçok hekim
+                bulunuyor. Ülkemizi yurtdışında da temsil eden ve eğitim veren hekimlerimizden hizmet alabilmek için
+                bize ulaşın.
+                Sakinliğiyle bilinen, kara ve havayoluyla kolay ulaşılabilir ve dünyada az bilinen başkentler
+                listesinde üçüncü sırada yer alan Ankara’da sağlık hizmeti almak için sizi de bekliyoruz! 10 Not So
+                Popular Capital Cities | Touristically (thetouristically.com)
+
+            </p>
         </div>
 
     </div>
+
+    <div class="footer">
+        <div class="logo-box">
+            <img src="./images/logo-footer.jpg" alt="" style="width:100%; height:70%;">
+        </div>
+        <div class="contact-box">
+            <div>
+                <h2 id="all-contact-text" class="text">İletişim</h2>
+                <hr>
+            </div>
+            <p id="address-text" class="text"> Kırkkonaklar Mahallesi, 450. Cadde, 381. Sokak no: 7/4 Çankaya - Ankara /
+                Türkiye</p>
+            <div class="contact-social">
+                <button class="footer-whatsapp"><i class="whatsapp"></i></button>
+                <button class="footer-instagram"><i class="instagram"></i></button>
+                <button class="footer-facebook"><i class="facebook"></i></button>
+            </div>
+        </div>
+        <div class="map-box">
+            <div class="map-container"
+                style="max-width:100%;overflow:hidden;color:red;width:100%;height:100%;border-radius: 8%;">
+                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;">
+                    <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+                        src="https://www.google.com/maps/embed/v1/place?q=+Kirkkonaklar+Mahallesi,+450.+Cadde,+381.+sokak+no+7/4&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>

@@ -11,36 +11,39 @@
 <body onload="">
     <header class="header">
         <div class="contact-banner">
-            <div class="phones">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                    <style>
-                        svg {
-                            fill: #5b9ad5
-                        }
-                    </style>
-                    <path
-                        d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
-                </svg>
+            <div class="contacts">
+                <div class="phones">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <style>
+                            svg {
+                                fill: #5b9ad5
+                            }
+                        </style>
+                        <path
+                            d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                    </svg>
+                    &nbsp;
+                    <a href="callto:+905061122493" style="color: #393e46;">+905061122493</a>
+                    &nbsp;
+                </div>
                 &nbsp;
-                <a href="callto:+905061122493" style="color: #393e46;">+905061122493</a>
-                &nbsp;
+                <div class="mails">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <style>
+                            svg {
+                                fill: #5b9ad5
+                            }
+                        </style>
+                        <path
+                            d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                    </svg>
+                    &nbsp;
+                    <a href="mailto:ndacounselling@outlook.com" style="color: #393e46;">ndacounselling@outlook.com</a>
+                </div>
             </div>
-            &nbsp;
-            <div class="mails">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                    <style>
-                        svg {
-                            fill: #5b9ad5
-                        }
-                    </style>
-                    <path
-                        d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
-                </svg>
-                &nbsp;
-                <a href="mailto:ndacounselling@outlook.com" style="color: #393e46;">ndacounselling@outlook.com</a>
-            </div>
+
             <div class="socials">
                 <button class="btn-whatsapp"><i class="whatsapp"></i></button>
                 <button class="btn-instagram"><i class="instagram"></i></button>
@@ -55,23 +58,23 @@
                 <a id="about-text" class="menuButton passive text" href="./about-us.html">Hakkımızda</a>
                 <a id="services-text" class="menuButton passive text" href="#services">Hizmetlerimiz</a>
                 <a id="contact-text" class="menuButton passive text" href="#contact">İletişim</a>
-                <select name="" class="languageSelector"></select>
+                <select name="" class="languageSelector" onchange="changelang(event)"></select>
             </div>
         </div>
         </div>
     </header>
 
-    <header class="mobile-header">
+    <header class="mobile-header" onload="">
         <div class="mobile-menu">
             <img src="./images/logo-s2.jpg" alt="" class="logo-container" style="cursor: pointer;" href="">
-            <img src= "./icons/hamburger.svg" class="hamburger-menu" onclick="hamburgerOnClick()">
+            <img src="./icons/hamburger.svg" class="hamburger-menu" onclick="hamburgerOnClick()">
         </div>
         <div class="mobile-navbar" id="mobile-navbar">
-            <a id="home-text" class="menuButton active text" href="#home">Ana Sayfa</a>
+            <a id="home-text" class="menuButton active text" href="./index.html">Ana Sayfa</a>
             <a id="about-text" class="menuButton passive text" href="./about-us.html">Hakkımızda</a>
             <a id="services-text" class="menuButton passive text" href="#services">Hizmetlerimiz</a>
             <a id="contact-text" class="menuButton passive text" href="#contact">İletişim</a>
-            <select name="" class="languageSelector"></select>
+            <select name="" class="languageSelector" onchange="changelang(event)"></select>
         </div>
     </header>
 
@@ -86,13 +89,14 @@
                 tüm hizmetlere ulaşmanız için buradayız.
             </h4>
 
-            <button class="contact-button" role="button" href="#contact">Bize Ulaşın</button>
+            <button class="about-button" role="button" href="./about-us.html">Hakkımızda</button>
         </div>
     </div>
 
     <div class="container-2">
         <div class="service-summary">
-            <h2 id="summary-text" class="text"> Yolcuğunuz Boyunca Size Eşlik Edecek <br> Kaliteli Bir Özel Hizmet Yelpazesi</h2>
+            <h2 id="summary-text" class="text"> Yolcuğunuz Boyunca Size Eşlik Edecek <br> Kaliteli Bir Özel Hizmet
+                Yelpazesi</h2>
             <hr class="hr-2">
         </div>
 
@@ -100,12 +104,14 @@
             <div class="sum-1">
                 <img src="./icons/transportation.svg" alt="">
                 <h4 id="transportation-text" class="text">Ulaşım</h4>
-                <p id="transportation-service-text" class="text">Ziyaretiniz boyunca ulaşmanız gereken her yere ulaşım hizmeti sağlıyoruz.</p>
+                <p id="transportation-service-text" class="text">Ziyaretiniz boyunca ulaşmanız gereken her yere ulaşım
+                    hizmeti sağlıyoruz.</p>
             </div>
             <div class="sum-2">
                 <img src="./icons/hotel.svg" alt="">
                 <h4 id="accomodation-text" class="text">Konaklama</h4>
-                <p id="accomodation-service-text" class="text">Anlaşmalı otellerimizde konaklama hizmeti sunuyoruz. Farklı bir otel
+                <p id="accomodation-service-text" class="text">Anlaşmalı otellerimizde konaklama hizmeti sunuyoruz.
+                    Farklı bir otel
                     isteğinizde iletişimi sizin için bizler sağlıyoruz.</p>
             </div>
             <div class="sum-3">
@@ -131,7 +137,8 @@
                 <h2 id="all-contact-text" class="text">İletişim</h2>
                 <hr>
             </div>
-            <p id="address-text" class="text"> Kırkkonaklar Mahallesi, 450. Cadde, 381. Sokak no: 7/4 Çankaya - Ankara / Türkiye</p>
+            <p id="address-text" class="text"> Kırkkonaklar Mahallesi, 450. Cadde, 381. Sokak no: 7/4 Çankaya - Ankara /
+                Türkiye</p>
             <div class="contact-social">
                 <button class="footer-whatsapp"><i class="whatsapp"></i></button>
                 <button class="footer-instagram"><i class="instagram"></i></button>
@@ -147,7 +154,8 @@
 
                 </div>
             </div>
-
+        </div>
+    </div>
 </body>
 
 </html>
