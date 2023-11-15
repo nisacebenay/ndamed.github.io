@@ -143,6 +143,7 @@ body {
 
 .about-us-text h1 {
     padding-left: 5%;
+    color: #5b9ad5;
 }
 
 .about-us-text hr {
@@ -155,9 +156,35 @@ body {
     padding-left: 5%;
     word-spacing: 5px;
     line-height: 1.5;
+    color: #393e46;
 }
 
 .about-us-text ul {
     padding-left: 8%;
 
+}
+
+li {
+    color: #393e46;
+}
+
+
+.about-us-pics {
+    display: flex;
+    float: right;
+    flex-direction: column;
+}
+
+.img1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+    float: right;
+}
+
+.img2 {
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+    float: right;
 }
