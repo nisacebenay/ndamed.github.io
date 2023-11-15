@@ -137,8 +137,13 @@ body {
     height: 5%;
 }
 
+.about-part {
+    display: flex;
+}
+
 .about-us-text {
     padding-top: 5%;
+    flex: 1;
 }
 
 .about-us-text h1 {
@@ -170,9 +175,12 @@ li {
 
 
 .about-us-pics {
-    display: flex;
     float: right;
     flex-direction: column;
+    flex: 1 1;
+    align-items: center;
+    padding-top: 5%;
+    padding-right: 5%;
 }
 
 .img1 {
@@ -180,6 +188,8 @@ li {
     height: 500px;
     border-radius: 10%;
     float: right;
+    position: absolute;
+    right: 10%;
 }
 
 .img2 {
@@ -187,4 +197,6 @@ li {
     height: 500px;
     border-radius: 10%;
     float: right;
+    position: relative;
+    top: 50%;
 }
