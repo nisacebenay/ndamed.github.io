@@ -136,3 +136,28 @@ body {
     width: 10%;
     height: 5%;
 }
+
+.about-us-text {
+    padding-top: 5%;
+}
+
+.about-us-text h1 {
+    padding-left: 5%;
+}
+
+.about-us-text hr {
+    margin-left: 5%;
+    margin-right: 85%;
+    border: 1 px solid #5b9ad5;
+}
+
+.about-us-text p {
+    padding-left: 5%;
+    word-spacing: 5px;
+    line-height: 1.5;
+}
+
+.about-us-text ul {
+    padding-left: 8%;
+
+}
