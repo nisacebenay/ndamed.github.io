@@ -8,8 +8,8 @@
     <script src="index.js"></script>
 </head>
 
-<body onload="">
-    <header class="header">
+<body onload="firstLoad()">
+    <header class="header" >
         <div class="contact-banner">
             <div class="phones">
                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -55,13 +55,13 @@
                 <a id="about-text" class="menuButton passive text" href="./about-us.html">Hakkımızda</a>
                 <a id="services-text" class="menuButton passive text" href="#services">Hizmetlerimiz</a>
                 <a id="contact-text" class="menuButton passive text" href="#contact">İletişim</a>
-                <select name="" class="languageSelector"></select>
+                <select name="" class="languageSelector" onchange="changelang(event)"></select>
             </div>
         </div>
         </div>
     </header>
 
-    <header class="mobile-header">
+    <header class="mobile-header" onload="firstLoad()">
         <div class="mobile-menu">
             <img src="./images/logo-s2.jpg" alt="" class="logo-container" style="cursor: pointer;" href="">
             <img src= "./icons/hamburger.svg" class="hamburger-menu" onclick="hamburgerOnClick()">
@@ -71,7 +71,7 @@
             <a id="about-text" class="menuButton passive text" href="./about-us.html">Hakkımızda</a>
             <a id="services-text" class="menuButton passive text" href="#services">Hizmetlerimiz</a>
             <a id="contact-text" class="menuButton passive text" href="#contact">İletişim</a>
-            <select name="" class="languageSelector"></select>
+            <select name="" class="languageSelector" onchange="changelang(event)"></select>
         </div>
     </header>
 
