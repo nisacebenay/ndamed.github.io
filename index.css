@@ -101,7 +101,6 @@ body {
 
 .menu {
     display: flex;
-    align-items: center;
     overflow: hidden;
     background-color: #f1f1f1;
     padding-top: 0.5%;
@@ -112,18 +111,29 @@ body {
 
 .navbar {
     display: flex;
+    width: 30%;
+    align-items: center;
 }
 
 .menuButton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     color: black;
     text-align: center;
-    padding: 12px;
+    align-items: center;
+    padding: 1%;
     text-decoration: none;
-    font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
-    line-height: 25px;
     border-radius: 4px;
+    width: 100%;
+    height: 50%;
+}
+
+.languageSelector{
+    height: 35%;
+    width: 100%;
 }
 
 .menuButton:hover {
