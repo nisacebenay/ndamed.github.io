@@ -16,7 +16,7 @@ async function firstLoad() {
 
     const selects = document.getElementsByClassName("languageSelector");
     let dict = await parseLang();
-
+    console.log(dict);
     for (let select of selects) {
         if (cookie != '') {
             select.value = cookie.split('=')[1];
@@ -36,7 +36,7 @@ async function firstLoad() {
         }
     }
 
-    await setText();
+    //await setText();
 }
 
 function changelang(event) {
