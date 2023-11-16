@@ -14,7 +14,7 @@ body {
 }
 
 .mobile-header {
-    display:none
+    display: none
 }
 
 .contact-banner {
@@ -32,7 +32,7 @@ body {
     justify-content: space-between;
 }
 
-.contacts{
+.contacts {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -131,7 +131,7 @@ body {
     height: 50%;
 }
 
-.languageSelector{
+.languageSelector {
     height: 35%;
     width: 100%;
 }
@@ -208,21 +208,22 @@ li {
 }
 
 .img1 {
-    height: 60%;
-    width: 30%;
+    width: 15%;
+    height: auto;
     border-radius: 10%;
     float: right;
     position: absolute;
-    right: 10%;
+    right: 20%;
 }
 
 .img2 {
-    width: 60%;
-    height: 60%;
+    width: 30%;
+    height: auto;
     border-radius: 10%;
     float: right;
+    right: 10%;
     position: relative;
-    top: 50%;
+    top: 30%;
     border: 8px solid #e0f4f7;
 }
 
@@ -331,19 +332,20 @@ li {
 }
 
 .img3 {
-    height: 60%;
-    width: 30%;
+    width: 20%;
+    height: auto;
     border-radius: 10%;
     position: absolute;
-    right: 60%;
+    right: 65%;
 }
 
 .img4 {
-    width: 60%;
-    height: 80%;
+    width: 35%;
+    height: auto;
     border-radius: 10%;
     position: relative;
-    top: 60%;
+    top: 40%;
+    left: 10%;
     border: 8px solid #e0f4f7;
 }
 
@@ -464,11 +466,11 @@ li {
         display: none;
     }
 
-    .header{
+    .header {
         display: none;
     }
 
-    .mobile-header{
+    .mobile-header {
         display: block;
         color: #f1f1f1;
     }
@@ -480,46 +482,74 @@ li {
         background-color: #f1f1f1;
     }
 
-    .logo-container{
+    .logo-container {
         height: 100%;
         width: auto;
     }
 
-    .hamburger-menu{
+    .hamburger-menu {
         height: 50%;
         padding-top: 2%;
         padding-right: 4%;
         float: right;
     }
 
-    .mobile-navbar{
+    .mobile-navbar {
         display: none;
         flex-direction: column;
         background-color: #f1f1f1;
     }
 
     .img1 {
-        height: 60%;
         width: 30%;
+        height: auto;
         border-radius: 10%;
         float: right;
-        position: absolute;
-        right: 10%;
+        top: 50%;
+        right: 15%;
     }
-    
+
     .img2 {
         width: 60%;
-        height: 40%;
+        height: auto;
         border-radius: 10%;
         float: right;
         position: relative;
+        top: 50%;
+        right: 5%;
+        border: 8px solid #e0f4f7;
+    }
+
+    .about-ankara-pics {
+        float: left;
+        flex-direction: column;
+        flex: 1 1;
+        align-items: center;
+        padding-left: 3%;
+        padding-top: 30%;
+    }
+
+    .img3 {
+        width: 30%;
+        height: auto;
+        border-radius: 10%;
+        position: absolute;
+        left: 15%;
+    }
+    
+    .img4 {
+        width: 60%;
+        height: auto;
+        border-radius: 10%;
+        position: relative;
         top: 30%;
+        left: 10%;
         border: 8px solid #e0f4f7;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .header{
+    .header {
         display: none;
     }
 
@@ -533,7 +563,7 @@ li {
         margin-right: 30%;
     }
 
-    .mobile-header{
+    .mobile-header {
         display: block;
         color: #f1f1f1;
     }
@@ -544,12 +574,12 @@ li {
         background-color: #f1f1f1;
     }
 
-    .hamburger-menu{
+    .hamburger-menu {
         height: 50%;
         padding-top: 4%;
     }
 
-    .mobile-navbar{
+    .mobile-navbar {
         display: none;
         flex-direction: column;
         background-color: #f1f1f1;
@@ -563,7 +593,7 @@ li {
     }
 
     .about-us-pics {
-       display: block;
+        display: block;
     }
 
     .img1 {
@@ -573,7 +603,7 @@ li {
         position: absolute;
         right: 45%;
     }
-    
+
     .img2 {
         width: 30%;
         height: 50%;
@@ -610,7 +640,7 @@ li {
         position: absolute;
         right: 25%;
     }
-    
+
     .img4 {
         width: 30%;
         height: 100%;
