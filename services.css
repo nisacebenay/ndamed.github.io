@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+.mobile-header {
+    display:none
+}
+
+.contact-banner {
+    float: none;
+    display: flex;
+    position: relative;
+    height: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #5b9ad5;
+    justify-content: space-between;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.phones {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.mails {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.contact-banner a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+}
+
+.contact-banner svg {
+    height: 1.25em;
+}
+
+.socials {
+    display: flex;
+    float: none;
+    position: relative;
+    height: 20%;
+    align-items: center;
+}
+
+.btn-whatsapp {
+    border: none;
+    background-image: url("./icons/whatsapp.svg");
+    background-repeat: no-repeat;
+    padding: 12px 25px;
+    cursor: pointer;
+    width: 20%;
+    height: 20%;
+}
+
+.btn-instagram {
+    border: none;
+    background-image: url("./icons/instagram.svg");
+    background-repeat: no-repeat;
+    padding: 12px 25px;
+    cursor: pointer;
+
+}
+
+.btn-facebook {
+    border: none;
+    background-image: url("./icons/facebook.svg");
+    background-repeat: no-repeat;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    justify-content: space-between;
+    padding-right: 3%;
+}
+
+.navbar {
+    display: flex;
+}
+
+.menuButton {
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.menuButton:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #5b9ad5;
+    color: white;
+}
+
+.logo-container {
+    float: left;
+    padding-left: 4%;
+    border-radius: 4px;
+    width: 10%;
+    height: 5%;
+}
+
+.med-services {
+    margin-top: 10%;
+    background-color: #E0F5F8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service1 {
+    width: 25%;
+    height: 25%;
+    background-color: #eff4f8;
+    border-radius: 8%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.service1 img {
+    width: 25%;
+    height: 25%;
+    margin-top: 5%;
+    margin-left: 2%;
+    background-color: #5b9ad5;
+    border-radius: 50%;
+}
+
+.service1 p {
+    color: #393e46;
+}
