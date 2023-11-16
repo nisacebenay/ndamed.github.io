@@ -401,7 +401,6 @@ li {
     display: flex;
     height: 20%;
     width: 50%;
-    align-items: center;
     background-color: #41506b;
     flex-direction: row;
 }
@@ -411,6 +410,7 @@ li {
     height: 40%;
     border: none;
     background-image: url("./icons/whatsapp-2.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
     background-size: contain;
@@ -423,6 +423,7 @@ li {
     height: 40%;
     border: none;
     background-image: url("./icons/instagram-2.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
     background-size: contain;
@@ -435,6 +436,7 @@ li {
     height: 40%;
     border: none;
     background-image: url("./icons/facebook-2.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
     background-size: contain;

@@ -14,7 +14,7 @@ body {
 }
 
 .mobile-header {
-    display:none
+    display: none
 }
 
 .contact-banner {
@@ -32,7 +32,7 @@ body {
     justify-content: space-between;
 }
 
-.contacts{
+.contacts {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -131,7 +131,7 @@ body {
     height: 50%;
 }
 
-.languageSelector{
+.languageSelector {
     height: 35%;
     width: 100%;
 }
@@ -234,15 +234,15 @@ body {
 }
 
 .content h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-    padding-left: 5%; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 5%;
     color: #5b9ad5;
 }
 
 .content h4 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-    padding-left: 5%; 
-    padding-bottom: 3%; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 5%;
+    padding-bottom: 3%;
     color: #393e46;
 }
 
@@ -426,7 +426,6 @@ body {
     display: flex;
     height: 20%;
     width: 50%;
-    align-items: center;
     background-color: #41506b;
     flex-direction: row;
 }
@@ -436,6 +435,7 @@ body {
     height: 40%;
     border: none;
     background-image: url("./icons/whatsapp-2.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
     background-size: contain;
@@ -448,6 +448,7 @@ body {
     height: 40%;
     border: none;
     background-image: url("./icons/instagram-2.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
     background-size: contain;
@@ -460,6 +461,7 @@ body {
     height: 40%;
     border: none;
     background-image: url("./icons/facebook-2.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
     background-size: contain;
@@ -487,11 +489,11 @@ body {
         display: none;
     }
 
-    .header{
+    .header {
         display: none;
     }
 
-    .mobile-header{
+    .mobile-header {
         display: block;
         color: #f1f1f1;
     }
@@ -503,19 +505,19 @@ body {
         background-color: #f1f1f1;
     }
 
-    .logo-container{
+    .logo-container {
         height: 100%;
         width: auto;
     }
 
-    .hamburger-menu{
+    .hamburger-menu {
         height: 50%;
         padding-top: 2%;
         padding-right: 4%;
         float: right;
     }
 
-    .mobile-navbar{
+    .mobile-navbar {
         display: none;
         flex-direction: column;
         background-color: #f1f1f1;
@@ -523,11 +525,11 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .header{
+    .header {
         display: none;
     }
 
-    .mobile-header{
+    .mobile-header {
         display: block;
         color: #f1f1f1;
     }
@@ -538,12 +540,12 @@ body {
         background-color: #f1f1f1;
     }
 
-    .hamburger-menu{
+    .hamburger-menu {
         height: 50%;
         padding-top: 4%;
     }
 
-    .mobile-navbar{
+    .mobile-navbar {
         display: none;
         flex-direction: column;
         background-color: #f1f1f1;
@@ -580,7 +582,7 @@ body {
     .footer-facebook {
         height: 100%;
     }
-    
+
     .map-box {
         margin-top: 5%;
     }
