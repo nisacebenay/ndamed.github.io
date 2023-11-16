@@ -177,7 +177,6 @@ body {
 .service {
     flex: 1;
     width: 50%;
-    height: 100%;
     background-color: #eff4f8;
     border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
@@ -185,11 +184,12 @@ body {
     align-items: left;
     display: flex;
     flex-direction: column;
+    margin: 1%;
 }
 
 .service img {
     width: 25%;
-    height: 25%;
+    height: auto;
     margin-top: 8%;
     margin-left: 5%;
     background-color: #5b9ad5;
@@ -199,11 +199,14 @@ body {
 .service h4 {
     padding-left: 5%;
     color: #393e46;
+    margin-bottom: 0;
+    padding-top: 3%;
 }
 
 .service p {
     color: #393e46;
     padding: 5%;
+    margin-top: 0;
 }
 
 .med-services2 {
@@ -307,6 +310,13 @@ body {
     color: #5b9ad5;
 }
 
+.treatment-plan hr {
+    border: 1px solid #5b9ad5;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
 .treatment-plan p {
     color: #393e46;
     padding-left: 30%;
@@ -316,11 +326,16 @@ body {
 .treatment-plan-cards {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
     background-color: #E0F5F8;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 5%;
+}
+
+.treatment-plan-cards hr {
+    border: 1px solid #5b9ad5;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 0;
 }
 
 .step {
@@ -329,15 +344,15 @@ body {
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     text-align: center;
     align-items: center;
-    justify-content: center;
     background-color: #eff4f8;
     width: 20%;
-    height: 20%;
+    height: auto;
+    border-radius: 10%;
 }
 
 .step h4 {
     margin-bottom: 0;
-    color: #5b9ad5;
+    color: #393e46;
 }
 
 .step p {
@@ -358,14 +373,14 @@ body {
 }
 
 .calendar-img {
-    width: 40%;
-    height: 40%;
+    width: 38%;
+    height: 38%;
     padding-top: 10%;
 }
 
 .suitcase-img {
-    width: 40%;
-    height: 40%;
+    width: 38%;
+    height: 38%;
     padding-top: 10%;
 }
 
