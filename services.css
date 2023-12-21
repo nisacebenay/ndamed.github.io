@@ -14,7 +14,7 @@ body {
 }
 
 .mobile-header {
-    display:none
+    display: none;
 }
 
 .contact-banner {
@@ -32,7 +32,7 @@ body {
     justify-content: space-between;
 }
 
-.contacts{
+.contacts {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -55,7 +55,7 @@ body {
     color: inherit;
     text-align: center;
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 90%;
 }
 
@@ -101,7 +101,6 @@ body {
 
 .menu {
     display: flex;
-    align-items: center;
     overflow: hidden;
     background-color: #f1f1f1;
     padding-top: 0.5%;
@@ -112,23 +111,34 @@ body {
 
 .navbar {
     display: flex;
+    width: 40%;
+    align-items: center;
 }
 
 .menuButton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     color: black;
     text-align: center;
-    padding: 12px;
+    align-items: center;
+    padding: 1%;
     text-decoration: none;
-    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    line-height: 25px;
     border-radius: 4px;
+    width: 100%;
+    height: 50%;
 }
 
 .menuButton:hover {
     background-color: #ddd;
     color: black;
+}
+
+.languageSelector {
+    height: 35%;
+    width: 100%;
 }
 
 .active {
@@ -176,22 +186,22 @@ body {
 
 .service {
     flex: 1;
-    width: 50%;
+    height: auto;
+    width: 10%;
     background-color: #eff4f8;
     border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    text-align:left;
-    align-items: left;
+    text-align:center;
     display: flex;
     flex-direction: column;
     margin: 1%;
 }
 
 .service img {
-    width: 25%;
+    width: 35%;
     height: auto;
     margin-top: 8%;
-    margin-left: 5%;
+    margin-left: 35%;
     background-color: #5b9ad5;
     border-radius: 50%;
 }
@@ -201,12 +211,6 @@ body {
     color: #393e46;
     margin-bottom: 0;
     padding-top: 3%;
-}
-
-.service p {
-    color: #393e46;
-    padding: 5%;
-    margin-top: 0;
 }
 
 .med-services2 {
