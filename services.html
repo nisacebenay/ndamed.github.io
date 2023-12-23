@@ -5,9 +5,11 @@
     <title>Hizmetlerimiz</title>
     <link rel="stylesheet" href="services.css">
     <script src="index.js"></script>
+    <script src="services.js"></script>
+
 </head>
 
-<body onload="firstLoad()">
+<body onload="setInfoBoxes()">
     <header class="header">
         <div class="contact-banner">
             <div class="contacts">
@@ -90,23 +92,50 @@
             <div class="service">
                 <img src="./images/rhinoplasty.svg" alt="">
                 <h4 id="service1-text" class="text">Rinoplasti - Burun Estetiği</h4>
+                <br>
+                <button class="explore rhinoplasty" role="button" onclick="handleClick(this)"> Bilgi Alın &#x21E8;</button>
             </div>
 
             <div class="service">
                 <img src="./images/breast-reduction.svg" alt="">
                 <h4 id="service2-text" class="text">Meme Estetiği</h4>
+                <br>
+                <button class="explore breastsurgery" onclick="handleClick(this)" role="button" > Bilgi Alın &#x21E8;</button>
             </div>
 
             <div class="service">
                 <img src="./images/liposuction.svg" alt="">
                 <h4 id="service3-text" class="text">Liposuction - Yağ Alma Ameliyatı</h4>
+                <br>
+                <button class="explore" role="button"> Bilgi Alın &#x21E8;</button>
             </div>
 
             <div class="service">
                 <img src="./images/abdominoplasty.svg" alt="">
                 <h4 id="service4-text" class="text">Abdominoplasti - Karın Germe Ameliyatı</h4>
+                <br>
+                <button class="explore" role="button"> Bilgi Alın &#x21E8;</button>
             </div>
 
+        </div>
+
+        <div class="rhinoplasty-content infobox">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla praesentium sequi tempora ex temporibus veniam itaque id officia, ad fugiat assumenda ipsa aut repudiandae, omnis perferendis nam quas corrupti.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla praesentium sequi tempora ex temporibus veniam itaque id officia, ad fugiat assumenda ipsa aut repudiandae, omnis perferendis nam quas corrupti.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla praesentium sequi tempora ex temporibus veniam itaque id officia, ad fugiat assumenda ipsa aut repudiandae, omnis perferendis nam quas corrupti.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla praesentium sequi tempora ex temporibus veniam itaque id officia, ad fugiat assumenda ipsa aut repudiandae, omnis perferendis nam quas corrupti.
+        </div>
+
+        <div class="breastsurgery-content infobox">
+            Meme Estetiği
+        </div>
+
+        <div class="liposuction-content infobox">
+            Liposuction - Yağ Alma Ameliyatı
+        </div>
+
+        <div class="abdominoplasty-content infobox">
+            Abdominoplasti - Karın Germe Ameliyatı
         </div>
 
         <div class="med-services2">
@@ -114,21 +143,29 @@
             <div class="service">
                 <img src="./images/eyelid.svg" alt="">
                 <h4 class="service5-text" class="text">Blefaroplasti - Göz Kapağı Ameliyatı</h4>
+                <br>
+                <button class="explore" role="button"> Bilgi Alın &#x21E8;</button>
             </div>
 
             <div class="service">
                 <img src="./images/eyebrow.svg" alt="">
                 <h4 id="service6-text" class="text">Kaş Kaldırma Ameliyatı </h4>
+                <br>
+                <button class="explore" role="button"> Bilgi Alın &#x21E8;</button>
             </div>
 
             <div class="service">
                 <img src="./images/face.svg" alt="">
                 <h4 id="service7-text" class="text">Yüz Germe Operasyonları</h4>
+                <br>
+                <button class="explore" role="button"> Bilgi Alın &#x21E8;</button>
             </div>
 
             <div class="service">
                 <img src="./images/inject.svg" alt="">
                 <h4 id="service8-text" class="text">Yüze ve Dudağa Yağ Enjeksiyonu</h4>
+                <br>
+                <button class="explore" role="button"> Bilgi Alın &#x21E8;</button>
             </div>
 
         </div>
@@ -138,21 +175,29 @@
             <div class="service">
                 <img src="./images/otoplasty.svg" alt="">
                 <h4 id="service9-text">Kulak Estetiği Operasyonları</h4>
+                <br>
+                <button class="explore" role="button"> Bilgi Alın &#x21E8;</button>
             </div>
 
             <div class="service">
                 <img src="./images/jaw.svg" alt="">
                 <h4 id="service10-text" class="text">Çene - Elmacık Kemiği Ameliyatları</h4>
+                <br>
+                <button class="explore" role="button"> Bilgi Alın &#x21E8;</button>
             </div>
 
            <div class="service">
                <img src="./images/legs.svg" alt="">
                <h4 id="service11-text" class="text">Bacak Estetiği</h4>
+               <br>
+               <button class="explore" role="button"> Bilgi Alın &#x21E8;</button>
            </div>
 
            <div class="service">
               <img src="./images/scalpel.svg" alt="">
               <h4 id="services12-text" class="text">Genital Bölge Estetik Cerrahisi</h4>
+              <br>
+              <button class="explore" role="button"> Bilgi Alın &#x21E8;</button>
            </div>
 
         </div>

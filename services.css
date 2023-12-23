@@ -192,7 +192,7 @@ body {
     width: 10%;
     background-color: #eff4f8;
     border-radius: 10%;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     text-align:center;
     display: flex;
     flex-direction: column;
@@ -206,6 +206,7 @@ body {
     margin-left: 35%;
     background-color: #5b9ad5;
     border-radius: 50%;
+    border: #41506b 0.5px solid;
 }
 
 .service h4 {
@@ -215,8 +216,47 @@ body {
     padding-top: 3%;
 }
 
+.explore {
+  background-color: #5b9ad5;
+  border: 0.5px solid #41506b;
+  border-radius: 30px;
+  box-shadow: #41506b 0.5px 0.5px 0.5 0.5;
+  color: #eff4f8;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 5%;
+  margin-left: 20%;
+}
+
+.explore:hover {
+  background-color: #fff;
+  color: #41506b;
+}
+
+.explore:active {
+  box-shadow: #41506b 0 0 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .explore {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
 .med-services2 {
-    padding-top: 10%;
+    padding-top: 5%;
     background-color: #E0F5F8;
     display: flex;
     flex-direction: row;
@@ -226,7 +266,7 @@ body {
 }
 
 .med-services3 {
-    padding-top: 10%;
+    padding-top: 5%;
     background-color: #E0F5F8;
     display: flex;
     flex-direction: row;
@@ -234,6 +274,28 @@ body {
     padding-bottom: 10%;
     padding-left: 2%;
     padding-right: 2%;
+}
+
+.infobox {
+    transform-origin: top;
+}
+
+.rhinoplasty-content,
+.breastsurgery-content, 
+.liposuction-content,
+.abdominoplasty-content {
+    display: none;
+    transform-origin: top;
+}
+
+@keyframes slidedown{
+    from {
+        opacity: 0;
+      }
+      to {
+        display: block;
+        opacity: 100%;
+      }
 }
 
 .contact-line {
