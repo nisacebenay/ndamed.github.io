@@ -24,11 +24,11 @@ body {
     height: 20%;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
-    padding-bottom: 1%;
+    padding-bottom: 0.5%;
     padding-left: 1%;
     padding-top: 1%;
     background-color: #f1f1f1;
-    border-bottom: 1px solid #5b9ad5;
+    border-bottom: 1px solid #41506b;
     justify-content: space-between;
 }
 
