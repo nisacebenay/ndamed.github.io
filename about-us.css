@@ -346,6 +346,7 @@ li {
 }
 
 .contact-line {
+    position: relative;
     background-color: #41506b;
     display: flex;
     flex-direction: row;
