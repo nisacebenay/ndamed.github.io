@@ -273,6 +273,8 @@ header {
 
 
 .container {
+    position: relative;
+    top: 20%;
     display: flex;
     padding-bottom: 8%;
     background-image: url("./images/doc-s.jpg");
