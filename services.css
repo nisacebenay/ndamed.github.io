@@ -17,7 +17,7 @@ body {
 header {
     background-color: var(--white);
     color: var(--blue);
-    height: 20%;
+    height: 15%;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
     position: fixed;
     top: 0;
@@ -32,8 +32,6 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--blue);
-    padding-bottom: 0.5%;
-    padding-top: 0.5%;
 }
 
 .contact-info {
@@ -56,6 +54,11 @@ header {
 
 .contact-item p {
     color:#393e46;
+}
+
+.contact-item p:hover {
+    color: #5b9ad5;
+    cursor: pointer;
 }
 
 .social-icons {
@@ -110,7 +113,6 @@ header {
 .navbar {
     align-self: stretch;
     display: flex;
-    width: 75%;
 }
 
 .mobile-navbar {
@@ -126,17 +128,16 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
-    width: 100%;
     align-self: flex-end;
 }
 
 .navbar li {
     flex: 1;
-    width: auto;
     display: flex;
     justify-content: center;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+    width: auto;
 }
 
 .navbar a {
@@ -146,6 +147,7 @@ header {
     background-color: transparent;
     text-align: center;
     display: flex;
+    text-wrap: nowrap;
 }
 
 .navbar a.passive {
@@ -169,19 +171,14 @@ header {
 }
 
 .language-selector {
-    width: 25%;
-    margin-left: 1rem;
-    align-self: stretch;
+    height: 50%;
     display: flex;
 }
 
 .language-selector select {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    margin-bottom: 1rem;
     font-size: 1rem;
-    width: 100%;
-    align-self: flex-end;
+    width: max-content;
+    align-self: center;
 }
 
 /*#region Mobile Header */
@@ -267,9 +264,12 @@ header {
 
 /*#endregion HEADER */
 
-
 /*#region CONTENT*/
 
+.content {
+    position: relative;
+    top: 15%;
+}
 .our-med-services {
     display: flex;
     flex-direction: column;
@@ -614,6 +614,8 @@ header {
 /*#region FOOTER */
 
 footer {
+    position: relative;
+    top: 20%;
     height: 45%;
     background-color: var(--dkblue);
     display: flex;

@@ -8,17 +8,17 @@
         <script src="services.js"></script>
     </head>
 
-    <body onload="firstLoad()">
+    <body onload="onload()">
         <header>
             <div class="contact-banner">
                 <div class="contact-info">
                     <div class="contact-item">
                         <img src="icons-2/phone.svg">
-                        <p>+1 123 456 789</p>
+                        <p>+90 506 112 24 93</p>
                     </div>
                     <div class="contact-item">
                         <img src="icons-2/envelope.svg">
-                        <p>info@example.com</p>
+                        <p>ndacounselling@outlook.com</p>
                     </div>
                 </div>
                 <div class="social-icons">
@@ -100,8 +100,8 @@
                     </div>
 
                     <div class="slider-container">
-                        <button class="prev" onclick="prevSlide()">❮</button>
-                        <div id="gallery" class="slider">
+                        <button id="prev-1" class="prev" onclick="prevSlide(event)">❮</button>
+                        <div id="gallery-1" class="slider">
                             <img src="medicaljpeg/teeth-implant/image1.jpg" alt="Image 1">
                             <img src="medicaljpeg/teeth-implant/image2.jpg" alt="Image 2">
                             <img src="medicaljpeg/teeth-implant/image3.jpg" alt="Image 3">
@@ -111,7 +111,7 @@
                             <img src="medicaljpeg/teeth-implant/image7.jpg" alt="Image 7">
                             <img src="medicaljpeg/teeth-implant/image8.jpg" alt="Image 8">
                         </div>
-                        <button class="next" onclick="nextSlide()">❯</button>
+                        <button id="next-1" class="next" onclick="nextSlide(event)">❯</button>
                     </div>
                     
                     <div class="service">
@@ -131,8 +131,8 @@
                     </div>
 
                     <div class="slider-container">
-                        <button class="prev" onclick="prevSlide()">❮</button>
-                        <div id="gallery" class="slider">
+                        <button id="prev-2" class="prev" onclick="prevSlide(event)">❮</button>
+                        <div id="gallery-2" class="slider">
                             <img src="medicaljpeg/hair-transplant/image1.jpg" alt="Image 1">
                             <img src="medicaljpeg/hair-transplant/image2.jpg" alt="Image 2">
                             <img src="medicaljpeg/hair-transplant/image3.jpg" alt="Image 3">
@@ -142,7 +142,7 @@
                             <img src="medicaljpeg/hair-transplant/image7.jpg" alt="Image 7">
                             <img src="medicaljpeg/hair-transplant/image8.jpg" alt="Image 8">
                         </div>
-                        <button class="next" onclick="nextSlide()">❯</button>
+                        <button id="next-2" class="next" onclick="nextSlide(event)">❯</button>
                     </div>
 
                 </div>

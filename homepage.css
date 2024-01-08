@@ -56,6 +56,11 @@ header {
     color:#393e46;
 }
 
+.contact-item p:hover {
+    color: #5b9ad5;
+    cursor: pointer;
+}
+
 .social-icons {
     align-items: center;
 }
@@ -83,7 +88,6 @@ header {
 }
 
 .menu-container {
-    width: 40%;
     display: flex;
     justify-content: right;
     align-items: flex-end;
@@ -109,7 +113,6 @@ header {
 .navbar {
     align-self: stretch;
     display: flex;
-    width: 75%;
 }
 
 .mobile-navbar {
@@ -125,17 +128,16 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
-    width: 100%;
     align-self: flex-end;
 }
 
 .navbar li {
     flex: 1;
-    width: auto;
     display: flex;
     justify-content: center;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+    width: auto;
 }
 
 .navbar a {
@@ -145,6 +147,7 @@ header {
     background-color: transparent;
     text-align: center;
     display: flex;
+    text-wrap: nowrap;
 }
 
 .navbar a.passive {
@@ -168,19 +171,14 @@ header {
 }
 
 .language-selector {
-    width: 20%;
-    margin-left: 1rem;
-    height: 100%;
+    height: 50%;
     display: flex;
 }
 
 .language-selector select {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    margin-bottom: 1rem;
     font-size: 1rem;
-    width: 80%;
-    align-self: flex-end;
+    width: max-content;
+    align-self: center;
 }
 
 /*#region Mobile Header */
@@ -281,25 +279,44 @@ header {
     background-size: cover;
 }
 
-.container-2 {
-    border-top: 0.5px solid #5b9ad5;
-    background-color: #E0F5F8;
-    padding-bottom: 10%;
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 10%;
+    float: left;
+    margin-top: 10%;
+    padding-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
 }
 
-.contactButton {
-    background-color: #5b9ad5;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
+.content h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    color: #5b9ad5;
+}
 
+.content h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    color: #393e46;
+    font-size:medium;
+    line-height: 1.8;
+    word-spacing: 2px;
+}
+
+.hr-1 {
+    border: 1px solid #5b9ad5;
+    margin-left: 5%;
+    margin-right: 75%;
 }
 
 .about-button {
     appearance: none;
     background-color: transparent;
-    border: 2px solid #5b9ad5;
+    border: 1.5px solid #5b9ad5;
     border-radius: 15px;
     box-sizing: border-box;
     color: #5b9ad5;
@@ -340,32 +357,8 @@ header {
     transform: translateY(0);
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    padding-left: 5%;
-    padding-right: 10%;
-    float: left;
-    margin-top: 10%;
-    padding-bottom: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.8;
-}
-
-.content h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 5%;
-    color: #5b9ad5;
-}
-
-.content h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 5%;
-    padding-bottom: 3%;
-    color: #393e46;
-}
-
 .contact-line {
+    position: relative;
     background-color: #41506b;
     display: flex;
     flex-direction: row;
@@ -374,13 +367,14 @@ header {
     height: 20%;
     padding-right: 10%;
     padding-left: 10%;
+    margin-top: 5%;
 }
 
 .contact-line p {
     color: #e0f4f7;
     font-size: large;
     font-weight: 600;
-    line-height: 2;
+    word-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -431,11 +425,10 @@ header {
     transform: translateY(0);
 }
 
-.hr-1 {
-    border: 1px solid #5b9ad5;
-    margin-left: 5%;
-    margin-right: 75%;
-
+.container-2 {
+    border-top: 0.5px solid #5b9ad5;
+    background-color: #E0F5F8;
+    padding-bottom: 5%;
 }
 
 .service-summary {
@@ -443,21 +436,21 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: x-large;
+    font-size: larger;
     text-align: center;
     line-height: 1.8;
-    margin-top: 5%;
-
+    margin-top: 3%;
 }
 
 .service-summary h2 {
     color: #5b9ad5;
+    word-spacing: 2px;
 }
 
 .hr-2 {
-    border: 0.5px solid #132743;
-    padding-left: 40%;
-    padding-right: 40%;
+    border-top: 0.5px double #132743;
+    padding-left: 25%;
+    padding-right: 25%;
     color: #5b9ad5;
 }
 
@@ -500,7 +493,7 @@ header {
 }
 
 .sum hr {
-    border: 1px solid #5b9ad5;
+    border: 0.5px solid #5b9ad5;
     padding-left: 8%;
     padding-right: 8%;
     margin-bottom: 0;
@@ -508,6 +501,8 @@ header {
 
 .sum p {
     color: #393e46;
+    word-spacing: 2px;
+    word-wrap: break-word;
 }
 
 .summ {
@@ -535,7 +530,7 @@ header {
 }
 
 .summ hr {
-    border: 1px solid #5b9ad5;
+    border: 0.5px solid #5b9ad5;
     padding-left: 8%;
     padding-right: 8%;
     margin-bottom: 1%;
@@ -544,10 +539,15 @@ header {
 
 .summ p {
     color: #393e46;
+    word-spacing: 2px;
 }
 
 .accomodation-img {
     margin-top: 3%;
+}
+
+.translations-img {
+    margin-top: 5%;
 }
 
 
@@ -594,6 +594,7 @@ footer {
 
 .footer-contact-container p, h2{
     color: var(--white);
+    word-spacing: 2px;
 }
 
 .contact-social {
