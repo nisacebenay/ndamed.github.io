@@ -17,7 +17,7 @@ body {
 header {
     background-color: var(--white);
     color: var(--blue);
-    height: 20%;
+    height: 15%;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
     position: fixed;
     top: 0;
@@ -271,7 +271,7 @@ header {
 
 .about-part {
     position: relative;
-    top: 20%;
+    top: 15%;
     display: flex;
     background-color: #e0f4f7;
     padding-bottom: 5%;
