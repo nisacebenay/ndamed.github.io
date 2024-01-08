@@ -1,186 +1,175 @@
 <html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="">Hakkımızda</title>
-    <link rel="stylesheet" href="about-us.css">
-    <script src="index.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title id="aboutus-text" class="text">Hakkımızda</title>
+        <link rel="stylesheet" href="about-us.css">
+    </head>
 
-<body onload="firstLoad()">
-    <header class="header">
-        <div class="contact-banner">
-            <div class="contacts">
-                <div class="phones">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                        <style>
-                            svg {
-                                fill: #5b9ad5
-                            }
-                        </style>
-                        <path
-                            d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
-                    </svg>
-                    &nbsp;
-                    <a href="callto:+905061122493" style="color: #393e46;">+90 506 112 24 93</a>
-                    &nbsp;
+    <body onload="firstLoad()">
+        <header>
+            <div class="contact-banner">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <img src="icons-2/phone.svg">
+                        <p>+1 123 456 789</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="icons-2/envelope.svg">
+                        <p>info@example.com</p>
+                    </div>
                 </div>
-                &nbsp;
-                <div class="mails">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                        <style>
-                            svg {
-                                fill: #5b9ad5
-                            }
-                        </style>
-                        <path
-                            d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
-                    </svg>
-                    &nbsp;
-                    <a href="mailto:ndacounselling@outlook.com" style="color: #393e46;">ndacounselling@outlook.com</a>
+                <div class="social-icons">
+                    <img src="icons-2/whatsapp.svg">
+                    <img src="icons-2/facebook.svg">
+                    <img src="icons-2/instagram.svg">
                 </div>
             </div>
+            <div class="main-header">
+                <div class="logo">
+                    <img src="images/logo-s2.jpg">
+                </div>
+                <div class="menu-container">
+                    <nav class="navbar">
+                        <ul>
+                            <li class="passive"><a href="homepage.html">Ana Sayfa</a></li>
+                            <li class="active"><a href="about-us.html">Hakkımızda</a></li>
+                            <li class="passive"><a href="index.html">Hizmetlerimiz</a></li>
+                            <li class="passive"><a href="#">İletişim</a></li>
+                        </ul>
+                    </nav>
+                    <div class="language-selector">
+                        <select>
+                            <option value="en">English</option>
+                            <option value="es">Español</option>
+                            <!-- Add more language options as needed -->
+                        </select>
+                    </div>
+                </div>
+                <div class="menu-container-mobile off">
+                    <input type="checkbox" id="hamburger-button">
+                    <label class="btn" for="hamburger-button" onclick="handleHamburger()">
+                        <img src="icons-2/menu-hamburger.svg" id="btnLeft" />
+                    </label>
+                    <nav class="mobile-navbar">
+                        <ul>
+                            <li class="passive"><a href="homepage.html">Ana Sayfa</a></li>
+                            <li class="active"><a href="about-us.html">Hakkımızda</a></li>
+                            <li class="passive"><a href="index.html">Hizmetleriz</a></li>
+                            <li class="passive"><a href="#">İletişim</a></li>
+                        </ul>
 
-            <div class="socials">
-                <button class="btn-whatsapp"><i class="whatsapp"></i></button>
-                <button class="btn-instagram"><i class="instagram"></i></button>
-                <button class="btn-facebook"><i class="facebook"></i></button>
-
+                        <div class="language-selector-mobile">
+                            <select>
+                                <option value="en">English</option>
+                                <option value="es">Español</option>
+                                <!-- Add more language options as needed -->
+                            </select>
+                        </div>
+                    </nav>
+                </div>
             </div>
-        </div>
-        <div class="menu">
-            <img src="./images/logo-s2.jpg" alt="" class="logo-container" style="cursor: pointer;" href="">
-            <div class="navbar">
-                <a id="home-text" class="menuButton passive text" href="./index.html">Ana Sayfa</a>
-                <a id="about-text" class="menuButton active text" href="./about-us.html">Hakkımızda</a>
-                <a id="services-text" class="menuButton passive text" href="./services.html">Hizmetlerimiz</a>
-                <a id="contact-text" class="menuButton passive text" href="#contact">İletişim</a>
-                <select name="" class="languageSelector" onchange=""></select>
-            </div>
-        </div>
-        </div>
-    </header>
+        </header>
 
-    <header class="mobile-header" onload="">
-        <div class="mobile-menu">
-            <img src="./images/logo-s2.jpg" alt="" class="logo-container" style="cursor: pointer;" href="">
-            <img src="./icons/hamburger.svg" class="hamburger-menu" onclick="hamburgerOnClick()">
-        </div>
-        <div class="mobile-navbar" id="mobile-navbar">
-            <a id="home-text" class="menuButton passive text" href="./index.html">Ana Sayfa</a>
-            <a id="about-text" class="menuButton active text" href="./about-us.html">Hakkımızda</a>
-            <a id="services-text" class="menuButton passive text" href="./services.html">Hizmetlerimiz</a>
-            <a id="contact-text" class="menuButton passive text" href="#contact">İletişim</a>
-            <select name="" class="languageSelector" onchange=""></select>
-        </div>
-    </header>
-    <div class="about-part">
-        <div class="about-us-text">
-            <h1>Biz Kimiz?</h1>
-            <hr>
-            <h2>NDA Sağlık Turizmi</h2>
-            <p>NDA Med. Sağlık Hizmetleri olarak yurtiçi ve yurtdışından estetik veya rekonstrüktif operasyon için gelen
-                tüm misafirlerimize eşsiz bir deneyim sunuyoruz. Plastik, estetik ve rekonstrüktif cerrahi, saç ekimi,
-                diş estetiği, göz çizdirme ameliyatı ve daha birçok sağlık ve estetik hizmeti veriyoruz. Türkiye’nin
-                başkenti ve bir kültür abidesi olan Ankara’mızda sizlere ulaşım hizmeti ve konaklama fırsatı sunuyor,
-                ülkemizde bulunduğunuz süre zarfında size kendinizi evinizde hissettirecek rahatlığı sağlıyoruz.
-                Yurtdışından gelen misafirlerimizin ülkemize geldiklerinde yabancı kalmamaları için onları Ankara’ya
-                ulaştıktan sonra özel araçla otellerine ulaştırıyor, yapılacak estetik veya sağlık işlemi için kliniğe
-                ulaştırıyor ve işlem bitip yapılan kontrollerden sonra tekrar otellerine ulaştırıyoruz. Ülkenizden
-                uzakta olduğunuzun farkında olup sizi şehrin en iyi otellerine yönlendiriyoruz. Son olarak ülkemizden
-                ayrılmak üzere tekrar havaalanına profesyonel ulaştırma sağlıyoruz.
-                Vaktinizin değerli olduğunu bildiğimiz için koordine şekilde, size danışarak programınıza uygun şekilde
-                bir plan yapıp plana sadık kalıyoruz. Böylece vakit kaybetmeksizin ihtiyacınız olan hizmeti size ayrılan
-                süre içinde sunuyor ve tüm gereken işleri en verimli şekilde yerine getiriyoruz. <br> <br>
-                Özellikle operasyon ve sonraki süreç hakkında birçok soru işareti olan misafirlerimize aşağıdaki
-                garantileri sunmayı kendimize bir görev bildik:
-            </p>
-            <ul>
-                <li>Sağlık turizm sertifikalı hekim ve uzmanlar</li>
-                <br>
-                <li>%100 steril ortam</li>
-                <br>
-                <li>Operasyon/işlem sonrası takipler (doktor/uzman danışmanlığı ile)</li>
-                <br>
-                <li>Kaliteli ve güvenilir hizmet anlayışı </li>
-                <br>
-                <li>İhtiyaca göre ek hizmetler (bilgilendirme formunu inceleyiniz)</li>
-            </ul>
-        </div>
-        <div class="about-us-pics">
-            <img src="./images/about-us-1.2.jpg" alt="" class="img1">
-            <img src="./images/about-us-2.2.jpg" alt="" class="img2">
-        </div>
-    </div>
-    <div class="contact-line">
-        <img src="./icons/hand-holding-heart-solid.svg" alt="" class="hand">
-        <p>Tedavi Yöntemlerimizle İlgili Sorularınız İçin Yanınızdayız.</p>
-        <button class="contact-button" role="button" href="#contact">Bize Ulaşın</button>
-    </div>
-
-    <div class="about-part2">
-
-        <div class="about-ankara-pics">
-            <img src="./images/gol1.jpg" alt="" class="img3">
-            <img src="./images/anitkabir1.jpg" alt="" class="img4">
-        </div>
-        <div class="about-ankara">
-            <h1>Neden Ankara?</h1>
-            <hr>
-            <p> Ülkemiz dünyanın merkezinde bulunuyor diyebiliriz ve birçok farklı açıdan ilgi odağı olup her yıl
-                milyonlarca turist ağırlıyor. Başkent Ankara ise Türkiye’nin merkezinde bulunuyor ve böylece her
-                kesime hitap eden turistik tesisleriyle Ankara’da ziyaret edilebilecek şeyler listesinde başta
-                Anıtkabir, Ankara Kalesi, Eski Meclis, Kocatepe Camii ve birçok müze geliyor. Bunların dışında
-                doğasıyla da ünlü başkentimizde Eymir Gölü ve Kızılcahamam ormanları gibi farklı doğa harikasını
-                içinde barındırıyor. Merkezi konumu sayesinde Ankara’ya yakın olan birçok turistik yer mevcut.
-                Kapadokya’da Peribacaları ve balon turu veya Ilgaz dağında kayak keyfi yapmak isteyenlere Ankara’dan
-                sadece iki saatte ulaşım sağlanabiliyor. <br> <br> Alışveriş severler içinse Ankara adeta bir cennet. Kentte
-                toplamda 32 adet AVM bulunuyor ve size eşsiz bir alışveriş deneyimi sunmak için sizleri bekliyor. En
-                iyi AVM’ler için bize ulaştığınız formu doldururken tavsiyelerimizi talep etmeyi unutmayın!
-                Yukarıdaki sebepler Ankara’ya gelmeniz için sadece birkaçı. Söz konusu sağlık olunca Ankara’da
-                hizmet alabilecek hekim ve sağlık uzmanı sayısı son derece yüksek. Ayrıca her yıl Türkiye’nin en
-                değerli üniversitelerinden mezun olup başkentimizde cerrah olarak hizmet veren birçok hekim
-                bulunuyor. Ülkemizi yurtdışında da temsil eden ve eğitim veren hekimlerimizden hizmet alabilmek için
-                bize ulaşın.
-                Sakinliğiyle bilinen, kara ve havayoluyla kolay ulaşılabilir ve dünyada az bilinen başkentler
-                listesinde üçüncü sırada yer alan Ankara’da sağlık hizmeti almak için sizi de bekliyoruz! <a href="https://www.thetouristically.com/not-so-popular-capital-cities/" target="_blank">10 Not So
-                Popular Capital Cities | Touristically (thetouristically.com)</a>
-
-            </p>
-        </div>
-
-    </div>
-
-    <div class="footer">
-        <div class="logo-box">
-            <img src="./images/logo-footer.jpg" alt="" style="width:100%; height:70%;">
-        </div>
-        <div class="contact-box">
-            <div>
-                <h2 id="all-contact-text" class="text">İletişim</h2>
+        <div class="about-part">
+            <div class="about-us-text">
+                <h1>Biz Kimiz?</h1>
                 <hr>
+                <h2>NDA Sağlık Turizmi</h2>
+                <p>NDA Med. Sağlık Hizmetleri olarak yurtiçi ve yurtdışından estetik veya rekonstrüktif operasyon için gelen
+                    tüm misafirlerimize eşsiz bir deneyim sunuyoruz. Plastik, estetik ve rekonstrüktif cerrahi, saç ekimi,
+                    diş estetiği, göz çizdirme ameliyatı ve daha birçok sağlık ve estetik hizmeti veriyoruz. Türkiye’nin
+                    başkenti ve bir kültür abidesi olan Ankara’mızda sizlere ulaşım hizmeti ve konaklama fırsatı sunuyor,
+                    ülkemizde bulunduğunuz süre zarfında size kendinizi evinizde hissettirecek rahatlığı sağlıyoruz.
+                    Yurtdışından gelen misafirlerimizin ülkemize geldiklerinde yabancı kalmamaları için onları Ankara’ya
+                    ulaştıktan sonra özel araçla otellerine ulaştırıyor, yapılacak estetik veya sağlık işlemi için kliniğe
+                    ulaştırıyor ve işlem bitip yapılan kontrollerden sonra tekrar otellerine ulaştırıyoruz. Ülkenizden
+                    uzakta olduğunuzun farkında olup sizi şehrin en iyi otellerine yönlendiriyoruz. Son olarak ülkemizden
+                    ayrılmak üzere tekrar havaalanına profesyonel ulaştırma sağlıyoruz.
+                    Vaktinizin değerli olduğunu bildiğimiz için koordine şekilde, size danışarak programınıza uygun şekilde
+                    bir plan yapıp plana sadık kalıyoruz. Böylece vakit kaybetmeksizin ihtiyacınız olan hizmeti size ayrılan
+                    süre içinde sunuyor ve tüm gereken işleri en verimli şekilde yerine getiriyoruz. <br> <br>
+                    Özellikle operasyon ve sonraki süreç hakkında birçok soru işareti olan misafirlerimize aşağıdaki
+                    garantileri sunmayı kendimize bir görev bildik:
+                </p>
+                <ul>
+                    <li>Sağlık turizm sertifikalı hekim ve uzmanlar</li>
+                    <br>
+                    <li>%100 steril ortam</li>
+                    <br>
+                    <li>Operasyon/işlem sonrası takipler (doktor/uzman danışmanlığı ile)</li>
+                    <br>
+                    <li>Kaliteli ve güvenilir hizmet anlayışı </li>
+                    <br>
+                    <li>İhtiyaca göre ek hizmetler (bilgilendirme formunu inceleyiniz)</li>
+                </ul>
             </div>
-            <p id="address-text" class="text"> Kırkkonaklar Mahallesi, 450. Cadde, 381. Sokak no: 7/4 Çankaya - Ankara /
-                Türkiye</p>
-            <div class="contact-social">
-                <button class="footer-whatsapp"><i class="whatsapp"></i></button>
-                <button class="footer-instagram"><i class="instagram"></i></button>
-                <button class="footer-facebook"><i class="facebook"></i></button>
+            <div class="about-us-pics">
+                <img src="./images/about-us-1.2.jpg" alt="" class="img1">
+                <img src="./images/about-us-2.2.jpg" alt="" class="img2">
             </div>
         </div>
-        <div class="map-box">
-            <div class="map-container"
-                style="max-width:100%;overflow:hidden;color:red;width:100%;height:100%;border-radius: 8%;">
-                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;">
-                    <iframe style="height:100%;width:100%;border:0;" frameborder="0"
-                        src="https://www.google.com/maps/embed/v1/place?q=+Kirkkonaklar+Mahallesi,+450.+Cadde,+381.+sokak+no+7/4&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+        <div class="contact-line">
+            <img src="./icons/hand-holding-heart-solid.svg" alt="" class="hand">
+            <p>Tedavi Yöntemlerimizle İlgili Sorularınız İçin Yanınızdayız.</p>
+            <button class="contact-button" role="button" href="#contact">Bize Ulaşın</button>
+        </div>
 
+        <div class="about-part2">
+
+            <div class="about-ankara-pics">
+                <img src="./images/gol1.jpg" alt="" class="img3">
+                <img src="./images/anitkabir1.jpg" alt="" class="img4">
+            </div>
+            <div class="about-ankara">
+                <h1>Neden Ankara?</h1>
+                <hr>
+                <p> Ülkemiz dünyanın merkezinde bulunuyor diyebiliriz ve birçok farklı açıdan ilgi odağı olup her yıl
+                    milyonlarca turist ağırlıyor. Başkent Ankara ise Türkiye’nin merkezinde bulunuyor ve böylece her
+                    kesime hitap eden turistik tesisleriyle Ankara’da ziyaret edilebilecek şeyler listesinde başta
+                    Anıtkabir, Ankara Kalesi, Eski Meclis, Kocatepe Camii ve birçok müze geliyor. Bunların dışında
+                    doğasıyla da ünlü başkentimizde Eymir Gölü ve Kızılcahamam ormanları gibi farklı doğa harikasını
+                    içinde barındırıyor. Merkezi konumu sayesinde Ankara’ya yakın olan birçok turistik yer mevcut.
+                    Kapadokya’da Peribacaları ve balon turu veya Ilgaz dağında kayak keyfi yapmak isteyenlere Ankara’dan
+                    sadece iki saatte ulaşım sağlanabiliyor. <br> <br> Alışveriş severler içinse Ankara adeta bir cennet. Kentte
+                    toplamda 32 adet AVM bulunuyor ve size eşsiz bir alışveriş deneyimi sunmak için sizleri bekliyor. En
+                    iyi AVM’ler için bize ulaştığınız formu doldururken tavsiyelerimizi talep etmeyi unutmayın!
+                    Yukarıdaki sebepler Ankara’ya gelmeniz için sadece birkaçı. Söz konusu sağlık olunca Ankara’da
+                    hizmet alabilecek hekim ve sağlık uzmanı sayısı son derece yüksek. Ayrıca her yıl Türkiye’nin en
+                    değerli üniversitelerinden mezun olup başkentimizde cerrah olarak hizmet veren birçok hekim
+                    bulunuyor. Ülkemizi yurtdışında da temsil eden ve eğitim veren hekimlerimizden hizmet alabilmek için
+                    bize ulaşın.
+                    Sakinliğiyle bilinen, kara ve havayoluyla kolay ulaşılabilir ve dünyada az bilinen başkentler
+                    listesinde üçüncü sırada yer alan Ankara’da sağlık hizmeti almak için sizi de bekliyoruz! <a href="https://www.thetouristically.com/not-so-popular-capital-cities/" target="_blank">10 Not So
+                    Popular Capital Cities | Touristically (thetouristically.com)</a>
+
+                </p>
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="footer-img-container">
+                <img src="images-2/logo-footer.jpg"/>
+            </div>
+            <div class="footer-contact-container">
+                <div>
+                    <h2 id="all-contact-text" class="text">İletişim</h2>
+                    <hr>
+                </div>
+                <p id="address-text" class="text"> Kırkkonaklar Mahallesi, 450. Cadde, 381. Sokak no: 7/4 Çankaya - Ankara /
+                    Türkiye</p>
+                <div class="contact-social">
+                    <img src="icons/whatsapp-2.jpg" >
+                    <img src="icons/instagram-2.jpg" >
+                    <img src="icons/facebook-2.jpg" >
                 </div>
             </div>
-        </div>
-    </div>
+            <div class="footer-map-container">
+                <iframe src="https://www.google.com/maps/embed/v1/place?q=+Kirkkonaklar+Mahallesi,+450.+Cadde,+381.+sokak+no+7/4&amp;key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+            </div>
+        </footer>
 
-</body>
+    </body>
+</html>
