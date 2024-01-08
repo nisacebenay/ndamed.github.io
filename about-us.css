@@ -14,7 +14,7 @@ body {
 
 /*#region HEADER */
 
-.header {
+header {
     background-color: var(--white);
     color: var(--blue);
     height: 20%;
@@ -27,12 +27,11 @@ body {
 }
 
 .contact-banner {
- 
+    height: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--blue);
-
 }
 
 .contact-info {
@@ -68,7 +67,7 @@ body {
 }
 
 .main-header {
-    
+    height: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,6 +83,7 @@ body {
 }
 
 .menu-container {
+    width: 40%;
     display: flex;
     justify-content: right;
     align-items: flex-end;
@@ -140,7 +140,7 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: black;
+    color:#393e46;
     padding: 1rem;
     background-color: transparent;
     text-align: center;
@@ -168,9 +168,9 @@ body {
 }
 
 .language-selector {
-    width: 25%;
+    width: 20%;
     margin-left: 1rem;
-    align-self: stretch;
+    height: 100%;
     display: flex;
 }
 
@@ -179,7 +179,7 @@ body {
     padding-right: 0.5rem;
     margin-bottom: 1rem;
     font-size: 1rem;
-    width: 100%;
+    width: 80%;
     align-self: flex-end;
 }
 
@@ -266,9 +266,12 @@ body {
 
 /*#endregion HEADER */
 
+
 /*#region ABOUT US */
 
 .about-part {
+    position: relative;
+    top: 20%;
     display: flex;
     background-color: #e0f4f7;
     padding-bottom: 5%;
