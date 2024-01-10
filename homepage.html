@@ -13,11 +13,12 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <img src="icons-2/phone.svg">
-                        <p>+90 506 112 24 93</p>
+                        <label for="phone"></label>
+                        <a href="tel:+90 506 112 24 93" class="phone">+90 506 112 24 93</a>
                     </div>
                     <div class="contact-item">
                         <img src="icons-2/envelope.svg">
-                        <p>ndacounselling@outlook.com</p>
+                            <a href="mailto:ndacounselling@outlook.com" class="mail">ndacounselling@outlook.com</a>
                     </div>
                 </div>
                 <div class="social-icons">
@@ -36,17 +37,10 @@
                             <li class="active"><a href="homepage.html">Ana Sayfa</a></li>
                             <li class="passive"><a href="about-us.html">Hakkımızda</a></li>
                             <li class="passive"><a href="services.html">Hizmetlerimiz</a></li>
-                            <li class="passive"><a href="#">İletişim</a></li>
                         </ul>
                     </nav>
-                    <div class="language-selector">
-                        <select>
-                            <option value="en">English</option>
-                            <option value="es">Español</option>
-                            <!-- Add more language options as needed -->
-                        </select>
-                    </div>
                 </div>
+
                 <div class="menu-container-mobile off">
                     <input type="checkbox" id="hamburger-button">
                     <label class="btn" for="hamburger-button" onclick="handleHamburger()">
@@ -54,19 +48,10 @@
                     </label>
                     <nav class="mobile-navbar">
                         <ul>
-                            <li class="active"><a href="homepage.html">Homepage</a></li>
-                            <li class="passive"><a href="about-us.html">About</a></li>
-                            <li class="passive"><a href="index.html">Services</a></li>
-                            <li class="passive"><a href="#">Contact</a></li>
+                            <li class="active"><a href="homepage.html" id="active">Ana Sayfa</a></li>
+                            <li class="passive"><a href="about-us.html">Hakkımızda</a></li>
+                            <li class="passive"><a href="services.html">Hizmetlerimiz</a></li>
                         </ul>
-
-                        <div class="language-selector-mobile">
-                            <select>
-                                <option value="en">English</option>
-                                <option value="es">Español</option>
-                                <!-- Add more language options as needed -->
-                            </select>
-                        </div>
                     </nav>
                 </div>
             </div>
@@ -80,24 +65,23 @@
                 <hr class="hr-1">
                 <h5 id="intro-text" class="text">
                     NDA Med. Sağlık Hizmetleri olarak yurtiçi ve yurtdışından <br> estetik veya rekonstrüktif operasyon için
-                    gelen tüm misafirlerimize <br> eşsiz bir deneyim sunuyoruz. Modern tıp teknolojileri ile tam donanımlı
-                    <br> hastane, klinik ve muayenehanelerde aradığınız
+                    gelen tüm misafirlerimize eşsiz bir deneyim sunuyoruz. Modern tıp teknolojileri ile tam donanımlı hastane, klinik ve muayenehanelerde aradığınız
                     tüm hizmetlere ulaşmanız için buradayız.
                 </h5>
     
-                <button class="about-button" role="button" href="./about-us.html">Hakkımızda</button>
+                <button class="about-button" role="button" onclick="window.location.href='services.html';">Hizmetlerimiz</button>
             </div>
         </div>
     
         <div class="contact-line">
             <img src="./icons/hand-holding-heart-solid.svg" alt="" class="hand">
             <p>Tedavi Yöntemlerimizle İlgili Sorularınız İçin Yanınızdayız.</p>
-            <button class="contact-button" role="button" href="#contact">Bize Ulaşın</button>
+            <button class="contact-button" role="button" onclick="window.location.href='mailto:ndacounselling@outlook.com';">Bize Ulaşın</button>
         </div>
     
         <div class="container-2">
             <div class="service-summary">
-                <h2 id="summary-text" class="text"> Yolculuğunuz Boyunca Size Eşlik Edecek <br> Kaliteli Bir Özel Hizmet
+                <h2 id="summary-text" class="text"> Yolculuğunuz Boyunca Size Eşlik Edecek Kaliteli Bir Özel Hizmet
                     Yelpazesi</h2>
                 <hr class="hr-2">
             </div>
@@ -140,17 +124,24 @@
             </div>
             <div class="footer-contact-container">
                 <div>
-                    <h2 id="all-contact-text" class="text">İletişim</h2>
+                    <h2 id="contact-text" class="text">İletişim</h2>
                     <hr>
                 </div>
-                <p id="address-text" class="text"> Kırkkonaklar Mahallesi, 450. Cadde, 381. Sokak no: 7/4 Çankaya - Ankara /
-                    Türkiye</p>
-                <div class="contact-social">
-                    <img src="icons/whatsapp-2.jpg" >
-                    <img src="icons/instagram-2.jpg" >
-                    <img src="icons/facebook-2.jpg" >
+                <div class="contacts">
+                    <img src="icons-2/phone-footer.svg"><a href="tel:+90 506 112 24 93" class="phone">+90 506 112 24 93</a>
+                    <br>
+                    <img src="icons-2/envelope-footer.svg"><a href="mailto:ndacounselling@outlook.com" class="mail">ndacounselling@outlook.com</a>
                 </div>
-            </div>
+                    <div>
+                        <h2 id="social-contact-text" class="text">Sosyal Medya</h2>
+                        <hr>
+                    </div>
+                    <div class="contact-social">
+                        <img src="icons/whatsapp-2.jpg">
+                        <img src="icons/instagram-2.jpg">
+                        <img src="icons/facebook-2.jpg">
+                    </div>
+                </div>
             <div class="footer-map-container">
                 <iframe src="https://www.google.com/maps/embed/v1/place?q=+Kirkkonaklar+Mahallesi,+450.+Cadde,+381.+sokak+no+7/4&amp;key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
             </div>
