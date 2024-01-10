@@ -7,9 +7,8 @@ var currentLanguage;
 var languageBasedDictionary;
 
 async function onload() {
-    console.log("loaded");
-    await loadDictionary();
-    //await setLanguage();
+    //await loadDictionary();
+    await setLanguage();
     await populateSelections();
     hamburgerMenuButton = document.getElementById('hamburger-button');
     menuContainerMobile = document.querySelector('.menu-container-mobile');
@@ -73,22 +72,23 @@ async function setLanguage() {
     await loadDictionary();
 
     var cookie = document.cookie;
-    console.log("cookie: " + cookie);
     if (cookie === undefined || cookie.length === 0) {
         document.cookie = "lang=tr";
         currentLanguage = "tr";
-        console.log("cookie set to eng");
     }
     else {
         currentLanguage = cookie.split('=')[1];
     }
-    console.log("CR: " + currentLanguage)
+    console.log(currentLanguage);
     const languageBasedDictionary = dictionary.texts.map(({ id, [currentLanguage]: langText }) => ({ id, text: langText }));
     console.log(languageBasedDictionary);
 
     languageBasedDictionary.forEach(element => {
         console.log(element.id + ">" + element.text);
-        document.getElementById(element.id).innerHTML = element.text;
+        let htmlElement = document.getElementById(element.id)
+        if(htmlElement){
+            htmlElement.innerHTML = element.text;
+        }
     });
 }
 
@@ -120,6 +120,5 @@ async function handleLanguageSelector(event){
     var changedSelect = event.target;
 
     document.cookie = "lang=" + changedSelect.value;
-    console.log(document.cookie);
     await setLanguage();
 }
