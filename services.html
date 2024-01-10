@@ -1,245 +1,210 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hizmetlerimiz</title>
-    <link rel="stylesheet" href="services.css">
-    <script src="index.js"></script>
-</head>
+<html>
 
-<body onload="">
-    <header class="header">
-        <div class="contact-banner">
-            <div class="contacts">
-                <div class="phones">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                        <style>
-                            svg {
-                                fill: #5b9ad5
-                            }
-                        </style>
-                        <path
-                            d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
-                    </svg>
-                    &nbsp;
-                    <a href="callto:+905061122493" style="color: #393e46;">+90 506 112 24 93</a>
-                    &nbsp;
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title id="services-text" class="text">Servislerimiz</title>
+        <link rel="stylesheet" href="services.css">
+        <script src="services.js"></script>
+    </head>
+
+    <body onload="onload()">
+        <header>
+            <div class="contact-banner">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <img src="icons-2/phone.svg">
+                        <label for="phone"></label>
+                            <a href="tel:+90 506 112 24 93" class="phone">+90 506 112 24 93</a>
+                        </div>
+                        <div class="contact-item">
+                            <img src="icons-2/envelope.svg">
+                                <a href="mailto:ndacounselling@outlook.com">ndacounselling@outlook.com</a>
+                        </div>
                 </div>
-                &nbsp;
-                <div class="mails">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                        <style>
-                            svg {
-                                fill: #5b9ad5
-                            }
-                        </style>
-                        <path
-                            d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
-                    </svg>
-                    &nbsp;
-                    <a href="mailto:ndacounselling@outlook.com" style="color: #393e46;">ndacounselling@outlook.com</a>
+                <div class="social-icons">
+                    <img src="icons-2/whatsapp.svg">
+                    <img src="icons-2/facebook.svg">
+                    <img src="icons-2/instagram.svg">
                 </div>
             </div>
-
-            <div class="socials">
-                <button class="btn-whatsapp"><i class="whatsapp"></i></button>
-                <button class="btn-instagram"><i class="instagram"></i></button>
-                <button class="btn-facebook"><i class="facebook"></i></button>
-
-            </div>
-        </div>
-        <div class="menu">
-            <img src="./images/logo-s2.jpg" alt="" class="logo-container" style="cursor: pointer;" href="">
-            <div class="navbar">
-                <a id="home-text" class="menuButton passive text" href="./index.html">Ana Sayfa</a>
-                <a id="about-text" class="menuButton passive text" href="./about-us.html">Hakkımızda</a>
-                <a id="services-text" class="menuButton active text" href="./services.html">Hizmetlerimiz</a>
-                <a id="contact-text" class="menuButton passive text" href="#contact">İletişim</a>
-                <select name="" class="languageSelector" onchange="changelang(event)"></select>
-            </div>
-        </div>
-    </header>
-
-    <header class="mobile-header" onload="">
-        <div class="mobile-menu">
-            <img src="./images/logo-s2.jpg" alt="" class="logo-container" style="cursor: pointer;" href="">
-            <img src="./icons/hamburger.svg" class="hamburger-menu" onclick="hamburgerOnClick()">
-        </div>
-        <div class="mobile-navbar" id="mobile-navbar">
-            <a id="home-text" class="menuButton passive text" href="./index.html">Ana Sayfa</a>
-            <a id="about-text" class="menuButton passive text" href="./about-us.html">Hakkımızda</a>
-            <a id="services-text" class="menuButton active text" href="./services.html">Hizmetlerimiz</a>
-            <a id="contact-text" class="menuButton passive text" href="#contact">İletişim</a>
-            <select name="" class="languageSelector" onchange="changelang(event)"></select>
-        </div>
-    </header>
-
-    <div class="services-part">
-
-        <div class="our-med-services">
-            <h1 id="headline-text" class="text">Medikal Hizmetlerimiz</h1>
-            <hr>
-            <p id="medservice-text" class="text">Modern tıp teknolojileri ile tam donanımlı hastane, klinik ve muayenehanelerde güvenli bir sağlık hizmeti için buradayız.</p>
-
-        </div>
-
-        <div class="med-services1">
-
-            <div class="service">
-                <img src="./images/rhinoplasty.svg" alt="">
-                <h4 id="service1-text" class="text">Rinoplasti - Burun Estetiği</h4>
-                <p id="rinoplasti-text" class="text">Burun ameliyatının amacı gerek estetik gerekse solunum rahatsızlığı gibi sağlık sorunlarını gidermek için yapılır. Burun ameliyatı gerektiren durumlar: burundaki kemer görünümü, burun düşüklüğü, burun - alın arasındaki ya da burun - dudak arasındaki açının düzeltilmesi, burun genişliği, burun kırılmaları gibi deformasyonlar, burun büyütülmesi, burun küçültülmesi veya burundaki asimetrik sorunlar. </p>
-            </div>
-
-            <div class="service">
-                <img src="./images/breast-reduction.svg" alt="">
-                <h4 id="service2-text" class="text">Meme Estetiği</h4>
-                <p id="breast-text" class="text">Meme estetiği, meme şeklini olduğu halden daha hoş gözüken bir noktaya taşımak olarak özetlenebilir. Meme küçüklüğü, sarkıklığı, büyüklüğü, gelişimsel şekil bozuklukları ve hatta gömülmüş bir meme başı gibi oldukça geniş bir yelpazede ortaya çıkabilmektedir.</p>
-            </div>
-
-            <div class="service">
-                <img src="./images/liposuction.svg" alt="">
-                <h4 id="service3-text" class="text">Liposuction - Yağ Alma Ameliyatı</h4>
-                <p id="lipo-text" class="text">Liposuction; bölgesel vücut yağlanmalarına, kalıcı ve kesin bir çözüm olarak çare olmasa da, vücudun belli bölgelerinde bir çeşit vücut şekillendirme operasyonudur.</p>
-            </div>
-
-            <div class="service">
-                <img src="./images/abdominoplasty.svg" alt="">
-                <h4 id="service4-text" class="text">Abdominoplasti - Karın Germe Ameliyatı</h4>
-                <p id="abdomin-text" class="text">Hamilelik veya olması gerekenin üzerinde kilo alımı gibi durumlarda oluşan deformasyonlar karın germe ameliyatı ile giderilebilir. Abdominoplasti uygulanan ameliyat türleri içerisinde en etkili olan yöntemlerden bir tanesidir.</p>
-            </div>
-
-        </div>
-
-        <div class="med-services2">
-
-            <div class="service">
-                <img src="./images/eyelid.svg" alt="">
-                <h4 class="service5-text" class="text">Blefaroplasti - Göz Kapağı Ameliyatı</h4>
-                <p id="eyelid-text" class="text">Göz kapağı estetiği genellikle sarkık göz kapaklarını giderme operasyonudur. Yaşlanmaya bağlı olarak alt ve üst göz kapaklarında yaşanan sarkmaların yanı sıra; genetik nedenler, kazalar sonucu yaşanan travmalar ya da enfeksiyon gibi sebepler olabilir.</p>
-            </div>
-
-            <div class="service">
-                <img src="./images/eyebrow.svg" alt="">
-                <h4 id="service6-text" class="text">Kaş Kaldırma Ameliyatı </h4>
-                <p id="eyebrow-text" class="text">Kaş kaldırma ameliyatı sizi yorgun, mutsuz gösteren kaşlarınızın cerrahi veya enjeksiyon yoluyla kaldırılması işlemidir. Aşırı kaş düşüklüğü nedeniyle kaş kaldırma ameliyatı geçiren çok sayıda hasta, ameliyat sonrasında dünyalarının aydınlandığını, görme alanının çok genişlediğini de ifade ediyor. Kaş kaldırma ameliyatları, yüz felci veya kesici yaralanmalar geçiren ve kalıcı hasar gelişen hastalarda, üst kapak ve alt kapak ameliyatlarına ilaveten görme fonksiyonuna yönelik ve görme alanını açma amacıyla da yapılmaktadır. </p>
-            </div>
-
-            <div class="service">
-                <img src="./images/face.svg" alt="">
-                <h4 id="service7-text" class="text">Yüz Germe Operasyonları</h4>
-                <p id="facelift-text" class="text">Yüz germe ameliyatı ile yüzünüzdeki kırışıklıklar ve pürüzlerden kurtularak daha canlı bir görünüme sahip olursunuz. Temel olarak kulağın yanak ile birleştiği sınırda bir kesim yaparak yanak üzerindeki deri fazlalığını çıkarmak. Bu ameliyat özellikle boyundaki sarkıklıkları çok iyi tedavi eder.</p>
-            </div>
-
-            <div class="service">
-                <img src="./images/inject.svg" alt="">
-                <h4 id="service8-text" class="text">Yüze ve Dudağa Yağ Enjeksiyonu</h4>
-                <p id="inject-text" class="text">Yüz bölgesinde cilt gençleştirmenin doğal ve etkili bir yol olan yağ enjeksiyonu, dolgunluk sağlamak amacıyla belli bölgelere yağ enjekte etme işlemidir. Dudakta dolgunluk ve daha güzel bir gülüşe sahip olmak isteyenler için ise duaklara yağ enjeksiyonu işlemi yapılır.</p>
-            </div>
-
-        </div>
-
-        <div class="med-services3">
-
-            <div class="service">
-                <img src="./images/otoplasty.svg" alt="">
-                <h4 id="service9-text">Kulak Estetiği Operasyonları</h4>
-                <p id="otoplasty-text" class="text">Kulaklarda şekil bozukluğu ve genellikle kulak bölgesinde yer alan kıkırdakların gevşekliğinden veya kulak kıvrımlarının yetersizliğinden kaynaklanır. Kulak bölgesinde belli müdahalelerle kulakların şeklini düzeltme işlemine kulak estetiği operasyonu adı verilir. </p>
-            </div>
-
-            <div class="service">
-                <img src="./images/jaw.svg" alt="">
-                <h4 id="service10-text" class="text">Çene - Elmacık Kemiği Ameliyatları</h4>
-                <p id="jaw-text" class="text">Çene ameliyatı, üst ve alt çenenin doğumsal ve sonradan oluşan bozukluklarını, birbirlerine ve yüzün bütününe olan uyumunu, fonksiyonel bozuklukları ve deformitelerin düzeltilmesi için yapılan ameliyatlardır.</p>
-            </div>
-
-           <div class="service">
-               <img src="./images/legs.svg" alt="">
-               <h4 id="service11-text" class="text">Bacak Estetiği</h4>
-               <p id="leg-text" class="text">Bacaklarda estetik açıdan uygun olmayan görüntüye neden olan ve kişileri psikolojik olarak rahatsız eden çeşitli bacak estetiği problemleri bulunur. Bunlardan sık karşılaşılanları; Çok ince ya da kalın bacaklar, çarpık bacak, asimetrik bacaklar: İki bacağın kalınlık olarak birbirinden farklı olması, X bacak: Dizlerin normele göre birbirine yakın olması şeklinde görülen bacak deformitesi, O bacak (Dizlerin birbirinden uzaklaştığı bacak deformasyonu) şeklinde sıralanabilir.</p>
-           </div>
-
-           <div class="service">
-              <img src="./images/scalpel.svg" alt="">
-              <h4 id="services12-text" class="text">Genital Bölge Estetik Cerrahisi</h4>
-              <p id="scalpel-text" class="text">Genital bölge estetiği genital bölgelerin yapısal bozukluklarında, cinsel faaliyet bozukluklarında, doğuma bağlı vajen genişlemesi ve sarkmalarında, idrar kaçırma sorunlarında, genital bölge koyulaşmalarında, genital bölgede buruşma ve cilt sarkması sorunu olan hastalarda ve genital siğil tedavisi için lazer teknolojisi tercih ediliyor. Vajinanın daraltılması, sıklaştırma, iç dudak estetiği, doğuma bağlı kötü izlerin ve klitoris üzeri katlanmaların düzeltilmesi cerrahi operasyonla yapılıyor.</p>
-           </div>
-
-        </div>
-
-        <div class="contact-line">
-            <img src="./icons/hand-holding-heart-solid.svg" alt="" class="hand">
-            <p>Talep ettiğiniz hizmet listede yer almıyor mu? Hemen bize ulaşın ve bilgi alın!</p>
-            <button class="contact-button" role="button" href="#contact">Bize Ulaşın</button>
-        </div>
-
-        <div class="treatment-plan">
-            <h5 id="briefly-text" class="text">Kısaca</h5>
-            <h2 id="how-text" class="text">Süreç nasıl işliyor?</h2>
-            <hr>
-            <p id="plan-text">Tıbbi seyahat planınızdaki yapılması gereken bütün işlemlerin pürüzsüz bir şekilde halledilmesi için basit ve mantıklı bir yaklaşım ele alıyoruz. Güvenliğiniz ve rahatlığınız bizim için en az sağlığınız kadar önemlidir.</p>
-        </div>
-
-        <div class="treatment-plan-cards">
-            <div class="step">
-                <img src="./images/file-pen-solid.svg" alt="" class="diagnose-img">
-                <h4 id="step1-text" class="text">Adım 1</h4>
-                <hr>
-                <p id="diagnose-text" class="text">Tanı Koyulması</p>
-            </div>
-            <div class="step">
-                <img src="./images/hospital-solid.svg" alt="" class="hospital-img">
-                <h4 id="step2-text" class="text">Adım 2</h4>
-                <hr>
-                <p id="hospital-text" class="text">Uygun Hastane Bulunması</p>
-            </div>
-            <div class="step">
-                <img src="./images/calendar-plus-solid.svg" alt="" class="calendar-img">
-                <h4 id="step3-text" class="text">Adım 3</h4>
-                <hr>
-                <p id="calendar-text" class="text">Tedavi Planı Hazırlanması</p>
-            </div>
-            <div class="step">
-                <img src="./images/suitcase-solid.svg" alt="" class="suitcase-img">
-                <h4 id="step4-text" class="text">Adım 4</h4>
-                <hr>
-                <p id="suitcase-text" class="text">Seyahat Organizasyonu</p>
-            </div>
-
-        </div>
-
-    </div>
-    
-    <div class="footer">
-        <div class="logo-box">
-            <img src="./images/logo-footer.jpg" alt="" style="width:100%; height:70%;">
-        </div>
-        <div class="contact-box">
-            <div>
-                <h2 id="all-contact-text" class="text">İletişim</h2>
-                <hr>
-            </div>
-            <p id="address-text" class="text"> Kırkkonaklar Mahallesi, 450. Cadde, 381. Sokak no: 7/4 Çankaya - Ankara /
-                Türkiye</p>
-            <div class="contact-social">
-                <button class="footer-whatsapp"><i class="whatsapp"></i></button>
-                <button class="footer-instagram"><i class="instagram"></i></button>
-                <button class="footer-facebook"><i class="facebook"></i></button>
-            </div>
-        </div>
-        <div class="map-box">
-            <div class="map-container"
-                style="max-width:100%;overflow:hidden;color:red;width:100%;height:100%;border-radius: 8%;">
-                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;">
-                    <iframe style="height:100%;width:100%;border:0;" frameborder="0"
-                        src="https://www.google.com/maps/embed/v1/place?q=+Kirkkonaklar+Mahallesi,+450.+Cadde,+381.+sokak+no+7/4&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-
+            <div class="main-header">
+                <div class="logo">
+                    <img src="images/logo-s2.jpg">
+                </div>
+                <div class="menu-container">
+                    <nav class="navbar">
+                        <ul>
+                            <li class="passive"><a href="homepage.html">Ana Sayfa</a></li>
+                            <li class="passive"><a href="about-us.html">Hakkımızda</a></li>
+                            <li class="active"><a href="services.html">Hizmetlerimiz</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="menu-container-mobile off">
+                    <input type="checkbox" id="hamburger-button">
+                    <label class="btn" for="hamburger-button" onclick="handleHamburger()">
+                        <img src="icons-2/menu-hamburger.svg" id="btnLeft" />
+                    </label>
+                    <nav class="mobile-navbar">
+                        <ul>
+                            <li class="passive"><a href="homepage.html">Ana Sayfa</a></li>
+                            <li class="passive"><a href="about-us.html">Hakkımızda</a></li>
+                            <li class="active"><a href="services.html" id="active">Hizmetlerimiz</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </div>
-    </div>
+        </header>
 
-</body>
+        <div class="content">
+            <div class="our-med-services">
+                <h1 id="headline-text" class="text">Medikal Hizmetlerimiz</h1>
+                <hr>
+                <p id="medservice-text" class="text">Modern tıp teknolojileri ile tam donanımlı hastane, klinik ve muayenehanelerde güvenli bir sağlık hizmeti için buradayız.</p>
+            </div>
+
+            <div class="med-services1">
+                <div class="cards">
+                    <div class="service">
+                        <img src="./images/implant.png" alt="">
+                        <div class="service-content">
+                            <h3 id="service1-text" class="text">Diş Estetiği</h3>
+                            <hr>
+                            <br>
+                            <p>
+                                Diş implantı, diş eksikliği yaşayan bireylere kalıcı bir çözüm olarak sunulan bir cerrahi prosedürdür. Diş implantı, titanyumdan yapılmış bir vida şeklindeki implantın çene kemiğine yerleştirilmesi ve üzerine porselen bir diş protezinin takılmasıyla gerçekleştirilir. Bu işlem, kaybedilen dişlerin fonksiyonunu ve estetiğini geri kazandırmak amacıyla uygulanır.
+                            </p>  
+                            <br>  
+                            <p>
+                                Diş implantı işlemi genellikle başarılı ve kalıcı bir çözüm sunar. Ancak her cerrahi müdahalede olduğu gibi bazı riskleri de içerir. Enfeksiyon, implantın reddedilmesi, çene kemiğinde hasar gibi durumlar bu riskler arasında yer alabilir.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="slider-container">
+                        <button id="prev-1" class="prev" onclick="prevSlide(event)">❮</button>
+                        <div id="gallery-1" class="slider">
+                            <img src="medicaljpeg/teeth-implant/image1.jpg" alt="Image 1">
+                            <img src="medicaljpeg/teeth-implant/image2.jpg" alt="Image 2">
+                            <img src="medicaljpeg/teeth-implant/image3.jpg" alt="Image 3">
+                            <img src="medicaljpeg/teeth-implant/image4.jpg" alt="Image 4">
+                            <img src="medicaljpeg/teeth-implant/image5.jpg" alt="Image 5">
+                            <img src="medicaljpeg/teeth-implant/image6.jpg" alt="Image 6">
+                            <img src="medicaljpeg/teeth-implant/image7.jpg" alt="Image 7">
+                            <img src="medicaljpeg/teeth-implant/image8.jpg" alt="Image 8">
+                        </div>
+                        <button id="next-1" class="next" onclick="nextSlide(event)">❯</button>
+                    </div>
+                    
+                    <div class="service">
+                        <img src="./images/hair-transplant.png" alt="">
+                        <div class="service-content">
+                            <h3 id="service2-text" class="text">Saç Ekimi</h3>
+                            <hr>
+                            <br>
+                            <p>
+                                Saç ekimi, saç kaybı yaşayan bireyler için kalıcı bir çözüm olarak kabul edilen cerrahi bir işlemdir. Saç ekimi genellikle androgenetik alopesi (erkek tipi kellik) veya diğer nedenlerden dolayı saç kaybı yaşayan kişilere uygulanır. Bu işlem, saç köklerinin alındığı donör bölgeden (genellikle arka baş ve yanlardaki alanlardan) alınan saç köklerinin, kellik yaşanan bölgelere (genellikle alın, şakaklar veya tepe bölgesi) nakledilmesini içerir. <br>
+                            </p>
+                            <br>
+                            <p>
+                                Saç ekimi işlemi genellikle güvenli bir prosedür olsa da, her cerrahi müdahalede olduğu gibi bazı riskleri de içerir. Bu riskler arasında enfeksiyon, kanama, saç köklerinin başarısız olması gibi durumlar yer alabilir. Bu nedenle, saç ekimi işlemi öncesinde detaylı bir değerlendirme ve danışma süreci gereklidir.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="slider-container">
+                        <button id="prev-2" class="prev" onclick="prevSlide(event)">❮</button>
+                        <div id="gallery-2" class="slider">
+                            <img src="medicaljpeg/hair-transplant/image1.jpg" alt="Image 1">
+                            <img src="medicaljpeg/hair-transplant/image2.jpg" alt="Image 2">
+                            <img src="medicaljpeg/hair-transplant/image3.jpg" alt="Image 3">
+                            <img src="medicaljpeg/hair-transplant/image4.jpg" alt="Image 4">
+                            <img src="medicaljpeg/hair-transplant/image5.jpg" alt="Image 5">
+                            <img src="medicaljpeg/hair-transplant/image6.jpg" alt="Image 6">
+                            <img src="medicaljpeg/hair-transplant/image7.jpg" alt="Image 7">
+                            <img src="medicaljpeg/hair-transplant/image8.jpg" alt="Image 8">
+                        </div>
+                        <button id="next-2" class="next" onclick="nextSlide(event)">❯</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-line">
+                <img src="./icons/hand-holding-heart-solid.svg" alt="" class="hand">
+                <p>Talep ettiğiniz hizmet listede yer almıyor mu? Hemen bize ulaşın ve bilgi alın!</p>
+                <button class="contact-button" role="button" onclick="window.location.href='mailto:ndacounselling@outlook.com';">Bize Ulaşın</button>
+            </div>
+
+            <div class="treatment-plan">
+                <h5 id="briefly-text" class="text">Kısaca</h5>
+                <h2 id="how-text" class="text">Süreç nasıl işliyor?</h2>
+                <hr>
+                <p id="plan-text">Tıbbi seyahat planınızdaki yapılması gereken bütün işlemlerin pürüzsüz bir şekilde halledilmesi için basit ve mantıklı bir yaklaşım ele alıyoruz. Güvenliğiniz ve rahatlığınız bizim için en az sağlığınız kadar önemlidir.</p>
+            </div>
+
+            <div class="treatment-plan-cards">
+                <div class="step" id="diagnose-step">
+                    <img src="./images/file-pen-solid.svg" alt="" class="diagnose-img">
+                    <h4 id="step1-text" class="text">Adım 1</h4>
+                    <hr>
+                    <p id="diagnose-text" class="text">Tanı Koyulması</p>
+                </div>
+                <div class="step" id="hospital-step">
+                    <img src="./images/hospital-solid.svg" alt="" class="hospital-img">
+                    <h4 id="step2-text" class="text">Adım 2</h4>
+                    <hr>
+                    <p id="hospital-text" class="text">Uygun Hastane Bulunması</p>
+                </div>
+                <div class="step" id="calendar-step">
+                    <img src="./images/calendar-plus-solid.svg" alt="" class="calendar-img">
+                    <h4 id="step3-text" class="text">Adım 3</h4>
+                    <hr>
+                    <p id="calendar-text" class="text">Tedavi Planı Hazırlanması</p>
+                </div>
+                <div class="step" id="suitcase-step">
+                    <img src="./images/suitcase-solid.svg" alt="" class="suitcase-img">
+                    <h4 id="step4-text" class="text">Adım 4</h4>
+                    <hr>
+                    <p id="suitcase-text" class="text">Seyahat Organizasyonu</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="footer-img-container">
+                <img src="images-2/logo-footer.jpg"/>
+            </div>
+            <div class="footer-contact-container">
+                <div>
+                    <h2 id="contact-text" class="text">İletişim</h2>
+                    <hr>
+                </div>
+                <div class="contacts">
+                    <img src="icons-2/phone-footer.svg"><a href="tel:+90 506 112 24 93" class="phone">+90 506 112 24 93</a>
+                    <br>
+                    <img src="icons-2/envelope-footer.svg"><a href="mailto:ndacounselling@outlook.com" class="mail">ndacounselling@outlook.com</a>
+                </div>
+                    <div>
+                        <h2 id="social-contact-text" class="text">Sosyal Medya</h2>
+                        <hr>
+                    </div>
+                <div class="contact-social">
+                    <img src="icons/whatsapp-2.jpg" >
+                    <img src="icons/instagram-2.jpg" >
+                    <img src="icons/facebook-2.jpg" >
+                </div>
+            </div>
+            <div class="footer-map-container">
+                <iframe src="https://www.google.com/maps/embed/v1/place?q=+Kirkkonaklar+Mahallesi,+450.+Cadde,+381.+sokak+no+7/4&amp;key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+            </div>
+        </footer>
+    </body>
+
 </html>
