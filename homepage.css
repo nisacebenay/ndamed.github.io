@@ -113,7 +113,7 @@ header {
 }
 
 .navbar {
-    align-self: stretch;
+    
     display: flex;
 }
 
@@ -173,11 +173,7 @@ header {
 }
 
 .language-selector {
-    height: 50%;
-    border-color: #5b9ad5;
     display: flex;
-    padding-bottom: 1%;
-
 }
 
 .language-selector select {

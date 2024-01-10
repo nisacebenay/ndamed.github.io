@@ -1,45 +1,314 @@
 {
     "languages": [
         {
-            "id": "en",
+
+            "name": "Turkish",
+            "short": "tr"
+        },
+        {
             "name": "English",
             "short": "en"
         },
         {
-            "id": "tr",
-            "name": "Türkçe",
-            "short": "tr"
+            "name": "German",
+            "short": "de"
         },
         {
-            "id": "de",
-            "name": "Deutsch",
-            "short": "de"
+            "name": "Dutch",
+            "short": "nl"
+        },
+        {
+            "name": "French",
+            "short": "fr"
+        },
+        {
+            "name": "Romanian",
+            "short": "ro"
+        },
+        {
+            "name": "Ukrainian",
+            "short": "uk"
+        },
+        {
+            "name": "Russian",
+            "short": "ru"
         }
     ],
     "texts": [
         {
-            "id": "homepage-text",
-            "tr": "ANA SAYFA",
-            "en": "HOME",
-            "de": "STARTSEITE"    
+            "id": "text-1",
+            "tr": "Ana Sayfa",
+            "en": "Homepage",
+            "de": "Startseite",
+            "nl": "Thuispagina",
+            "fr": "Page d'accueil",
+            "ro": "Pagina principală",
+            "uk": "Домашня сторінка",
+            "ru": "Домашняя страница"
         },
         {
-            "id": "home-text",
-            "tr": "ANA SAYFA",
-            "en": "HOME",
-            "de": "STARTSEITE"    
+            "id": "text-2",
+            "tr": "Ana Sayfa",
+            "en": "Homepage",
+            "de": "Startseite",
+            "nl": "Thuispagina",
+            "fr": "Page d'accueil",
+            "ro": "Pagina principală",
+            "uk": "Домашня сторінка",
+            "ru": "Домашняя страница"
         },
         {
-            "id": "about-text",
-            "tr": "HAKKIMIZDA",
-            "en": "ABOUT US",
-            "de": "ÜBER UNS"    
+            "id": "text-3",
+            "tr": "Hakkımızda",
+            "en": "About Us",
+            "de": "Über uns",
+            "nl": "Over ons",
+            "fr": "À propos de nous",
+            "ro": "Despre noi",
+            "uk": "Про нас",
+            "ru": "О нас"
         },
         {
-            "id": "services-text",
-            "tr": "HİZMETLERİMİZ",
-            "en": "OUR SERVICES",
-            "de": "UNSERE DEINSTLEISTUNGEN"    
+            "id": "text-4",
+            "tr": "Hizmetlerimiz",
+            "en": "Our Services",
+            "de": "Unsere Dienstleistungen",
+            "nl": "Onze diensten",
+            "fr": "Nos services",
+            "ro": "Serviciile noastre",
+            "uk": "Наші послуги",
+            "ru": "Наши услуги"
+        },
+        {
+            "id": "text-5",
+            "tr": "İletişim",
+            "en": "Contact",
+            "de": "Kontakt",
+            "nl": "Contact",
+            "fr": "Contact",
+            "ro": "Contact",
+            "uk": "Контакт",
+            "ru": "Контакт"
+        },
+        {
+            "id": "text-6",
+            "tr": "Homepage",
+            "en": "Homepage",
+            "de": "Startseite",
+            "nl": "Thuispagina",
+            "fr": "Page d'accueil",
+            "ro": "Pagina principală",
+            "uk": "Домашня сторінка",
+            "ru": "Домашняя страница"
+        },
+        {
+            "id": "text-7",
+            "tr": "About",
+            "en": "About",
+            "de": "Über uns",
+            "nl": "Over ons",
+            "fr": "À propos de nous",
+            "ro": "Despre noi",
+            "uk": "Про нас",
+            "ru": "О нас"
+        },
+        {
+            "id": "text-8",
+            "tr": "Services",
+            "en": "Services",
+            "de": "Dienstleistungen",
+            "nl": "Diensten",
+            "fr": "Services",
+            "ro": "Servicii",
+            "uk": "Послуги",
+            "ru": "Услуги"
+        },
+        {
+            "id": "text-9",
+            "tr": "Contact",
+            "en": "Contact",
+            "de": "Kontakt",
+            "nl": "Contact",
+            "fr": "Contact",
+            "ro": "Contact",
+            "uk": "Контакт",
+            "ru": "Контакт"
+        },
+        {
+            "id": "text-10",
+            "tr": "NDA Med'e hoşgeldiniz.",
+            "en": "Welcome to NDA Med.",
+            "de": "Willkommen bei NDA Med.",
+            "nl": "Welkom bij NDA Med.",
+            "fr": "Bienvenue chez NDA Med.",
+            "ro": "Bun venit la NDA Med.",
+            "uk": "Ласкаво просимо до NDA Med.",
+            "ru": "Добро пожаловать в NDA Med."
+        },
+        {
+            "id": "text-11",
+            "tr": "NDA Med. Sağlık Hizmetleri olarak yurtiçi ve yurtdışından estetik veya rekonstrüktif operasyon için gelen tüm misafirlerimize eşsiz bir deneyim sunuyoruz. Modern tıp teknolojileri ile tam donanımlı hastane, klinik ve muayenehanelerde aradığınız tüm hizmetlere ulaşmanız için buradayız.",
+            "en": "NDA Med. Health Services offers a unique experience to all guests coming for aesthetic or reconstructive surgery from domestic and international locations. We are here to provide all the services you need in fully equipped hospitals, clinics, and medical offices with modern medical technologies.",
+            "de": "NDA Med. Gesundheitsdienstleistungen bieten allen Gästen, die für ästhetische oder rekonstruktive Chirurgie aus dem In- und Ausland kommen, ein einzigartiges Erlebnis. Wir stehen Ihnen zur Verfügung, um alle von Ihnen benötigten Dienstleistungen in voll ausgestatteten Krankenhäusern, Kliniken und Arztpraxen mit modernen medizinischen Technologien zu bieten.",
+            "nl": "NDA Med. Health Services biedt een unieke ervaring aan alle gasten die komen voor esthetische of reconstructieve chirurgie, zowel nationaal als internationaal. We zijn hier om alle diensten te bieden die u nodig heeft in volledig uitgeruste ziekenhuizen, klinieken en medische kantoren met moderne medische technologieën.",
+            "fr": "Les services de santé de NDA Med offrent une expérience unique à tous les clients venant de l'intérieur et de l'extérieur du pays pour une chirurgie esthétique ou reconstructrice. Nous sommes là pour vous fournir tous les services dont vous avez besoin dans des hôpitaux, des cliniques et des cabinets médicaux entièrement équipés avec des technologies médicales modernes.",
+            "ro": "Serviciile de sănătate ale NDA Med oferă o experiență unică tuturor oaspeților care vin pentru chirurgie estetică sau reconstructivă din țară și din străinătate. Suntem aici pentru a vă oferi toate serviciile de care aveți nevoie în spitale complet echipate, clinici și cabinete medicale, cu tehnologii medicale moderne.",
+            "uk": "NDA Med. Health Services надає унікальний досвід усім гостям, які приїжджають для естетичної чи реконструктивної хірургії з усередини та за кордону. Ми тут, щоб забезпечити всі послуги, які вам потрібні, у повністю обладнаних лікарнях, клініках та медичних кабінетах з сучасними медичними технологіями.",
+            "ru": "NDA Med. Health Services предоставляет уникальный опыт всем гостям, приезжающим на эстетическую или реконструктивную операцию из страны и за рубежом. Мы здесь, чтобы предоставить все необходимые услуги в полностью оборудованных больницах, клиниках и медицинских кабинетах с современными медицинскими технологиями."
+        },
+        {
+            "id": "text-12",
+            "tr": "Hakkımızda",
+            "en": "About Us",
+            "de": "Über uns",
+            "nl": "Over ons",
+            "fr": "À propos de nous",
+            "ro": "Despre noi",
+            "uk": "Про нас",
+            "ru": "О нас"
+        },
+        {
+            "id": "text-13",
+            "tr": "İletişim",
+            "en": "Contact",
+            "de": "Kontakt",
+            "nl": "Contact",
+            "fr": "Contact",
+            "ro": "Contact",
+            "uk": "Контакт",
+            "ru": "Контакт"
+        },
+        {
+            "id": "text-14",
+            "tr": "Bize Ulaşın",
+            "en": "Contact Us",
+            "de": "Kontaktiere uns",
+            "nl": "Neem contact met ons op",
+            "fr": "Contactez-nous",
+            "ro": "Contactați-ne",
+            "uk": "Зв'яжіться з нами",
+            "ru": "Свяжитесь с нами"
+        },
+        {
+            "id": "text-15",
+            "tr": "Yolculuğunuz Boyunca Size Eşlik Edecek Kaliteli Bir Özel Hizmet Yelpazesi",
+            "en": "A Quality Range of Special Services to Accompany You Throughout Your Journey",
+            "de": "Eine qualitativ hochwertige Palette spezieller Dienstleistungen, die Sie auf Ihrer Reise begleiten wird",
+            "nl": "Een kwaliteitsaanbod van speciale diensten om u tijdens uw reis te begeleiden",
+            "fr": "Une gamme de services spéciaux de qualité pour vous accompagner tout au long de votre voyage",
+            "ro": "O gamă de servicii speciale de calitate pentru a vă însoți pe tot parcursul călătoriei dumneavoastră",
+            "uk": "Якісний спектр спеціальних послуг, які супроводжуватимуть вас протягом всього вашого шляху",
+            "ru": "Качественный спектр специальных услуг, сопровождающих вас на протяжении всего путешествия"
+        },
+        {
+            "id": "text-16",
+            "tr": "Ulaşım",
+            "en": "Transportation",
+            "de": "Ulaşım",
+            "nl": "Vervoer",
+            "fr": "Transport",
+            "ro": "Transport",
+            "uk": "Транспорт",
+            "ru": "Транспорт"
+        },
+        {
+            "id": "text-17",
+            "tr": "Ziyaretiniz boyunca ulaşmanız gereken her yere ulaşım hizmeti sağlıyoruz.",
+            "en": "We provide transportation services to reach anywhere you need during your visit.",
+            "de": "Wir bieten Transportdienstleistungen, um überall hinzukommen, wo Sie während Ihres Besuchs müssen.",
+            "nl": "Wij bieden vervoersdiensten om overal te komen waar u tijdens uw bezoek moet zijn.",
+            "fr": "Nous proposons des services de transport pour atteindre tous les endroits dont vous avez besoin pendant votre visite.",
+            "ro": "Oferim servicii de transport pentru a ajunge oriunde aveți nevoie în timpul vizitei dumneavoastră.",
+            "uk": "Ми надаємо послуги транспорту, щоб дістатися будь-куди, куди вам потрібно під час вашого візиту.",
+            "ru": "Мы предоставляем услуги транспортировки, чтобы добраться в любое место, куда вам нужно во время вашего визита."
+        },
+        {
+            "id": "text-18",
+            "tr": "Konaklama",
+            "en": "Accommodation",
+            "de": "Unterkunft",
+            "nl": "Accommodatie",
+            "fr": "Hébergement",
+            "ro": "Cazare",
+            "uk": "Проживання",
+            "ru": "Проживание"
+        },
+        {
+            "id": "text-19",
+            "tr": "Anlaşmalı otellerimizde konaklama hizmeti sunuyoruz.",
+            "en": "We offer accommodation services in affiliated hotels.",
+            "de": "Wir bieten Unterkunftsdienstleistungen in angeschlossenen Hotels.",
+            "nl": "Wij bieden accommodatiediensten in aangesloten hotels.",
+            "fr": "Nous proposons des services d'hébergement dans des hôtels affiliés.",
+            "ro": "Oferim servicii de cazare în hotelurile partenere.",
+            "uk": "Ми пропонуємо послуги проживання в афільйованих готелях.",
+            "ru": "Мы предоставляем услуги проживания в аффилированных отелях."
+        },
+        {
+            "id": "text-20",
+            "tr": "Dil Desteği",
+            "en": "Language Support",
+            "de": "Sprachunterstützung",
+            "nl": "Taalondersteuning",
+            "fr": "Support linguistique",
+            "ro": "Suport lingvistic",
+            "uk": "Мовна підтримка",
+            "ru": "Языковая поддержка"
+        },
+        {
+            "id": "text-21",
+            "tr": "İngilizce, Fransızca, Hollandaca dillerinde sınırsız çeviri hizmeti sunuyoruz.",
+            "en": "We provide unlimited translation services in English, French, and Dutch.",
+            "de": "Wir bieten unbegrenzte Übersetzungsdienstleistungen in Englisch, Französisch und Niederländisch.",
+            "nl": "Wij bieden onbeperkte vertaaldiensten in het Engels, Frans en Nederlands.",
+            "fr": "Nous proposons des services de traduction illimités en anglais, français et néerlandais.",
+            "ro": "Oferim servicii de traducere nelimitate în engleză, franceză și neerlandeză.",
+            "uk": "Ми надаємо необмежені послуги перекладу англійською, французькою та нідерландською мовами.",
+            "ru": "Мы предоставляем неограниченные услуги перевода на английском, французском и голландском языках."
+        },
+        {
+            "id": "text-22",
+            "tr": "7/24 İletişim",
+            "en": "24/7 Communication",
+            "de": "Kommunikation rund um die Uhr",
+            "nl": "24/7 Communicatie",
+            "fr": "Communication 24/7",
+            "ro": "Comunicare 24/7",
+            "uk": "Зв'язок 24/7",
+            "ru": "Коммуникация 24/7"
+        },
+        {
+            "id": "text-23",
+            "tr": "Saat farketmeksizin size şehrin her yerinde eşlik ediyoruz.",
+            "en": "We accompany you anywhere in the city, regardless of the time.",
+            "de": "Wir begleiten Sie überall in der Stadt, unabhängig von der Uhrzeit.",
+            "nl": "We begeleiden u overal in de stad, ongeacht het tijdstip.",
+            "fr": "Nous vous accompagnons partout dans la ville, quelle que soit l'heure.",
+            "ro": "Vă însoțim oriunde în oraș, indiferent de oră.",
+            "uk": "Ми супроводжуємо вас у будь-якому місці міста, незалежно від часу.",
+            "ru": "Мы сопровождаем вас в любом месте города вне зависимости от времени."
+        },
+        {
+            "id": "text-24",
+            "tr": "İletişim",
+            "en": "Contact",
+            "de": "Kontakt",
+            "nl": "Contact",
+            "fr": "Contact",
+            "ro": "Contact",
+            "uk": "Зв'язок",
+            "ru": "Контакт"
+        },
+        {
+            "id": "text-25",
+            "tr": "Kırkkonaklar Mahallesi, 450. Cadde, 381. Sokak no: 7/4 Çankaya - Ankara / Türkiye",
+            "en": "Kırkkonaklar Neighborhood, 450th Avenue, 381st Street, No: 7/4 Çankaya - Ankara / Turkey",
+            "de": "Kırkkonaklar Viertel, 450. Allee, 381. Straße, Nr. 7/4 Çankaya - Ankara / Türkei",
+            "nl": "Kırkkonaklar Buurt, 450ste Laan, 381ste Straat, Nr. 7/4 Çankaya - Ankara / Turkije",
+            "fr": "Quartier de Kırkkonaklar, avenue 450, rue 381, n ° 7/4 Çankaya - Ankara / Turquie",
+            "ro": "Cartierul Kırkkonaklar, Aleea 450, Strada 381, Nr. 7/4 Çankaya - Ankara / Turcia",
+            "uk": "Квартал Къркконаклар, вулиця 450, вулиця 381, № 7/4 Чанкая - Анкара / Туреччина",
+            "ru": "Квартал Кыркконаклар, 450-й проспект, 381-я улица, д. 7/4 Чанкая - Анкара / Турция"
         }
     ]
 }
