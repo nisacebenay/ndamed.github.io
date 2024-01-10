@@ -10,7 +10,7 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /*#region HEADER */
@@ -174,8 +174,10 @@ header {
 
 .language-selector {
     height: 50%;
+    border-color: #5b9ad5;
     display: flex;
     padding-bottom: 1%;
+
 }
 
 .language-selector select {
@@ -183,6 +185,7 @@ header {
     width: max-content;
     align-self: center;
 }
+
 
 /*#region Mobile Header */
 
@@ -198,8 +201,9 @@ header {
 
     .menu-container-mobile {
         height: 100vh;
-        padding-top: 4%;
-        padding-right: 1%;
+        width: 5%;
+        padding-top: 3%;
+        padding-right: 3%;
         position: absolute;
         top: 1.25em;
         right: 0%;
@@ -211,6 +215,98 @@ header {
 
     .on {
         width: 50%;
+        background-color: rgba(241, 241, 241, 0.5);
+    }
+
+    .off {
+        width: 10%;
+        background-color: transparent;
+    }
+
+    #hamburger-button:checked+label>img {
+        transform: rotate(-90deg);
+    }
+
+    .menu-container-mobile ul {
+        height: 50%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-container-mobile li {
+        height: 100%;
+        width: 95%;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        padding-left: 5%;
+    }
+
+    .language-selector-mobile{
+        display: none;
+        padding-left: 5%;
+        width: 50%;
+        height: 5%;
+    }
+
+    .language-selector-mobile select{
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn{
+        padding-bottom: 10%;
+    }
+
+    .mobile-navbar a {
+        color: #393e46;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        font-size: large;
+        font-weight: 600;
+        padding: 10%;
+    }
+
+    .mobile-navbar #active {
+        color: #fff;
+    }
+
+    .logo {
+        padding-top: 4%;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 834px) {
+    
+    .contact-banner {
+        display: none;
+    }
+
+    .menu-container {
+        display: none;
+    }
+
+    .menu-container-mobile {
+        height: 100vh;
+        padding-top: 5%;
+        width: 15%;
+        position: absolute;
+        top: 1.25em;
+        right: 0%;
+        display: flex;
+        flex-direction: column;
+        transition-duration: 0.6s;
+        transition: width 2s;
+    }
+
+    .on {
+        width: 40%;
         background-color: rgba(241, 241, 241, 0.5);
     }
 
@@ -274,11 +370,14 @@ header {
 
     .logo {
         padding-top: 4%;
+    
     }
+
+
 }
 
-@media only screen and (min-width: 600px) and (max-width: 834px) {
-    
+@media only screen and (min-width: 835px) and (max-width: 1200px) {
+
     .contact-banner {
         display: none;
     }
@@ -289,6 +388,8 @@ header {
 
     .menu-container-mobile {
         height: 100vh;
+        padding-top: 5%;
+        width: 5%;
         position: absolute;
         top: 1.25em;
         right: 0%;
@@ -319,11 +420,10 @@ header {
         padding: 0;
         display: flex;
         flex-direction: column;
-
     }
 
     .menu-container-mobile li {
-        height: 100%;
+        height: 40%;
         width: 95%;
         align-items: center;
         align-content: center;
@@ -347,90 +447,8 @@ header {
         padding-bottom: 10%;
     }
 
-    .mobile-navbar a {
-        color: #393e46;
-        text-decoration: none;
-        text-align: center;
-        display: flex;
-        font-size: large;
-        font-weight: 600;
-        padding: 10%;
-    }
-
-    .mobile-navbar #active {
-        color: #fff;
-    }
-}
-
-@media only screen and (min-width: 835px) and (max-width: 1024px) {
-
-    .contact-banner {
-        display: none;
-    }
-
-    .menu-container {
-        display: none;
-    }
-
-    .menu-container-mobile {
-        height: 100vh;
-        padding-top: 5%;
-        position: absolute;
-        top: 1.25em;
-        right: 0%;
-        display: flex;
-        flex-direction: column;
-        transition-duration: 0.6s;
-        transition: width 2s;
-    }
-
-    .on {
-        width: 30%;
-        background-color: rgba(241, 241, 241, 0.5);
-    }
-
-    .off {
-        width: 10%;
-        background-color: transparent;
-    }
-
-    #hamburger-button:checked+label>img {
-        transform: rotate(-90deg);
-    }
-
-    .menu-container-mobile ul {
-        height: 30%;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .menu-container-mobile li {
-        height: 100%;
-        width: 95%;
-        align-items: center;
-        align-content: center;
-        display: flex;
-        padding-left: 5%;
-    }
-
-    .language-selector-mobile{
-        display: none;
-        padding-left: 5%;
-        width: 50%;
-        height: 5%;
-    }
-
-    .language-selector-mobile select{
-        width: 100%;
-        height: 100%;
-    }
-
-    .btn{
-        padding-bottom: 10%;
+    .mobile-navbar {
+        opacity: 0.6;
     }
 
     .mobile-navbar a {
@@ -443,98 +461,111 @@ header {
         padding: 10%;
     }
 
-    .mobile-navbar #active {
+    #active {
         color: #fff;
     }
-}
 
-/*#endregion Mobile Header */
+    .logo {
+        padding-top: 4%;
+    }
+
+}
+    
+
+/*#endregion MOBILE HEADER */
 
 /*#endregion HEADER */
 
-/*#region ABOUT US */
 
-.about-part {
+/*#region CONTENT*/
+
+
+.container {
     position: relative;
-    top: 10%;
+    top: 15%;
     display: flex;
-    background-color: #e0f4f7;
-    padding-bottom: 15%;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 8%;
+    background-image: url("./images/doc-s.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.about-us-text {
-    padding-top: 5%;
-    flex: 1;
-    padding-bottom: 5%;
-}
-
-.about-us-text h1 {
-    padding-left: 5%;
-    color: #5b9ad5;
-}
-
-.about-us-text h2 {
-    padding-left: 5%;
-    color: #5b9ad5;
-    font-style: italic;
-}
-
-.about-us-text hr {
-    margin-left: 5%;
-    margin-right: 85%;
-    border: 1px solid #5b9ad5;
-}
-
-.about-us-text p {
-    padding-left: 5%;
-    word-spacing: 5px;
-    line-height: 1.5;
-    color: #393e46;
-    word-wrap: break-word;
-}
-
-.about-us-text ul {
-    padding-left: 8%;
-
-}
-
-li {
-    color: #393e46;
-}
-
-.about-us-pics {
-    float: right;
+.content {
+    display: flex;
     flex-direction: column;
-    flex: 1 1;
-    align-items: center;
-    padding-top: 6%;
-    padding-right: 3%;
-    padding-bottom: 10%;
+    padding-left: 2%;
+    padding-right: 45%;
+    float: left;
+    margin-top: 10%;
+    padding-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
 }
 
-.img1 {
-    width: 22%;
-    height: auto;
-    border-radius: 10%;
-    float: right;
-    position: absolute;
-    right: 20%;
+.content h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    color: #5b9ad5;
 }
 
-.img2 {
-    width: 45%;
-    height: auto;
-    border-radius: 10%;
-    float: right;
-    right: 5%;
-    position: relative;
-    top: 40%;
-    border: 8px solid #e0f4f7;
+.content h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    color: #393e46;
+    font-size:medium;
+    line-height: 1.8;
+    word-spacing: 2px;
 }
 
-.about-us-pics-mobile {
-    display: none;
+.hr-1 {
+    border: 1px solid #5b9ad5;
+    margin-left: 5%;
+    margin-right: 75%;
+}
+
+.about-button {
+    appearance: none;
+    background-color: transparent;
+    border: 1.5px solid #5b9ad5;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #5b9ad5;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    margin-left: 5%;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 50%;
+}
+
+.about-button:disabled {
+    pointer-events: none;
+}
+
+.about-button:hover {
+    color: #fff;
+    background-color: #5b9ad5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.about-button:active {
+    box-shadow: none;
+    transform: translateY(0);
 }
 
 .contact-line {
@@ -547,13 +578,14 @@ li {
     height: 20%;
     padding-right: 10%;
     padding-left: 10%;
+    margin-top: 5%;
 }
 
 .contact-line p {
     color: #fff;
     font-size: large;
     font-weight: 600;
-    line-height: 2;
+    word-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -604,211 +636,356 @@ li {
     transform: translateY(0);
 }
 
-.about-part2 {
+.container-2 {
+    border-top: 0.5px solid #5b9ad5;
+    background-color: #E0F5F8;
+    padding-bottom: 5%;
+}
+
+.service-summary {
     display: flex;
-    padding-top: 3%;
-    background-color: #e0f4f7;
-    padding-bottom: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-.about-ankara {
-    flex: 1;
-    padding-right: 3%;
-    padding-top: 5%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.about-ankara h1 {
+.service-summary h2 {
     color: #5b9ad5;
-}
-
-.about-ankara hr {
-    margin-left: 0%;
-    margin-right: 85%;
-    margin-bottom: 5%;
-    border: 1px solid #5b9ad5;
-}
-
-.about-ankara p {
-    word-spacing: 5px;
-    line-height: 1.5;
-    color: #393e46;
+    word-spacing: 2px;
+    line-height: 1.8;
     word-wrap: break-word;
 }
 
-.about-ankara-pics {
-    float: left;
-    flex-direction: column;
-    flex: 1 1;
+.hr-2 {
+    border-top: 0.5px double #132743;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: #5b9ad5;
+}
+
+.special-services {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    padding-left: 3%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: #E0F5F8;
 }
 
-.img3 {
-    width: 23%;
-    height: auto;
-    border-radius: 10%;
-    position: absolute;
-    right: 55%;
+.sum {
+    width: 300px;
+    height: 300px;
+    background-color: #eff4f8;
+    border-radius: 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.img4 {
-    width: 45%;
-    height: auto;
-    border-radius: 10%;
-    position: relative;
-    top: 45%;
-    left: 8%;
-    border: 8px solid #e0f4f7;
+.sum img {
+    width: 35%;
+    height: 35%;
+    margin-bottom: 5%;
 }
 
-/*#endregion ABOUT US */
+.sum h4 {
+    color: #393e46;
+    margin-bottom: 5%;
+    
+}
+
+.sum hr {
+    border: 0.5px solid #5b9ad5;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 0;
+}
+
+.sum p {
+    color: #393e46;
+    word-spacing: 2px;
+    word-wrap: break-word;
+}
+
+.summ {
+    width: 300px;
+    height: 300px;
+    background-color: #eff4f8;
+    border-radius: 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.summ img {
+    width: 35%;
+    height: 35%;
+    margin-bottom: 5%;
+}
+
+.summ h4 {
+    color: #393e46;
+}
+
+.summ hr {
+    border: 0.5px solid #5b9ad5;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 1%;
+    margin-top: 0;
+}
+
+.summ p {
+    color: #393e46;
+    word-spacing: 2px;
+}
+
+.accomodation-img {
+    margin-top: 3%;
+}
+
+.translations-img {
+    margin-top: 5%;
+}
 
 
-/*#region ABOUT US MOBILE */
+/*#region MOBILE CONTENT*/
 
 @media only screen and (max-width: 600px) {
-    
 
-    .about-part {
-        padding-top: 10%;
+    .special-services {
+        flex-direction: column;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .hr-1 {
+        margin-left: 23%;
+        margin-right: 23%;
+    }
+
+    .about-button {
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+
+    .hr-2{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .sum {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 5%;
+    }
+
+    .summ {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 5%;
+    
     }
 
     .contact-line {
         position: relative;
-        top: 8%;
+        top: 12%;
+        height: 18%;
+    }
+    
+    .contact-line p {
+        font-size: medium;
+        padding: 5%;
     }
 
     .contact-button {
-        width: 50%;
-        margin-right: 0;
+        width: 35%;
+        height: 40%;
+        padding-right: 2%;
     }
-
+    
     .hand {
-        padding-right: 4%;
+        width: 30%;
+        height: 40%;
+        padding-right: 2%;
     }
 
-    .contact-line p {
+    .service-summary {
         font-size: medium;
         word-wrap: break-word;
-        line-height: 1,2;
-    }
-
-    .about-part2 {
-        flex-direction: column;
-        padding-top: 15%;
-    }
-
-    .about-us-pics {
-        display: none;
-    }
-
-    .about-ankara-pics {
-        display: none;
-    }
-
-    .about-us-text p {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    .about-ankara {
-        padding-left: 5%;
-        padding-right: 5%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 25%;
     }
 
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
 
-    .about-part {
-        padding-top: 10%;
-        padding-right: 5%;
-    }
+        .container {
+            background-image: url("./images/doc-mobile.jpg");
+            background-size: cover;
+            background-repeat: repeat;
+  
+        }
 
-    .about-us-pics {
-        display: none;
-    }
+        .content h5 {
+            font-size: small;
+            word-wrap: break-word;
+            padding-right: 30%;
+        }
 
-    .contact-line {
-        position: relative;
-        top: 8%;
-    }
-
-    .contact-button {
-        width: 40%;
-        margin-right: 0;
-    }
-
-    .hand {
-        width: 20%;
-        height: 60%;
-        margin-right: 5%;
-    }
-
-    .about-ankara {
-        padding-top: 15%;
-        padding-left: 5%;
-    }
-
-    .about-ankara-pics {
-        display: none;
-    }
+        .content {
+            padding-left: 2%;
+            word-wrap: break-all;
+        }
+    
+        .special-services {
+            flex-direction: column;
+        }
+    
+        .sum {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 5%;
+        }
+    
+        .summ {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 5%;
+        
+        }
+    
+        .contact-line {
+            position: relative;
+            top: 10%;
+            height: 15%;
+        }
+        
+        .contact-line p {
+            font-size: medium;
+            padding: 5%;
+            line-height: 2;
+        }
+    
+        .contact-button {
+            width: 35%;
+            height: 40%;
+            padding-right: 2%;
+        }
+        
+        .hand {
+            width: 30%;
+            height: 40%;
+            padding-right: 2%;
+        }
+    
+        .service-summary {
+            font-size: medium;
+            word-wrap: break-word;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-top: 25%;
+        }
 }
 
 @media only screen and (min-width: 835px) and (max-width: 1024px) {
-
-    .about-part {
-        padding-top: 5%;
-        padding-right: 5%;
-    }
-
-    .about-us-pics {
-        padding-top: 15%;
-    }
-
-    .img1 {
-        bottom: 50%;
-    }
-
-    .img2 {
-        top: 60%;
-        right: 5%;
-    }
-
-    .contact-line {
-        position: relative;
-        top: 8%;
-        height: 15%;
-    }
-
-    .contact-button {
-        width: 30%;
-        margin-right: 0;
-    }
-
-    .hand {
-        width: 20%;
-        height: 60%;
-        margin-right: 5%;
-    }
-
-    .about-ankara {
-        margin-top: 5%;
-    }
-
-    .about-ankara-pics {
-        padding-top: 20%;
-    }
-
-    .img4 {
-        top: 60%;
-        height: 45%;
-    }
-
+    
+        .container {
+            background-image: url("./images/doc-mobile.jpg");
+            background-size: cover;
+            background-repeat: repeat;
+        }
+    
+        .content h5 {
+            font-size: small;
+            word-wrap: break-word;
+            padding-right: 35%;
+        }
+    
+        .content {
+            padding-left: 2%;
+            word-wrap: break-all;
+        }
+    
+        .special-services {
+            flex-direction: row;
+            margin-left: 0;
+        }
+    
+        .sum {
+            width: 330px;
+            height: 300px;
+            margin-bottom: 5%;
+            margin-left: 5%;
+        }
+    
+        .summ {
+            width: 330px;
+            height: 300px;
+            margin-bottom: 5%;
+            margin-left: 5%;
+        }
+    
+        .contact-line {
+            position: relative;
+            top: 6%;
+            height: 12%;
+        }
+        
+        .contact-line p {
+            font-size: medium;
+            line-height: 2;
+        }
+    
+        .contact-button {
+            width: 35%;
+            height: 40%;
+        }
+        
+        .hand {
+            width: 50%;
+            height: 60%;
+            padding-right: 2%;
+        }
+    
+        .service-summary {
+            font-size: medium;
+            word-wrap: break-word;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-top: 8%;
+        }
+    
 }
+
+/*#endregion MOBILE CONTENT*/
+
+       
+/*#endregion CONTENT*/
+
+
 
 /*#region FOOTER */
 
@@ -844,6 +1021,7 @@ footer {
 
 .footer-contact-container p, h2{
     color: var(--white);
+    word-spacing: 2px;
 }
 
 .footer-contact-container hr {
@@ -862,7 +1040,7 @@ footer {
 }
 
 .contact-social {
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .contacts {
@@ -910,7 +1088,8 @@ footer iframe {
 
 /*#region MOBILE FOOTER */
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
+
     footer {
         flex-direction: column;
         height: 100%;
@@ -993,7 +1172,5 @@ footer iframe {
             padding-bottom: 3%;
         }
 }
-
-/*#endregion MOBILE FOOTER*/
 
 /*#endregion FOOTER*/

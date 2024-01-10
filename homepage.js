@@ -116,19 +116,16 @@ function handleHamburger() {
 
 // SLIDER
 
-function prevSlide(e) {
-    handleScroll(-1, e.target);
+function prevSlide() {
+    handleScroll(-1);
 }
 
-function nextSlide(e) {
-    handleScroll(1, e.target);
+function nextSlide() {
+    handleScroll(1);
 }
 
-function handleScroll(amount, t) {
-    var target = t.id.split('-')[1];
-
-
-    var gallerySlider = document.getElementById(`gallery-${target}`);
+function handleScroll(amount) {
+    var gallerySlider = document.getElementById("gallery");
     var gallerySliderWidth = gallerySlider.offsetWidth;
     var galleryChildCount = gallerySlider.children.length;
 
