@@ -262,6 +262,10 @@ header {
         padding-bottom: 10%;
     }
 
+    .mobile-navbar .active {
+        color: #fff;
+    }
+
     .mobile-navbar a {
         color: #393e46;
         text-decoration: none;
@@ -270,10 +274,6 @@ header {
         font-size: large;
         font-weight: 600;
         padding: 10%;
-    }
-
-    .mobile-navbar #active {
-        color: #fff;
     }
 
     .logo {
@@ -354,6 +354,10 @@ header {
         padding-bottom: 10%;
     }
 
+    .mobile-navbar .active {
+        color: #fff;
+    }
+
     .mobile-navbar a {
         color: #393e46;
         text-decoration: none;
@@ -362,10 +366,6 @@ header {
         font-size: large;
         font-weight: 600;
         padding: 10%;
-    }
-
-    .mobile-navbar #active {
-        color: #fff;
     }
 
     .logo {
@@ -451,6 +451,10 @@ header {
         opacity: 0.6;
     }
 
+    .mobile-navbar .active {
+        color: #fff;
+    }
+
     .mobile-navbar a {
         color: #393e46;
         text-decoration: none;
@@ -459,10 +463,6 @@ header {
         font-size: large;
         font-weight: 600;
         padding: 10%;
-    }
-
-    #active {
-        color: #fff;
     }
 
     .logo {
