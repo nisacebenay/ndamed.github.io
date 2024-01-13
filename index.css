@@ -178,8 +178,6 @@ header {
     height: 50%;
     border-color: #5b9ad5;
     display: flex;
-    padding-bottom: 1%;
-
 }
 
 .language-selector select {
@@ -248,14 +246,12 @@ header {
     }
 
     .language-selector-mobile{
-        display: none;
         padding-left: 5%;
         width: 50%;
         height: 5%;
     }
 
     .language-selector-mobile select{
-        display: none;
         width: 100%;
         height: 100%;
     }
@@ -342,7 +338,6 @@ header {
     }
 
     .language-selector-mobile{
-        display: none;
         padding-left: 5%;
         width: 50%;
         height: 5%;
@@ -437,7 +432,6 @@ header {
     }
 
     .language-selector-mobile{
-        display: none;
         padding-left: 5%;
         width: 50%;
         height: 5%;
