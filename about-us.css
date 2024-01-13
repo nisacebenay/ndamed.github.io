@@ -5,12 +5,11 @@
 }
 
 body {
-    background-color: #E0F5F8;
+    background-color: #E1F2FB;
     padding: 0;
     margin: 0;
     width: 100%;
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*#region HEADER */
@@ -56,6 +55,7 @@ header {
 .contact-item a {
     color:#393e46;
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .contact-item a:hover {
@@ -150,6 +150,8 @@ header {
     text-align: center;
     display: flex;
     text-wrap: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
 .navbar a.passive {
@@ -458,8 +460,8 @@ header {
     position: relative;
     top: 10%;
     display: flex;
-    background-color: #e0f4f7;
-    padding-bottom: 15%;
+    background-color: #E1F2FB;
+    padding-bottom: 5%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -469,21 +471,30 @@ header {
     padding-bottom: 5%;
 }
 
-.about-us-text h1 {
+.about-us-text h4 {
     padding-left: 5%;
-    color: #5b9ad5;
+    color: #393e46;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0%;
 }
 
 .about-us-text h2 {
     padding-left: 5%;
     color: #5b9ad5;
-    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    word-spacing: 5px;
 }
 
 .about-us-text hr {
     margin-left: 5%;
-    margin-right: 85%;
+    margin-right: 80%;
     border: 1px solid #5b9ad5;
+    margin-bottom: 5%;
 }
 
 .about-us-text p {
@@ -492,15 +503,18 @@ header {
     line-height: 1.5;
     color: #393e46;
     word-wrap: break-word;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
 .about-us-text ul {
     padding-left: 8%;
-
+    margin: 0;
 }
 
 li {
     color: #393e46;
+    margin: 0;
 }
 
 .about-us-pics {
@@ -508,7 +522,7 @@ li {
     flex-direction: column;
     flex: 1 1;
     align-items: center;
-    padding-top: 6%;
+    padding-top: 8%;
     padding-right: 3%;
     padding-bottom: 10%;
 }
@@ -554,7 +568,8 @@ li {
     font-size: large;
     font-weight: 600;
     line-height: 2;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 .hand {
@@ -571,8 +586,8 @@ li {
     color: #5b9ad5;
     cursor: pointer;
     display: inline-block;
-    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
     font-weight: 600;
     line-height: normal;
     margin: 0;
@@ -607,7 +622,7 @@ li {
 .about-part2 {
     display: flex;
     padding-top: 3%;
-    background-color: #e0f4f7;
+    background-color: #E1F2FB;
     padding-bottom: 10%;
 }
 
@@ -615,11 +630,12 @@ li {
     flex: 1;
     padding-right: 3%;
     padding-top: 5%;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-ankara h1 {
     color: #5b9ad5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
 }
 
 .about-ankara hr {
@@ -634,6 +650,8 @@ li {
     line-height: 1.5;
     color: #393e46;
     word-wrap: break-word;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
 .about-ankara-pics {
@@ -844,16 +862,13 @@ footer {
 
 .footer-contact-container p, h2{
     color: var(--white);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .footer-contact-container hr {
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 5%;
-}
-
-.contacts {
-    padding-bottom: 5%;
 }
 
 .contacts img {
@@ -870,11 +885,14 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 5%;
 }
 
 .contacts a {
     text-decoration: none;
     color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
 .contacts a:hover {
