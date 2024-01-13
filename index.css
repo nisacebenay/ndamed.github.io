@@ -5,12 +5,11 @@
 }
 
 body {
-    background-color: #E0F5F8;
+    background-color: #E1F2FB;
     padding: 0;
     margin: 0;
     width: 100%;
     height: 100%;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 /*#region HEADER */
@@ -56,6 +55,7 @@ header {
 .contact-item a {
     color:#393e46;
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .contact-item a:hover {
@@ -150,6 +150,8 @@ header {
     text-align: center;
     display: flex;
     text-wrap: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
 .navbar a.passive {
@@ -262,6 +264,10 @@ header {
         padding-bottom: 10%;
     }
 
+    .mobile-navbar .active {
+        color: #fff;
+    }
+
     .mobile-navbar a {
         color: #393e46;
         text-decoration: none;
@@ -270,10 +276,6 @@ header {
         font-size: large;
         font-weight: 600;
         padding: 10%;
-    }
-
-    .mobile-navbar #active {
-        color: #fff;
     }
 
     .logo {
@@ -354,6 +356,10 @@ header {
         padding-bottom: 10%;
     }
 
+    .mobile-navbar .active {
+        color: #fff;
+    }
+
     .mobile-navbar a {
         color: #393e46;
         text-decoration: none;
@@ -362,10 +368,6 @@ header {
         font-size: large;
         font-weight: 600;
         padding: 10%;
-    }
-
-    .mobile-navbar #active {
-        color: #fff;
     }
 
     .logo {
@@ -451,6 +453,10 @@ header {
         opacity: 0.6;
     }
 
+    .mobile-navbar .active {
+        color: #fff;
+    }
+
     .mobile-navbar a {
         color: #393e46;
         text-decoration: none;
@@ -459,10 +465,6 @@ header {
         font-size: large;
         font-weight: 600;
         padding: 10%;
-    }
-
-    #active {
-        color: #fff;
     }
 
     .logo {
@@ -503,17 +505,21 @@ header {
 }
 
 .content h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 600;
     padding-left: 5%;
     color: #5b9ad5;
+    margin-bottom: 2%
 }
 
 .content h5 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 5%;
     padding-bottom: 3%;
     color: #393e46;
-    font-size:medium;
+    font-size: 17px;
+    font-weight: 600;
     line-height: 1.8;
     word-spacing: 2px;
 }
@@ -522,6 +528,7 @@ header {
     border: 1px solid #5b9ad5;
     margin-left: 5%;
     margin-right: 75%;
+    margin-top: 0;
 }
 
 .about-button {
@@ -533,10 +540,9 @@ header {
     color: #5b9ad5;
     cursor: pointer;
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
     font-weight: 600;
-    line-height: normal;
     margin: 0;
     min-height: 60px;
     min-width: 0;
@@ -586,7 +592,8 @@ header {
     font-size: large;
     font-weight: 600;
     word-spacing: 2px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 .hand {
@@ -603,8 +610,8 @@ header {
     color: #5b9ad5;
     cursor: pointer;
     display: inline-block;
-    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
     font-weight: 600;
     line-height: normal;
     margin: 0;
@@ -638,7 +645,7 @@ header {
 
 .container-2 {
     border-top: 0.5px solid #5b9ad5;
-    background-color: #E0F5F8;
+    background-color: #E1F2FB;
     padding-bottom: 5%;
 }
 
@@ -659,6 +666,9 @@ header {
     word-spacing: 2px;
     line-height: 1.8;
     word-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 600;
 }
 
 .hr-2 {
@@ -676,7 +686,7 @@ header {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
-    background-color: #E0F5F8;
+    background-color: #E1F2FB;
 }
 
 .sum {
@@ -702,6 +712,9 @@ header {
 .sum h4 {
     color: #393e46;
     margin-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 0.5;
     
 }
 
@@ -715,7 +728,10 @@ header {
 .sum p {
     color: #393e46;
     word-spacing: 2px;
+    letter-spacing: 0.5px;
     word-wrap: break-word;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
 }
 
 .summ {
@@ -740,6 +756,9 @@ header {
 
 .summ h4 {
     color: #393e46;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 0.5;
 }
 
 .summ hr {
@@ -753,6 +772,10 @@ header {
 .summ p {
     color: #393e46;
     word-spacing: 2px;
+    word-wrap: break-word;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
 
 .accomodation-img {
@@ -1021,17 +1044,14 @@ footer {
 
 .footer-contact-container p, h2{
     color: var(--white);
-    word-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 .footer-contact-container hr {
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 5%;
-}
-
-.contacts {
-    padding-bottom: 5%;
 }
 
 .contacts img {
@@ -1048,11 +1068,14 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 5%;
 }
 
 .contacts a {
     text-decoration: none;
     color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
 .contacts a:hover {
