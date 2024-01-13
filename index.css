@@ -122,7 +122,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 80%;;
-    justify-content: first baseline
+    transition: opacity 0.6s ease 0s; opacity: 0;
 }
 
 .navbar ul {
@@ -217,7 +217,7 @@ header {
 
     .on {
         width: 50%;
-        background-color: rgba(241, 241, 241, 0.5);
+        background-color: rgba(241, 241, 241, 0.9);
     }
 
     .off {
@@ -261,7 +261,12 @@ header {
     }
 
     .btn{
-        padding-bottom: 10%;
+        padding-bottom: 20%;
+    }
+
+    .mobile-navbar {
+        opacity: 0.6;
+        transition: opacity 0.6s ease 0s; opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -273,9 +278,6 @@ header {
         text-decoration: none;
         text-align: center;
         display: flex;
-        font-size: large;
-        font-weight: 600;
-        padding: 10%;
     }
 
     .logo {
@@ -296,11 +298,10 @@ header {
 
     .menu-container-mobile {
         height: 100vh;
-        padding-top: 5%;
         width: 15%;
         position: absolute;
-        top: 1.25em;
-        right: 0%;
+        top: 40%;
+        right: -5%;
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
@@ -352,8 +353,13 @@ header {
         height: 100%;
     }
 
-    .btn{
-        padding-bottom: 10%;
+    .btn {
+        padding-bottom: 11%;
+    }
+
+    .mobile-navbar {
+        opacity: 0.6;
+        transition: opacity 0.6s ease 0s; opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -366,8 +372,6 @@ header {
         text-align: center;
         display: flex;
         font-size: large;
-        font-weight: 600;
-        padding: 10%;
     }
 
     .logo {
@@ -390,11 +394,10 @@ header {
 
     .menu-container-mobile {
         height: 100vh;
-        padding-top: 5%;
+        top: 40%;
         width: 5%;
         position: absolute;
-        top: 1.25em;
-        right: 0%;
+        right: -5%;
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
@@ -445,12 +448,13 @@ header {
         height: 100%;
     }
 
-    .btn{
-        padding-bottom: 10%;
-    }
+    .btn {
+        padding-bottom: 7.4%;
+    };
 
     .mobile-navbar {
         opacity: 0.6;
+        transition: opacity 0.6s ease 0s; opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -463,8 +467,6 @@ header {
         text-align: center;
         display: flex;
         font-size: large;
-        font-weight: 600;
-        padding: 10%;
     }
 
     .logo {
