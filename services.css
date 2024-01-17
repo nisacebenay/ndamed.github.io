@@ -17,7 +17,7 @@ body {
 header {
     background-color: var(--white);
     color: var(--blue);
-    height: 15%;
+    height: 18%;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
     position: fixed;
     top: 0;
@@ -122,7 +122,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 80%;;
-    justify-content: first baseline
+    transition: opacity 0.6s ease 0s; opacity: 0;
 }
 
 .navbar ul {
@@ -190,10 +190,6 @@ header {
 
 @media only screen and (max-width: 600px) {
 
-    .header {
-        height: 0;
-    }
-
     .contact-banner {
         display: none;
     }
@@ -204,7 +200,9 @@ header {
 
     .menu-container-mobile {
         height: 100vh;
-        padding-top: 4%;
+        width: 5%;
+        padding-top: 3%;
+        padding-right: 3%;
         position: absolute;
         top: 1.25em;
         right: 0%;
@@ -216,7 +214,7 @@ header {
 
     .on {
         width: 50%;
-        background-color: rgba(241, 241, 241, 0.5);
+        background-color: rgba(241, 241, 241, 0.9);
     }
 
     .off {
@@ -229,13 +227,12 @@ header {
     }
 
     .menu-container-mobile ul {
-        height: 30%;
+        height: 50%;
         list-style: none;
         margin: 0;
         padding: 0;
         display: flex;
         flex-direction: column;
-
     }
 
     .menu-container-mobile li {
@@ -248,7 +245,6 @@ header {
     }
 
     .language-selector-mobile{
-        display: none;
         padding-left: 5%;
         width: 50%;
         height: 5%;
@@ -260,7 +256,12 @@ header {
     }
 
     .btn{
-        padding-bottom: 10%;
+        padding-bottom: 20%;
+    }
+
+    .mobile-navbar {
+        opacity: 0.6;
+        transition: opacity 0.6s ease 0s; opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -272,18 +273,16 @@ header {
         text-decoration: none;
         text-align: center;
         display: flex;
-        font-size: large;
-        font-weight: 600;
-        padding: 10%;
     }
 
     .logo {
         padding-top: 4%;
     }
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
-
+    
     .contact-banner {
         display: none;
     }
@@ -292,16 +291,12 @@ header {
         display: none;
     }
 
-    .header {
-        height: 0;
-    }
-
     .menu-container-mobile {
         height: 100vh;
-        padding-top: 5%;
+        width: 15%;
         position: absolute;
-        top: 1.25em;
-        right: 0%;
+        top: 40%;
+        right: -5%;
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
@@ -342,7 +337,6 @@ header {
     }
 
     .language-selector-mobile{
-        display: none;
         padding-left: 5%;
         width: 50%;
         height: 5%;
@@ -353,8 +347,13 @@ header {
         height: 100%;
     }
 
-    .btn{
-        padding-bottom: 10%;
+    .btn {
+        padding-bottom: 11%;
+    }
+
+    .mobile-navbar {
+        opacity: 0.6;
+        transition: opacity 0.6s ease 0s; opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -367,107 +366,106 @@ header {
         text-align: center;
         display: flex;
         font-size: large;
-        font-weight: 600;
-        padding: 10%;
+    }
+
+    .logo {
+        padding-top: 4%;
+    
+    }
+
+
+}
+
+@media only screen and (min-width: 835px) and (max-width: 1200px) {
+
+    .contact-banner {
+        display: none;
+    }
+
+    .menu-container {
+        display: none;
+    }
+
+    .menu-container-mobile {
+        height: 100vh;
+        top: 40%;
+        width: 5%;
+        position: absolute;
+        right: -5%;
+        display: flex;
+        flex-direction: column;
+        transition-duration: 0.6s;
+        transition: width 2s;
+    }
+
+    .on {
+        width: 40%;
+        background-color: rgba(241, 241, 241, 0.5);
+    }
+
+    .off {
+        width: 10%;
+        background-color: transparent;
+    }
+
+    #hamburger-button:checked+label>img {
+        transform: rotate(-90deg);
+    }
+
+    .menu-container-mobile ul {
+        height: 30%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-container-mobile li {
+        height: 40%;
+        width: 95%;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        padding-left: 5%;
+    }
+
+    .language-selector-mobile{
+        padding-left: 5%;
+        width: 50%;
+        height: 5%;
+    }
+
+    .language-selector-mobile select{
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn {
+        padding-bottom: 7.4%;
+    };
+
+    .mobile-navbar {
+        opacity: 0.6;
+        transition: opacity 0.6s ease 0s; opacity: 0;
+    }
+
+    .mobile-navbar .active {
+        color: #fff;
+    }
+
+    .mobile-navbar a {
+        color: #393e46;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        font-size: large;
     }
 
     .logo {
         padding-top: 4%;
     }
-}
 
-@media only screen and (min-width: 835px) and (max-width: 1024px) {
-    
-        .contact-banner {
-            display: none;
-        }
-    
-        .menu-container {
-            display: none;
-        }
-    
-        .header {
-            height: 0;
-        }
-    
-        .menu-container-mobile {
-            height: 100vh;
-            padding-top: 5%;
-            position: absolute;
-            top: 1.25em;
-            right: 0%;
-            display: flex;
-            flex-direction: column;
-            transition-duration: 0.6s;
-            transition: width 1s;
-        }
-    
-        .on {
-            width: 30%;
-            background-color: rgba(241, 241, 241, 0.5);
-        }
-    
-        .off {
-            width: 10%;
-            background-color: transparent;
-        }
-    
-        #hamburger-button:checked+label>img {
-            transform: rotate(-90deg);
-        }
-    
-        .menu-container-mobile ul {
-            height: 30%;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-    
-        }
-    
-        .menu-container-mobile li {
-            height: 100%;
-            width: 95%;
-            align-items: center;
-            align-content: center;
-            display: flex;
-            padding-left: 5%;
-        }
-    
-        .language-selector-mobile{
-            display: none;
-            padding-left: 5%;
-            width: 50%;
-            height: 5%;
-        }
-    
-        .language-selector-mobile select{
-            width: 100%;
-            height: 100%;
-        }
-    
-        .btn{
-            padding-bottom: 10%;
-        }
-
-        .mobile-navbar .active {
-            color: #fff;
-        }
-    
-        .mobile-navbar a {
-            color: #393e46;
-            text-decoration: none;
-            text-align: center;
-            display: flex;
-            font-size: large;
-            font-weight: 600;
-            padding: 10%;
-        }
-    
-        .logo {
-            padding-top: 4%;
-        }
 }
 
 /*#endregion Mobile Header */
