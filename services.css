@@ -176,8 +176,8 @@ header {
 
 .language-selector {
     height: 50%;
+    border-color: #5b9ad5;
     display: flex;
-    padding-bottom: 1%;
 }
 
 .language-selector select {
@@ -185,6 +185,7 @@ header {
     width: max-content;
     align-self: center;
 }
+
 
 /*#region Mobile Header */
 
@@ -245,6 +246,7 @@ header {
     }
 
     .language-selector-mobile{
+        padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
@@ -337,6 +339,7 @@ header {
     }
 
     .language-selector-mobile{
+        padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
@@ -431,6 +434,7 @@ header {
     }
 
     .language-selector-mobile{
+        padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
@@ -467,10 +471,12 @@ header {
     }
 
 }
+    
 
-/*#endregion Mobile Header */
+/*#endregion MOBILE HEADER */
 
 /*#endregion HEADER */
+
 
 /*#region CONTENT*/
 

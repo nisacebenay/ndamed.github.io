@@ -246,6 +246,7 @@ header {
     }
 
     .language-selector-mobile{
+        padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
@@ -338,6 +339,7 @@ header {
     }
 
     .language-selector-mobile{
+        padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
@@ -432,6 +434,7 @@ header {
     }
 
     .language-selector-mobile{
+        padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
@@ -473,7 +476,6 @@ header {
 /*#endregion MOBILE HEADER */
 
 /*#endregion HEADER */
-
 
 /*#region CONTENT*/
 

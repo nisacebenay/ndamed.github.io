@@ -15,12 +15,12 @@
                     <div class="contact-item">
                         <img src="icons-2/phone.svg">
                         <label for="phone"></label>
-                            <a href="tel:+90 506 112 24 93" class="phone">+90 506 112 24 93</a>
-                        </div>
-                        <div class="contact-item">
-                            <img src="icons-2/envelope.svg">
-                                <a href="mailto:ndacounselling@outlook.com">ndacounselling@outlook.com</a>
-                        </div>
+                        <a href="tel:+90 506 112 24 93" class="phone">+90 506 112 24 93</a>
+                    </div>
+                    <div class="contact-item">
+                        <img src="icons-2/envelope.svg">
+                            <a href="mailto:ndacounselling@outlook.com" class="mail">ndacounselling@outlook.com</a>
+                    </div>
                 </div>
                 <div class="social-icons">
                     <img src="icons-2/whatsapp.svg">
@@ -35,15 +35,17 @@
                 <div class="menu-container">
                     <nav class="navbar">
                         <ul>
-                            <li class="passive"><a href="index.html" id="text-46">Ana Sayfa</a></li>
-                            <li class="passive"><a href="about-us.html" id="text-47">Hakkımızda</a></li>
-                            <li class="active"><a href="services.html" id="text-48">Hizmetlerimiz</a></li>
+                            <li class="passive"><a href="index.html" id="text-2">Ana Sayfa</a></li>
+                            <li class="passive"><a href="about-us.html" id="text-3">Hakkımızda</a></li>
+                            <li class="active"><a href="services.html" id="text-4">Hizmetlerimiz</a></li>
                         </ul>
                     </nav>
                     <div class="language-selector">
                         <select onchange="handleLanguageSelector(event)">
                         </select>
+                    </div>
                 </div>
+
                 <div class="menu-container-mobile off">
                     <input type="checkbox" id="hamburger-button">
                     <label class="btn" for="hamburger-button" onclick="handleHamburger()">
@@ -51,18 +53,19 @@
                     </label>
                     <nav class="mobile-navbar">
                         <ul>
-                            <li class="passive"><a href="index.html" id="text-49">Ana Sayfa</a></li>
-                            <li class="passive"><a href="about-us.html" id="text-50">Hakkımızda</a></li>
-                            <li class="active"><a href="services.html" class="active" id="text-51">Hizmetlerimiz</a></li>
+                            <li class="passive"><a href="index.html"  id="text-5">Ana Sayfa</a></li>
+                            <li class="passive"><a href="about-us.html" id="text-6">Hakkımızda</a></li>
+                            <li class="active"><a href="services.html" class="active" id="text-7">Hizmetlerimiz</a></li>
                         </ul>
+                        <div class="language-selector-mobile">
+                            <select onchange="handleLanguageSelector(event)">
+                            </select>
+                        </div>
                     </nav>
-                    <div class="language-selector">
-                        <select onchange="handleLanguageSelector(event)">
-                        </select>
                 </div>
             </div>
         </header>
-
+        
         <div class="content">
             <div class="our-med-services">
                 <h1 id="text-52">Medikal Hizmetlerimiz</h1>
