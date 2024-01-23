@@ -697,13 +697,12 @@ header {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sum img {
-    width: 35%;
-    height: 35%;
-    margin-bottom: 5%;
+    width: 45%;
+    height: 45%;
+   
 }
 
 .sum h4 {
@@ -746,9 +745,9 @@ header {
 }
 
 .summ img {
-    width: 35%;
-    height: 35%;
-    margin-bottom: 5%;
+    width: 45%;
+    height: 45%;
+
 }
 
 .summ h4 {
@@ -780,7 +779,7 @@ header {
 }
 
 .translations-img {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 
@@ -802,9 +801,9 @@ header {
     }
 
     .about-button {
-        width: 80%;
+        width: 50%;
         height: 100%;
-        margin-left: 10%;
+        margin-left: 25%;
         margin-right: 0;
         margin-bottom: 5%;
     }

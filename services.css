@@ -283,6 +283,7 @@ header {
 
 }
 
+
 @media only screen and (min-width: 600px) and (max-width: 834px) {
     
     .contact-banner {
@@ -375,7 +376,6 @@ header {
         padding-top: 4%;
     
     }
-
 
 }
 
@@ -489,9 +489,9 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #E1F2FB;
-    padding-top: 4%;
-    padding-bottom: 3%;
+    background-color: #e1f2fb;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .our-med-services h1 {
@@ -754,17 +754,10 @@ header {
 }
 
 .treatment-plan h2 {
-    margin-top: 0;
+    margin: 0;
     color: #5b9ad5;
     font-family:'Times New Roman', Times, serif;
     font-size: 28px;
-}
-
-.treatment-plan hr {
-    border: 1px solid #5b9ad5;
-    padding-left: 10%;
-    padding-right: 10%;
-
 }
 
 .treatment-plan p {
@@ -850,16 +843,38 @@ header {
 
     .service {
         display: flex;
-        flex-direction: row;
-        align-items: flex-start;
+        flex-direction: column;
+        align-items: center;
     }
     
     .service img {
-        width: 25%;
-        height: 25%;
+        width: 30%;
+        height: 30%;
         background-color: #5b9ad5;
         border-radius: 50%;
         border: #41506b 0.5px solid;
+    }
+
+    .service-content {
+        text-align: center;
+    }
+
+    .service-content hr {
+        margin-right: 30%;
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+
+    .service-content p {
+        padding-left: 5%;
+        padding-right: 5%;
+        word-wrap: break-word;
+        word-spacing: 2px;
+        line-height: 1.5;
+    }
+
+    br {
+        display: none;
     }
 
     .treatment-plan-cards {
@@ -884,10 +899,12 @@ header {
         position: relative;
         top: 5%;
         height: 15%;
+        padding-right: 2%;
+        padding-left: 2%;
     }
 
     .contact-line p {
-        font-size: small;
+        font-size: medium;
         padding-left: 2%;
     }
 
@@ -895,6 +912,7 @@ header {
         width: 30%;
         margin-right: 0;
         font-size: smaller;
+
     }
 
     .hand {
@@ -1029,6 +1047,7 @@ header {
 /*#endregion MOBILE CONTENT*/
 
 /*#endregion CONTENT*/
+
 
 
 /*#region FOOTER */
