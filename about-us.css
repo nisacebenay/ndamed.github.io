@@ -506,8 +506,9 @@ header {
 .about-us-text h2 {
     padding-left: 5%;
     color: #5b9ad5;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font: 400 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font-weight: 400;
+    font-size: 2em;
     margin-top: 2%;
     margin-bottom: 2%;
     word-spacing: 5px;
@@ -591,8 +592,7 @@ li {
     font-size: large;
     font-weight: 600;
     line-height: 2;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font: 300 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
 }
 
 .hand {
@@ -603,15 +603,14 @@ li {
 .contact-button {
     appearance: none;
     background-color: transparent;
-    border: 2px solid #5b9ad5;
+    border: 1px solid #5b9ad5;
     border-radius: 15px;
     box-sizing: border-box;
     color: #5b9ad5;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
     font-size: 18px;
-    font-weight: 600;
     line-height: normal;
     margin: 0;
     min-height: 60px;
@@ -657,8 +656,9 @@ li {
 
 .about-ankara h1 {
     color: #5b9ad5;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 600;
+    font: 400 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font-weight: 400;
+    font-size: 2em;
 }
 
 .about-ankara hr {
