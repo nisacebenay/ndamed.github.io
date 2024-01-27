@@ -12,6 +12,8 @@ body {
     height: 100%;
 }
 
+
+
 /*#region HEADER */
 
 header {
@@ -160,18 +162,18 @@ header {
 
 .active {
     background-color: var(--blue);
+}
 
-    a {
-        color: var(--white);
-    }
+.active a {
+    color: var(--white);
 }
 
 .navbar li:hover {
     background-color: var(--blue);
+}
 
-    a {
-        color: var(--white);
-    }
+.navbar li:hover a {
+    color: var(--white);
 }
 
 .language-selector {
@@ -523,12 +525,11 @@ header {
 }
 
 .content h5 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
     padding-left: 5%;
     padding-bottom: 3%;
     color: #393e46;
     font-size: 17px;
-    font-weight: 600;
     line-height: 1.8;
     word-spacing: 2px;
 }
@@ -669,15 +670,16 @@ header {
 .service-summary h2 {
     color: #5b9ad5;
     word-spacing: 2px;
-    line-height: 1.8;
     word-wrap: break-word;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
-    font-weight: 600;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1.4; 
+    font-family: 'Helvetica Neue';
+    margin-bottom: 0;
 }
 
 .hr-2 {
-    border-top: 0.5px double #132743;
+    border-top: 0.5px double #5b9ad5;
     padding-left: 30%;
     padding-right: 30%;
     color: #5b9ad5;
@@ -1122,8 +1124,6 @@ footer {
 .footer-social-media {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .footer-social-media-section {
@@ -1150,7 +1150,8 @@ footer {
 .footer-social-media-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    align-self: left;
 }
 
 .footer-social-media-text {
@@ -1255,7 +1256,8 @@ footer iframe {
     
       .footer-social-media-content {
         display: flex; /* Use flexbox for layout */
-        align-items: center; /* Align items vertically */
+        align-items: flex-start; /* Align items vertically */
+        align-self: left;
       }
     
       .address-section,
