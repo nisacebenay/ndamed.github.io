@@ -160,18 +160,18 @@ header {
 
 .active {
     background-color: var(--blue);
+}
 
-    a {
-        color: var(--white);
-    }
+.active a {
+    color: var(--white);
 }
 
 .navbar li:hover {
     background-color: var(--blue);
+}
 
-    a {
-        color: var(--white);
-    }
+.navbar li:hover a {
+    color: var(--white);
 }
 
 .language-selector {
@@ -582,7 +582,7 @@ li {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 15%;
+    height: 20%;
     padding-right: 5%;
     padding-left: 5%;
 }
@@ -713,7 +713,6 @@ li {
 }
 
 /*#endregion ABOUT US */
-
 
 /*#region ABOUT US MOBILE */
 
@@ -862,7 +861,7 @@ li {
 /*#region FOOTER */
 
 footer {
-    height: 40%;
+    height: 50%;
     background-color: var(--dkblue);
     display: flex;
     align-items: center;

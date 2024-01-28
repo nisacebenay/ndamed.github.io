@@ -160,18 +160,18 @@ header {
 
 .active {
     background-color: var(--blue);
+}
 
-    a {
-        color: var(--white);
-    }
+.active a {
+    color: var(--white);
 }
 
 .navbar li:hover {
     background-color: var(--blue);
+}
 
-    a {
-        color: var(--white);
-    }
+.navbar li:hover a {
+    color: var(--white);
 }
 
 .language-selector {
@@ -477,7 +477,6 @@ header {
 
 /*#endregion HEADER */
 
-
 /*#region CONTENT*/
 
 .content {
@@ -529,11 +528,11 @@ header {
     display: flex;
     align-items: flex-start;
     background-color: #F1F9F9;
-    border-radius: 5%;
+    border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
     margin-bottom: 3%;
     box-sizing: content-box;
-    width: 100%;
+    width: 98%;
 }
 
 .service-content {
@@ -677,7 +676,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 15%;
+    height: 20%;
     padding-right: 10%;
     padding-left: 5%;
     margin-top: 5%;
@@ -1272,12 +1271,10 @@ tbody tr:last-child td {
 
 /*#endregion CONTENT*/
 
-
-
 /*#region FOOTER */
 
 footer {
-    height: 40%;
+    height: 50%;
     background-color: var(--dkblue);
     display: flex;
     align-items: center;
