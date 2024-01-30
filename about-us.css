@@ -725,10 +725,11 @@ li {
     .contact-line {
         position: relative;
         top: 8%;
+        height: 10%;
     }
 
     .contact-button {
-        width: 50%;
+        width: 40%;
         margin-right: 0;
     }
 
@@ -781,17 +782,19 @@ li {
     .contact-line {
         position: relative;
         top: 8%;
+        height: 15%;
     }
 
     .contact-button {
-        width: 40%;
+        width: 30%;
         margin-right: 0;
     }
 
     .hand {
         width: 20%;
-        height: 60%;
-        margin-right: 5%;
+        height: 50%;
+        margin-left: 0;
+        margin-right: 2%;
     }
 
     .about-ankara {
@@ -1125,6 +1128,11 @@ footer iframe {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
+
+    footer {
+        height: auto;
+        padding: 10px;
+    }
     
     .contacts {
         display: flex;
@@ -1135,9 +1143,18 @@ footer iframe {
     .contacts img {
         padding-bottom: 3%;
     }
+
+    .footer-map-container {
+        height: 100%;
+    }
 }
 
 @media only screen and (min-width: 835px) and (max-width: 1024px) {
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
     
         .contacts {
             display: flex;
@@ -1147,6 +1164,10 @@ footer iframe {
     
         .contacts img {
             padding-bottom: 3%;
+        }
+
+        .footer-map-container {
+            height: 100%;
         }
 }
 

@@ -191,6 +191,10 @@ header {
 
 @media only screen and (max-width: 600px) {
 
+    header {
+        height: auto;
+    }
+
     .contact-banner {
         display: none;
     }
@@ -278,13 +282,16 @@ header {
     }
 
     .logo {
-        padding-top: 4%;
+        padding-top: 1%;
     }
 
 }
 
-
 @media only screen and (min-width: 600px) and (max-width: 834px) {
+
+    header {
+        height: auto;
+    }
     
     .contact-banner {
         display: none;
@@ -373,13 +380,17 @@ header {
     }
 
     .logo {
-        padding-top: 4%;
+        padding-top: 0.5%;
     
     }
 
 }
 
 @media only screen and (min-width: 835px) and (max-width: 1200px) {
+
+    header {
+        height: auto;
+    }
 
     .contact-banner {
         display: none;
@@ -467,7 +478,7 @@ header {
     }
 
     .logo {
-        padding-top: 4%;
+        padding-top: 0.5%;
     }
 
 }
@@ -792,27 +803,27 @@ td img {
 }
 
 th {
-    font-weight: 600;
+    font-weight: 500;
 }
   
 colgroup:nth-child(1) {
-    width: 31%;
+    width: 30%;
     border: 0 none;
     border-bottom: 1px solid #ccc;
 }
 
 colgroup:nth-child(2) {
-    width: 22%;
+    width: 20%;
     border: 1px solid #ccc;
 }
 
 colgroup:nth-child(3) {
-    width: 25%;
-    border: 10px solid #5b9ad5;
+    width: 20%;
+    border: 1px solid #5b9ad5;
 }
 
 colgroup:nth-child(4) {
-    width: 22%;
+    width: 20%;
     border: 1px solid #ccc;
 }
 
@@ -852,7 +863,8 @@ thead th h2 + p {
 }
  
 thead th:nth-child(3) h2 {
-    font-size: 3.6em;
+    font-size: 2.4m;
+    margin-top: 1.5em;
 }
 
 thead th p.promo {
@@ -1027,7 +1039,10 @@ tbody tr:last-child td {
 
 /*#region MOBILE CONTENT*/
 @media only screen and (max-width: 600px) {
-    
+
+    .our-med-services {
+        padding-top: 25%;
+    }
 
     .service {
         display: flex;
@@ -1080,6 +1095,10 @@ tbody tr:last-child td {
 
     thead th {
         padding: 1em 0; /* Adjust header cell padding for smaller screens */
+    }
+
+    thead th h2 {
+        font-size: medium;
     }
 
     tbody th span {
@@ -1159,112 +1178,137 @@ tbody tr:last-child td {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
-        
-        .service {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-        }
-        
-        .service img {
-            width: 25%;
-            height: 25%;
-            background-color: #5b9ad5;
-            border-radius: 50%;
-            border: #41506b 0.5px solid;
-        }
-    
-        .treatment-plan-cards {
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .step {
-            width: 50%;
-            height: 100%;
-            margin-bottom: 5%;
-        }
-    
-        .treatment-plan p {
-            padding-left: 3%;
-            padding-right: 3%;
-            word-wrap: break-word;
-            word-spacing: 2px;
-            line-height: 1.5;
-        }
-    
-        .contact-line {
-            position: relative;
-            top: 5%;
-        }
 
-        .contact-button {
-            width: 30%;
-            margin-right: 0;
-        }
+    .our-med-services {
+        padding-top: 15%;
+    }
+        
+    .service {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+        
+    .service img {
+        width: 25%;
+        height: 25%;
+        background-color: #5b9ad5;
+        border-radius: 50%;
+        border: #41506b 0.5px solid;
+    }
 
-        .hand {
-            width: 15%;
-            height: 60%;
-            padding-right: 2%;
-        }
+    td img {
+        width: 50px;
+        height: 50px;
+    }
     
-        .prev {
-            display: none;
-        }
+    .treatment-plan-cards {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
     
-        .next {
-            display: none;
-        }
+    .step {
+        width: 50%;
+        height: auto;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+    
+    .treatment-plan p {
+        padding-left: 15%;
+        padding-right: 15%;
+        word-spacing: 1px;
+        line-height: 1.5;
+    }
+    
+    .contact-line {
+        position: relative;
+        top: 5%;
+        height: 12%;
+        padding: 0;
+    }
+
+    .contact-line p {
+        font-size: 20px;
+    }
+
+    .contact-button {
+        width: 15%;
+        margin-right: 2%;
+    }
+
+    .hand {
+        width: 10%;
+        height: 60%;
+        margin-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .prev {
+        display: none;
+    }
+    
+    .next {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 835px) and (max-width: 1024px) {
-            
+
+    .our-med-services {
+        padding-top: 10%;
+    }
+
+    .treatment-plan-cards {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .step {
+        width: 50%;
+        height: 100%;
+        margin-left: 5%;
+    }
+
+    .step img {
+        width: 40%;
+        height: 40%;
+        padding-top: 10%;
+    }
         
-        .treatment-plan-cards {
-            flex-direction: row;
-            align-items: center;
-        }
-
-        .step {
-            width: 50%;
-            height: 100%;
-            margin-left: 5%;
-        }
-
-        .step img {
-            width: 40%;
-            height: 40%;
-            padding-top: 10%;
-        }
+    .treatment-plan p {
+        padding-left: 5%;
+        padding-right: 5%;
+        word-wrap: break-word;
+        word-spacing: 2px;
+        line-height: 1.5;
+    }
         
-        .treatment-plan p {
-            padding-left: 5%;
-            padding-right: 5%;
-            word-wrap: break-word;
-            word-spacing: 2px;
-            line-height: 1.5;
-        }
-        
-        .contact-line {
-            position: relative;
-            top: 5%;
-            height: 15%;
-        }
+    .contact-line {
+        position: relative;
+        top: 5%;
+        height: 12%;
+        padding: 0;
+    }
 
-        .hand {
-            width: 15%;
-            height: 60%;
-            padding-right: 3%;
-        }
+    .hand {
+        width: 10%;
+        height: 50%;
+        margin-left: 3%;
+    }
 
-        .prev {
-            display: none;
-        }
+    .contact-button {
+        margin-right: 3%;
+    }
 
-        .next {
-            display: none;
-        }   
+    .prev {
+        display: none;
+    }
+
+    .next {
+        display: none;
+    }   
 }
 
 /*#endregion MOBILE CONTENT*/
@@ -1538,6 +1582,11 @@ footer iframe {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
+
+    footer {
+        height:auto;
+        padding: 20px;
+    }
     
     .contacts {
         display: flex;
@@ -1548,19 +1597,35 @@ footer iframe {
     .contacts img {
         padding-bottom: 3%;
     }
+
+    .footer-map-container {
+        height: 100%;
+    }
 }
 
 @media only screen and (min-width: 835px) and (max-width: 1024px) {
+
+    footer {
+        height:auto;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-right: 1%;
+        padding-left: 1%;
+    }
     
-        .contacts {
+    .contacts {
             display: flex;
             flex-direction: column;
             align-items: center;
-        }
+    }
     
-        .contacts img {
+    .contacts img {
             padding-bottom: 3%;
-        }
+    }
+
+    .footer-map-container {
+        height: 300px;
+    }
 }
 
 /*#endregion MOBILE FOOTER*/
