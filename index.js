@@ -8,6 +8,7 @@ var languageBasedDictionary;
 var gallery;
 var previewContainer;
 var preview;
+var currentPreviewIndex = 0;
 var imageSources = [];
 
 async function onload() {
@@ -24,9 +25,6 @@ async function onload() {
     if(gallery){
         previewContainer = document.getElementById("preview-container");
         preview = document.getElementById("preview");
-
-        console.log(previewContainer);
-        console.log(preview);
 
         for(let i of gallery.children){
             imageSources.push(i.getAttribute("src"));
@@ -76,10 +74,14 @@ function handleScroll(amount, t) {
 
 function galleryZoom(e){
     var img = e.target.getAttribute("src");
-    previewContainer.style.display = "flex";
+    currentPreviewIndex = imageSources.indexOf(img);
 
-    preview.src = img;
-    
+    previewContainer.style.display = "flex";
+    setPreviewSource(img);
+}
+
+function setPreviewSource(i){
+    preview.src = i;
 }
 
 function exitPreview(){
@@ -87,6 +89,19 @@ function exitPreview(){
     previewContainer.style.display = "none";
 }
 
+function prevPreview(e){
+    if(currentPreviewIndex > 0){
+        currentPreviewIndex--;
+        setPreviewSource(imageSources[currentPreviewIndex]);
+    }
+}
+
+function nextPreview(e){
+    if(currentPreviewIndex < imageSources.length-1){
+        currentPreviewIndex++;
+        setPreviewSource(imageSources[currentPreviewIndex]);
+    }
+}
 
 
 // TRANSLATION

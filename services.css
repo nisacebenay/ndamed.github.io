@@ -631,8 +631,10 @@ header {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.8);
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #preview {
@@ -651,6 +653,25 @@ header {
     height: 5vh;
     background-color: var(--blue);
     border-radius: 50%;
+    opacity: 60%;
+    border: none;
+}
+
+#prev-2 {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    background-color: var(--blue);
+    opacity: 60%;
+    border: none;
+}
+
+#next-2 {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    background-color: var(--blue);
+    opacity: 60%;
     border: none;
 }
 
