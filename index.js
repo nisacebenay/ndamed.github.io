@@ -5,6 +5,10 @@ var mobileNavbar;
 var dictionary;
 var currentLanguage;
 var languageBasedDictionary;
+var gallery;
+var previewContainer;
+var preview;
+var imageSources = [];
 
 async function onload() {
     //await loadDictionary();
@@ -13,6 +17,21 @@ async function onload() {
     hamburgerMenuButton = document.getElementById('hamburger-button');
     menuContainerMobile = document.querySelector('.menu-container-mobile');
     mobileNavbar = document.querySelector(".menu-container-mobile>nav");
+
+    // try parse gallery
+    gallery = document.getElementById("gallery-1");
+
+    if(gallery){
+        previewContainer = document.getElementById("preview-container");
+        preview = document.getElementById("preview");
+
+        console.log(previewContainer);
+        console.log(preview);
+
+        for(let i of gallery.children){
+            imageSources.push(i.getAttribute("src"));
+        }
+    }
 }
 
 function handleHamburger() {
@@ -55,6 +74,19 @@ function handleScroll(amount, t) {
     }
 }
 
+function galleryZoom(e){
+    var img = e.target.getAttribute("src");
+    previewContainer.style.display = "flex";
+
+    preview.src = img;
+    
+}
+
+function exitPreview(){
+    preview.src = "";
+    previewContainer.style.display = "none";
+}
+
 
 
 // TRANSLATION
@@ -82,12 +114,10 @@ async function setLanguage() {
     else {
         currentLanguage = cookie.split('=')[1];
     }
-    console.log(currentLanguage);
+    
     const languageBasedDictionary = dictionary.texts.map(({ id, [currentLanguage]: langText }) => ({ id, text: langText }));
-    console.log(languageBasedDictionary);
 
     languageBasedDictionary.forEach(element => {
-        console.log(element.id + ">" + element.text);
         let htmlElement = document.getElementById(element.id)
         if(htmlElement){
             htmlElement.innerHTML = element.text;

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title id="text-45">Servislerimiz</title>
         <link rel="stylesheet" href="services.css">
-        <script src="services.js"></script>
+        <script src="index.js"></script>
     </head>
 
     <body onload="onload()">
@@ -95,16 +95,20 @@
                     <div class="slider-container">
                         <button id="prev-1" class="prev" onclick="prevSlide(event)">❮</button>
                         <div id="gallery-1" class="slider">
-                            <img src="medicaljpeg/teeth-implant/image1.jpg" alt="Image 1">
-                            <img src="medicaljpeg/teeth-implant/image2.jpg" alt="Image 2">
-                            <img src="medicaljpeg/teeth-implant/image3.jpg" alt="Image 3">
-                            <img src="medicaljpeg/teeth-implant/image4.jpg" alt="Image 4">
-                            <img src="medicaljpeg/teeth-implant/image5.jpg" alt="Image 5">
-                            <img src="medicaljpeg/teeth-implant/image6.jpg" alt="Image 6">
-                            <img src="medicaljpeg/teeth-implant/image7.jpg" alt="Image 7">
-                            <img src="medicaljpeg/teeth-implant/image8.jpg" alt="Image 8">
+                            <img src="medicaljpeg/teeth-implant/image1.jpg" onclick="galleryZoom(event)" alt="Image 1">
+                            <img src="medicaljpeg/teeth-implant/image2.jpg" onclick="galleryZoom(event)" alt="Image 2">
+                            <img src="medicaljpeg/teeth-implant/image3.jpg" onclick="galleryZoom(event)" alt="Image 3">
+                            <img src="medicaljpeg/teeth-implant/image4.jpg" onclick="galleryZoom(event)" alt="Image 4">
+                            <img src="medicaljpeg/teeth-implant/image5.jpg" onclick="galleryZoom(event)" alt="Image 5">
+                            <img src="medicaljpeg/teeth-implant/image6.jpg" onclick="galleryZoom(event)" alt="Image 6">
+                            <img src="medicaljpeg/teeth-implant/image7.jpg" onclick="galleryZoom(event)" alt="Image 7">
+                            <img src="medicaljpeg/teeth-implant/image8.jpg" onclick="galleryZoom(event)" alt="Image 8">
                         </div>
                         <button id="next-1" class="next" onclick="nextSlide(event)">❯</button>
+                        <div id="preview-container">
+                            <button id="exit-preview" onclick="exitPreview()">X</button>
+                            <img id="preview">
+                        </div>
                     </div>
                     
                     <div class="service">

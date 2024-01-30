@@ -53,7 +53,7 @@ header {
 }
 
 .contact-item a {
-    color:#393e46;
+    color: #393e46;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -121,8 +121,10 @@ header {
     opacity: 0;
     display: flex;
     flex-direction: column;
-    height: 80%;;
-    transition: opacity 0.6s ease 0s; opacity: 0;
+    height: 80%;
+    ;
+    transition: opacity 0.6s ease 0s;
+    opacity: 0;
 }
 
 .navbar ul {
@@ -144,7 +146,7 @@ header {
 
 .navbar a {
     text-decoration: none;
-    color:#393e46;
+    color: #393e46;
     padding: 1rem;
     background-color: transparent;
     text-align: center;
@@ -249,25 +251,26 @@ header {
         padding-left: 5%;
     }
 
-    .language-selector-mobile{
+    .language-selector-mobile {
         padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
     }
 
-    .language-selector-mobile select{
+    .language-selector-mobile select {
         width: 100%;
         height: 100%;
     }
 
-    .btn{
+    .btn {
         padding-bottom: 20%;
     }
 
     .mobile-navbar {
         opacity: 0.6;
-        transition: opacity 0.6s ease 0s; opacity: 0;
+        transition: opacity 0.6s ease 0s;
+        opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -292,7 +295,7 @@ header {
     header {
         height: auto;
     }
-    
+
     .contact-banner {
         display: none;
     }
@@ -346,14 +349,14 @@ header {
         padding-left: 5%;
     }
 
-    .language-selector-mobile{
+    .language-selector-mobile {
         padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
     }
 
-    .language-selector-mobile select{
+    .language-selector-mobile select {
         width: 100%;
         height: 100%;
     }
@@ -364,7 +367,8 @@ header {
 
     .mobile-navbar {
         opacity: 0.6;
-        transition: opacity 0.6s ease 0s; opacity: 0;
+        transition: opacity 0.6s ease 0s;
+        opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -381,7 +385,7 @@ header {
 
     .logo {
         padding-top: 0.5%;
-    
+
     }
 
 }
@@ -444,25 +448,28 @@ header {
         padding-left: 5%;
     }
 
-    .language-selector-mobile{
+    .language-selector-mobile {
         padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
     }
 
-    .language-selector-mobile select{
+    .language-selector-mobile select {
         width: 100%;
         height: 100%;
     }
 
     .btn {
         padding-bottom: 7.4%;
-    };
+    }
+
+    ;
 
     .mobile-navbar {
         opacity: 0.6;
-        transition: opacity 0.6s ease 0s; opacity: 0;
+        transition: opacity 0.6s ease 0s;
+        opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -482,7 +489,7 @@ header {
     }
 
 }
-    
+
 
 /*#endregion MOBILE HEADER */
 
@@ -505,7 +512,7 @@ header {
 
 .our-med-services h1 {
     color: #5b9ad5;
-    font: 300 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 300 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 4em;
     margin-bottom: 2;
 }
@@ -568,7 +575,7 @@ header {
     color: #393e46;
     padding-top: 3%;
     letter-spacing: 0.5px;
-    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .service-content p {
@@ -613,6 +620,38 @@ header {
     scrollbar-width: none;
     scroll-behavior: smooth;
     border-radius: 50px;
+}
+
+#preview-container {
+    display: none;
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+#preview {
+    object-fit: contain;
+    max-width: 70%;
+    max-height: 70%;
+    opacity: 100%;
+}
+
+#exit-preview{
+    position: fixed;
+    z-index: 501;
+    top: 10%;
+    right: 20%;
+    width: 5vh;
+    height: 5vh;
+    background-color: var(--blue);
+    border-radius: 50%;
+    border: none;
 }
 
 .prev {
@@ -695,7 +734,7 @@ header {
 
 .contact-line p {
     color: #fff;
-    font: 300 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 300 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .hand {
@@ -712,7 +751,7 @@ header {
     color: #5b9ad5;
     cursor: pointer;
     display: inline-block;
-    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 18px;
     line-height: normal;
     margin: 0;
@@ -748,10 +787,10 @@ header {
 }
 
 .packages {
-    background: #E1F2FB; 
-    font: 400 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
-    color: #333; 
-    text-align: center; 
+    background: #E1F2FB;
+    font: 400 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    color: #333;
+    text-align: center;
     padding: 4em 2em;
 }
 
@@ -786,8 +825,9 @@ table {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-  
-th,td {
+
+th,
+td {
     font-family: inherit;
     font-size: 0.875em;
     line-height: 1.45;
@@ -805,7 +845,7 @@ td img {
 th {
     font-weight: 500;
 }
-  
+
 colgroup:nth-child(1) {
     width: 30%;
     border: 0 none;
@@ -857,11 +897,11 @@ thead th h2 {
     color: #5b9ad5;
 }
 
-thead th h2 + p {
+thead th h2+p {
     font-size: 1.25em;
     line-height: 1.4;
 }
- 
+
 thead th:nth-child(3) h2 {
     font-size: 2.4m;
     margin-top: 1.5em;
@@ -880,7 +920,7 @@ thead th p.promo {
     background: #5b9ad5;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
     border-bottom: 1px solid #41506b;
-} 
+}
 
 thead th p.promo:before {
     content: "";
@@ -907,9 +947,9 @@ thead th p.promo:after {
     bottom: -7px;
     right: 0;
 }
-  
-  /* Tablebody */
-  
+
+/* Tablebody */
+
 tbody th {
     background: #fff;
     border-left: 1px solid #ccc;
@@ -921,12 +961,12 @@ tbody th span {
     color: #999;
     display: block;
 }
-  
+
 tbody td {
     background: #fff;
     text-align: center;
 }
-  
+
 tbody tr:nth-child(even) th,
 tbody tr:nth-child(even) td {
     background: #f5f5f5;
@@ -956,7 +996,7 @@ tbody tr:last-child td {
 .treatment-plan h2 {
     margin: 0;
     color: #5b9ad5;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 28px;
 }
 
@@ -965,7 +1005,7 @@ tbody tr:last-child td {
     padding-left: 30%;
     padding-right: 30%;
     line-height: 1.2;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     letter-spacing: 0.5px;
 }
@@ -1000,7 +1040,7 @@ tbody tr:last-child td {
 .step h4 {
     margin-bottom: 0;
     color: #393e46;
-    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
 }
 
@@ -1049,7 +1089,7 @@ tbody tr:last-child td {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .service img {
         width: 30%;
         height: 30%;
@@ -1085,16 +1125,20 @@ tbody tr:last-child td {
     }
 
     td img {
-        width: 50px; /* Adjust image size for mobile */
-        height: 50px; /* Adjust image size for mobile */
+        width: 50px;
+        /* Adjust image size for mobile */
+        height: 50px;
+        /* Adjust image size for mobile */
     }
 
     table {
-        margin-top: 1em; /* Reduce top margin for smaller screens */
+        margin-top: 1em;
+        /* Reduce top margin for smaller screens */
     }
 
     thead th {
-        padding: 1em 0; /* Adjust header cell padding for smaller screens */
+        padding: 1em 0;
+        /* Adjust header cell padding for smaller screens */
     }
 
     thead th h2 {
@@ -1102,21 +1146,30 @@ tbody tr:last-child td {
     }
 
     tbody th span {
-        font-size: 80%; /* Reduce font size for smaller screens */
+        font-size: 80%;
+        /* Reduce font size for smaller screens */
     }
 
     tbody td {
-        padding: 0.5em; /* Adjust cell padding for smaller screens */
+        padding: 0.5em;
+        /* Adjust cell padding for smaller screens */
     }
 
     thead th p.promo {
-        position: relative; /* Change position to relative */
-        top: 0; /* Reset top position */
-        padding: 1.20em; /* Adjust padding for smaller screens */
-        margin: 0; /* Reset margin */
-        background: #5b9ad5; /* Add background color */
-        color: #fff; /* Set text color to white */
-        text-align: center; /* Center align text */
+        position: relative;
+        /* Change position to relative */
+        top: 0;
+        /* Reset top position */
+        padding: 1.20em;
+        /* Adjust padding for smaller screens */
+        margin: 0;
+        /* Reset margin */
+        background: #5b9ad5;
+        /* Add background color */
+        color: #fff;
+        /* Set text color to white */
+        text-align: center;
+        /* Center align text */
     }
 
     .treatment-plan-cards {
@@ -1174,7 +1227,7 @@ tbody tr:last-child td {
     .service hr {
         margin-top: 8%;
     }
-    
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
@@ -1182,13 +1235,13 @@ tbody tr:last-child td {
     .our-med-services {
         padding-top: 15%;
     }
-        
+
     .service {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
     }
-        
+
     .service img {
         width: 25%;
         height: 25%;
@@ -1201,27 +1254,27 @@ tbody tr:last-child td {
         width: 50px;
         height: 50px;
     }
-    
+
     .treatment-plan-cards {
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
     }
-    
+
     .step {
         width: 50%;
         height: auto;
         margin-bottom: 5%;
         margin-left: 5%;
     }
-    
+
     .treatment-plan p {
         padding-left: 15%;
         padding-right: 15%;
         word-spacing: 1px;
         line-height: 1.5;
     }
-    
+
     .contact-line {
         position: relative;
         top: 5%;
@@ -1244,11 +1297,11 @@ tbody tr:last-child td {
         margin-left: 2%;
         padding-right: 2%;
     }
-    
+
     .prev {
         display: none;
     }
-    
+
     .next {
         display: none;
     }
@@ -1276,7 +1329,7 @@ tbody tr:last-child td {
         height: 40%;
         padding-top: 10%;
     }
-        
+
     .treatment-plan p {
         padding-left: 5%;
         padding-right: 5%;
@@ -1284,7 +1337,7 @@ tbody tr:last-child td {
         word-spacing: 2px;
         line-height: 1.5;
     }
-        
+
     .contact-line {
         position: relative;
         top: 5%;
@@ -1308,7 +1361,7 @@ tbody tr:last-child td {
 
     .next {
         display: none;
-    }   
+    }
 }
 
 /*#endregion MOBILE CONTENT*/
@@ -1474,7 +1527,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}   
+}
 
 .social-media-instagram {
     color: #fff;
@@ -1503,7 +1556,7 @@ footer {
     line-height: 1.5;
     text-decoration: none;
     display: block;
-    position: static; 
+    position: static;
 }
 
 .social-media-instagram:hover {
@@ -1537,57 +1590,72 @@ footer iframe {
 @media only screen and (max-width: 600px) {
 
     footer {
-        flex-direction: column; /* Change from row to column layout */
-        height: auto; /* Allow height to adjust based on content */
-        padding: 20px; /* Add some padding for better spacing */
-      }
-    
-      .contact-title-section,
-      .footer-social-media-section {
-        text-align: center; /* Center the titles */
-        margin-bottom: 20px; /* Add some space below the titles */
-      }
-    
-      .footer-contact-area,
-      .footer-social-media-content {
-        text-align: left; /* Align content to the left */
-      }
-    
-      .footer-social-media-content {
-        display: flex; /* Use flexbox for layout */
-        align-items: flex-start; /* Align items vertically */
+        flex-direction: column;
+        /* Change from row to column layout */
+        height: auto;
+        /* Allow height to adjust based on content */
+        padding: 20px;
+        /* Add some padding for better spacing */
+    }
+
+    .contact-title-section,
+    .footer-social-media-section {
+        text-align: center;
+        /* Center the titles */
+        margin-bottom: 20px;
+        /* Add some space below the titles */
+    }
+
+    .footer-contact-area,
+    .footer-social-media-content {
+        text-align: left;
+        /* Align content to the left */
+    }
+
+    .footer-social-media-content {
+        display: flex;
+        /* Use flexbox for layout */
+        align-items: flex-start;
+        /* Align items vertically */
         align-self: left;
-      }
-    
-      .address-section,
-      .address-section.mail-content,
-      .address-section-whatsapp-content,
-      .instagram-section,
-      .facebook-section {
-        margin-bottom: 20px; /* Add spacing between sections */
-        display: flex; /* Use flexbox for layout */
-        align-items: center; /* Align items vertically */
-      }
-    
-      .address-section img,
-      .footer-social-media.content img {
-        max-width: 30px; /* Limit the maximum width of images */
-        height: auto; /* Maintain aspect ratio */
-        margin-right: 10px; /* Add spacing between images and text */
-      }
-    
-      .footer-map-container {
-        height: 300px; /* Adjust the height of the map */
-      }
+    }
+
+    .address-section,
+    .address-section.mail-content,
+    .address-section-whatsapp-content,
+    .instagram-section,
+    .facebook-section {
+        margin-bottom: 20px;
+        /* Add spacing between sections */
+        display: flex;
+        /* Use flexbox for layout */
+        align-items: center;
+        /* Align items vertically */
+    }
+
+    .address-section img,
+    .footer-social-media.content img {
+        max-width: 30px;
+        /* Limit the maximum width of images */
+        height: auto;
+        /* Maintain aspect ratio */
+        margin-right: 10px;
+        /* Add spacing between images and text */
+    }
+
+    .footer-map-container {
+        height: 300px;
+        /* Adjust the height of the map */
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
 
     footer {
-        height:auto;
+        height: auto;
         padding: 20px;
     }
-    
+
     .contacts {
         display: flex;
         flex-direction: column;
@@ -1606,21 +1674,21 @@ footer iframe {
 @media only screen and (min-width: 835px) and (max-width: 1024px) {
 
     footer {
-        height:auto;
+        height: auto;
         padding-top: 3%;
         padding-bottom: 3%;
         padding-right: 1%;
         padding-left: 1%;
     }
-    
+
     .contacts {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    
+
     .contacts img {
-            padding-bottom: 3%;
+        padding-bottom: 3%;
     }
 
     .footer-map-container {
