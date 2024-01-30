@@ -5,11 +5,17 @@ var mobileNavbar;
 var dictionary;
 var currentLanguage;
 var languageBasedDictionary;
-var gallery;
+var gallery1;
+var gallery2;
 var previewContainer;
 var preview;
-var currentPreviewIndex = 0;
-var imageSources = [];
+var currentGallery;
+var currentPreviewIndex1 = 0;
+var currentPreviewIndex2 = 0;
+
+var imageSources1 = [];
+var imageSources2 = [];
+
 
 async function onload() {
     //await loadDictionary();
@@ -19,15 +25,24 @@ async function onload() {
     menuContainerMobile = document.querySelector('.menu-container-mobile');
     mobileNavbar = document.querySelector(".menu-container-mobile>nav");
 
-    // try parse gallery
-    gallery = document.getElementById("gallery-1");
+    // try parse gallery1
+    gallery1 = document.getElementById("gallery-1");
+    gallery2 = document.getElementById("gallery-2");
 
-    if(gallery){
+    if (gallery1) {
         previewContainer = document.getElementById("preview-container");
         preview = document.getElementById("preview");
 
-        for(let i of gallery.children){
-            imageSources.push(i.getAttribute("src"));
+        for (let i of gallery1.children) {
+            imageSources1.push(i.getAttribute("src"));
+        }
+    }
+
+    if (gallery2) {
+        previewContainer = document.getElementById("preview-container");
+        preview = document.getElementById("preview");
+        for (let i of gallery2.children) {
+            imageSources2.push(i.getAttribute("src"));
         }
     }
 }
@@ -66,40 +81,62 @@ function handleScroll(amount, t) {
     var gallerySlider = document.getElementById(`gallery-${target}`);
     var gallerySliderWidth = gallerySlider.offsetWidth;
     var galleryChildCount = gallerySlider.children.length;
-
     if (gallerySlider) {
         gallerySlider.scrollLeft += amount * 2 * (gallerySliderWidth / galleryChildCount);
     }
 }
 
-function galleryZoom(e){
+function galleryZoom(e) {
     var img = e.target.getAttribute("src");
-    currentPreviewIndex = imageSources.indexOf(img);
+    currentGallery = e.target.parentElement.id;
+    if (currentGallery === "gallery-1") {
+        currentPreviewIndex1 = imageSources1.indexOf(img);
+    }
+    else {
+        currentPreviewIndex2 = imageSources2.indexOf(img);
+    }
 
     previewContainer.style.display = "flex";
     setPreviewSource(img);
 }
 
-function setPreviewSource(i){
+function setPreviewSource(i) {
     preview.src = i;
 }
 
-function exitPreview(){
+function exitPreview() {
     preview.src = "";
     previewContainer.style.display = "none";
 }
 
-function prevPreview(e){
-    if(currentPreviewIndex > 0){
-        currentPreviewIndex--;
-        setPreviewSource(imageSources[currentPreviewIndex]);
+function prevPreview(e) {
+    if (currentGallery === "gallery-1") {
+        if (currentPreviewIndex1 > 0) {
+            currentPreviewIndex1--;
+            setPreviewSource(imageSources1[currentPreviewIndex1]);
+        }
     }
+    else {
+        if (currentPreviewIndex2 > 0) {
+            currentPreviewIndex2--;
+            setPreviewSource(imageSources2[currentPreviewIndex2]);
+        }
+    }
+
 }
 
-function nextPreview(e){
-    if(currentPreviewIndex < imageSources.length-1){
-        currentPreviewIndex++;
-        setPreviewSource(imageSources[currentPreviewIndex]);
+function nextPreview(e) {
+    if (currentGallery === "gallery-1") {
+        if (currentPreviewIndex1 < imageSources1.length - 1) {
+            currentPreviewIndex1++;
+            setPreviewSource(imageSources1[currentPreviewIndex1]);
+        }
+    }
+    else {
+        if (currentPreviewIndex2 < imageSources2.length - 1) {
+            currentPreviewIndex2++;
+            setPreviewSource(imageSources2[currentPreviewIndex2]);
+        }
     }
 }
 
@@ -129,21 +166,21 @@ async function setLanguage() {
     else {
         currentLanguage = cookie.split('=')[1];
     }
-    
+
     const languageBasedDictionary = dictionary.texts.map(({ id, [currentLanguage]: langText }) => ({ id, text: langText }));
 
     languageBasedDictionary.forEach(element => {
         let htmlElement = document.getElementById(element.id)
-        if(htmlElement){
+        if (htmlElement) {
             htmlElement.innerHTML = element.text;
         }
     });
 }
 
-async function populateSelections(){
+async function populateSelections() {
     var desktopSelect = document.querySelector(".language-selector select");
     var mobileSelect = document.querySelector(".language-selector-mobile select");
-    
+
     desktopSelect.innerHtml = "";
     mobileSelect.innerHTML = "";
 
@@ -164,7 +201,7 @@ async function populateSelections(){
     mobileSelect.value = currentLanguage;
 }
 
-async function handleLanguageSelector(event){
+async function handleLanguageSelector(event) {
     var changedSelect = event.target;
 
     document.cookie = "lang=" + changedSelect.value;
