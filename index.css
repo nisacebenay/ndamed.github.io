@@ -903,15 +903,15 @@ summary {
 .sum3 img {
     width: 45%;
     height: 45%;
-    margin-top: 3%;
+ 
 }
 
 .sum3 h4 {
     color: #393e46;
-    margin-bottom: 5%;
     font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
     font-size: 20px;
     letter-spacing: 0.5;
+    margin-top: 0;
     
 }
 
@@ -919,7 +919,7 @@ summary {
     border: 0.5px solid #5b9ad5;
     padding-left: 8%;
     padding-right: 8%;
-    margin-bottom: 0;
+    margin-bottom: 6%;
 }
 
 .sum3 p {
@@ -929,6 +929,8 @@ summary {
     word-wrap: break-word;
     font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
     font-size: 16px;
+    text-wrap: balance;
+    margin-top: 0;
 }
 
 .sum4 {
@@ -984,6 +986,10 @@ summary {
 
 @media only screen and (max-width: 600px) {
 
+    main {
+        padding-top: 10%;
+    }
+
     .special-services {
         flex-direction: column;
     }
@@ -1031,6 +1037,10 @@ summary {
         height: 300px;
         margin-bottom: 5%;
     
+    }
+
+    .sum3 p {
+        text-wrap: balance;
     }
 
     .contact-line {
