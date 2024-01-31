@@ -724,6 +724,14 @@ header {
       width: 100%;
     }
 
+    .contact-person h4 {
+        margin-bottom: 0;
+    }
+
+    .contact-person p {
+        margin: 3rem;
+    }
+
     .contact-area {
         width: auto;
         padding: 0.5rem;
