@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title id="text-45">Servislerimiz</title>
         <link rel="stylesheet" href="services.css">
-        <script src="services.js"></script>
+        <script src="index.js"></script>
     </head>
 
     <body onload="onload()">
@@ -15,32 +15,38 @@
                     <div class="contact-item">
                         <img src="icons-2/phone.svg">
                         <label for="phone"></label>
-                            <a href="tel:+90 506 112 24 93" class="phone">+90 506 112 24 93</a>
-                        </div>
-                        <div class="contact-item">
-                            <img src="icons-2/envelope.svg">
-                                <a href="mailto:ndacounselling@outlook.com">ndacounselling@outlook.com</a>
-                        </div>
+                        <a href="tel:+90 506 112 24 93" class="phone">+90 506 112 24 93</a>
+                    </div>
+                    <div class="contact-item">
+                        <img src="icons-2/envelope.svg">
+                            <a href="mailto:ndacounselling@outlook.com" class="mail">ndacounselling@outlook.com</a>
+                    </div>
                 </div>
                 <div class="social-icons">
-                    <img src="icons-2/whatsapp.svg">
-                    <img src="icons-2/facebook.svg">
-                    <img src="icons-2/instagram.svg">
+                    <a target="_blank" href="https://wa.me/+905061122493"><img src="icons-2/whatsapp.svg"></a>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100011155658706&mibextid=LQQJ4d"><img src="icons-2/facebook.svg"></a>
+                    <a target="_blank" href="https://www.instagram.com/ndamedhealthandbeauty"><img src="icons-2/instagram.svg"></a>
                 </div>
             </div>
             <div class="main-header">
                 <div class="logo">
-                    <img src="images/logo-s2.jpg">
+                    <img src="images/logo-header.png">
                 </div>
                 <div class="menu-container">
                     <nav class="navbar">
                         <ul>
-                            <li class="passive"><a href="index.html" id="text-46">Ana Sayfa</a></li>
-                            <li class="passive"><a href="about-us.html" id="text-47">Hakkımızda</a></li>
-                            <li class="active"><a href="services.html" id="text-48">Hizmetlerimiz</a></li>
+                            <li class="passive"><a href="index.html" id="text-2">Ana Sayfa</a></li>
+                            <li class="passive"><a href="about-us.html" id="text-3">Hakkımızda</a></li>
+                            <li class="active"><a href="services.html" id="text-4">Hizmetlerimiz</a></li>
+                            <li class="passive"><a href="contact-us.html" id="">İletişim</a></li>
                         </ul>
                     </nav>
+                    <div class="language-selector">
+                        <select onchange="handleLanguageSelector(event)">
+                        </select>
+                    </div>
                 </div>
+
                 <div class="menu-container-mobile off">
                     <input type="checkbox" id="hamburger-button">
                     <label class="btn" for="hamburger-button" onclick="handleHamburger()">
@@ -48,19 +54,23 @@
                     </label>
                     <nav class="mobile-navbar">
                         <ul>
-                            <li class="passive"><a href="index.html" id="text-49">Ana Sayfa</a></li>
-                            <li class="passive"><a href="about-us.html" id="text-50">Hakkımızda</a></li>
-                            <li class="active"><a href="services.html" class="active" id="text-51">Hizmetlerimiz</a></li>
+                            <li class="passive"><a href="index.html"  id="text-5">Ana Sayfa</a></li>
+                            <li class="passive"><a href="about-us.html" id="text-6">Hakkımızda</a></li>
+                            <li class="active"><a href="services.html" class="active" id="text-7">Hizmetlerimiz</a></li>
+                            <li class="passive"><a href="contact-us.html" id="">İletişim</a></li>
                         </ul>
+                        <div class="language-selector-mobile">
+                            <select onchange="handleLanguageSelector(event)">
+                            </select>
+                        </div>
                     </nav>
                 </div>
             </div>
         </header>
-
+        
         <div class="content">
             <div class="our-med-services">
                 <h1 id="text-52">Medikal Hizmetlerimiz</h1>
-                <hr>
                 <p id="text-53">Modern tıp teknolojileri ile tam donanımlı hastane, klinik ve muayenehanelerde güvenli bir sağlık hizmeti için buradayız.</p>
             </div>
 
@@ -69,15 +79,14 @@
                     <div class="service">
                         <img src="./images/implant.png" alt="">
                         <div class="service-content">
-                            <h3 id="text-54">Diş Estetiği</h3>
+                            <h3 id="text-54">Diş Estetiği - İmplant</h3>
                             <hr>
                             <br>
                             <p id="text-55">
-                                Diş implantı, diş eksikliği yaşayan bireylere kalıcı bir çözüm olarak sunulan bir cerrahi prosedürdür. Diş implantı, titanyumdan yapılmış bir vida şeklindeki implantın çene kemiğine yerleştirilmesi ve üzerine porselen bir diş protezinin takılmasıyla gerçekleştirilir. Bu işlem, kaybedilen dişlerin fonksiyonunu ve estetiğini geri kazandırmak amacıyla uygulanır.
-                            </p>  
-                            <br>  
+                                Diş estetiği, diş etindeki çekilme ve asimetrik bozuklukları düzelterek, dişler ve diş etinin olması gerektiği standartlarda ulaşmasını sağlayan, yontulmuş, yıpranmış, renksiz, yanlış hizalanmış, kırılmış veya lekeli dişlerin düzenlenmesini sağlayarak size bir gülümseme makyajı sağlayan bir diş hekimliği uygulamasıdır.
+                            </p>   
                             <p id="text-56">
-                                Diş implantı işlemi genellikle başarılı ve kalıcı bir çözüm sunar. Ancak her cerrahi müdahalede olduğu gibi bazı riskleri de içerir. Enfeksiyon, implantın reddedilmesi, çene kemiğinde hasar gibi durumlar bu riskler arasında yer alabilir.
+                                İmplant, diş kaybının olduğu bölgelerde çene kemiği içerisine yerleştirilen diş kökünü taklit eden materyallerdir. Günümüz diş hekimliği uygulamalarında hastaların kaybettikleri estetik, fonksiyon ve fonasyonun tedavisinde öncelikli olarak implant destekli restorasyonlar kullanılmaktadırlar.
                             </p>
                         </div>
 
@@ -86,16 +95,22 @@
                     <div class="slider-container">
                         <button id="prev-1" class="prev" onclick="prevSlide(event)">❮</button>
                         <div id="gallery-1" class="slider">
-                            <img src="medicaljpeg/teeth-implant/image1.jpg" alt="Image 1">
-                            <img src="medicaljpeg/teeth-implant/image2.jpg" alt="Image 2">
-                            <img src="medicaljpeg/teeth-implant/image3.jpg" alt="Image 3">
-                            <img src="medicaljpeg/teeth-implant/image4.jpg" alt="Image 4">
-                            <img src="medicaljpeg/teeth-implant/image5.jpg" alt="Image 5">
-                            <img src="medicaljpeg/teeth-implant/image6.jpg" alt="Image 6">
-                            <img src="medicaljpeg/teeth-implant/image7.jpg" alt="Image 7">
-                            <img src="medicaljpeg/teeth-implant/image8.jpg" alt="Image 8">
+                            <img src="medicaljpeg/teeth-implant/image1.jpg" onclick="galleryZoom(event)" alt="Image 1">
+                            <img src="medicaljpeg/teeth-implant/image2.jpg" onclick="galleryZoom(event)" alt="Image 2">
+                            <img src="medicaljpeg/teeth-implant/image3.jpg" onclick="galleryZoom(event)" alt="Image 3">
+                            <img src="medicaljpeg/teeth-implant/image4.jpg" onclick="galleryZoom(event)" alt="Image 4">
+                            <img src="medicaljpeg/teeth-implant/image5.jpg" onclick="galleryZoom(event)" alt="Image 5">
+                            <img src="medicaljpeg/teeth-implant/image6.jpg" onclick="galleryZoom(event)" alt="Image 6">
+                            <img src="medicaljpeg/teeth-implant/image7.jpg" onclick="galleryZoom(event)" alt="Image 7">
+                            <img src="medicaljpeg/teeth-implant/image8.jpg" onclick="galleryZoom(event)" alt="Image 8">
                         </div>
                         <button id="next-1" class="next" onclick="nextSlide(event)">❯</button>
+                        <div id="preview-container">
+                            <button id="prev-2" onclick="prevPreview(event)">❮</button>
+                            <button id="exit-preview" onclick="exitPreview()">X</button>
+                            <img id="preview">
+                            <button id="next-2" onclick="nextPreview(event)">❯</button>
+                        </div>
                     </div>
                     
                     <div class="service">
@@ -107,43 +122,150 @@
                             <p id="text-58">
                                 Saç ekimi, saç kaybı yaşayan bireyler için kalıcı bir çözüm olarak kabul edilen cerrahi bir işlemdir. Saç ekimi genellikle androgenetik alopesi (erkek tipi kellik) veya diğer nedenlerden dolayı saç kaybı yaşayan kişilere uygulanır. Bu işlem, saç köklerinin alındığı donör bölgeden (genellikle arka baş ve yanlardaki alanlardan) alınan saç köklerinin, kellik yaşanan bölgelere (genellikle alın, şakaklar veya tepe bölgesi) nakledilmesini içerir. <br>
                             </p>
-                            <br>
                             <p id="text-59">
-                                Saç ekimi işlemi genellikle güvenli bir prosedür olsa da, her cerrahi müdahalede olduğu gibi bazı riskleri de içerir. Bu riskler arasında enfeksiyon, kanama, saç köklerinin başarısız olması gibi durumlar yer alabilir. Bu nedenle, saç ekimi işlemi öncesinde detaylı bir değerlendirme ve danışma süreci gereklidir.
+                                Amaç; baş bölgesinde ekim yapıldığı belli olmayacak doğallıkta, kalıcı bir şekilde saçlı görünüm kazandırmaktır. Saç ekimi uygulaması ile kişiye kendi saçları hiç dökülmemiş gibi kalıcı olarak kazandırılmaktadır. Saç ekiminde amacımız; kişiye modern tıbbi uygulamalarla konforlu bir şekilde doğal saçlı görünümü tekrar sağlamaktır. Hangi yöntemin tercih edileceğine saç ve kafa deri analizi sonrası kişinin de öncelikleri göz önünde tutularak birlikte karar verilmektedir.
                             </p>
                         </div>
                     </div>
 
                     <div class="slider-container">
-                        <button id="prev-2" class="prev" onclick="prevSlide(event)">❮</button>
+                        <button id="prev-1" class="prev" onclick="prevSlide(event)">❮</button>
                         <div id="gallery-2" class="slider">
-                            <img src="medicaljpeg/hair-transplant/image1.jpg" alt="Image 1">
-                            <img src="medicaljpeg/hair-transplant/image2.jpg" alt="Image 2">
-                            <img src="medicaljpeg/hair-transplant/image3.jpg" alt="Image 3">
-                            <img src="medicaljpeg/hair-transplant/image4.jpg" alt="Image 4">
-                            <img src="medicaljpeg/hair-transplant/image5.jpg" alt="Image 5">
-                            <img src="medicaljpeg/hair-transplant/image6.jpg" alt="Image 6">
-                            <img src="medicaljpeg/hair-transplant/image7.jpg" alt="Image 7">
-                            <img src="medicaljpeg/hair-transplant/image8.jpg" alt="Image 8">
+                            <img src="medicaljpeg/hair-transplant/image1.jpg" onclick="galleryZoom(event)" alt="Image 1">
+                            <img src="medicaljpeg/hair-transplant/image2.jpg" onclick="galleryZoom(event)" alt="Image 2">
+                            <img src="medicaljpeg/hair-transplant/image3.jpg" onclick="galleryZoom(event)" alt="Image 3">
+                            <img src="medicaljpeg/hair-transplant/image4.jpg" onclick="galleryZoom(event)" alt="Image 4">
+                            <img src="medicaljpeg/hair-transplant/image5.jpg" onclick="galleryZoom(event)" alt="Image 5">
+                            <img src="medicaljpeg/hair-transplant/image6.jpg" onclick="galleryZoom(event)" alt="Image 6">
+                            <img src="medicaljpeg/hair-transplant/image7.jpg" onclick="galleryZoom(event)" alt="Image 7">
+                            <img src="medicaljpeg/hair-transplant/image8.jpg" onclick="galleryZoom(event)" alt="Image 8">
                         </div>
-                        <button id="next-2" class="next" onclick="nextSlide(event)">❯</button>
+                        <button id="next-1" class="next" onclick="nextSlide(event)">❯</button>
+                        <div id="preview-container">
+                            <button id="prev-2" onclick="prevPreview(event)">❮</button>
+                            <button id="exit-preview" onclick="exitPreview()">X</button>
+                            <img id="preview">
+                            <button id="next-2" onclick="nextPreview(event)">❯</button>
+                        </div>
                     </div>
-
                 </div>
-
             </div>
-
 
             <div class="contact-line">
                 <img src="./icons/hand-holding-heart-solid.svg" alt="" class="hand">
-                <p id="text-60">Talep ettiğiniz hizmet listede yer almıyor mu? Hemen bize ulaşın ve bilgi alın!</p>
+                <p id="text-60">Talep ettiğiniz hizmet listede yer almıyor mu? Bize ulaşın ve bilgi alın!</p>
                 <button class="contact-button" role="button" onclick="window.location.href='mailto:ndacounselling@outlook.com';" id="text-61">Bize Ulaşın</button>
+            </div>
+            
+            <div class="packages">
+                <div class="packages-title">
+                    <h1>Hizmet Paketlerimiz</h1>
+                    <p>Yolculuğunuzdaki bütün detayları düşünüyoruz, ihtiyaç ve isteklerinize göre seçenekler sunuyoruz.</p>
+                </div>
+                    <table>
+                        <colgroup></colgroup>
+                        <colgroup></colgroup>
+                        <colgroup></colgroup>
+                        <colgroup></colgroup>
+                        <thead>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>
+                                    <h2>Normal Paket</h2>
+                                </th>
+                                <th>
+                                    <h2>Üst Paket</h2>
+
+                                </th>
+                                <th>
+                                    <h2>Premium Paket</h2>
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th>İşlem öncesi bilgilendirme<span>- Talep ettiğiniz işlemle ilgili bilmeniz gereken herşeyi bu aşamada
+                                    tarafınıza iletiyoruz.</span></th>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <th>İşlem için gerekli tüm destekler<span> <strong style="color: #393e46;">- Transfer: </strong> Sürecin başında ülkemize geldiğinizde sizi havaalanından
+                                    alma ve süreç bitiminde tekrar havaalanına bırakma, otele ulaşım ve otelden alım hizmeti <br>
+                                    <strong style="color: #393e46;">- Otel: </strong> İşlem süreniz ve taleplerinize göre uygun bir otelde ağırlama</span></th>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <th>Yapılacak işlem<span>- saç ekimi, diş estetiği, implant, ...</span></th>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <th>İşlem sonrası gerrekli tüm ilaçlar <span>- İşlem tipine göre değişkenlik gösterir, daha fazla bilgi için iletişime geçiniz.</span></th>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <th>İşlem sonrası kontrol ve bakımlar<span>- İşlem tipine göre değişkenlik gösterir, daha fazla bilgi için iletişime geçiniz.</span></th>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <th>İşlem sonrası bir yıl boyunca iletişim desteği *<span>- İşlem sonrası sormak istediklerinizi uzman desteğiyle cevaplıyoruz.</span></th>
+                                <td><img src="./icons-2/circle-xmark-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <th>Bir yıl boyunca gerekli durumda işlem, transfer ve konaklama hizmeti * 
+                                    <span>- Bir yıl boyunca işlemle alakalı oluşabilecek yan etki(ler) ve/veya
+                                    yaşanan zorluklar için tekrar ülkemize gelerek ek işlem yaptırma imkanı
+                                    (bunu bir ek sigorta gibi de düşünebilirsiniz, sağlık sigortanızın yanı
+                                    sıra, yaptırdığınız işlemden sonra kullanıma bağlı oluşan ve küçük bir
+                                    ek işlem gerektiren durumlarda verilen ekstra hizmet)</span>
+                                </th>
+                                <td><img src="./icons-2/circle-xmark-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                            </tr>
+                                <tr>
+                                    <th>Talebiniz üzerine ek destekler <span>- Transfer, otel ve işlem ile <strong style="text-decoration: underline; color: #393e46;">ilgisi olmayan</strong> ama sizin için önem
+                                        arzeden tüm hizmetler (kişisel ihtiyaç, kuaför, kozmetik hizmeti,
+                                        alışveriş ihtiyacı, konsolosluk desteği gibi durumlarda yanınızda
+                                        bulunma, vb.)</span>
+                                    </th>
+                                    <td><img src="./icons-2/circle-xmark-regular.svg" alt=""></td>
+                                    <td><img src="./icons-2/circle-xmark-regular.svg" alt=""></td>
+                                    <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <th>Üst pakette yer alan tüm hizmetleri daha üst seviyeye taşıyoruz: <br>
+                                        Örnekler: <span>- Daha geniş ve daha konforlu havaalanı transfer aracı (isteğe göre
+                                        özel bir araç veya marka) <br>
+                                        - Daha lüks otel (isteğe göre belli bir otel zinciri) <br>
+                                        - İsteğe göre bir cerrah veya diş hekimi (sosyal medyada rastladığınız
+                                        ve hizmet almak istediğiniz kişiyle irtibata geçip size en özel fiyatı
+                                        garanti ediyoruz)</span>
+                                    </th>
+                                    <td><img src="./icons-2/circle-xmark-regular.svg" alt=""></td>
+                                    <td><img src="./icons-2/circle-xmark-regular.svg" alt=""></td>
+                                    <td><img src="./icons-2/circle-check-regular.svg" alt=""></td>
+                                </tr>
+                        </tbody>
+                    </table>
             </div>
 
             <div class="treatment-plan">
                 <h5 id= text-62>Kısaca</h5>
                 <h2 id="text-63">Süreç nasıl işliyor?</h2>
-                <hr>
+                
                 <p id="text-64">Tıbbi seyahat planınızdaki yapılması gereken bütün işlemlerin pürüzsüz bir şekilde halledilmesi için basit ve mantıklı bir yaklaşım ele alıyoruz. Güvenliğiniz ve rahatlığınız bizim için en az sağlığınız kadar önemlidir.</p>
             </div>
 
@@ -178,28 +300,47 @@
         </div>
 
         <footer>
-            <div class="footer-img-container">
-                <img src="images-2/logo-footer.jpg"/>
-            </div>
-            <div class="footer-contact-container">
-                <div>
-                    <h2 id="text-73">İletişim</h2>
-                    <hr>
+            <div class="contact-content">
+                <div class="contact-title-section">
+                    <img src="./icons-2/heart-pulse-solid.svg" class="contact-heartbeat">
+                    <h2 class="contact-title">İletişim</h2>
                 </div>
-                <div class="contacts">
-                    <img src="icons-2/phone-footer.svg"><a href="tel:+90 506 112 24 93" class="phone">+90 506 112 24 93</a>
-                    <br>
-                    <img src="icons-2/envelope-footer.svg"><a href="mailto:ndacounselling@outlook.com" class="mail">ndacounselling@outlook.com</a>
-                </div>
-                    <div>
-                        <h2 id="text-74">Sosyal Medya</h2>
-                        <hr>
+                <div class="footer-contact-area">
+                    <div class="address-section">
+                        <img src="./icons-2/location-dot-solid.svg" class="intro-image">
+                        <div class="address-text">Kırkkonaklar Mahallesi, 450. Cadde, <br> 381. sokak no 7/4</div>
                     </div>
-                <div class="contact-social">
-                    <img src="icons/whatsapp-2.jpg" >
-                    <img src="icons/instagram-2.jpg" >
-                    <img src="icons/facebook-2.jpg" >
+                    <div class="address-section mail-content">
+                        <img src="./icons-2/envelope-solid.svg" class="intro-image">
+                        <a href="mailto:support@doctorate.com" class="address-text footer-link">ndacounselling@outlook.com</a>
+                    </div>
+                    <div class="address-section-whatsapp-content">
+                        <img src="./icons-2/whatsapp-footer.svg" class="social-image">
+                        <a href="https://wa.me/+905061122493" class="whatsapp-number-text">+90 506 112 24 93</a>
+                    </div>
                 </div>
+            </div>
+    
+            <div class="footer-social-media">
+                <div class="footer-social-media-section">
+                    <img src="./icons-2/heart-pulse-solid.svg" class="explore-heartbeat">
+                    <h2 class="footer-social-title">Sosyal Medya</h2>
+                </div>
+                <div class="footer-social-media-text">
+                    <p>Bize sosyal medya hesaplarımızdan <br> da ulaşabilirsiniz. </p>
+                </div>
+                <div class="footer-social-media-content">
+                    <div class="instagram-section">
+                        <img src="./icons-2/instagram-footer.svg" class="social-image">
+                        <a href="http://www.instagram.com/ndamedhealthandbeauty" class="social-media-instagram">ndamedhealthandbeauty</a>
+                    </div>
+                    <div class="facebook-section">
+                        <img src="./icons-2/facebook-footer.svg" class="social-image">
+                        <a href="https://www.facebook.com/profile.php?id=100011155658706&mibextid=LQQJ4d" class="social-media-facebook">NDA Med</a>
+    
+                    </div>
+                </div>
+    
             </div>
             <div class="footer-map-container">
                 <iframe src="https://www.google.com/maps/embed/v1/place?q=+Kirkkonaklar+Mahallesi,+450.+Cadde,+381.+sokak+no+7/4&amp;key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>

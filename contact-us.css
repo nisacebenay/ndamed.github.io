@@ -187,10 +187,15 @@ header {
     align-self: center;
 }
 
+/*#HEADER END */
 
-/*#region Mobile Header */
+/*# MOBILE HEADER */
 
 @media only screen and (max-width: 600px) {
+
+    header {
+        height: 15%;
+    }
 
     .contact-banner {
         display: none;
@@ -279,13 +284,17 @@ header {
     }
 
     .logo {
-        padding-top: 4%;
+        padding-top: 7%;
     }
 
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
     
+    header {
+        height: 15%;
+    }
+
     .contact-banner {
         display: none;
     }
@@ -373,7 +382,7 @@ header {
     }
 
     .logo {
-        padding-top: 4%;
+        padding-top: 5%;
     
     }
 
@@ -381,6 +390,10 @@ header {
 }
 
 @media only screen and (min-width: 835px) and (max-width: 1200px) {
+
+    header {
+        height: 15%;
+    }
 
     .contact-banner {
         display: none;
@@ -468,401 +481,305 @@ header {
     }
 
     .logo {
-        padding-top: 4%;
+        padding-top: 5%;
     }
 
 }
-    
 
-/*#endregion MOBILE HEADER */
+/*#region MAIN */
 
-/*#endregion HEADER */
-
-/*#region ABOUT US */
-
-.about-part {
-    position: relative;
-    top: 10%;
-    display: flex;
-    background-color: #E1F2FB;
-    padding-bottom: 5%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.about-us-text {
-    padding-top: 5%;
-    flex: 1;
-    padding-bottom: 3%;
-}
-
-.about-us-text h4 {
-    padding-left: 5%;
-    color: #393e46;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 0%;
-}
-
-.about-us-text h2 {
-    padding-left: 5%;
-    color: #5b9ad5;
-    font: 400 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
-    font-weight: 400;
-    font-size: 2em;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    word-spacing: 5px;
-}
-
-.about-us-text hr {
-    margin-left: 5%;
-    margin-right: 80%;
-    border: 1px solid #5b9ad5;
-    margin-bottom: 5%;
-}
-
-.about-us-text p {
-    padding-left: 5%;
-    word-spacing: 5px;
-    line-height: 1.5;
-    color: #393e46;
-    word-wrap: break-word;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-}
-
-.about-us-text ul {
-    padding-left: 8%;
-    margin: 0;
-}
-
-li {
-    color: #393e46;
-    margin: 0;
-}
-
-.about-us-pics {
-    float: right;
-    flex-direction: column;
-    flex: 1 1;
-    align-items: center;
-    padding-top: 8%;
-    padding-right: 3%;
-    padding-bottom: 10%;
-}
-
-.img1 {
-    width: 22%;
-    height: auto;
-    border-radius: 10%;
-    float: right;
-    position: absolute;
-    right: 20%;
-    top: 15%;
-}
-
-.img2 {
-    width: 45%;
-    height: auto;
-    border-radius: 10%;
-    float: right;
-    right: 5%;
-    position: relative;
-    top: 50%;
-    border: 8px solid #e0f4f7;
-}
-
-.about-us-pics-mobile {
-    display: none;
-}
-
-.contact-line {
-    position: relative;
-    background-color: #41506b;
+.main {
+    margin-top: 18%;
+    padding: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    height: 25%;
-    padding-right: 5%;
-    padding-left: 5%;
+    justify-content: center;
+    height: 82%;
 }
 
-.ndamed-contact {
-    border-radius: 50%;
-    width: 13%;
-    height: 80%;
-}
-
-.contact-line p {
-    color: #fff;
-    font: 300 1.1em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
-    padding-left: 3%;
-    padding-right: 3%;
-    letter-spacing: 0.2px;
-    line-height: 1.8;
-}
-
-.contact-button {
-    appearance: none;
-    background-color: transparent;
-    border: 1px solid #5b9ad5;
-    border-radius: 15px;
-    box-sizing: border-box;
-    color: #5b9ad5;
-    cursor: pointer;
-    display: inline-block;
-    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
-    font-size: 18px;
-    line-height: normal;
-    margin: 0;
-    min-height: 60px;
-    width: 35%;
-    outline: none;
-    text-align: center;
-    text-decoration: none;
-    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
-
-.contact-button:disabled {
-    pointer-events: none;
-}
-
-.contact-button:hover {
-    color: #fff;
-    background-color: #5b9ad5;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-    transform: translateY(-2px);
-}
-
-.contact-button:active {
-    box-shadow: none;
-    transform: translateY(0);
-}
-
-.about-part2 {
+.contact-box {
     display: flex;
-    padding-top: 3%;
-    background-color: #E1F2FB;
+    flex-direction: row;
+    width: 90%;
+    height: 50%;
+    background-color: var(--white);
+    border-radius: 25px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact-person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.contact-person img {
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.contact-person h4 {
+    margin: 2rem;
+    font: 400 2em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    color: var(--blue);
+}
+
+.contact-person p {
+    margin: 5rem;
+    margin-top: 0;
+    font: 300 1.3em/2 "Open Sans", "Helvetica Neue", sans-serif;
+    color: var(--dkblue);
+}
+
+.contact-area {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 50%;
+    background-color: #5b9ad5;
+}
+
+.contact-area h1 {
+    margin: 1rem;
+    font: 400 2em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    color: var(--dkblue);
+}
+
+.contact-area hr {
+    width: 30%;
+    margin: 1rem;
+    border: 0.5px solid var(--white);
+}
+
+.contact-area p {
+    margin: 1rem;
+    font: 300 1.3em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    color: var(--white);
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.contact-list img {
+    width: 3rem;
+    margin-right: 0.75rem;
+    vertical-align: middle;
+    background-color: var(--white);
+    border-radius: 50%;
+}
+
+.contact-list a {
+    color: var(--white);
+    text-decoration: none;
+    font: 300 1.3em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.contact-list a:hover {
+    color: var(--dkblue);
+    cursor: pointer;
+}
+
+.contact-address {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+
+.contact-address-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    color: var(--white);
+    font: 300 1.3em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     padding-bottom: 5%;
 }
 
-.about-ankara {
-    flex: 1;
-    padding-right: 3%;
-    padding-top: 5%;
+.contact-address img {
+    margin-top: 1rem;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.9rem;
 }
 
-.about-ankara h1 {
-    color: #5b9ad5;
-    font: 400 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
-    font-weight: 400;
-    font-size: 2em;
+.contact-email {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 6%;
 }
 
-.about-ankara hr {
-    margin-left: 0%;
-    margin-right: 85%;
-    margin-bottom: 5%;
-    border: 1px solid #5b9ad5;
-}
+.contact-email img {
+    width: 3rem;
+    height: 3rem;
+    vertical-align: middle;
+    background-color: var(--white);
+    border-radius: 50%;
+    margin-left: 0.8rem;
+}   
 
-.about-ankara p {
-    word-spacing: 5px;
-    line-height: 1.5;
-    color: #393e46;
-    word-wrap: break-word;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-}
-
-.about-ankara a {
-    color: #5b9ad5;
+.contact-email a {
+    color: var(--white);
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font: 300 1.3em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
 }
 
-.about-ankara-pics {
-    float: left;
-    flex-direction: column;
-    flex: 1 1;
-    align-items: center;
-    padding-left: 3%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+.contact-whatsapp {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 3%;
 }
 
-.img3 {
-    width: 23%;
-    height: auto;
-    border-radius: 10%;
-    position: absolute;
-    right: 55%;
+.contact-whatsapp img {
+    width: 3rem;
+    height: 3rem;
+    vertical-align: middle;
+    background-color: var(--white);
+    border-radius: 50%;
+    margin-left: 0.9rem;
 }
 
-.img4 {
-    width: 45%;
-    height: auto;
-    border-radius: 10%;
-    position: relative;
-    top: 45%;
-    left: 8%;
-    border: 8px solid #e0f4f7;
+.contact-whatsapp a {
+    color: var(--white);
+    text-decoration: none;
+    font: 300 1.3em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
 }
 
-/*#endregion ABOUT US */
+.contact-instagram {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
 
-/*#region ABOUT US MOBILE */
+.contact-instagram img {
+    width: 3rem;
+    height: 3rem;
+    vertical-align: middle;
+    background-color: var(--white);
+    border-radius: 50%;
+    margin-left: 1rem;
+}
 
+.contact-instagram a {
+    color: var(--white);
+    text-decoration: none;
+    font: 300 1.3em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.contact-facebook {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.contact-facebook img {
+    width: 3rem;
+    height: 3rem;
+    vertical-align: middle;
+    background-color: var(--white);
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.contact-facebook a {
+    color: var(--white);
+    text-decoration: none;
+    font: 300 1.3em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 0.5rem;
+    margin-left: 1.1rem;
+}
+
+/*#MAIN END */
+
+/*#region MOBILE MAIN */
+
+/* Small screens (phones) */
 @media only screen and (max-width: 600px) {
+
+    .main {
+        padding-top: 30%;
+    }
+    .contact-box {
+      flex-direction: column;
+      height: auto;
+    }
     
-    .about-part {
-        padding-top: 10%;
+    .contact-person {
+      width: 100%;
     }
 
-    .contact-line {
-        position: relative;
-        top: 8%;
-        height: 10%;
+    .contact-area {
+        width: 83%;
     }
-
-    .contact-button {
-        width: 40%;
-        margin-right: 0;
+    
+    .contact-person img {
+      width: 8rem; /* Adjust as needed */
+      margin-top: 5%;
     }
+  }
+  
+  /* Medium screens (tablets) */
+  @media only screen and (min-width: 600px) and (max-width: 834px) {
 
-    .hand {
-        padding-right: 4%;
-    }
-
-    .contact-line p {
-        font-size: medium;
-        word-wrap: break-word;
-        line-height: 1,2;
-    }
-
-    .about-part2 {
-        flex-direction: column;
-        padding-top: 15%;
-    }
-
-    .about-us-pics {
-        display: none;
-    }
-
-    .about-ankara-pics {
-        display: none;
-    }
-
-    .about-us-text p {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    .about-ankara {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-}
-
-@media only screen and (min-width: 600px) and (max-width: 834px) {
-
-    .about-part {
-        padding-top: 10%;
-        padding-right: 5%;
-    }
-
-    .about-us-pics {
-        display: none;
-    }
-
-    .contact-line {
-        position: relative;
-        top: 8%;
-        height: 15%;
-    }
-
-    .contact-button {
-        width: 30%;
-        margin-right: 0;
-    }
-
-    .hand {
-        width: 20%;
-        height: 50%;
-        margin-left: 0;
-        margin-right: 2%;
-    }
-
-    .about-ankara {
-        padding-top: 15%;
-        padding-left: 5%;
-    }
-
-    .about-ankara-pics {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 835px) and (max-width: 1024px) {
-
-    .about-part {
-        padding-top: 5%;
-        padding-right: 5%;
-    }
-
-    .about-us-pics {
-        padding-top: 15%;
-    }
-
-    .img1 {
-        bottom: 50%;
-    }
-
-    .img2 {
-        top: 60%;
-        right: 5%;
-    }
-
-    .contact-line {
-        position: relative;
-        top: 8%;
-        height: 15%;
-    }
-
-    .contact-button {
-        width: 30%;
-        margin-right: 0;
-    }
-
-    .hand {
-        width: 20%;
-        height: 60%;
-        margin-right: 5%;
-    }
-
-    .about-ankara {
-        margin-top: 5%;
-    }
-
-    .about-ankara-pics {
+    .main {
         padding-top: 20%;
     }
 
-    .img4 {
-        top: 60%;
-        height: 45%;
+    .contact-box {
+      flex-direction: column;
+      height: auto;
+    }
+    
+    .contact-person {
+      width: 100%;
     }
 
-}
+    .contact-person img {
+        width: 8rem; /* Adjust as needed */
+        margin-top: 5%;
+    }
 
-/*#endregion ABOUT US MOBILE */
+    .contact-area {
+        width: 90%;
+    }
+  }
+  
+  /* Large screens (desktops) */
+  @media only screen and (min-width: 835px) and (max-width: 1024px) {
+    .contact-box {
+      flex-direction: row;
+      height: 50%;
+    }
+    
+    .contact-person {
+      width: 50%;
+    }
+
+    .contact-person img {
+        width: 10rem; /* Adjust as needed */
+        margin-top: 5%;
+    }
+
+    .contact-area {
+        width: 50%;
+    }
+  }
+  
 
 /*#region FOOTER */
 
@@ -872,6 +789,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 5%;
 }
 
 .contact-title-section {
@@ -922,7 +840,6 @@ footer {
     text-decoration: none;
     display: block;
     position: static
-    
 }
 
 .address-section.mail-content {
@@ -1082,6 +999,8 @@ footer iframe {
     border-radius: 5%;
 }
 
+/*#FOOTER END */
+
 /*#region MOBILE FOOTER */
 
 @media only screen and (max-width: 600px) {
@@ -1169,12 +1088,6 @@ footer iframe {
         .contacts img {
             padding-bottom: 3%;
         }
-
-        .footer-map-container {
-            height: 100%;
-        }
+        
 }
 
-/*#endregion MOBILE FOOTER*/
-
-/*#endregion FOOTER*/
