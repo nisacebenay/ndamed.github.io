@@ -1156,6 +1156,7 @@ tbody tr:last-child td {
 
     .packages {
         padding: 3;
+        padding-top: 5%;
     }
 
     #exit-preview{
