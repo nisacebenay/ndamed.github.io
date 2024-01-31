@@ -78,15 +78,14 @@
                     <div class="service">
                         <img src="./images/implant.png" alt="">
                         <div class="service-content">
-                            <h3 id="text-54">Diş Estetiği</h3>
+                            <h3 id="text-54">Diş Estetiği - İmplant</h3>
                             <hr>
                             <br>
                             <p id="text-55">
-                                Diş implantı, diş eksikliği yaşayan bireylere kalıcı bir çözüm olarak sunulan bir cerrahi prosedürdür. Diş implantı, titanyumdan yapılmış bir vida şeklindeki implantın çene kemiğine yerleştirilmesi ve üzerine porselen bir diş protezinin takılmasıyla gerçekleştirilir. Bu işlem, kaybedilen dişlerin fonksiyonunu ve estetiğini geri kazandırmak amacıyla uygulanır.
-                            </p>  
-                            <br>  
+                                Diş estetiği, diş etindeki çekilme ve asimetrik bozuklukları düzelterek, dişler ve diş etinin olması gerektiği standartlarda ulaşmasını sağlayan, yontulmuş, yıpranmış, renksiz, yanlış hizalanmış, kırılmış veya lekeli dişlerin düzenlenmesini sağlayarak size bir gülümseme makyajı sağlayan bir diş hekimliği uygulamasıdır.
+                            </p>   
                             <p id="text-56">
-                                Diş implantı işlemi genellikle başarılı ve kalıcı bir çözüm sunar. Ancak her cerrahi müdahalede olduğu gibi bazı riskleri de içerir. Enfeksiyon, implantın reddedilmesi, çene kemiğinde hasar gibi durumlar bu riskler arasında yer alabilir.
+                                İmplant, diş kaybının olduğu bölgelerde çene kemiği içerisine yerleştirilen diş kökünü taklit eden materyallerdir. Günümüz diş hekimliği uygulamalarında hastaların kaybettikleri estetik, fonksiyon ve fonasyonun tedavisinde öncelikli olarak implant destekli restorasyonlar kullanılmaktadırlar.
                             </p>
                         </div>
 
@@ -122,15 +121,14 @@
                             <p id="text-58">
                                 Saç ekimi, saç kaybı yaşayan bireyler için kalıcı bir çözüm olarak kabul edilen cerrahi bir işlemdir. Saç ekimi genellikle androgenetik alopesi (erkek tipi kellik) veya diğer nedenlerden dolayı saç kaybı yaşayan kişilere uygulanır. Bu işlem, saç köklerinin alındığı donör bölgeden (genellikle arka baş ve yanlardaki alanlardan) alınan saç köklerinin, kellik yaşanan bölgelere (genellikle alın, şakaklar veya tepe bölgesi) nakledilmesini içerir. <br>
                             </p>
-                            <br>
                             <p id="text-59">
-                                Saç ekimi işlemi genellikle güvenli bir prosedür olsa da, her cerrahi müdahalede olduğu gibi bazı riskleri de içerir. Bu riskler arasında enfeksiyon, kanama, saç köklerinin başarısız olması gibi durumlar yer alabilir. Bu nedenle, saç ekimi işlemi öncesinde detaylı bir değerlendirme ve danışma süreci gereklidir.
+                                Amaç; baş bölgesinde ekim yapıldığı belli olmayacak doğallıkta, kalıcı bir şekilde saçlı görünüm kazandırmaktır. Saç ekimi uygulaması ile kişiye kendi saçları hiç dökülmemiş gibi kalıcı olarak kazandırılmaktadır. Saç ekiminde amacımız; kişiye modern tıbbi uygulamalarla konforlu bir şekilde doğal saçlı görünümü tekrar sağlamaktır. Hangi yöntemin tercih edileceğine saç ve kafa deri analizi sonrası kişinin de öncelikleri göz önünde tutularak birlikte karar verilmektedir.
                             </p>
                         </div>
                     </div>
 
                     <div class="slider-container">
-                        <button id="prev-2" class="prev" onclick="prevSlide(event)">❮</button>
+                        <button id="prev-1" class="prev" onclick="prevSlide(event)">❮</button>
                         <div id="gallery-2" class="slider">
                             <img src="medicaljpeg/hair-transplant/image1.jpg" onclick="galleryZoom(event)" alt="Image 1">
                             <img src="medicaljpeg/hair-transplant/image2.jpg" onclick="galleryZoom(event)" alt="Image 2">
@@ -141,7 +139,13 @@
                             <img src="medicaljpeg/hair-transplant/image7.jpg" onclick="galleryZoom(event)" alt="Image 7">
                             <img src="medicaljpeg/hair-transplant/image8.jpg" onclick="galleryZoom(event)" alt="Image 8">
                         </div>
-                        <button id="next-2" class="next" onclick="nextSlide(event)">❯</button>
+                        <button id="next-1" class="next" onclick="nextSlide(event)">❯</button>
+                        <div id="preview-container">
+                            <button id="prev-2" onclick="prevPreview(event)">❮</button>
+                            <button id="exit-preview" onclick="exitPreview()">X</button>
+                            <img id="preview">
+                            <button id="next-2" onclick="nextPreview(event)">❯</button>
+                        </div>
                     </div>
                 </div>
             </div>
