@@ -1084,7 +1084,7 @@ summary {
 
     .isqua-line {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         height: fit-content;
         margin-top: 3%;
         justify-content: center;

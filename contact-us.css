@@ -284,7 +284,7 @@ header {
     }
 
     .logo {
-        padding-top: 7%;
+        padding-top: 5%;
     }
 
 }
@@ -728,10 +728,38 @@ header {
         width: auto;
         padding: 0.5rem;
     }
+
+    .contact-address img {
+        margin-left: 0;
+    }
+
+    .contact-email img {
+        margin-left: 0;
+    }
+
+    .contact-whatsapp img {
+        margin-left: 0;
+    }
+
+    .contact-instagram img {
+        margin-left: 0;
+    }
+
+    .contact-facebook img {
+        margin-left: 0;
+    }
     
     .contact-person img {
       width: 8rem; /* Adjust as needed */
       margin-top: 5%;
+    }
+
+    .contact-address p {
+        font-size: 1em;
+    }
+
+    .contact-email a, .contact-whatsapp a, .contact-instagram a, .contact-facebook a {
+        font-size: 1em;
     }
   }
   

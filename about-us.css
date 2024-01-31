@@ -727,7 +727,7 @@ li {
 
     .contact-line {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         height: fit-content;
         margin-top: 10%;
         justify-content: center;
@@ -740,8 +740,9 @@ li {
     }
 
     .ndamed-contact {
-        width: 20%;
-        height: auto;
+        margin-top: 3%;
+        width: 150px;
+        height: 150px;
     }
 
     .contact-line p {
