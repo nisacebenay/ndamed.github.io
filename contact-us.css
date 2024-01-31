@@ -330,7 +330,7 @@ header {
     }
 
     .menu-container-mobile ul {
-        height: 30%;
+        height: 50%;
         list-style: none;
         margin: 0;
         padding: 0;
@@ -430,7 +430,7 @@ header {
     }
 
     .menu-container-mobile ul {
-        height: 30%;
+        height: 50%;
         list-style: none;
         margin: 0;
         padding: 0;
@@ -714,6 +714,7 @@ header {
     .main {
         padding-top: 30%;
     }
+
     .contact-box {
       flex-direction: column;
       height: auto;
@@ -724,7 +725,8 @@ header {
     }
 
     .contact-area {
-        width: 83%;
+        width: auto;
+        padding: 0.5rem;
     }
     
     .contact-person img {
