@@ -152,8 +152,9 @@ header {
     text-align: center;
     display: flex;
     text-wrap: nowrap;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .navbar a.passive {
@@ -506,7 +507,7 @@ header {
     flex-direction: column;
     text-align: center;
     background-color: #e1f2fb;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-bottom: 5%;
 }
 
@@ -514,13 +515,8 @@ header {
     color: #5b9ad5;
     font: 300 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 4em;
-    margin-bottom: 2;
-}
-
-.our-med-services hr {
-    border: 1px solid #5b9ad5;
-    padding-left: 25%;
-    padding-right: 25%;
+    margin-bottom: 0;
+    background-color: #e1f2fb;
 }
 
 .our-med-services p {
@@ -529,6 +525,9 @@ header {
     word-spacing: 2px;
     font-size: 18px;
     font-weight: 500;
+    margin-top: 0;
+    padding-bottom: 2%;
+    background-color: #E1F2FB;
 }
 
 .med-services {
@@ -583,9 +582,7 @@ header {
     padding-right: 5%;
     line-height: 1.5;
     letter-spacing: 0.2px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
+    font: 300 1.2em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     padding-bottom: 3%;
 }
 
