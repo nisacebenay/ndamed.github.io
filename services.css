@@ -221,11 +221,13 @@ header {
     }
 
     .on {
+        height: 100vh;
         width: 50%;
         background-color: rgba(241, 241, 241, 0.9);
     }
 
     .off {
+        height: 100%;
         width: 10%;
         background-color: transparent;
     }
@@ -318,11 +320,13 @@ header {
     }
 
     .on {
+        height: 100vh;;
         width: 40%;
         background-color: rgba(241, 241, 241, 0.5);
     }
 
     .off {
+        height: 100%;
         width: 10%;
         background-color: transparent;
     }
@@ -418,11 +422,13 @@ header {
     }
 
     .on {
+        height: 100vh;
         width: 40%;
         background-color: rgba(241, 241, 241, 0.5);
     }
 
     .off {
+        height: 10%;
         width: 10%;
         background-color: transparent;
     }
@@ -645,8 +651,8 @@ header {
 #exit-preview{
     position: fixed;
     z-index: 501;
-    top: 8%;
-    right: 20%;
+    top: 5%;
+    right: 15%;
     width: 10vh;
     height: 10vh;
     background-color: var(--blue);
@@ -655,36 +661,6 @@ header {
     opacity: 1;
     border: none;
     font-size: 25px;
-}
-
-#prev-2 {
-    height: 12vh;
-    width: 12vh;
-    border-radius: 50%;
-    background-color: var(--blue);
-    opacity: 1;
-    border: none;
-    font-size: 30px;
-    color: var(--white);
-}
-
-#next-2 {
-    height: 12vh;
-    width: 12vh;
-    border-radius: 50%;
-    background-color: var(--blue);
-    opacity: 1;
-    border: none;
-    font-size: 30px;
-    color: var(--white);
-}
-
-#prev-2:hover {
-    opacity: 1;
-}
-
-#next-2:hover {
-    opacity: 1;
 }
 
 .prev {
@@ -727,6 +703,29 @@ header {
 
 .next:hover {
     opacity: 1;
+}
+
+.prev-zoom {
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+    background-color: var(--blue);
+    opacity: 1;
+    border: none;
+    font-size: 30px;
+    color: var(--white);
+}
+
+.next-zoom {
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+    background-color: var(--blue);
+    opacity: 1;
+    border: none;
+    font-size: 30px;
+    color: var(--white);
+
 }
 
 .slider img {
@@ -1012,6 +1011,20 @@ tbody tr:last-child td {
     border-bottom: 0 none;
 }
 
+.packages-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-top: 1%;
+}
+
+.packages-details p {
+    margin: 0;
+    font: 400 0.8em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+
 .treatment-plan {
     display: flex;
     flex-direction: column;
@@ -1174,35 +1187,9 @@ tbody tr:last-child td {
         font-size: 25px;
     }
 
-    #prev-2 {
-        height: 6vh;
-        width: 6vh;
-        border-radius: 50%;
-        background-color: var(--blue);
-        opacity: 1;
-        border: none;
-        font-size: 25px;
-        color: var(--white);
-    }
     
-    #next-2 {
-        height: 6vh;
-        width: 6vh;
-        border-radius: 50%;
-        background-color: var(--blue);
-        opacity: 1;
-        border: none;
-        font-size: 25px;
-        color: var(--white);
-    }
     
-    #prev-2:hover {
-        opacity: 1;
-    }
     
-    #next-2:hover {
-        opacity: 1;
-    }
 
     td img {
         width: 50px;
@@ -1345,35 +1332,6 @@ tbody tr:last-child td {
         font-size: 30px;
     }
 
-    #prev-2 {
-        height: 8vh;
-        width: 8vh;
-        border-radius: 50%;
-        background-color: var(--blue);
-        opacity: 1;
-        border: none;
-        font-size: 30px;
-        color: var(--white);
-    }
-    
-    #next-2 {
-        height: 8vh;
-        width: 8vh;
-        border-radius: 50%;
-        background-color: var(--blue);
-        opacity: 1;
-        border: none;
-        font-size: 30px;
-        color: var(--white);
-    }
-    
-    #prev-2:hover {
-        opacity: 1;
-    }
-    
-    #next-2:hover {
-        opacity: 1;
-    }
 
     td img {
         width: 50px;
@@ -1451,36 +1409,6 @@ tbody tr:last-child td {
         opacity: 1;
         border: none;
         font-size: 25px;
-    }
-
-    #prev-2 {
-        height: 5vh;
-        width: 5vh;
-        border-radius: 50%;
-        background-color: var(--blue);
-        opacity: 1;
-        border: none;
-        font-size: 25px;
-        color: var(--white);
-    }
-    
-    #next-2 {
-        height: 5vh;
-        width: 5vh;
-        border-radius: 50%;
-        background-color: var(--blue);
-        opacity: 1;
-        border: none;
-        font-size: 25px;
-        color: var(--white);
-    }
-    
-    #prev-2:hover {
-        opacity: 1;
-    }
-    
-    #next-2:hover {
-        opacity: 1;
     }
 
     .treatment-plan-cards {

@@ -51,13 +51,14 @@ function handleHamburger() {
     if (!hamburgerMenuButton.checked) {
         menuContainerMobile.classList.remove("off");
         menuContainerMobile.classList.add("on");
-        mobileNavbar.style.transition = "opacity 0.6s"
+        mobileNavbar.style.transition = "opacity 0.3s"
         mobileNavbar.style.opacity = "1";
     } else {
         menuContainerMobile.classList.remove("on");
         menuContainerMobile.classList.add("off");
-        mobileNavbar.style.transition = "opacity 0.6s"
+        mobileNavbar.style.transition = "opacity 0.3s"
         mobileNavbar.style.opacity = "0";
+        menuContainerMobile.style.height = "10%";
     }
 }
 
@@ -76,7 +77,6 @@ function nextSlide(e) {
 
 function handleScroll(amount, t) {
     var target = t.id.split('-')[1];
-
 
     var gallerySlider = document.getElementById(`gallery-${target}`);
     var gallerySliderWidth = gallerySlider.offsetWidth;
