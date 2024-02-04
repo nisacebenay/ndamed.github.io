@@ -179,6 +179,7 @@ header {
     height: 50%;
     border-color: #5b9ad5;
     display: flex;
+    padding-left: 1%;
 }
 
 .language-selector select {
@@ -724,6 +725,8 @@ li {
     left: 8%;
     border: 8px solid #e0f4f7;
 }
+
+
 
 /*#endregion ABOUT US */
 

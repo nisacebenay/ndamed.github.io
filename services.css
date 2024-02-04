@@ -181,6 +181,7 @@ header {
     height: 50%;
     border-color: #5b9ad5;
     display: flex;
+    padding-left: 1%;
 }
 
 .language-selector select {
