@@ -106,10 +106,10 @@
                         </div>
                         <button id="next-1" class="next" onclick="nextSlide(event)">❯</button>
                         <div id="preview-container">
-                            <button id="prev-2" onclick="prevPreview(event)">❮</button>
+                            <button id="prev-2" class="prev-zoom" onclick="prevPreview(event)">❮</button>
                             <button id="exit-preview" onclick="exitPreview()">X</button>
                             <img id="preview">
-                            <button id="next-2" onclick="nextPreview(event)">❯</button>
+                            <button id="next-2" class="next-zoom" onclick="nextPreview(event)">❯</button>
                         </div>
                     </div>
                     
@@ -129,7 +129,7 @@
                     </div>
 
                     <div class="slider-container">
-                        <button id="prev-1" class="prev" onclick="prevSlide(event)">❮</button>
+                        <button id="prev-2" class="prev" onclick="prevSlide(event)">❮</button>
                         <div id="gallery-2" class="slider">
                             <img src="medicaljpeg/hair-transplant/image1.jpg" onclick="galleryZoom(event)" alt="Image 1">
                             <img src="medicaljpeg/hair-transplant/image2.jpg" onclick="galleryZoom(event)" alt="Image 2">
@@ -140,12 +140,12 @@
                             <img src="medicaljpeg/hair-transplant/image7.jpg" onclick="galleryZoom(event)" alt="Image 7">
                             <img src="medicaljpeg/hair-transplant/image8.jpg" onclick="galleryZoom(event)" alt="Image 8">
                         </div>
-                        <button id="next-1" class="next" onclick="nextSlide(event)">❯</button>
+                        <button id="next-2" class="next" onclick="nextSlide(event)">❯</button>
                         <div id="preview-container">
-                            <button id="prev-2" onclick="prevPreview(event)">❮</button>
+                            <button id="prev-2" class="prev-zoom" onclick="prevPreview(event)">❮</button>
                             <button id="exit-preview" onclick="exitPreview()">X</button>
                             <img id="preview">
-                            <button id="next-2" onclick="nextPreview(event)">❯</button>
+                            <button id="next-2" class="next-zoom" onclick="nextPreview(event)">❯</button>
                         </div>
                     </div>
                 </div>
@@ -260,6 +260,13 @@
                                 </tr>
                         </tbody>
                     </table>
+                    <div class="packages-details">
+                        <p>¹ transfer, otel ve işlem ile ilgisi olmayan ama sizin için önem arzeden tüm hizmetler (kişisel ihtiyaç,
+                            kuaför, kozmetik hizmeti, alışveriş ihtiyacı, konsolosluk desteği gibi durumlarda yanınızda bulunma,
+                            vb.)</p>
+                        <p>² işlem tipine göre değişkenlik gösterir, daha fazla bilgi için iletişime geçiniz.</p>
+                        <p>³ işlemden sonra profesyonel anlamda tüm kontroller yapılsa da, cilt hassasiyeti, ülkenizdeki hava şartları, yaşam koşullarınız, vb. Durumlardan dolayı, çok nadir de olsa yaşanabilecek her türlü sorunlarınıza bir yıl boyunca ücretsiz çözüm.</p>
+                    </div>
             </div>
 
             <div class="treatment-plan">
@@ -308,7 +315,7 @@
                 <div class="footer-contact-area">
                     <div class="address-section">
                         <img src="./icons-2/location-dot-solid.svg" class="intro-image">
-                        <div class="address-text">Kırkkonaklar Mahallesi, 450. Cadde, <br> 381. sokak no 7/4</div>
+                        <div class="address-text">Kırkkonaklar Mahallesi, Şemsettin Günaltay Caddesi <br> 241/2, Çankaya/ANKARA (Türkiye)</div>
                     </div>
                     <div class="address-section mail-content">
                         <img src="./icons-2/envelope-solid.svg" class="intro-image">
