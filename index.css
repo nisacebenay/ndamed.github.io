@@ -590,7 +590,6 @@ main {
     align-items: center;
     justify-content: space-between;
     height: 20%;
-    padding-left: 5%;
     margin-top: 5%;
 }
 
@@ -599,7 +598,7 @@ main {
     font-size: large;
     font-weight: 600;
     word-spacing: 2px;
-    font: 300 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 300 1.3em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
 }
 
 .hand {
@@ -621,7 +620,7 @@ main {
     line-height: normal;
     margin: 0;
     min-height: 60px;
-    width: 15%;
+    width: 10%;
     outline: none;
     text-align: center;
     text-decoration: none;
@@ -629,7 +628,7 @@ main {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 .contact-button:disabled {
