@@ -24,6 +24,7 @@ async function onload() {
     hamburgerMenuButton = document.getElementById('hamburger-button');
     menuContainerMobile = document.querySelector('.menu-container-mobile');
     mobileNavbar = document.querySelector(".menu-container-mobile>nav");
+    
 
     // try parse gallery1
     gallery1 = document.getElementById("gallery-1");
@@ -206,4 +207,20 @@ async function handleLanguageSelector(event) {
 
     document.cookie = "lang=" + changedSelect.value;
     await setLanguage();
+}
+
+
+//KVKK POPUP
+function toggleOverlay() {
+    const overlay = document.querySelector('.kvkk-popup');
+    overlay.classList.toggle('active');
+    document.body.classList.toggle('no-scroll');
+}
+
+function scrollToTop(){
+    const text = document.querySelector('.kvkk-popup');
+    text.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Use smooth behavior for smooth scrolling
+      });
 }

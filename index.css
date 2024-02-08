@@ -59,7 +59,7 @@ header {
 }
 
 .contact-item a {
-    color:#393e46;
+    color: #393e46;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -127,8 +127,10 @@ header {
     opacity: 0;
     display: flex;
     flex-direction: column;
-    height: 80%;;
-    transition: opacity 0.6s ease 0s; opacity: 0;
+    height: 80%;
+    ;
+    transition: opacity 0.6s ease 0s;
+    opacity: 0;
 }
 
 .navbar ul {
@@ -150,7 +152,7 @@ header {
 
 .navbar a {
     text-decoration: none;
-    color:#393e46;
+    color: #393e46;
     padding: 1rem;
     background-color: transparent;
     text-align: center;
@@ -257,25 +259,26 @@ header {
         padding-left: 5%;
     }
 
-    .language-selector-mobile{
+    .language-selector-mobile {
         padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
     }
 
-    .language-selector-mobile select{
+    .language-selector-mobile select {
         width: 100%;
         height: 100%;
     }
 
-    .btn{
+    .btn {
         padding-bottom: 20%;
     }
 
     .mobile-navbar {
         opacity: 0.6;
-        transition: opacity 0.6s ease 0s; opacity: 0;
+        transition: opacity 0.6s ease 0s;
+        opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -296,7 +299,7 @@ header {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
-    
+
     header {
         height: 15%;
     }
@@ -354,14 +357,14 @@ header {
         padding-left: 5%;
     }
 
-    .language-selector-mobile{
+    .language-selector-mobile {
         padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
     }
 
-    .language-selector-mobile select{
+    .language-selector-mobile select {
         width: 100%;
         height: 100%;
     }
@@ -372,7 +375,8 @@ header {
 
     .mobile-navbar {
         opacity: 0.6;
-        transition: opacity 0.6s ease 0s; opacity: 0;
+        transition: opacity 0.6s ease 0s;
+        opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -389,7 +393,7 @@ header {
 
     .logo {
         padding-top: 5%;
-    
+
     }
 
 
@@ -453,25 +457,28 @@ header {
         padding-left: 5%;
     }
 
-    .language-selector-mobile{
+    .language-selector-mobile {
         padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
     }
 
-    .language-selector-mobile select{
+    .language-selector-mobile select {
         width: 100%;
         height: 100%;
     }
 
     .btn {
         padding-bottom: 7.4%;
-    };
+    }
+
+    ;
 
     .mobile-navbar {
         opacity: 0.6;
-        transition: opacity 0.6s ease 0s; opacity: 0;
+        transition: opacity 0.6s ease 0s;
+        opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -491,7 +498,7 @@ header {
     }
 
 }
-    
+
 
 /*#endregion MOBILE HEADER */
 
@@ -522,7 +529,7 @@ main {
 }
 
 .content h1 {
-    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 40px;
     padding-left: 5%;
     color: #5b9ad5;
@@ -530,7 +537,7 @@ main {
 }
 
 .content h5 {
-    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     padding-left: 5%;
     padding-bottom: 3%;
     color: #393e46;
@@ -555,7 +562,7 @@ main {
     color: #5b9ad5;
     cursor: pointer;
     display: inline-block;
-    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 18px;
     margin: 0;
     min-height: 60px;
@@ -604,7 +611,7 @@ main {
     font-size: large;
     font-weight: 600;
     word-spacing: 2px;
-    font: 300 1.3em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 300 1.3em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .hand {
@@ -621,7 +628,7 @@ main {
     color: #5b9ad5;
     cursor: pointer;
     display: inline-block;
-    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 18px;
     line-height: normal;
     margin: 0;
@@ -689,7 +696,7 @@ section {
     text-align: center;
     margin-bottom: 5%;
     letter-spacing: 0.5px;
-    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     background-color: #F0F0F0;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     height: auto;
@@ -698,7 +705,7 @@ section {
 }
 
 .ndamed-content h4 {
-    font: 300 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 300 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     color: #5b9ad5;
     margin: 1%;
     padding-top: 2%;
@@ -749,7 +756,7 @@ section {
 
 .isqua-line p {
     color: #fff;
-    font: 300 1.1em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 300 1.1em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     padding-left: 3%;
     padding-right: 3%;
     letter-spacing: 0.2px;
@@ -778,7 +785,7 @@ summary {
     word-wrap: break-word;
     font-weight: 300;
     font-size: 2em;
-    line-height: 1.4; 
+    line-height: 1.4;
     font-family: 'Helvetica Neue';
     margin-bottom: 0;
 }
@@ -823,10 +830,10 @@ summary {
 .sum1 h4 {
     color: #393e46;
     margin-bottom: 5%;
-    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     letter-spacing: 0.5;
-    
+
 }
 
 .sum1 hr {
@@ -841,7 +848,7 @@ summary {
     word-spacing: 2px;
     letter-spacing: 0.5px;
     word-wrap: break-word;
-    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
 }
 
@@ -867,7 +874,7 @@ summary {
 
 .sum2 h4 {
     color: #393e46;
-    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     letter-spacing: 0.5;
     margin-bottom: 8%;
@@ -886,7 +893,7 @@ summary {
     color: #393e46;
     word-spacing: 2px;
     word-wrap: break-word;
-    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
     letter-spacing: 0.5px;
     margin-top: 0;
@@ -909,16 +916,16 @@ summary {
 .sum3 img {
     width: 45%;
     height: 45%;
- 
+
 }
 
 .sum3 h4 {
     color: #393e46;
-    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     letter-spacing: 0.5;
     margin-top: 0;
-    
+
 }
 
 .sum3 hr {
@@ -933,7 +940,7 @@ summary {
     word-spacing: 2px;
     letter-spacing: 0.5px;
     word-wrap: break-word;
-    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
     text-wrap: balance;
     margin-top: 0;
@@ -963,10 +970,10 @@ summary {
     color: #393e46;
     margin-bottom: 10%;
     margin-top: 3%;
-    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     letter-spacing: 0.5;
-    
+
 }
 
 .sum4 hr {
@@ -982,7 +989,7 @@ summary {
     word-spacing: 2px;
     letter-spacing: 0.5px;
     word-wrap: break-word;
-    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 11%;
@@ -1010,7 +1017,7 @@ summary {
     .content h5 {
         padding-right: 5px;
         padding-left: 5px;
-        
+
     }
 
     .hr-1 {
@@ -1027,12 +1034,14 @@ summary {
         margin-bottom: 5%;
     }
 
-    .hr-2{
+    .hr-2 {
         padding-left: 20%;
         padding-right: 20%;
     }
 
-    .sum1, .sum2, .sum4 {
+    .sum1,
+    .sum2,
+    .sum4 {
         width: 300px;
         height: 300px;
         margin-bottom: 5%;
@@ -1042,7 +1051,7 @@ summary {
         width: 300px;
         height: 300px;
         margin-bottom: 5%;
-    
+
     }
 
     .sum3 p {
@@ -1054,7 +1063,7 @@ summary {
         top: 10%;
         height: 13%;
     }
-    
+
     .contact-line p {
         font-size: medium;
     }
@@ -1064,7 +1073,7 @@ summary {
         height: 40%;
         margin: 0;
     }
-    
+
     .hand {
         width: 30%;
         height: 40%;
@@ -1116,176 +1125,180 @@ summary {
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
 
-        main {
-            background-image: url("./images/doc-mobile.jpg");
-            background-size: cover;
-            background-repeat: repeat;
-        }
+    main {
+        background-image: url("./images/doc-mobile.jpg");
+        background-size: cover;
+        background-repeat: repeat;
+    }
 
-        .content h5 {
-            font-size: small;
-            word-wrap: break-word;
-        }
+    .content h5 {
+        font-size: small;
+        word-wrap: break-word;
+    }
 
-        .content {
-            padding-left: 2%;
-            word-wrap: break-all;
-        }
+    .content {
+        padding-left: 2%;
+        word-wrap: break-all;
+    }
 
-        section {
-            padding-top: 20%;
-        }
-    
-        .special-services {
-            flex-direction: row;
-            justify-content: center;
-            margin-bottom: 5%;
-        }
-    
-        .sum1, .sum2, .sum4 {
-            width: 400px;
-            height: 280px;
-            margin-left: 3%;
-        }
+    section {
+        padding-top: 20%;
+    }
 
-        .sum1 img {
-            margin-top: 30px;
-        }
+    .special-services {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
 
-        .sum4 img {
-            margin-top: 10px;
-        }
-    
-        .sum3 {
-            width: 400px;
-            height: 280px;
-            margin-left: 3%;
-        }
+    .sum1,
+    .sum2,
+    .sum4 {
+        width: 400px;
+        height: 280px;
+        margin-left: 3%;
+    }
 
-        .sum3 img {
-            margin-top: 40px;
-        }
-    
-        .contact-line {
-            position: relative;
-            top: 10%;
-            height: 10%;
-        }
-        
-        .contact-line p {
-            font-size: medium;
-        }
-    
-        .contact-button {
-            width: 20%;
-            height: 40%;
-            margin-left: 50px;
-        }
-        
-        .hand {
-            width: auto;
-            height: 50%;
-            margin-left: 20px;
-            margin-right: 50px;
-        }
-    
-        .service-summary {
-            font-size: medium;
-            word-wrap: break-word;
-            padding-top: 5%;
-        }
+    .sum1 img {
+        margin-top: 30px;
+    }
 
-        .hr-2 {
-            margin: 5px;
-        }
+    .sum4 img {
+        margin-top: 10px;
+    }
 
-        .isqua-line {
-            height: auto;
-        }
+    .sum3 {
+        width: 400px;
+        height: 280px;
+        margin-left: 3%;
+    }
+
+    .sum3 img {
+        margin-top: 40px;
+    }
+
+    .contact-line {
+        position: relative;
+        top: 10%;
+        height: 10%;
+    }
+
+    .contact-line p {
+        font-size: medium;
+    }
+
+    .contact-button {
+        width: 20%;
+        height: 40%;
+        margin-left: 50px;
+    }
+
+    .hand {
+        width: auto;
+        height: 50%;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+
+    .service-summary {
+        font-size: medium;
+        word-wrap: break-word;
+        padding-top: 5%;
+    }
+
+    .hr-2 {
+        margin: 5px;
+    }
+
+    .isqua-line {
+        height: auto;
+    }
 }
 
 @media only screen and (min-width: 835px) and (max-width: 1024px) {
-    
-        main {
-            background-image: url("./images/doc-mobile.jpg");
-            background-size: cover;
-            background-repeat: repeat;
-        }
-    
-        .content h5 {
-            font-size: small;
-            word-wrap: break-word;
-            padding-right: 35%;
-        }
-    
-        .content {
-            padding-left: 2%;
-            word-wrap: break-all;
-        }
 
-        section {
-            padding-top: 10%;
-            padding-bottom: 5%;
-        }
-    
-        .special-services {
-            flex-direction: row;
-            margin-left: 0;
-        }
-    
-        .sum1, .sum2, .sum4 {
-            width: 330px;
-            height: 300px;
-            margin-bottom: 5%;
-            margin-left: 5%;
-        }
-    
-        .sum3 {
-            width: 330px;
-            height: 300px;
-            margin-bottom: 5%;
-            margin-left: 5%;
-        }
-    
-        .contact-line {
-            position: relative;
-            top: 8%;
-            height: 10%;
-        }
-        
-        .contact-line p {
-            font-size: medium;
-        }
-    
-        .contact-button {
-            width: 15%;
-            height: 40%;
-        }
-        
-        .hand {
-            width: auto;
-            height: 60%;
-            margin-right: 50px;
-            margin-left: 20px;
-        }
-    
-        .service-summary {
-            font-size: medium;
-            word-wrap: break-word;
-            margin-left: 5%;
-            margin-right: 5%;
-            padding-top: 3%;
-        }
+    main {
+        background-image: url("./images/doc-mobile.jpg");
+        background-size: cover;
+        background-repeat: repeat;
+    }
 
-        .isqua-line {
-            height: auto;
-        }
-    
+    .content h5 {
+        font-size: small;
+        word-wrap: break-word;
+        padding-right: 35%;
+    }
+
+    .content {
+        padding-left: 2%;
+        word-wrap: break-all;
+    }
+
+    section {
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    .special-services {
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    .sum1,
+    .sum2,
+    .sum4 {
+        width: 330px;
+        height: 300px;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+    .sum3 {
+        width: 330px;
+        height: 300px;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+    .contact-line {
+        position: relative;
+        top: 8%;
+        height: 10%;
+    }
+
+    .contact-line p {
+        font-size: medium;
+    }
+
+    .contact-button {
+        width: 15%;
+        height: 40%;
+    }
+
+    .hand {
+        width: auto;
+        height: 60%;
+        margin-right: 50px;
+        margin-left: 20px;
+    }
+
+    .service-summary {
+        font-size: medium;
+        word-wrap: break-word;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 3%;
+    }
+
+    .isqua-line {
+        height: auto;
+    }
+
 }
 
 /*#endregion MOBILE CONTENT*/
 
-       
+
 /*#endregion CONTENT*/
 
 /*#region FOOTER */
@@ -1495,7 +1508,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}   
+}
 
 .social-media-instagram {
     color: #fff;
@@ -1524,7 +1537,7 @@ footer {
     line-height: 1.5;
     text-decoration: none;
     display: block;
-    position: static; 
+    position: static;
 }
 
 .social-media-instagram:hover {
@@ -1553,53 +1566,70 @@ footer iframe {
     border-radius: 5%;
 }
 
+/*#endregion FOOTER*/
+
 /*#region MOBILE FOOTER */
 
 @media only screen and (max-width: 600px) {
 
     footer {
-        flex-direction: column; /* Change from row to column layout */
-        height: auto; /* Allow height to adjust based on content */
-        padding: 20px; /* Add some padding for better spacing */
-      }
-    
-      .contact-title-section,
-      .footer-social-media-section {
-        text-align: center; /* Center the titles */
-        margin-bottom: 20px; /* Add some space below the titles */
-      }
-    
-      .footer-contact-area,
-      .footer-social-media-content {
-        text-align: left; /* Align content to the left */
-      }
-    
-      .footer-social-media-content {
-        display: flex; /* Use flexbox for layout */
-        align-items: flex-start; /* Align items vertically */
+        flex-direction: column;
+        /* Change from row to column layout */
+        height: auto;
+        /* Allow height to adjust based on content */
+        padding: 20px;
+        /* Add some padding for better spacing */
+    }
+
+    .contact-title-section,
+    .footer-social-media-section {
+        text-align: center;
+        /* Center the titles */
+        margin-bottom: 20px;
+        /* Add some space below the titles */
+    }
+
+    .footer-contact-area,
+    .footer-social-media-content {
+        text-align: left;
+        /* Align content to the left */
+    }
+
+    .footer-social-media-content {
+        display: flex;
+        /* Use flexbox for layout */
+        align-items: flex-start;
+        /* Align items vertically */
         align-self: left;
-      }
-    
-      .address-section,
-      .address-section.mail-content,
-      .address-section-whatsapp-content,
-      .instagram-section,
-      .facebook-section {
-        margin-bottom: 20px; /* Add spacing between sections */
-        display: flex; /* Use flexbox for layout */
-        align-items: center; /* Align items vertically */
-      }
-    
-      .address-section img,
-      .footer-social-media.content img {
-        max-width: 30px; /* Limit the maximum width of images */
-        height: auto; /* Maintain aspect ratio */
-        margin-right: 10px; /* Add spacing between images and text */
-      }
-    
-      .footer-map-container {
-        height: 300px; /* Adjust the height of the map */
-      }
+    }
+
+    .address-section,
+    .address-section.mail-content,
+    .address-section-whatsapp-content,
+    .instagram-section,
+    .facebook-section {
+        margin-bottom: 20px;
+        /* Add spacing between sections */
+        display: flex;
+        /* Use flexbox for layout */
+        align-items: center;
+        /* Align items vertically */
+    }
+
+    .address-section img,
+    .footer-social-media.content img {
+        max-width: 30px;
+        /* Limit the maximum width of images */
+        height: auto;
+        /* Maintain aspect ratio */
+        margin-right: 10px;
+        /* Add spacing between images and text */
+    }
+
+    .footer-map-container {
+        height: 300px;
+        /* Adjust the height of the map */
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
@@ -1608,7 +1638,7 @@ footer iframe {
         height: auto;
         padding: 10px;
     }
-    
+
     .contacts {
         display: flex;
         flex-direction: column;
@@ -1630,17 +1660,109 @@ footer iframe {
         height: auto;
         padding: 20px;
     }
-    
-        .contacts {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .contacts img {
-            padding-bottom: 3%;
-        }
-        
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts img {
+        padding-bottom: 3%;
+    }
+
 }
 
 /*#endregion FOOTER*/
+
+/*#region KVKK Popup*/
+.bottom-banner {
+    height: 5%;
+    background-color: var(--dkblue);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.kvkk-link {
+    display: flex;
+    background-color: var(--dkblue);
+    height: 100%;
+    align-items: center;
+    width: 15%;
+    justify-content: center;
+    border: none;
+}
+
+.kvkk-link:hover {
+    background-color: #566a8f;
+}
+
+.kvkk-popup {
+    display: none;
+    position: fixed;
+    background-color: var(--white);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 10em;
+    padding-top: 5em;
+    z-index: 10000;
+    overflow: scroll;
+}
+
+.kvkk-popup.active {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    /* Adjust the value as needed */
+}
+
+.kvkk-text {
+    padding-top: 4em;
+    width: 100%;
+    height: 100%;
+    z-index: 502;
+}
+
+.kvkk-exit {
+    position: absolute;
+    right: 5%;
+    z-index: 501;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: var(--blue);
+    border: 1px solid black;
+    opacity: .7;
+    font-size: 25px;
+}
+
+.kvkk-scroll-top {
+    position: fixed;
+    z-index: 511;
+    right: 5%;
+    bottom: 10%;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: var(--blue);
+    border: 1px solid black;
+    opacity: .7;
+    font-size: 25px;
+}
+
+.kvkk-exit:hover {
+    opacity: 1;
+}
+
+.kvkk-scroll-top:hover {
+    opacity: 1;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
