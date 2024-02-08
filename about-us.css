@@ -550,11 +550,11 @@ li {
     align-items: center;
     padding-top: 8%;
     padding-right: 3%;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 }
 
 .img1 {
-    width: 22%;
+    width: 25%;
     height: auto;
     border-radius: 10%;
     float: right;
@@ -564,7 +564,7 @@ li {
 }
 
 .img2 {
-    width: 45%;
+    width: 50%;
     height: auto;
     border-radius: 10%;
     float: right;
@@ -709,19 +709,20 @@ li {
 }
 
 .img3 {
-    width: 23%;
+    width: 25%;
     height: auto;
     border-radius: 10%;
     position: absolute;
     right: 55%;
+    top: 210%;
 }
 
 .img4 {
-    width: 45%;
+    width: 50%;
     height: auto;
     border-radius: 10%;
     position: relative;
-    top: 45%;
+    top: 50%;
     left: 8%;
     border: 8px solid #e0f4f7;
 }
