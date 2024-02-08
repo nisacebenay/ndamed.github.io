@@ -1363,7 +1363,12 @@ footer {
     margin-top: 5px;
 }
 
-.whatsapp-number-text {
+.address-section-whatsapp-content p {
+    margin: 0;
+    color: var(--white);
+}
+
+.abroad-number {
     color: #fff;
     flex-direction: column;
     flex: 0 auto;
@@ -1378,7 +1383,50 @@ footer {
     position: static;
 }
 
-.whatsapp-number-text:hover {
+.abroad-number:hover {
+    color: var(--blue);
+}
+
+.number-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3%;
+}
+
+.abroad-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.domestic-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.domestic-number {
+    color: #fff;
+    flex-direction: column;
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 16px;
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-decoration: none;
+    display: block;
+    position: static;
+}
+
+.domestic-number:hover {
     color: var(--blue);
 }
 
