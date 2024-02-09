@@ -19,8 +19,8 @@ var imageSources2 = [];
 
 async function onload() {
     //await loadDictionary();
-    await setLanguage();
-    await populateSelections();
+   // await setLanguage();
+   // await populateSelections(); 
     hamburgerMenuButton = document.getElementById('hamburger-button');
     menuContainerMobile = document.querySelector('.menu-container-mobile');
     mobileNavbar = document.querySelector(".menu-container-mobile>nav");
