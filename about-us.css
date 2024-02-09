@@ -46,8 +46,14 @@ header {
     margin-right: 1.5rem;
 }
 
-.contact-item img {
+.contact-phone {
     width: 1.5rem;
+    margin-right: 0.75rem;
+    vertical-align: middle;
+}
+
+.contact-email {
+    width: 2.25rem;
     margin-right: 0.75rem;
     vertical-align: middle;
 }
@@ -550,11 +556,11 @@ li {
     align-items: center;
     padding-top: 8%;
     padding-right: 3%;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 }
 
 .img1 {
-    width: 22%;
+    width: 25%;
     height: auto;
     border-radius: 10%;
     float: right;
@@ -564,7 +570,7 @@ li {
 }
 
 .img2 {
-    width: 45%;
+    width: 50%;
     height: auto;
     border-radius: 10%;
     float: right;
@@ -709,19 +715,20 @@ li {
 }
 
 .img3 {
-    width: 23%;
+    width: 25%;
     height: auto;
     border-radius: 10%;
     position: absolute;
     right: 55%;
+    top: 210%;
 }
 
 .img4 {
-    width: 45%;
+    width: 50%;
     height: auto;
     border-radius: 10%;
     position: relative;
-    top: 45%;
+    top: 50%;
     left: 8%;
     border: 8px solid #e0f4f7;
 }
@@ -963,7 +970,12 @@ footer {
     margin-top: 5px;
 }
 
-.whatsapp-number-text {
+.address-section-whatsapp-content p {
+    margin: 0;
+    color: var(--white);
+}
+
+.abroad-number {
     color: #fff;
     flex-direction: column;
     flex: 0 auto;
@@ -978,7 +990,50 @@ footer {
     position: static;
 }
 
-.whatsapp-number-text:hover {
+.abroad-number:hover {
+    color: var(--blue);
+}
+
+.number-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3%;
+}
+
+.abroad-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.domestic-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.domestic-number {
+    color: #fff;
+    flex-direction: column;
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 16px;
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-decoration: none;
+    display: block;
+    position: static;
+}
+
+.domestic-number:hover {
     color: var(--blue);
 }
 
@@ -1195,3 +1250,109 @@ footer iframe {
 /*#endregion MOBILE FOOTER*/
 
 /*#endregion FOOTER*/
+
+/*#region KVKK Popup*/
+.bottom-banner {
+    height: 5%;
+    background-color: var(--dkblue);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-banner p {
+    color: var(--white);
+    font: 400 1.15em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.bottom-banner p:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.kvkk-link {
+    display: flex;
+    background-color: var(--dkblue);
+    height: 100%;
+    align-items: center;
+    width: 15%;
+    justify-content: center;
+    border: none;
+    width: 50%;
+}
+
+.kvkk-link:hover {
+    background-color: #566a8f;
+    width: 100%;
+}
+
+.kvkk-popup {
+    display: none;
+    position: fixed;
+    background-color: var(--white);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 10em;
+    padding-top: 5em;
+    z-index: 10000;
+    overflow: scroll;
+}
+
+.kvkk-popup.active {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    /* Adjust the value as needed */
+}
+
+.kvkk-text {
+    padding-top: 4em;
+    width: 100%;
+    height: 100%;
+    z-index: 502;
+}
+
+.kvkk-exit {
+    position: absolute;
+    right: 5%;
+    z-index: 501;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: var(--blue);
+    color: var(--white);
+    border: 1px solid black;
+    opacity: .7;
+    font-size: 25px;
+}
+
+.kvkk-scroll-top {
+    position: fixed;
+    z-index: 511;
+    right: 5%;
+    bottom: 10%;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    background-color: var(--blue);
+    color: var(--white);
+    border: 1px solid black;
+    opacity: .7;
+    font-size: 25px;
+}
+
+.kvkk-exit:hover {
+    opacity: 1;
+}
+
+.kvkk-scroll-top:hover {
+    opacity: 1;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
