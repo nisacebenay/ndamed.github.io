@@ -1239,7 +1239,6 @@ footer iframe {
     padding-left: 10em;
     padding-right: 10em;
     padding-bottom: 10em;
-    padding-top: 5em;
     z-index: 10000;
     overflow: scroll;
 }
@@ -1260,16 +1259,18 @@ footer iframe {
 
 .kvkk-exit {
     position: absolute;
+    top: 5%;
     right: 5%;
     z-index: 501;
-    width: 5vh;
-    height: 5vh;
+    width: 8vh;
+    height: 8vh;
     border-radius: 50%;
     background-color: var(--blue);
     color: var(--white);
     border: 1px solid black;
     opacity: .7;
-    font-size: 25px;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 .kvkk-scroll-top {
@@ -1277,14 +1278,15 @@ footer iframe {
     z-index: 511;
     right: 5%;
     bottom: 10%;
-    width: 6vh;
-    height: 6vh;
+    width: 8vh;
+    height: 8vh;
     border-radius: 50%;
     background-color: var(--blue);
     color: var(--white);
     border: 1px solid black;
     opacity: .7;
-    font-size: 25px;
+    font-size: 35px;
+    cursor: pointer;
 }
 
 .kvkk-exit:hover {
