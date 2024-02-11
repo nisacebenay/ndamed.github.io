@@ -833,6 +833,11 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     margin-top: 5%;
+    padding-bottom: 1%;
+}
+
+.contact-content {
+    margin-top: 25px;
 }
 
 .contact-title-section {
@@ -865,7 +870,7 @@ footer {
     grid-auto-columns: 1fr;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     display: flex;
 }
 
@@ -935,6 +940,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 2%;
 }
 
 .abroad-area {
@@ -942,6 +948,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 .domestic-area {
@@ -1021,7 +1028,8 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
+    padding-top: 5%;
 }
 
 .facebook-section {
@@ -1223,7 +1231,7 @@ footer iframe {
 .kvkk-popup {
     display: none;
     position: fixed;
-    background-color: var(--white);
+    background-color:#E1F2FB; 
     top: 0;
     bottom: 0;
     left: 0;
@@ -1231,7 +1239,6 @@ footer iframe {
     padding-left: 10em;
     padding-right: 10em;
     padding-bottom: 10em;
-    padding-top: 5em;
     z-index: 10000;
     overflow: scroll;
 }
@@ -1252,16 +1259,18 @@ footer iframe {
 
 .kvkk-exit {
     position: absolute;
+    top: 5%;
     right: 5%;
     z-index: 501;
-    width: 5vh;
-    height: 5vh;
+    width: 8vh;
+    height: 8vh;
     border-radius: 50%;
     background-color: var(--blue);
     color: var(--white);
     border: 1px solid black;
     opacity: .7;
-    font-size: 25px;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 .kvkk-scroll-top {
@@ -1269,14 +1278,15 @@ footer iframe {
     z-index: 511;
     right: 5%;
     bottom: 10%;
-    width: 6vh;
-    height: 6vh;
+    width: 8vh;
+    height: 8vh;
     border-radius: 50%;
     background-color: var(--blue);
     color: var(--white);
     border: 1px solid black;
     opacity: .7;
-    font-size: 25px;
+    font-size: 35px;
+    cursor: pointer;
 }
 
 .kvkk-exit:hover {
