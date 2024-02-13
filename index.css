@@ -803,16 +803,16 @@ summary {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
+    justify-content: space-evenly;
+    margin-left: 1%;
+    margin-right: 1%;
     margin-top: 5%;
     background-color: #E1F2FB;
 }
 
 .sum1 {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-color: #eff4f8;
     border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
@@ -852,11 +852,12 @@ summary {
     word-wrap: break-word;
     font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
+    margin-bottom: 10;
 }
 
 .sum2 {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-color: #eff4f8;
     border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
@@ -903,8 +904,8 @@ summary {
 }
 
 .sum3 {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-color: #eff4f8;
     border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
@@ -918,7 +919,6 @@ summary {
 .sum3 img {
     width: 45%;
     height: 45%;
-
 }
 
 .sum3 h4 {
@@ -926,8 +926,8 @@ summary {
     font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     letter-spacing: 0.5;
-    margin-top: 0;
-
+    margin-top: 5;
+    margin-bottom: 8;
 }
 
 .sum3 hr {
@@ -946,11 +946,12 @@ summary {
     font-size: 16px;
     text-wrap: balance;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .sum4 {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-color: #eff4f8;
     border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
@@ -975,15 +976,14 @@ summary {
     font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     letter-spacing: 0.5;
-
+    margin-bottom: 10;
+    padding-top: 10;
 }
 
 .sum4 hr {
     border: 0.5px solid #5b9ad5;
     padding-left: 8%;
     padding-right: 8%;
-    margin-bottom: 6%;
-    margin-top: 0;
 }
 
 .sum4 p {
@@ -993,7 +993,56 @@ summary {
     word-wrap: break-word;
     font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
+    margin-top: 5;
+}
+
+.sum5 {
+    width: 250px;
+    height: 250px;
+    background-color: #eff4f8;
+    border-radius: 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sum5 img {
+    width: 40%;
+    height: 40%;
     margin-top: 0;
+}
+
+.sum5 h4 {
+    color: #393e46;
+    margin-bottom: 10%;
+    margin-top: 3%;
+    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5;
+    margin-bottom: 10;
+    margin-top: 10;
+}
+
+.sum5 hr {
+    border: 0.5px solid #5b9ad5;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.sum5 p {
+    color: #393e46;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 5;
 }
 
 /*#region MOBILE CONTENT*/
@@ -1044,7 +1093,8 @@ summary {
 
     .sum1,
     .sum2,
-    .sum4 {
+    .sum4,
+    .sum5 {
         width: 300px;
         height: 300px;
         margin-bottom: 5%;
@@ -1156,7 +1206,8 @@ summary {
 
     .sum1,
     .sum2,
-    .sum4 {
+    .sum4,
+    .sum5 {
         width: 400px;
         height: 280px;
         margin-left: 3%;
