@@ -224,7 +224,7 @@ header {
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
-        transition: width 2s;
+        transition: width 1s;
     }
 
     .on {
@@ -323,7 +323,7 @@ header {
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
-        transition: width 2s;
+        transition: width 1s;
     }
 
     .on {
@@ -425,7 +425,7 @@ header {
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
-        transition: width 2s;
+        transition: width 1s;
     }
 
     .on {
@@ -1184,19 +1184,37 @@ tbody tr:last-child td {
         z-index: 501;
         top: 1%;
         right: 5%;
-        width: 6vh;
-        height: 6vh;
+        width: 9vh;
+        height: 9vh;
         background-color: var(--blue);
         color: var(--white);
         border-radius: 50%;
         opacity: 1;
         border: none;
-        font-size: 25px;
+        font-size: 30px;
     }
 
+    .prev-zoom {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background-color: var(--blue);
+        opacity: 1;
+        border: none;
+        font-size: 35px;
+        color: var(--white);
+    }
     
-    
-    
+    .next-zoom {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background-color: var(--blue);
+        opacity: 1;
+        border: none;
+        font-size: 35px;
+        color: var(--white);
+    }
 
     td img {
         width: 50px;
@@ -1336,9 +1354,30 @@ tbody tr:last-child td {
         border-radius: 50%;
         opacity: 1;
         border: none;
-        font-size: 30px;
+        font-size: 35px;
     }
 
+    .prev-zoom {
+        height: 9vh;
+        width: 9vh;
+        border-radius: 50%;
+        background-color: var(--blue);
+        opacity: 1;
+        border: none;
+        font-size: 45px;
+        color: var(--white);
+    }
+    
+    .next-zoom {
+        height: 9vh;
+        width: 9vh;
+        border-radius: 50%;
+        background-color: var(--blue);
+        opacity: 1;
+        border: none;
+        font-size: 45px;
+        color: var(--white);
+    }
 
     td img {
         width: 50px;
@@ -1408,14 +1447,36 @@ tbody tr:last-child td {
         z-index: 501;
         top: 1%;
         right: 5%;
-        width: 6vh;
-        height: 6vh;
+        width: 10vh;
+        height: 10vh;
         background-color: var(--blue);
         color: var(--white);
         border-radius: 50%;
         opacity: 1;
         border: none;
-        font-size: 25px;
+        font-size: 35px;
+    }
+
+    .prev-zoom {
+        height: 12vh;
+        width: 12vh;
+        border-radius: 50%;
+        background-color: var(--blue);
+        opacity: 1;
+        border: none;
+        font-size: 45px;
+        color: var(--white);
+    }
+    
+    .next-zoom {
+        height: 12vh;
+        width: 12vh;
+        border-radius: 50%;
+        background-color: var(--blue);
+        opacity: 1;
+        border: none;
+        font-size: 45px;
+        color: var(--white);
     }
 
     .treatment-plan-cards {
@@ -1747,63 +1808,48 @@ footer iframe {
 @media only screen and (max-width: 600px) {
 
     footer {
-        flex-direction: column;
-        /* Change from row to column layout */
-        height: auto;
-        /* Allow height to adjust based on content */
-        padding: 20px;
-        /* Add some padding for better spacing */
-    }
-
-    .contact-title-section,
-    .footer-social-media-section {
-        text-align: center;
-        /* Center the titles */
-        margin-bottom: 20px;
-        /* Add some space below the titles */
-    }
-
-    .footer-contact-area,
-    .footer-social-media-content {
-        text-align: left;
-        /* Align content to the left */
-    }
-
-    .footer-social-media-content {
-        display: flex;
-        /* Use flexbox for layout */
-        align-items: flex-start;
-        /* Align items vertically */
+        flex-direction: column; /* Change from row to column layout */
+        height: auto; /* Allow height to adjust based on content */
+        padding: 20px; /* Add some padding for better spacing */
+      }
+    
+      .contact-title-section,
+      .footer-social-media-section {
+        text-align: center; /* Center the titles */
+        margin-bottom: 20px; /* Add some space below the titles */
+      }
+    
+      .footer-contact-area,
+      .footer-social-media-content {
+        text-align: left; /* Align content to the left */
+      }
+    
+      .footer-social-media-content {
+        display: flex; /* Use flexbox for layout */
+        align-items: flex-start; /* Align items vertically */
         align-self: left;
-    }
-
-    .address-section,
-    .address-section.mail-content,
-    .address-section-whatsapp-content,
-    .instagram-section,
-    .facebook-section {
-        margin-bottom: 20px;
-        /* Add spacing between sections */
-        display: flex;
-        /* Use flexbox for layout */
-        align-items: center;
-        /* Align items vertically */
-    }
-
-    .address-section img,
-    .footer-social-media.content img {
-        max-width: 30px;
-        /* Limit the maximum width of images */
-        height: auto;
-        /* Maintain aspect ratio */
-        margin-right: 10px;
-        /* Add spacing between images and text */
-    }
-
-    .footer-map-container {
-        height: 300px;
-        /* Adjust the height of the map */
-    }
+      }
+    
+      .address-section,
+      .address-section.mail-content,
+      .address-section-whatsapp-content,
+      .instagram-section,
+      .facebook-section {
+        margin-bottom: 20px; /* Add spacing between sections */
+        display: flex; /* Use flexbox for layout */
+        align-items: center; /* Align items vertically */
+      }
+    
+      .address-section img,
+      .footer-social-media.content img {
+        max-width: 30px; /* Limit the maximum width of images */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 10px; /* Add spacing between images and text */
+      }
+    
+      .footer-map-container {
+        height: 300px; /* Adjust the height of the map */
+      }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {

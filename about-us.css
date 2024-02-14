@@ -218,7 +218,7 @@ header {
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
-        transition: width 2s;
+        transition: width 1s;
     }
 
     .on {
@@ -310,7 +310,7 @@ header {
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
-        transition: width 2s;
+        transition: width 1s;
     }
 
     .on {
@@ -406,7 +406,7 @@ header {
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
-        transition: width 2s;
+        transition: width 1s;
     }
 
     .on {
@@ -719,6 +719,13 @@ li {
         font-size: medium;
         word-wrap: break-word;
         line-height: 1,2;
+    }
+
+    .ndamed-contact-img {
+        width: 40%;
+        height: 50%;
+        margin-left: 0;
+        margin-right: 2%;
     }
 
     .about-part2 {
