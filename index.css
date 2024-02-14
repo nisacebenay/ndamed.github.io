@@ -224,7 +224,7 @@ header {
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
-        transition: width 2s;
+        transition: width 1s;
     }
 
     .on {
@@ -321,7 +321,7 @@ header {
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
-        transition: width 2s;
+        transition: width 1s;
     }
 
     .on {
@@ -422,7 +422,7 @@ header {
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
-        transition: width 2s;
+        transition: width 1s;
     }
 
     .on {
@@ -1052,8 +1052,8 @@ summary {
     }
 
     .hr-1 {
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 5%;
+        margin-right: 35%;
         border: 0.5px solid #5b9ad5;
     }
 
@@ -1097,7 +1097,7 @@ summary {
     .contact-line {
         position: relative;
         top: 10%;
-        height: 13%;
+        height: 20%;
     }
 
     .contact-line p {
@@ -1630,63 +1630,48 @@ footer iframe {
 @media only screen and (max-width: 600px) {
 
     footer {
-        flex-direction: column;
-        /* Change from row to column layout */
-        height: auto;
-        /* Allow height to adjust based on content */
-        padding: 20px;
-        /* Add some padding for better spacing */
-    }
-
-    .contact-title-section,
-    .footer-social-media-section {
-        text-align: center;
-        /* Center the titles */
-        margin-bottom: 20px;
-        /* Add some space below the titles */
-    }
-
-    .footer-contact-area,
-    .footer-social-media-content {
-        text-align: left;
-        /* Align content to the left */
-    }
-
-    .footer-social-media-content {
-        display: flex;
-        /* Use flexbox for layout */
-        align-items: flex-start;
-        /* Align items vertically */
+        flex-direction: column; /* Change from row to column layout */
+        height: auto; /* Allow height to adjust based on content */
+        padding: 20px; /* Add some padding for better spacing */
+      }
+    
+      .contact-title-section,
+      .footer-social-media-section {
+        text-align: center; /* Center the titles */
+        margin-bottom: 20px; /* Add some space below the titles */
+      }
+    
+      .footer-contact-area,
+      .footer-social-media-content {
+        text-align: left; /* Align content to the left */
+      }
+    
+      .footer-social-media-content {
+        display: flex; /* Use flexbox for layout */
+        align-items: flex-start; /* Align items vertically */
         align-self: left;
-    }
-
-    .address-section,
-    .address-section.mail-content,
-    .address-section-whatsapp-content,
-    .instagram-section,
-    .facebook-section {
-        margin-bottom: 20px;
-        /* Add spacing between sections */
-        display: flex;
-        /* Use flexbox for layout */
-        align-items: center;
-        /* Align items vertically */
-    }
-
-    .address-section img,
-    .footer-social-media.content img {
-        max-width: 30px;
-        /* Limit the maximum width of images */
-        height: auto;
-        /* Maintain aspect ratio */
-        margin-right: 10px;
-        /* Add spacing between images and text */
-    }
-
-    .footer-map-container {
-        height: 300px;
-        /* Adjust the height of the map */
-    }
+      }
+    
+      .address-section,
+      .address-section.mail-content,
+      .address-section-whatsapp-content,
+      .instagram-section,
+      .facebook-section {
+        margin-bottom: 20px; /* Add spacing between sections */
+        display: flex; /* Use flexbox for layout */
+        align-items: center; /* Align items vertically */
+      }
+    
+      .address-section img,
+      .footer-social-media.content img {
+        max-width: 30px; /* Limit the maximum width of images */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 10px; /* Add spacing between images and text */
+      }
+    
+      .footer-map-container {
+        height: 300px; /* Adjust the height of the map */
+      }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
