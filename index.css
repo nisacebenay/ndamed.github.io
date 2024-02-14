@@ -803,16 +803,16 @@ summary {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
+    justify-content: space-evenly;
+    margin-left: 1%;
+    margin-right: 1%;
     margin-top: 5%;
     background-color: #E1F2FB;
 }
 
 .sum1 {
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     background-color: #eff4f8;
     border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
@@ -823,26 +823,26 @@ summary {
     flex-direction: column;
 }
 
+.sum1-content {
+    margin-bottom: 10%;
+}
+
 .sum1 img {
     width: 45%;
     height: 45%;
-    margin-top: 1%;
 }
 
 .sum1 h4 {
     color: #393e46;
-    margin-bottom: 5%;
     font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     letter-spacing: 0.5;
-
 }
 
 .sum1 hr {
     border: 0.5px solid #5b9ad5;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin-bottom: 0;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 .sum1 p {
@@ -855,8 +855,8 @@ summary {
 }
 
 .sum2 {
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     background-color: #eff4f8;
     border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
@@ -868,10 +868,13 @@ summary {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.sum2-content {
+    margin-bottom: 10%;
+}
+
 .sum2 img {
     width: 45%;
     height: 45%;
-    align-self: auto;
 }
 
 .sum2 h4 {
@@ -879,16 +882,12 @@ summary {
     font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     letter-spacing: 0.5;
-    margin-bottom: 10;
-    margin-top: 6 ;
 }
 
 .sum2 hr {
     border: 0.5px solid #5b9ad5;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin-bottom: 6%;
-    margin-top: 4%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 .sum2 p {
@@ -898,13 +897,11 @@ summary {
     font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
     letter-spacing: 0.5px;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .sum3 {
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     background-color: #eff4f8;
     border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
@@ -915,10 +912,13 @@ summary {
     flex-direction: column;
 }
 
+.sum3-content {
+    margin-bottom: 10%;
+}
+
 .sum3 img {
     width: 45%;
     height: 45%;
-
 }
 
 .sum3 h4 {
@@ -926,15 +926,12 @@ summary {
     font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     letter-spacing: 0.5;
-    margin-top: 0;
-
 }
 
 .sum3 hr {
     border: 0.5px solid #5b9ad5;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin-bottom: 6%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 .sum3 p {
@@ -945,12 +942,11 @@ summary {
     font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
     text-wrap: balance;
-    margin-top: 0;
 }
 
 .sum4 {
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     background-color: #eff4f8;
     border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
@@ -961,29 +957,26 @@ summary {
     flex-direction: column;
 }
 
+.sum4-content {
+    margin-bottom: 10%;
+}
+
 .sum4 img {
     width: 45%;
     height: 45%;
-    margin-bottom: 0;
-    margin-top: 0;
 }
 
 .sum4 h4 {
     color: #393e46;
-    margin-bottom: 10%;
-    margin-top: 3%;
     font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     letter-spacing: 0.5;
-
 }
 
 .sum4 hr {
     border: 0.5px solid #5b9ad5;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin-bottom: 6%;
-    margin-top: 0;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 .sum4 p {
@@ -993,7 +986,46 @@ summary {
     word-wrap: break-word;
     font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
-    margin-top: 0;
+}
+
+.sum5 {
+    width: 260px;
+    height: 260px;
+    background-color: #eff4f8;
+    border-radius: 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sum5 img {
+    width: 40%;
+    height: 40%;
+}
+
+.sum5 h4 {
+    color: #393e46;
+    font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5;
+}
+
+.sum5 hr {
+    border: 0.5px solid #5b9ad5;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.sum5 p {
+    color: #393e46;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+    font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
 }
 
 /*#region MOBILE CONTENT*/
@@ -1044,7 +1076,8 @@ summary {
 
     .sum1,
     .sum2,
-    .sum4 {
+    .sum4,
+    .sum5 {
         width: 300px;
         height: 300px;
         margin-bottom: 5%;
@@ -1154,30 +1187,38 @@ summary {
         margin-bottom: 5%;
     }
 
-    .sum1,
+    .sum1 img, .sum2 img,
+     .sum3 img, .sum4 img, .sum5 img {
+        width: 60%;
+        height: 20%;
+    }
+
     .sum2,
-    .sum4 {
-        width: 400px;
-        height: 280px;
-        margin-left: 3%;
+    .sum4,
+    .sum5 {
+        width: 330px;
+        height: 300px;
+        margin-left: 2%;
     }
 
-    .sum1 img {
-        margin-top: 30px;
+    .sum1 {
+        width: 330px;
+        height: 300px;
+        margin-left: 1%;
     }
 
-    .sum4 img {
-        margin-top: 10px;
+    .sum5 {
+        margin-right: 1%;
     }
 
     .sum3 {
-        width: 400px;
-        height: 280px;
-        margin-left: 3%;
+        width: 330px;
+        height: 300px;
+        margin-left: 2%;
     }
 
-    .sum3 img {
-        margin-top: 40px;
+    .sum1-content, .sum2-content, .sum3-content, .sum4-content, .sum5-content {
+        margin-top: 35%;
     }
 
     .contact-line {
@@ -1242,18 +1283,24 @@ summary {
         padding-bottom: 5%;
     }
 
-    .special-services {
-        flex-direction: row;
-        margin-left: 0;
-    }
-
-    .sum1,
     .sum2,
-    .sum4 {
+    .sum4,
+    .sum5 {
         width: 330px;
         height: 300px;
         margin-bottom: 5%;
         margin-left: 5%;
+    }
+
+    .sum1 {
+        width: 330px;
+        height: 300px;
+        margin-left: 2%;
+        margin-bottom: 5%;
+    }
+
+    .sum5 {
+        margin-right: 2%;
     }
 
     .sum3 {
@@ -1261,6 +1308,10 @@ summary {
         height: 300px;
         margin-bottom: 5%;
         margin-left: 5%;
+    }
+
+    .sum1-content, .sum2-content, .sum3-content, .sum4-content, .sum5-content {
+        padding-bottom: 30%;
     }
 
     .contact-line {
