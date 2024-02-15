@@ -668,6 +668,7 @@ header {
     opacity: 1;
     border: none;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .prev {
@@ -689,6 +690,7 @@ header {
 
 .prev:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .next {
@@ -710,6 +712,7 @@ header {
 
 .next:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .prev-zoom {
@@ -721,6 +724,7 @@ header {
     border: none;
     font-size: 30px;
     color: var(--white);
+    cursor: pointer;
 }
 
 .next-zoom {
@@ -732,6 +736,7 @@ header {
     border: none;
     font-size: 30px;
     color: var(--white);
+    cursor: pointer;
 
 }
 
