@@ -224,7 +224,7 @@ header {
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
-        transition: width 1s;
+        transition: width 1.5s;
     }
 
     .on {
@@ -323,7 +323,7 @@ header {
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
-        transition: width 1s;
+        transition: width 1.5s;
     }
 
     .on {
@@ -425,7 +425,7 @@ header {
         display: flex;
         flex-direction: column;
         transition-duration: 0.6s;
-        transition: width 1s;
+        transition: width 1.5s;
     }
 
     .on {
