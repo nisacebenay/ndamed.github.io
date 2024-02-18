@@ -56,7 +56,6 @@ header {
     width: 2.25rem;
     margin-right: 0.75rem;
     vertical-align: middle;
-    padding-top: 0.75rem;
 }
 
 .contact-item a {
@@ -195,15 +194,10 @@ header {
     align-self: center;
 }
 
-/*#HEADER END */
 
-/*# MOBILE HEADER */
+/*#region Mobile Header */
 
 @media only screen and (max-width: 600px) {
-
-    header {
-        height: 15%;
-    }
 
     .contact-banner {
         display: none;
@@ -292,17 +286,13 @@ header {
     }
 
     .logo {
-        padding-top: 5%;
+        padding-top: 4%;
     }
 
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
     
-    header {
-        height: 15%;
-    }
-
     .contact-banner {
         display: none;
     }
@@ -338,7 +328,7 @@ header {
     }
 
     .menu-container-mobile ul {
-        height: 50%;
+        height: 30%;
         list-style: none;
         margin: 0;
         padding: 0;
@@ -390,18 +380,14 @@ header {
     }
 
     .logo {
-        padding-top: 5%;
+        padding-top: 4%;
     
     }
 
 
 }
 
-@media only screen and (min-width: 835px) and (max-width: 1024px) {
-
-    header {
-        height: 15%;
-    }
+@media only screen and (min-width: 835px) and (max-width: 1200px) {
 
     .contact-banner {
         display: none;
@@ -438,7 +424,7 @@ header {
     }
 
     .menu-container-mobile ul {
-        height: 50%;
+        height: 30%;
         list-style: none;
         margin: 0;
         padding: 0;
@@ -489,10 +475,16 @@ header {
     }
 
     .logo {
-        padding-top: 5%;
+        padding-top: 4%;
     }
 
 }
+    
+
+/*#endregion MOBILE HEADER */
+
+/*#endregion HEADER */
+
 
 /*#region MAIN */
 

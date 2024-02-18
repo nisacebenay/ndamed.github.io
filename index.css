@@ -59,7 +59,7 @@ header {
 }
 
 .contact-item a {
-    color: #393e46;
+    color:#393e46;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -127,10 +127,8 @@ header {
     opacity: 0;
     display: flex;
     flex-direction: column;
-    height: 80%;
-    ;
-    transition: opacity 0.6s ease 0s;
-    opacity: 0;
+    height: 80%;;
+    transition: opacity 0.6s ease 0s; opacity: 0;
 }
 
 .navbar ul {
@@ -152,7 +150,7 @@ header {
 
 .navbar a {
     text-decoration: none;
-    color: #393e46;
+    color:#393e46;
     padding: 1rem;
     background-color: transparent;
     text-align: center;
@@ -200,10 +198,6 @@ header {
 /*#region Mobile Header */
 
 @media only screen and (max-width: 600px) {
-
-    header {
-        height: 15%;
-    }
 
     .contact-banner {
         display: none;
@@ -259,26 +253,25 @@ header {
         padding-left: 5%;
     }
 
-    .language-selector-mobile {
+    .language-selector-mobile{
         padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
     }
 
-    .language-selector-mobile select {
+    .language-selector-mobile select{
         width: 100%;
         height: 100%;
     }
 
-    .btn {
+    .btn{
         padding-bottom: 20%;
     }
 
     .mobile-navbar {
         opacity: 0.6;
-        transition: opacity 0.6s ease 0s;
-        opacity: 0;
+        transition: opacity 0.6s ease 0s; opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -299,11 +292,7 @@ header {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
-
-    header {
-        height: 15%;
-    }
-
+    
     .contact-banner {
         display: none;
     }
@@ -339,7 +328,7 @@ header {
     }
 
     .menu-container-mobile ul {
-        height: 50%;
+        height: 30%;
         list-style: none;
         margin: 0;
         padding: 0;
@@ -357,14 +346,14 @@ header {
         padding-left: 5%;
     }
 
-    .language-selector-mobile {
+    .language-selector-mobile{
         padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
     }
 
-    .language-selector-mobile select {
+    .language-selector-mobile select{
         width: 100%;
         height: 100%;
     }
@@ -375,8 +364,7 @@ header {
 
     .mobile-navbar {
         opacity: 0.6;
-        transition: opacity 0.6s ease 0s;
-        opacity: 0;
+        transition: opacity 0.6s ease 0s; opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -392,18 +380,14 @@ header {
     }
 
     .logo {
-        padding-top: 5%;
-
+        padding-top: 4%;
+    
     }
 
 
 }
 
 @media only screen and (min-width: 835px) and (max-width: 1200px) {
-
-    header {
-        height: 15%;
-    }
 
     .contact-banner {
         display: none;
@@ -440,7 +424,7 @@ header {
     }
 
     .menu-container-mobile ul {
-        height: 50%;
+        height: 30%;
         list-style: none;
         margin: 0;
         padding: 0;
@@ -457,28 +441,25 @@ header {
         padding-left: 5%;
     }
 
-    .language-selector-mobile {
+    .language-selector-mobile{
         padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
     }
 
-    .language-selector-mobile select {
+    .language-selector-mobile select{
         width: 100%;
         height: 100%;
     }
 
     .btn {
         padding-bottom: 7.4%;
-    }
-
-    ;
+    };
 
     .mobile-navbar {
         opacity: 0.6;
-        transition: opacity 0.6s ease 0s;
-        opacity: 0;
+        transition: opacity 0.6s ease 0s; opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -494,11 +475,11 @@ header {
     }
 
     .logo {
-        padding-top: 5%;
+        padding-top: 4%;
     }
 
 }
-
+    
 
 /*#endregion MOBILE HEADER */
 
