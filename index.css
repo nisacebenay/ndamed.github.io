@@ -799,7 +799,7 @@ summary {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    
     display: flex;
     flex-direction: column;
 }
@@ -809,8 +809,8 @@ summary {
 }
 
 .sum1 img {
-    width: 45%;
-    height: 45%;
+    width: 30%;
+    height: auto;
 }
 
 .sum1 h4 {
@@ -843,7 +843,7 @@ summary {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
@@ -854,8 +854,8 @@ summary {
 }
 
 .sum2 img {
-    width: 45%;
-    height: 45%;
+    width: 30%;
+    height: auto;
 }
 
 .sum2 h4 {
@@ -888,7 +888,7 @@ summary {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    
     display: flex;
     flex-direction: column;
 }
@@ -898,8 +898,8 @@ summary {
 }
 
 .sum3 img {
-    width: 45%;
-    height: 45%;
+    width: 30%;
+    height: auto;
 }
 
 .sum3 h4 {
@@ -933,7 +933,7 @@ summary {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
     text-align: center;
     align-items: center;
-    justify-content: center;
+   
     display: flex;
     flex-direction: column;
 }
@@ -943,8 +943,8 @@ summary {
 }
 
 .sum4 img {
-    width: 45%;
-    height: 45%;
+    width: 30%;
+    height: auto;
 }
 
 .sum4 h4 {
@@ -977,14 +977,13 @@ summary {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
     text-align: center;
     align-items: center;
-    justify-content: center;
     display: flex;
     flex-direction: column;
 }
 
 .sum5 img {
-    width: 40%;
-    height: 40%;
+    width: 20%;
+    height: auto;
 }
 
 .sum5 h4 {

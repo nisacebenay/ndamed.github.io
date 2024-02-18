@@ -18,9 +18,9 @@ var imageSources2 = [];
 
 
 async function onload() {
-    //await loadDictionary();
-    // await setLanguage();
-    // await populateSelections(); 
+    await loadDictionary();
+    await setLanguage();
+    await populateSelections(); 
     hamburgerMenuButton = document.getElementById('hamburger-button');
     menuContainerMobile = document.querySelector('.menu-container-mobile');
     mobileNavbar = document.querySelector(".menu-container-mobile>nav");
@@ -175,6 +175,17 @@ async function setLanguage() {
             htmlElement.innerHTML = element.text;
         }
     });
+
+    var kvkk = document.getElementsByClassName("kvkk-link")[0];
+    console.log(kvkk);
+    if(kvkk){
+        if(currentLanguage == 'tr'){
+            kvkk.style.display = "block";
+        }
+        else{
+            kvkk.style.display = "none";
+        }
+    }
 }
 
 async function populateSelections() {
