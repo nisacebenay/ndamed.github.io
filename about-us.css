@@ -10,6 +10,7 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
+    display: none;
 }
 
 /*#region HEADER */
@@ -71,6 +72,10 @@ header {
 
 .social-icons {
     align-items: center;
+}
+
+.social-icons a {
+    text-decoration: none !important;
 }
 
 .social-icons img {
@@ -1236,9 +1241,10 @@ footer iframe {
 
 /*#endregion FOOTER*/
 
+
 /*#region KVKK Popup*/
 .bottom-banner {
-    height: 5%;
+    height: auto;
     background-color: var(--dkblue);
     color: var(--white);
     display: flex;
@@ -1273,24 +1279,25 @@ footer iframe {
 
 .kvkk-popup {
     display: none;
-    position: fixed;
-    background-color:#E1F2FB; 
+    background-color: var(--dkblue);
+    padding: 0;
+    margin: 0;
+}
+
+.kvkk-popup.active {
+    display: flex;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    flex-direction: column;
+    position: fixed;
+    background-color: var(--white);
     padding-left: 10em;
     padding-right: 10em;
     padding-bottom: 10em;
     z-index: 10000;
     overflow: scroll;
-}
-
-.kvkk-popup.active {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    /* Adjust the value as needed */
 }
 
 .kvkk-text {
@@ -1343,3 +1350,5 @@ footer iframe {
 .no-scroll {
     overflow: hidden;
 }
+
+/*#endregion KVKK Popup*/
