@@ -19,12 +19,12 @@ var imageSources2 = [];
 
 async function onload() {
     //await loadDictionary();
-   // await setLanguage();
-   // await populateSelections(); 
+    // await setLanguage();
+    // await populateSelections(); 
     hamburgerMenuButton = document.getElementById('hamburger-button');
     menuContainerMobile = document.querySelector('.menu-container-mobile');
     mobileNavbar = document.querySelector(".menu-container-mobile>nav");
-    
+
 
     // try parse gallery1
     gallery1 = document.getElementById("gallery-1");
@@ -59,7 +59,6 @@ function handleHamburger() {
         menuContainerMobile.classList.add("off");
         mobileNavbar.style.transition = "opacity 0.3s"
         mobileNavbar.style.opacity = "0";
-        menuContainerMobile.style.height = "10%";
     }
 }
 
@@ -217,10 +216,10 @@ function toggleOverlay() {
     document.body.classList.toggle('no-scroll');
 }
 
-function scrollToTop(){
+function scrollToTop() {
     const text = document.querySelector('.kvkk-popup');
     text.scrollTo({
         top: 0,
         behavior: 'smooth' // Use smooth behavior for smooth scrolling
-      });
+    });
 }
