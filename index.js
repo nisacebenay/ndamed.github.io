@@ -1,3 +1,4 @@
+var body;
 var hamburgerMenuButton;
 var menuContainerMobile;
 var mobileNavbar;
@@ -18,14 +19,17 @@ var imageSources2 = [];
 
 
 async function onload() {
-    //await loadDictionary();
-   // await setLanguage();
-   // await populateSelections(); 
+    body = document.querySelector("body");
+    await loadDictionary();
+    await setLanguage();
+    await populateSelections();
     hamburgerMenuButton = document.getElementById('hamburger-button');
     menuContainerMobile = document.querySelector('.menu-container-mobile');
     mobileNavbar = document.querySelector(".menu-container-mobile>nav");
-    
 
+    body.style.display = "block";
+
+    mobileNavbar.style.display = "none";
     // try parse gallery1
     gallery1 = document.getElementById("gallery-1");
     gallery2 = document.getElementById("gallery-2");
@@ -46,6 +50,8 @@ async function onload() {
             imageSources2.push(i.getAttribute("src"));
         }
     }
+
+    body.style.display = "block";
 }
 
 function handleHamburger() {
@@ -54,12 +60,13 @@ function handleHamburger() {
         menuContainerMobile.classList.add("on");
         mobileNavbar.style.transition = "opacity 0.3s"
         mobileNavbar.style.opacity = "1";
+        mobileNavbar.style.display = "flex";
     } else {
         menuContainerMobile.classList.remove("on");
         menuContainerMobile.classList.add("off");
         mobileNavbar.style.transition = "opacity 0.3s"
         mobileNavbar.style.opacity = "0";
-        menuContainerMobile.style.height = "10%";
+        mobileNavbar.style.display = "none";
     }
 }
 
@@ -176,6 +183,17 @@ async function setLanguage() {
             htmlElement.innerHTML = element.text;
         }
     });
+
+    var kvkk = document.getElementsByClassName("kvkk-link")[0];
+    console.log(kvkk);
+    if (kvkk) {
+        if (currentLanguage == 'tr') {
+            kvkk.style.display = "block";
+        }
+        else {
+            kvkk.style.display = "none";
+        }
+    }
 }
 
 async function populateSelections() {
@@ -217,10 +235,10 @@ function toggleOverlay() {
     document.body.classList.toggle('no-scroll');
 }
 
-function scrollToTop(){
+function scrollToTop() {
     const text = document.querySelector('.kvkk-popup');
     text.scrollTo({
         top: 0,
         behavior: 'smooth' // Use smooth behavior for smooth scrolling
-      });
+    });
 }
