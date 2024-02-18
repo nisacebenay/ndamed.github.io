@@ -1,3 +1,4 @@
+var body;
 var hamburgerMenuButton;
 var menuContainerMobile;
 var mobileNavbar;
@@ -18,14 +19,17 @@ var imageSources2 = [];
 
 
 async function onload() {
+    body = document.querySelector("body");
     await loadDictionary();
     await setLanguage();
-    await populateSelections(); 
+    await populateSelections();
     hamburgerMenuButton = document.getElementById('hamburger-button');
     menuContainerMobile = document.querySelector('.menu-container-mobile');
     mobileNavbar = document.querySelector(".menu-container-mobile>nav");
 
+    body.style.display = "block";
 
+    mobileNavbar.style.display = "none";
     // try parse gallery1
     gallery1 = document.getElementById("gallery-1");
     gallery2 = document.getElementById("gallery-2");
@@ -46,6 +50,8 @@ async function onload() {
             imageSources2.push(i.getAttribute("src"));
         }
     }
+
+    body.style.display = "block";
 }
 
 function handleHamburger() {
@@ -54,11 +60,13 @@ function handleHamburger() {
         menuContainerMobile.classList.add("on");
         mobileNavbar.style.transition = "opacity 0.3s"
         mobileNavbar.style.opacity = "1";
+        mobileNavbar.style.display = "flex";
     } else {
         menuContainerMobile.classList.remove("on");
         menuContainerMobile.classList.add("off");
         mobileNavbar.style.transition = "opacity 0.3s"
         mobileNavbar.style.opacity = "0";
+        mobileNavbar.style.display = "none";
     }
 }
 
@@ -178,11 +186,11 @@ async function setLanguage() {
 
     var kvkk = document.getElementsByClassName("kvkk-link")[0];
     console.log(kvkk);
-    if(kvkk){
-        if(currentLanguage == 'tr'){
+    if (kvkk) {
+        if (currentLanguage == 'tr') {
             kvkk.style.display = "block";
         }
-        else{
+        else {
             kvkk.style.display = "none";
         }
     }
