@@ -741,12 +741,12 @@
         },
         {
             "id": "text-90",
-            "tr": " <strong> İşlem öncesi bilgilendirme </strong> <br> <br> Talep ettiğiniz işlemle ilgili bilmeniz gereken herşeyi bu aşamada tarafınıza iletiyoruz.",
-            "en": "Pre-operation briefing We inform you about everything you need to know about the procedure you requested at this stage.",
-            "de": "Voroperation Briefing Wir informieren Sie in diesem Stadium über alles, was Sie über das von Ihnen angeforderte Verfahren wissen müssen.",
-            "fr": "Briefing préopératoire Nous vous informons de tout ce que vous devez savoir sur la procédure que vous avez demandée à ce stade.",
-            "nl": "Pre-operatieve briefing We informeren u in dit stadium over alles wat u moet weten over de procedure die u heeft aangevraagd."
-        },
+            "tr": "İşlem öncesi bilgilendirme <span>Talep ettiğiniz işlemle ilgili bilmeniz gereken herşeyi bu aşamada tarafınıza iletiyoruz.</span>",
+            "en": "Pre-operation briefing <span>We inform you about everything you need to know about the procedure you requested at this stage.</span>",
+            "de": "Voroperation Briefing <span>Wir informieren Sie in diesem Stadium über alles, was Sie über das von Ihnen angeforderte Verfahren wissen müssen.</span>",
+            "fr": "Briefing préopératoire <span>Nous vous informons de tout ce que vous devez savoir sur la procédure que vous avez demandée à ce stade.</span>",
+            "nl": "Pre-operatieve briefing <span>We informeren u in dit stadium over alles wat u moet weten over de procedure die u heeft aangevraagd.</span>"
+        },        
         {
             "id": "text-91",
             "tr": "İşlem için gerekli tüm destekler<span> <strong style=\"color: #393e46;\">- Transfer: </strong> Sürecin başında ülkemize geldiğinizde sizi havaalanından alma ve süreç bitiminde tekrar havaalanına bırakma, otele ulaşım ve otelden alım hizmeti <br> <strong style=\"color: #393e46;\">- Otel: </strong> İşlem süreniz ve taleplerinize göre uygun bir otelde ağırlama</span>",
@@ -757,60 +757,60 @@
         },
         {
             "id": "text-92",
-            "tr": "Yapılacak işlem saç ekimi, diş estetiği, implant, ...",
-            "en": "The procedure to be performed hair transplantation, dental aesthetics, implant, ...",
-            "de": "Das durchzuführende Verfahren Haartransplantation, Zahnästhetik, Implantat, ...",
-            "fr": "La procédure à effectuer transplantation capillaire, esthétique dentaire, implant, ...",
-            "nl": "De uit te voeren procedure haartransplantatie, tandheelkundige esthetiek, implantaat, ..."
-        },
+            "tr": "Yapılacak işlem<span> - saç ekimi, diş estetiği, implant, ...</span>",
+            "en": "The procedure to be performed <span>hair transplantation, dental aesthetics, implant, ...</span>",
+            "de": "Das durchzuführende Verfahren <span>Haartransplantation, Zahnästhetik, Implantat, ...</span>",
+            "fr": "La procédure à effectuer <span>transplantation capillaire, esthétique dentaire, implant, ...</span>",
+            "nl": "De uit te voeren procedure <span>haartransplantatie, tandheelkundige esthetiek, implantaat, ...</span>"
+        },        
         {
             "id": "text-93",
-            "tr": "İşlem sonrası gerrekli tüm ilaçlar İşlem tipine göre değişkenlik gösterir, daha fazla bilgi için iletişime geçiniz.",
-            "en": "All necessary medications after the procedure It varies according to the type of procedure, for more information, please contact us.",
-            "de": "Alle notwendigen Medikamente nach dem Eingriff Es variiert je nach Art des Eingriffs, für weitere Informationen kontaktieren Sie uns bitte.",
-            "fr": "Tous les médicaments nécessaires après la procédure Il varie en fonction du type de procédure, pour plus d'informations, veuillez nous contacter.",
-            "nl": "Alle noodzakelijke medicijnen na de procedure Het varieert afhankelijk van het type procedure, voor meer informatie, neem contact met ons op."
-        },
+            "tr": "İşlem sonrası gerrekli tüm ilaçlar <span>- İşlem tipine göre değişkenlik gösterir, daha fazla bilgi için iletişime geçiniz.</span>",
+            "en": "All necessary medications after the procedure <span>It varies according to the type of procedure, for more information, please contact us.</span>",
+            "de": "Alle notwendigen Medikamente nach dem Eingriff <span>Es variiert je nach Art des Eingriffs, für weitere Informationen kontaktieren Sie uns bitte.</span>",
+            "fr": "Tous les médicaments nécessaires après la procédure <span>Il varie en fonction du type de procédure, pour plus d'informations, veuillez nous contacter.</span>",
+            "nl": "Alle noodzakelijke medicijnen na de procedure <span>Het varieert afhankelijk van het type procedure, voor meer informatie, neem contact met ons op.</span>"
+        },        
         {
             "id": "text-94",
-            "tr": "İşlem sonrası kontrol ve bakımlar İşlem tipine göre değişkenlik gösterir, daha fazla bilgi için iletişime geçiniz.",
-            "en": "Post-procedure checks and care It varies according to the type of procedure, for more information, please contact us.",
-            "de": "Nachkontrollen und Pflege nach dem Eingriff Es variiert je nach Art des Eingriffs, für weitere Informationen kontaktieren Sie uns bitte.",
-            "fr": "Contrôles et soins post-procédure Il varie en fonction du type de procédure, pour plus d'informations, veuillez nous contacter.",
-            "nl": "Na-procedure controles en zorg Het varieert afhankelijk van het type procedure, voor meer informatie, neem contact met ons op."
-        },
+            "tr": "İşlem sonrası gerekli tüm ilaçlar <span>- İşlem tipine göre değişkenlik gösterir, daha fazla bilgi için iletişime geçiniz.</span>",
+            "en": "Post-procedure checks and care <span>It varies according to the type of procedure, for more information, please contact us.</span>",
+            "de": "Nachkontrollen und Pflege nach dem Eingriff <span>Es variiert je nach Art des Eingriffs, für weitere Informationen kontaktieren Sie uns bitte.</span>",
+            "fr": "Contrôles et soins post-procédure <span>Il varie en fonction du type de procédure, pour plus d'informations, veuillez nous contacter.</span>",
+            "nl": "Na-procedure controles en zorg <span>Het varieert afhankelijk van het type procedure, voor meer informatie, neem contact met ons op.</span>"
+        },        
         {
             "id": "text-95",
-            "tr": "İşlem sonrası bir yıl boyunca iletişim desteği İşlem sonrası sormak istediklerinizi uzman desteğiyle cevaplıyoruz.",
-            "en": "Communication support for one year after the procedure We answer your questions after the procedure with expert support.",
-            "de": "Kommunikationsunterstützung für ein Jahr nach dem Eingriff Wir beantworten Ihre Fragen nach dem Eingriff mit fachlicher Unterstützung.",
-            "fr": "Support de communication pendant un an après la procédure Nous répondons à vos questions après la procédure avec un support d'expert.",
-            "nl": "Communicatieondersteuning gedurende een jaar na de procedure We beantwoorden uw vragen na de procedure met expertondersteuning."
-        },
+            "tr": "İşlem sonrası bir yıl boyunca iletişim desteği *<span>- İşlem sonrası sormak istediklerinizi uzman desteğiyle cevaplıyoruz.</span>",
+            "en": "Communication support for one year after the procedure <span>We answer your questions after the procedure with expert support.</span>",
+            "de": "Kommunikationsunterstützung für ein Jahr nach dem Eingriff <span>Wir beantworten Ihre Fragen nach dem Eingriff mit fachlicher Unterstützung.</span>",
+            "fr": "Support de communication pendant un an après la procédure <span>Nous répondons à vos questions après la procédure avec un support d'expert.</span>",
+            "nl": "Communicatieondersteuning gedurende een jaar na de procedure <span>We beantwoorden uw vragen na de procedure met expertondersteuning.</span>"
+        },        
         {
             "id": "text-96",
-            "tr": "Bir yıl boyunca gerekli durumda işlem, transfer ve konaklama hizmeti * Bir yıl boyunca işlemle alakalı oluşabilecek yan etki(ler) ve/veya yaşanan zorluklar için tekrar ülkemize gelerek ek işlem yaptırma imkanı (bunu bir ek sigorta gibi de düşünebilirsiniz, sağlık sigortanızın yanı sıra, yaptırdığınız işlemden sonra kullanıma bağlı oluşan ve küçük bir ek işlem gerektiren durumlarda verilen ekstra hizmet)",
-            "en": "Procedure, transfer and accommodation service if necessary for one year * The possibility of coming to our country again for an additional procedure for any side effect(s) and/or difficulties that may occur related to the procedure for one year (you can also think of this as an additional insurance, in addition to your health insurance, an extra service provided in cases that occur due to use after the procedure and require a small additional procedure)",
-            "de": "Verfahren, Transfer- und Unterbringungsservice bei Bedarf für ein Jahr * Die Möglichkeit, für ein Jahr erneut in unser Land zu kommen, um bei Nebenwirkungen und/oder Schwierigkeiten, die im Zusammenhang mit dem Verfahren auftreten können, eine zusätzliche Behandlung durchzuführen (Sie können dies auch als zusätzliche Versicherung betrachten, zusätzlich zu Ihrer Krankenversicherung, ein zusätzlicher Service, der in Fällen angeboten wird, die nach dem Eingriff auftreten und eine kleine zusätzliche Behandlung erfordern)",
-            "fr": "Service de procédure, de transfert et d'hébergement si nécessaire pendant un an * La possibilité de revenir dans notre pays pour une procédure supplémentaire pour tout effet secondaire(s) et/ou difficultés qui peuvent survenir liées à la procédure pendant un an (vous pouvez également considérer cela comme une assurance supplémentaire, en plus de votre assurance maladie, un service supplémentaire fourni dans les cas qui surviennent après la procédure et nécessitent une petite procédure supplémentaire)",
-            "nl": "Procedure, transfer- en accommodatieservice indien nodig gedurende een jaar * De mogelijkheid om voor een jaar opnieuw naar ons land te komen voor een aanvullende procedure voor eventuele bijwerking(en) en/of moeilijkheden die zich kunnen voordoen in verband met de procedure gedurende een jaar (u kunt dit ook beschouwen als een aanvullende verzekering, naast uw ziektekostenverzekering, een extra service die wordt geboden in gevallen die optreden na de procedure en een kleine aanvullende procedure vereisen)"
-        },
+            "tr": "Bir yıl boyunca gerekli durumda işlem, transfer ve konaklama hizmeti * <span>- Bir yıl boyunca işlemle alakalı oluşabilecek yan etki(ler) ve/veya yaşanan zorluklar için tekrar ülkemize gelerek ek işlem yaptırma imkanı (bunu bir ek sigorta gibi de düşünebilirsiniz, sağlık sigortanızın yanı sıra, yaptırdığınız işlemden sonra kullanıma bağlı oluşan ve küçük bir ek işlem gerektiren durumlarda verilen ekstra hizmet)</span>",
+            "en": "Procedure, transfer, and accommodation service if necessary for one year * <span>- The possibility of coming to our country again for an additional procedure for any side effect(s) and/or difficulties that may occur related to the procedure for one year (you can also think of this as additional insurance, in addition to your health insurance, an extra service provided in cases that occur due to use after the procedure and require a small additional procedure)</span>",
+            "de": "Verfahren, Transfer- und Unterbringungsservice bei Bedarf für ein Jahr * <span>- Die Möglichkeit, für ein Jahr erneut in unser Land zu kommen, um bei Nebenwirkungen und/oder Schwierigkeiten, die im Zusammenhang mit dem Verfahren auftreten können, eine zusätzliche Behandlung durchzuführen (Sie können dies auch als zusätzliche Versicherung betrachten, zusätzlich zu Ihrer Krankenversicherung, ein zusätzlicher Service, der in Fällen angeboten wird, die nach dem Eingriff auftreten und eine kleine zusätzliche Behandlung erfordern)</span>",
+            "fr": "Service de procédure, de transfert et d'hébergement si nécessaire pendant un an * <span>- La possibilité de revenir dans notre pays pour une procédure supplémentaire pour tout effet secondaire(s) et/ou difficultés qui peuvent survenir liées à la procédure pendant un an (vous pouvez également considérer cela comme une assurance supplémentaire, en plus de votre assurance maladie, un service supplémentaire fourni dans les cas qui surviennent après la procédure et nécessitent une petite procédure supplémentaire)</span>",
+            "nl": "Procedure, transfer- en accommodatieservice indien nodig gedurende een jaar * <span>- De mogelijkheid om voor een jaar opnieuw naar ons land te komen voor een aanvullende procedure voor eventuele bijwerking(en) en/of moeilijkheden die zich kunnen voordoen in verband met de procedure gedurende een jaar (u kunt dit ook beschouwen als een aanvullende verzekering, naast uw ziektekostenverzekering, een extra service die wordt geboden in gevallen die optreden na de procedure en een kleine aanvullende procedure vereisen)</span>"
+        },        
         {
             "id": "text-97",
-            "tr": "Talebiniz üzerine ek destekler Transfer, otel ve işlem ile ilgisi olmayan ama sizin için önem arzeden tüm hizmetler (kişisel ihtiyaç, kuaför, kozmetik hizmeti, alışveriş ihtiyacı, konsolosluk desteği gibi durumlarda yanınızda bulunma, vb.)",
-            "en": "Additional supports upon your request Transfer, hotel and all services that are not related to the procedure but are important to you (being with you in cases such as personal needs, hairdresser, cosmetic service, shopping needs, consular support, etc.)",
-            "de": "Zusätzliche Unterstützungen auf Ihren Wunsch Transfer, Hotel und alle Dienstleistungen, die nicht mit dem Verfahren zusammenhängen, aber für Sie wichtig sind (bei Ihnen in Fällen wie persönlichen Bedürfnissen, Friseur, kosmetischer Service, Einkaufsbedarf, konsularische Unterstützung usw.)",
-            "fr": "Supports supplémentaires sur votre demande Transfert, hôtel et tous les services qui ne sont pas liés à la procédure mais qui sont importants pour vous (être avec vous dans des cas tels que les besoins personnels, coiffeur, service cosmétique, besoins d'achat, support consulaire, etc.)",
-            "nl": "Aanvullende ondersteuning op uw verzoek Transfer, hotel en alle diensten die niet gerelateerd zijn aan de procedure maar belangrijk voor u zijn (bij u zijn in gevallen zoals persoonlijke behoeften, kapper, cosmetische service, winkelbehoeften, consulaire ondersteuning, enz.)"
-        },
+            "tr": "Talebiniz üzerine ek destekler <span>- Transfer, otel ve işlem ile <strong style=\"text-decoration: underline; color: #393e46;\">ilgisi olmayan</strong> ama sizin için önem arzeden tüm hizmetler (kişisel ihtiyaç, kuaför, kozmetik hizmeti, alışveriş ihtiyacı, konsolosluk desteği gibi durumlarda yanınızda bulunma, vb.)</span>",
+            "en": "Additional supports upon your request <span>Transfer, hotel, and all services that are <strong style=\"text-decoration: underline; color: #393e46;\">not related</strong> to the procedure but are important to you (being with you in cases such as personal needs, hairdresser, cosmetic service, shopping needs, consular support, etc.)</span>",
+            "de": "Zusätzliche Unterstützungen auf Ihren Wunsch <span>Transfer, Hotel und alle Dienstleistungen, <strong style=\"text-decoration: underline; color: #393e46;\">die nicht</strong> mit dem Verfahren zusammenhängen, aber für Sie wichtig sind (bei Ihnen in Fällen wie persönlichen Bedürfnissen, Friseur, kosmetischer Service, Einkaufsbedarf, konsularische Unterstützung usw.)</span>",
+            "fr": "Supports supplémentaires sur votre demande <span>Transfert, hôtel et tous les services qui <strong style=\"text-decoration: underline; color: #393e46;\">ne sont</strong> pas liés à la procédure mais qui sont importants pour vous (être avec vous dans des cas tels que les besoins personnels, coiffeur, service cosmétique, besoins d'achat, support consulaire, etc.)</span>",
+            "nl": "Aanvullende ondersteuning op uw verzoek <span>Transfer, hotel en alle diensten <strong style=\"text-decoration: underline; color: #393e46;\">die niet</strong> gerelateerd zijn aan de procedure maar belangrijk voor u zijn (bij u zijn in gevallen zoals persoonlijke behoeften, kapper, cosmetische service, winkelbehoeften, consulaire ondersteuning, enz.)</span>"
+        },        
         {
             "id": "text-98",
-            "tr": "Üst pakette yer alan tüm hizmetleri daha üst seviyeye taşıyoruz: Örnekler: Daha geniş ve daha konforlu havaalanı transfer aracı (isteğe göre özel bir araç veya marka) - Daha lüks otel (isteğe göre belli bir otel zinciri) - İsteğe göre bir cerrah veya diş hekimi (sosyal medyada rastladığınız ve hizmet almak istediğiniz kişiyle irtibata geçip size en özel fiyatı garanti ediyoruz)",
-            "en": "We take all the services included in the top package to a higher level: Examples: A wider and more comfortable airport transfer vehicle  (a private vehicle or brand according to your request) - A more luxurious hotel (a certain hotel chain according to your request) - A surgeon or dentist according to your request (we guarantee you the most special price by contacting the person you have encountered on social media and want to receive service from)",
-            "de": "Wir bringen alle im Top-Paket enthaltenen Dienstleistungen auf ein höheres Niveau: Beispiele: Ein breiteres und komfortableres Flughafentransportfahrzeug (ein privates Fahrzeug oder eine Marke nach Ihrem Wunsch) - Ein luxuriöseres Hotel (eine bestimmte Hotelkette nach Ihrem Wunsch) - Ein Chirurg oder Zahnarzt nach Ihrem Wunsch (wir garantieren Ihnen den speziellsten Preis, indem wir die Person, die Sie in den sozialen Medien getroffen haben und von der Sie Dienstleistungen erhalten möchten, kontaktieren)",
-            "fr": "Nous portons tous les services inclus dans le forfait supérieur à un niveau supérieur: Exemples: Un véhicule de transfert aéroportuaire plus large et plus confortable (un véhicule privé ou une marque selon votre demande) - Un hôtel plus luxueux (une certaine chaîne d'hôtels selon votre demande) - Un chirurgien ou dentiste selon votre demande (nous vous garantissons le prix le plus spécial en contactant la personne que vous avez rencontrée sur les réseaux sociaux et que vous souhaitez recevoir un service de)",
-            "nl": "We tillen alle diensten die zijn inbegrepen in het top pakket naar een hoger niveau: Voorbeelden: Een breder en comfortabeler luchthaventransportvoertuig (een privévoertuig of merk volgens uw verzoek) - Een luxueuzer hotel (een bepaalde hotelketen volgens uw verzoek) - Een chirurg of tandarts volgens uw verzoek (we garanderen u de meest speciale prijs door contact op te nemen met de persoon die u op sociale media bent tegengekomen en van wie u service wilt ontvangen)"
-        },
+            "tr": "Üst pakette yer alan tüm hizmetleri daha üst seviyeye taşıyoruz: <br> Örnekler: <span>- Daha geniş ve daha konforlu havaalanı transfer aracı (isteğe göre özel bir araç veya marka) <br> - Daha lüks otel (isteğe göre belli bir otel zinciri) <br> - İsteğe göre bir cerrah veya diş hekimi (sosyal medyada rastladığınız ve hizmet almak istediğiniz kişiyle irtibata geçip size en özel fiyatı garanti ediyoruz)</span>",
+            "en": "We take all the services included in the top package to a higher level: <br> Examples: <span>- A wider and more comfortable airport transfer vehicle (a private vehicle or brand according to your request) - A more luxurious hotel (a certain hotel chain according to your request) - A surgeon or dentist according to your request (we guarantee you the most special price by contacting the person you have encountered on social media and want to receive service from)</span>",
+            "de": "Wir bringen alle im Top-Paket enthaltenen Dienstleistungen auf ein höheres Niveau: <br> Beispiele: <span>- Ein breiteres und komfortableres Flughafentransportfahrzeug (ein privates Fahrzeug oder eine Marke nach Ihrem Wunsch) - Ein luxuriöseres Hotel (eine bestimmte Hotelkette nach Ihrem Wunsch) - Ein Chirurg oder Zahnarzt nach Ihrem Wunsch (wir garantieren Ihnen den speziellsten Preis, indem wir die Person, die Sie in den sozialen Medien getroffen haben und von der Sie Dienstleistungen erhalten möchten, kontaktieren)</span>",
+            "fr": "Nous portons tous les services inclus dans le forfait supérieur à un niveau supérieur: <br> Exemples: <span>- Un véhicule de transfert aéroportuaire plus large et plus confortable (un véhicule privé ou une marque selon votre demande) - Un hôtel plus luxueux (une certaine chaîne d'hôtels selon votre demande) - Un chirurgien ou dentiste selon votre demande (nous vous garantissons le prix le plus spécial en contactant la personne que vous avez rencontrée sur les réseaux sociaux et que vous souhaitez recevoir un service de)</span>",
+            "nl": "We tillen alle diensten die zijn inbegrepen in het top pakket naar een hoger niveau: <br> Voorbeelden: <span>- Een breder en comfortabeler luchthaventransportvoertuig (een privévoertuig of merk volgens uw verzoek) - Een luxueuzer hotel (een bepaalde hotelketen volgens uw verzoek) - Een chirurg of tandarts volgens uw verzoek (we garanderen u de meest speciale prijs door contact op te nemen met de persoon die u op sociale media bent tegengekomen en van wie u service wilt ontvangen)</span>"
+        },        
         {
             "id": "text-99",
             "tr": "¹ transfer, otel ve işlem ile ilgisi olmayan ama sizin için önem arzeden tüm hizmetler (kişisel ihtiyaç, kuaför, kozmetik hizmeti, alışveriş ihtiyacı, konsolosluk desteği gibi durumlarda yanınızda bulunma, vb.)",
