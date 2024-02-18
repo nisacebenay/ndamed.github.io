@@ -1,40 +1,33 @@
 {
     "languages": [
-
         {
             "id": "tr",
             "name": "Türkçe",
             "short": "tr"
         },
-
         {
             "id": "en",
             "name": "English",
             "short": "en"
         },
-
         {
             "id": "de",
             "name": "Deutsch",
             "short": "de"
         },
-
         {
             "id": "fr",
             "name": "Français",
             "short": "fr"
         },
-
         {
             "id": "nl",
             "name": "Nederlands",
             "short": "nl"
         }
     ],
-
     "texts": [
-
-        { 
+        {
             "id": "text-1",
             "tr": "Anasayfa",
             "en": "Home",
@@ -42,7 +35,6 @@
             "fr": "Accueil",
             "nl": "Thuis"
         },
-
         {
             "id": "text-2",
             "tr": "Anasayfa",
@@ -51,7 +43,6 @@
             "fr": "Accueil",
             "nl": "Thuis"
         },
-
         {
             "id": "text-3",
             "tr": "Hakkımızda",
@@ -60,7 +51,6 @@
             "fr": "À propos de nous",
             "nl": "Over ons"
         },
-
         {
             "id": "text-4",
             "tr": "Hizmetlerimiz",
@@ -69,7 +59,6 @@
             "fr": "Services",
             "nl": "Diensten"
         },
-
         {
             "id": "text-5",
             "tr": "İletişim",
@@ -78,7 +67,6 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-6",
             "tr": "Anasayfa",
@@ -87,7 +75,6 @@
             "fr": "Accueil",
             "nl": "Thuis"
         },
-
         {
             "id": "text-7",
             "tr": "Hakkımızda",
@@ -96,7 +83,6 @@
             "fr": "À propos de nous",
             "nl": "Over ons"
         },
-
         {
             "id": "text-8",
             "tr": "Hizmetlerimiz",
@@ -105,7 +91,6 @@
             "fr": "Services",
             "nl": "Diensten"
         },
-
         {
             "id": "text-9",
             "tr": "İletişim",
@@ -114,7 +99,6 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-10",
             "tr": "NDA Med'e hoşgeldiniz.",
@@ -123,16 +107,14 @@
             "fr": "Bienvenue chez NDA Med.",
             "nl": "Welkom bij NDA Med."
         },
-
         {
             "id": "text-11",
             "tr": "NDA Med. Sağlık Hizmetleri olarak yurtiçi ve yurtdışından saç ekimi ve dental estetik için gelen tüm misafirlerimize eşsiz bir deneyim sunuyoruz. Ayrıca Türkiye’nin başkenti Ankara’da sizlere ulaşım hizmeti ve konaklama fırsatı sunuyor, ülkemizde bulunduğunuz süre zarfında size kendinizi evinizde hissettirecek rahatlığı sağlıyoruz. Özellikle operasyon ve sonraki süreç hakkında birçok soru işareti olan misafirlerimize aşağıdaki garantileri sunmayı kendimize bir görev bildik:",
             "en": "As NDA Med. Health Services, we offer a unique experience to all our guests who come from Turkey and abroad for hair transplantation and dental aesthetics. We also offer you transportation and accommodation opportunities in Ankara, the capital of Turkey, and provide you with the comfort that will make you feel at home during your stay in our country. We considered it is our duty to offer the following guarantees to our guests, especially those who have many questions about the operation and the subsequent process:",
             "de": "Als NDA Med. Health Services bieten wir allen unseren Gästen, die aus der Türkei und dem Ausland zur Haartransplantation und Zahnästhetik anreisen, ein einzigartiges Erlebnis. Wir bieten Ihnen auch Transport- und Unterkunftsmöglichkeiten in Ankara, der Hauptstadt der Türkei, und bieten Ihnen den Komfort, damit Sie sich während Ihres Aufenthalts in unserem Land wie zu Hause fühlen. Wir halten es für unsere Pflicht, unseren Gästen, insbesondere denen, die viele Fragen zum Betrieb und zum weiteren Ablauf haben, folgende Garantien zu bieten:",
-            "fr": "Comme NDA Med. Services de santé, nous offrons une expérience unique à tous nos clients venant de Turquie et de l'étranger pour la greffe de cheveux et l'esthétique dentaire. Nous vous proposons également des possibilités de transport et d'hébergement à Ankara, la capitale de la Turquie, et vous offrons le confort qui vous fera vous sentir chez vous pendant votre séjour dans notre pays. Nous considérons qu'il est de notre devoir d'offrir les garanties suivantes à nos clients, en particulier à ceux qui ont de nombreuses questions sur l'opération et le processus ultérieur :",
+            "fr": "Comme NDA Med. Services de santé, nous offrons une expérience unique à tous nos clients venant de Turquie et de l'étranger pour la greffe de cheveux et l'esthétique dentaire. Nous vous proposons également des possibilités de transport et d'hébergement à Ankara, la capitale de la Turquie, et vous offrons le confort qui vous fera vous sentir chez vous pendant votre séjour dans notre pays. Nous considérons qu'il est de notre devoir d'offrir les garanties suivantes à nos clients, en particulier à ceux qui ont de nombreuses questions sur l'opération et le processus ultérieur:",
             "nl": "Als NDA Med. Health Services bieden we een unieke ervaring aan al onze gasten die uit Turkije en het buitenland komen voor haartransplantatie en tandheelkundige esthetiek. Wij bieden u ook transport- en accommodatiemogelijkheden in Ankara, de hoofdstad van Turkije, en bieden u het comfort waardoor u zich thuis zult voelen tijdens uw verblijf in ons land. We beschouwden het als onze plicht om de volgende garanties te bieden aan onze gasten, vooral degenen die veel vragen hebben over de werking en het daaropvolgende proces:"
         },
-
         {
             "id": "text-12",
             "tr": "Sağlık turizm sertifikalı hekim ve uzmanlar",
@@ -141,7 +123,6 @@
             "fr": "Médecins et spécialistes certifiés en tourisme de santé",
             "nl": "Artsen en specialisten gecertificeerd voor gezondheidstoerisme"
         },
-
         {
             "id": "text-13",
             "tr": "%100 steril ortam",
@@ -150,7 +131,6 @@
             "fr": "Environnement 100% stérile",
             "nl": "100% steriele omgeving"
         },
-
         {
             "id": "text-14",
             "tr": "Operasyon/işlem sonrası takipler (doktor/uzman danışmanlığı ile)",
@@ -159,7 +139,6 @@
             "fr": "Suivi post-opératoire/procédure (avec consultation de médecin/spécialiste)",
             "nl": "Na-operatie/procedure follow-ups (met arts/specialist consult)"
         },
-
         {
             "id": "text-15",
             "tr": "Kaliteli ve güvenilir hizmet anlayışı",
@@ -168,7 +147,6 @@
             "fr": "Qualité et compréhension du service fiable",
             "nl": "Kwaliteit en betrouwbaar servicebegrip"
         },
-
         {
             "id": "text-16",
             "tr": "İhtiyaca göre ek hizmetler",
@@ -177,7 +155,6 @@
             "fr": "Services supplémentaires selon les besoins",
             "nl": "Aanvullende diensten volgens behoefte"
         },
-
         {
             "id": "text-17",
             "tr": "Hizmetlerimiz",
@@ -186,7 +163,6 @@
             "fr": "Services",
             "nl": "Diensten"
         },
-
         {
             "id": "text-18",
             "tr": "Sağlıklı hizmet almak sizin de hakkınız. Hizmet sonrası irtibatta kalıp süreci birlikte değerlendiriyoruz.",
@@ -195,7 +171,6 @@
             "fr": "Vous avez le droit de recevoir un service sain. Nous restons en contact après le service et évaluons le processus ensemble.",
             "nl": "Het is uw recht om gezonde service te ontvangen. We houden contact na de service en evalueren het proces samen."
         },
-
         {
             "id": "text-19",
             "tr": "Bize Ulaşın",
@@ -204,7 +179,6 @@
             "fr": "Contactez-nous",
             "nl": "Neem contact met ons op"
         },
-
         {
             "id": "text-20",
             "tr": "Biz Kimiz?",
@@ -213,7 +187,6 @@
             "fr": "Qui sommes-nous?",
             "nl": "Wie zijn wij?"
         },
-
         {
             "id": "text-21",
             "tr": "2024 yılında Ankara'da kurulmuş küçük bir aile şirketiyiz. Ankara'nın bir çok açıdan sağlık turizmi sektörüne sunabilecek büyük katkısı olduğunu düşünüyoruz ve bu yolda ilerliyoruz. Sahip olduğumuz sosyal ağımızı yurtiçi ve yurtdışından bizi tercih eden misafirlerle buluşturmak istiyoruz. Doğru hastane, iyi otel ve başarılı transfer hizmeti sunuyoruz. Sadece bir sağlık turizm acentesi olarak değil, misafirlerimizin şehirde kendilerini rahat hissetmeleri için onlara aynı zamanda bir asistanlık hizmeti veriyoruz. Bizi diğer acentelerden farklı kılan şey, kendi sağlığımız söz konusu olduğunda iyi sağlık hizmeti almak istediğimiz zaman ne yapıyorsak, misafirlerimize de aynı şekilde davranıyoruz.",
@@ -222,7 +195,6 @@
             "fr": "Nous sommes une petite entreprise familiale créée à Ankara en 2024. Nous pensons qu'Ankara a une grande contribution à offrir au secteur du tourisme de santé à bien des égards, et nous avançons sur cette voie. Nous voulons rassembler notre réseau social avec des invités qui nous préfèrent du pays et de l'étranger. Nous offrons le bon hôpital, un bon hôtel et un service de transfert réussi. Nous agissons non seulement comme une agence de tourisme de santé auprès de nos clients, mais nous leur fournissons également un service d'assistance pour qu'ils se sentent à l'aise dans la ville. Ce qui nous différencie des autres agences, c'est que lorsqu'il s'agit de notre propre santé, nous traitons nos clients de la même manière que lorsque nous souhaitons recevoir de bons soins de santé.",
             "nl": "Wij zijn een klein familiebedrijf opgericht in Ankara in 2024. Wij denken dat Ankara in veel opzichten een grote bijdrage te bieden heeft aan de sector van het gezondheidstoerisme, en we gaan verder op deze weg. We willen ons sociale netwerk samenbrengen met gasten uit binnen- en buitenland die de voorkeur aan ons geven. Wij bieden het juiste ziekenhuis, een goed hotel en een succesvolle transferservice. We fungeren niet alleen als een bureau voor gezondheidstoerisme voor onze gasten, maar bieden hen ook een assistentiedienst om hen zich op hun gemak te laten voelen in de stad. Wat ons anders maakt dan andere instanties, is dat als het gaat om onze eigen gezondheid, We behandelen onze gasten op dezelfde manier als wanneer we goede gezondheidszorg willen ontvangen."
         },
-
         {
             "id": "text-22",
             "tr": "NDA Med International Society for Quality in Health Care (ISqua) üyesidir. ISqua'nın kısaca hedefleri ise eğitim, bilgi paylaşımı, denetim, dünya çapındaki sağlık sistemlerini desteklemek ve benzer düşünen insanları sağlık ağlarımız aracılığıyla buluşturmaktır. NDA Med olarak ISqua'nın sunduğu hizmetler doğtultusunda ilerliyoruz ve tüm bilgilendirmelerini destekliyoruz. Ülkemizde sadece uluslararası sağlık turizm sertifikasına sahip olan hastane ve kliniklerle çalışıyoruz. Ayrıca, sunulan eğitimlere katılarak hem yurtiçinde hem yurtdışında bulunan ve bizi tercih tüm hastalar için en en güncel bilgiyi en doğru kaynaktan edinmiş oluyoruz.",
@@ -231,7 +203,6 @@
             "fr": "NDA Med est membre de la Société internationale pour la qualité des soins de santé (ISqua). En bref, les objectifs d'ISqua sont l'éducation, le partage d'informations, l'audit, le soutien des systèmes de santé dans le monde entier et la mise en relation de personnes partageant les mêmes idées à travers nos réseaux de soins de santé. En tant que NDA Med, nous avançons en ligne avec les services offerts par ISqua et soutenons toutes ses informations. Dans notre pays, nous ne travaillons qu'avec des hôpitaux et des cliniques qui ont un certificat international de tourisme de santé. De plus, en participant à la formation offerte, nous obtenons les informations les plus à jour de la source la plus précise pour tous les patients qui nous choisissent, tant à l'intérieur qu'à l'extérieur du pays.",
             "nl": "NDA Med is lid van de International Society for Quality in Health Care (ISqua). Kortom, de doelstellingen van ISqua zijn onderwijs, informatie-uitwisseling, auditing, ondersteuning van gezondheidssystemen over de hele wereld en het verbinden van gelijkgestemde mensen via onze zorgnetwerken. Als NDA Med gaan we vooruit in lijn met de diensten die ISqua biedt en ondersteunen we alle informatie. In ons land werken we alleen met ziekenhuizen en klinieken die een internationaal certificaat voor gezondheidstoerisme hebben. Bovendien verkrijgen we door deel te nemen aan de aangeboden trainingen de meest actuele informatie van de meest nauwkeurige bron voor alle patiënten die ons kiezen, zowel in eigen land als in het buitenland."
         },
-
         {
             "id": "text-23",
             "tr": "Yolculuğunuz boyunca size eşlik edecek kaliteli bir özel hizmet yelpazesi",
@@ -240,7 +211,6 @@
             "fr": "Une gamme de services privés de qualité pour vous accompagner tout au long de votre voyage",
             "nl": "Een kwaliteitsassortiment van privédiensten om u gedurende uw reis te begeleiden"
         },
-
         {
             "id": "text-24",
             "tr": "Ulaşım",
@@ -249,7 +219,6 @@
             "fr": "Transport",
             "nl": "Vervoer"
         },
-
         {
             "id": "text-25",
             "tr": "Gitmeniz gereken yerlere ulaşmanıza yardımcı oluyoruz.",
@@ -258,7 +227,6 @@
             "fr": "Nous vous aidons à arriver là où vous devez aller.",
             "nl": "We helpen u om te komen waar u moet"
         },
-
         {
             "id": "text-26",
             "tr": "Konaklama",
@@ -267,7 +235,6 @@
             "fr": "Hébergement",
             "nl": "Accommodatie"
         },
-
         {
             "id": "text-27",
             "tr": "Anlaşmalı otellerimizde konaklama hizmeti sunuyoruz.",
@@ -276,7 +243,6 @@
             "fr": "Nous proposons des services d'hébergement dans nos hôtels contractés.",
             "nl": "We bieden accommodatiediensten in onze gecontracteerde hotels."
         },
-
         {
             "id": "text-28",
             "tr": "Dil Desteği",
@@ -285,7 +251,6 @@
             "fr": "Support linguistique",
             "nl": "Taalondersteuning"
         },
-
         {
             "id": "text-29",
             "tr": "İngilizce dahil birçok dilde çeviri hizmeti sunuyoruz.",
@@ -294,7 +259,6 @@
             "fr": "Nous proposons des services de traduction dans de nombreuses langues, y compris l'anglais.",
             "nl": "We bieden vertaaldiensten in veel talen, waaronder Engels."
         },
-
         {
             "id": "text-30",
             "tr": "7/24 İletişim",
@@ -303,7 +267,6 @@
             "fr": "7/24 Communication",
             "nl": "7/24 Communicatie"
         },
-
         {
             "id": "text-31",
             "tr": "Saat farketmeksizin size şehrin her yerinde eşlik ediyoruz.",
@@ -312,7 +275,6 @@
             "fr": "Nous sommes avec vous partout dans la ville, quelle que soit l'heure.",
             "nl": "We zijn overal in de stad bij u, ongeacht de tijd."
         },
-
         {
             "id": "text-32",
             "tr": "Destek",
@@ -321,7 +283,6 @@
             "fr": "Soutien",
             "nl": "Ondersteuning"
         },
-
         {
             "id": "text-33",
             "tr": "Talebinize uygun bir hastane veya uzman tedariği sağlıyoruz.",
@@ -330,7 +291,6 @@
             "fr": "Nous vous fournissons un hôpital ou une offre de spécialistes qui correspond à votre demande.",
             "nl": "Wij bieden u een ziekenhuis of specialistenlevering die past bij uw verzoek."
         },
-
         {
             "id": "text-34",
             "tr": "İletişim",
@@ -339,16 +299,14 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-35",
-            "tr": "Kırkkonaklar Mahallesi, Şemsettin Günaltay Caddesi 241/2, Çankaya/ANKARA (Türkiye)",
-            "en": "Kirkkonaklar District, Semsettin Gunaltay Street, 241/2, Cankaya/ANKARA (Turkey)",
-            "de": "Kirkkonaklar Viertel, Semsettin Gunaltay Straße, 241/2, Cankaya/ANKARA (Türkei)",
-            "fr": "Quartier de Kirkkonaklar, rue Semsettin Gunaltay, 241/2, Cankaya/ANKARA (Turquie)",
-            "nl": "Kirkkonaklar District, Semsettin Gunaltay Street, 241/2, Cankaya/ANKARA (Turkije)"
+            "tr": "Kırkkonaklar Mahallesi, Şemsettin Günaltay <br> Caddesi 241/2, Çankaya/ANKARA (Türkiye)",
+            "en": "Kirkkonaklar District, Semsettin Gunaltay <br> Street, 241/2, Cankaya/ANKARA (Turkey)",
+            "de": "Kirkkonaklar Viertel, Semsettin Gunaltay <br> Straße, 241/2, Cankaya/ANKARA (Türkei)",
+            "fr": "Quartier de Kirkkonaklar, rue Semsettin Gunaltay, <br> 241/2, Cankaya/ANKARA (Turquie)",
+            "nl": "Kirkkonaklar District, Semsettin Gunaltay Street <br>, 241/2, Cankaya/ANKARA (Turkije)"
         },
-
         {
             "id": "text-36",
             "tr": "Yurtdışı:",
@@ -357,7 +315,6 @@
             "fr": "À l'étranger:",
             "nl": "Buitenland:"
         },
-
         {
             "id": "text-37",
             "tr": "Yurtiçi",
@@ -366,7 +323,6 @@
             "fr": "Domestique",
             "nl": "Binnenlands"
         },
-
         {
             "id": "text-38",
             "tr": "Sosyal Medya",
@@ -375,16 +331,14 @@
             "fr": "Médias sociaux",
             "nl": "Sociale Media"
         },
-
         {
             "id": "text-39",
-            "tr": "Bize sosyal medya hesaplarımızdan da ulaşabilirsiniz.",
-            "en": "You can also reach us from our social media accounts.",
-            "de": "Sie können uns auch über unsere Social-Media-Konten erreichen.",
-            "fr": "Vous pouvez également nous joindre via nos comptes de médias sociaux.",
-            "nl": "U kunt ons ook bereiken via onze sociale media-accounts."
+            "tr": "Bize sosyal medya hesaplarımızdan <br> da ulaşabilirsiniz.",
+            "en": "You can also reach us from our <br> social media accounts.",
+            "de": "Sie können uns auch über unsere <br> Social-Media-Konten erreichen.",
+            "fr": "Vous pouvez également nous joindre <br> via nos comptes de médias sociaux.",
+            "nl": "U kunt ons ook bereiken via <br> onze sociale media-accounts."
         },
-
         {
             "id": "text-40",
             "tr": "Hakkımızda",
@@ -393,7 +347,6 @@
             "fr": "À propos de nous",
             "nl": "Over ons"
         },
-
         {
             "id": "text-41",
             "tr": "Ana Sayfa",
@@ -402,7 +355,6 @@
             "fr": "Accueil",
             "nl": "Thuis"
         },
-
         {
             "id": "text-42",
             "tr": "Hakkımızda",
@@ -411,7 +363,6 @@
             "fr": "À propos de nous",
             "nl": "Over ons"
         },
-
         {
             "id": "text-43",
             "tr": "Hizmetlerimiz",
@@ -420,7 +371,6 @@
             "fr": "Services",
             "nl": "Diensten"
         },
-
         {
             "id": "text-44",
             "tr": "İletişim",
@@ -429,7 +379,6 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-45",
             "tr": "Ana Sayfa",
@@ -438,7 +387,6 @@
             "fr": "Accueil",
             "nl": "Thuis"
         },
-
         {
             "id": "text-46",
             "tr": "Hakkımızda",
@@ -447,7 +395,6 @@
             "fr": "À propos de nous",
             "nl": "Over ons"
         },
-
         {
             "id": "text-47",
             "tr": "Hizmetlerimiz",
@@ -455,8 +402,7 @@
             "de": "Dienstleistungen",
             "fr": "Services",
             "nl": "Diensten"
-        }, 
-
+        },
         {
             "id": "text-48",
             "tr": "İletişim",
@@ -464,8 +410,7 @@
             "de": "Kontakt",
             "fr": "Contact",
             "nl": "Contact"
-        }, 
-
+        },
         {
             "id": "text-49",
             "tr": "NDA Med. Sağlık Turizmi Acentesi",
@@ -474,7 +419,6 @@
             "fr": "NDA Med. Agence de tourisme de santé",
             "nl": "NDA Med. Gezondheidstoerisme Agentschap"
         },
-
         {
             "id": "text-50",
             "tr": "2024 yılında Ankara'da kurulmuş küçük bir aile şirketiyiz. Ankara'nın bir çok açıdan sağlık turizmi sektörüne sunabilecek büyük katkısı olduğunu düşünüyoruz ve bu yolda ilerliyoruz. Sahip olduğumuz sosyal ağımızı yurtiçi ve yurtdışından bizi tercih eden misafirlerle buluşturmak istiyoruz.",
@@ -483,7 +427,6 @@
             "fr": "Nous sommes une petite entreprise familiale créée à Ankara en 2024. Nous pensons qu'Ankara a une grande contribution à offrir au secteur du tourisme de santé à bien des égards, et nous avançons sur cette voie. Nous voulons rassembler notre réseau social avec des invités qui nous préfèrent du pays et de l'étranger.",
             "nl": "Wij zijn een klein familiebedrijf opgericht in Ankara in 2024. Wij denken dat Ankara in veel opzichten een grote bijdrage te bieden heeft aan de sector van het gezondheidstoerisme, en we gaan verder op deze weg. We willen ons sociale netwerk samenbrengen met gasten uit binnen- en buitenland die de voorkeur aan ons geven."
         },
-
         {
             "id": "text-51",
             "tr": "Doğru hastane, iyi otel ve başarılı transfer hizmeti sunuyoruz. Sadece bir sağlık turizm acentesi olarak değil, misafirlerimizin şehirde kendilerini rahat hissetmeleri için onlara aynı zamanda bir asistanlık hizmeti veriyoruz.",
@@ -492,7 +435,6 @@
             "fr": "Nous offrons le bon hôpital, un bon hôtel et un service de transfert réussi. Nous agissons non seulement comme une agence de tourisme de santé auprès de nos clients, mais nous leur fournissons également un service d'assistance pour qu'ils se sentent à l'aise dans la ville.",
             "nl": "Wij bieden het juiste ziekenhuis, een goed hotel en een succesvolle transferservice. We fungeren niet alleen als een bureau voor gezondheidstoerisme voor onze gasten, maar bieden hen ook een assistentiedienst om hen zich op hun gemak te laten voelen in de stad."
         },
-
         {
             "id": "text-52",
             "tr": "Bizi diğer acentelerden farklı kılan şey, kendi sağlığımız söz konusu olduğunda iyi sağlık hizmeti almak istediğimiz zaman ne yapıyorsak, misafirlerimize de aynı şekilde davranıyoruz.",
@@ -501,7 +443,6 @@
             "fr": "Ce qui nous différencie des autres agences, c'est que lorsqu'il s'agit de notre propre santé, nous traitons nos clients de la même manière que lorsque nous souhaitons recevoir de bons soins de santé.",
             "nl": "Wat ons anders maakt dan andere instanties, is dat als het gaat om onze eigen gezondheid, We behandelen onze gasten op dezelfde manier als wanneer we goede gezondheidszorg willen ontvangen."
         },
-
         {
             "id": "text-53",
             "tr": "Ekibimiz",
@@ -510,7 +451,6 @@
             "fr": "Notre équipe",
             "nl": "Ons Team"
         },
-
         {
             "id": "text-54",
             "tr": "Merhaba. Benim adım Hatice Barış. NDA Med.'in yönetim kurulu üyesi ve iletişim sorumlusuyum. İşlemleriniz ve seyahat planınızla ilgili bütün bilgileri size ben sunuyorum. Ayrıca diğer sorularınız için benimle irtibata geçmekten çekinmeyin. NDA Med. ailesi olarak ekibimize güvendiğiniz için size şimdiden teşekkür ederim.",
@@ -519,7 +459,6 @@
             "fr": "Bonjour. Je m'appelle Hatice Barış. Je suis membre du conseil d'administration de NDA Med. et je suis responsable de la communication. Je vous fournis toutes les informations sur vos transactions et votre plan de voyage. N'hésitez pas à me contacter pour toute autre question que vous pourriez avoir. En tant que famille NDA Med., je tiens à vous remercier par avance de faire confiance à notre équipe.",
             "nl": "Hallo. Mijn naam is Hatice Barış. Ik ben lid van de raad van bestuur van NDA Med. en ik ben verantwoordelijk voor de communicatie. Ik voorzie u van alle informatie over uw transacties en reisplan. Voel u ook vrij om contact met mij op te nemen voor eventuele andere vragen die u heeft. Als NDA Med. familie, wil ik u bij voorbaat bedanken voor het vertrouwen in ons team."
         },
-
         {
             "id": "text-55",
             "tr": "Neden Ankara?",
@@ -528,7 +467,6 @@
             "fr": "Pourquoi Ankara?",
             "nl": "Waarom Ankara?"
         },
-
         {
             "id": "text-56",
             "tr": "Uzman doktor sayısı yüksek, daha hızlı randevu imkanı, az trafik sayesinde her yere hızlı erişim ve merkezi konumu sayesinde zengin turistik noktalara daha yakın olması gibi birçok sebepten dolayı Ankara’yı tercih edebilirsiniz. Ülkemiz dünyanın merkezinde bulunuyor diyebiliriz ve birçok farklı açıdan ilgi odağı olup her yıl milyonlarca turist ağırlıyor. Başkent Ankara ise Türkiye’nin merkezinde bulunuyor ve böylece her kesime hitap eden turistik tesisleriyle Ankara’da ziyaret edilebilecek şeyler listesinde başta Anıtkabir, Ankara Kalesi, Eski Meclis, Kocatepe Camii ve birçok müze geliyor. Bunların dışında doğasıyla da ünlü başkentimizde Eymir Gölü ve Kızılcahamam ormanları gibi farklı doğa harikasını içinde barındırıyor.",
@@ -537,7 +475,6 @@
             "fr": "Vous pouvez choisir Ankara pour de nombreuses raisons, telles que le nombre élevé de médecins spécialistes, les possibilités de rendez-vous plus rapides, l'accès rapide partout grâce à un faible trafic et la proximité des sites touristiques riches grâce à son emplacement central. Nous pouvons dire que notre pays est au centre du monde et attire l’attention sous de nombreux aspects différents et accueille des millions de touristes chaque année. La capitale, Ankara, est située au centre de la Turquie et donc, avec ses installations touristiques qui plaisent à tout le monde, Anıtkabir, le château d'Ankara, l'ancien Parlement, la mosquée de Kocatepe et de nombreux musées arrivent en tête de la liste des choses à visiter à Ankara. En dehors de cela, notre capitale, célèbre pour sa nature, abrite différentes merveilles naturelles telles que le lac Eymir et les forêts de Kızılcahamam.",
             "nl": "U kunt om vele redenen voor Ankara kiezen, zoals het grote aantal gespecialiseerde artsen, snellere afspraakmogelijkheden, snelle toegang tot overal dankzij weinig verkeer en dichter bij rijke toeristische plekken dankzij de centrale ligging. We kunnen zeggen dat ons land in het centrum van de wereld staat en vanuit veel verschillende aspecten in het middelpunt van de belangstelling staat en jaarlijks miljoenen toeristen ontvangt. De hoofdstad, Ankara, ligt in het centrum van Turkije en dus, met zijn toeristische voorzieningen die iedereen aanspreken, komen Anıtkabir, het kasteel van Ankara, het oude parlement, de Kocatepe-moskee en vele musea op de eerste plaats op de lijst van dingen om te bezoeken in Ankara. Afgezien hiervan bevat onze hoofdstad, die beroemd is om zijn natuur, verschillende natuurlijke wonderen zoals het Eymir-meer en de Kızılcahamam-bossen."
         },
-
         {
             "id": "text-57",
             "tr": "Alışveriş severler içinse Ankara adeta bir cennet. Kentte toplamda 32 adet AVM bulunuyor ve size eşsiz bir alışveriş deneyimi sunmak için sizleri bekliyor. En iyi AVM’ler için bize ulaştığınız formu doldururken tavsiyelerimizi talep etmeyi unutmayın!",
@@ -546,7 +483,6 @@
             "fr": "Pour les amateurs de shopping, Ankara est un véritable paradis. Il y a un total de 32 centres commerciaux dans la ville et ils vous attendent pour vous offrir une expérience de shopping unique. N'oubliez pas de demander nos recommandations tout en remplissant le formulaire pour nous joindre pour les meilleurs centres commerciaux!",
             "nl": "Voor winkelliefhebbers is Ankara een waar paradijs. Er zijn in totaal 32 winkelcentra in de stad en ze wachten op u om u een unieke winkelervaring te bieden. Vergeet niet om onze aanbevelingen aan te vragen terwijl u het formulier invult om ons te bereiken voor de beste winkelcentra!"
         },
-
         {
             "id": "text-58",
             "tr": "Ayrıca merkezi konumu sayesinde Ankara’ya yakın olan birçok turistik yer mevcut. Sıcak mevsimlerde Ankara'nın kuzeyinde bulunan Akçakoca plajı, lüks otelleri ve leziz yemekleriyle misafirlerine eşsiz bir deniz tatili sunuyor. Dileyenler için uygun fiyatlarla havayoluyla ülkemizin güneybatı yönünde bulunan Antalya, Muğla (Bodrum) veya Izmir (Kuşadası, Çeşme) gibi yerlere de kolayca ulaşım sağlanabilir. Bunların dışında Nevşehir Kapadokya’da Peribacaları ve balon turu isteyenlere Ankara’dan sadece iki saatte ulaşım sağlanabiliyor. Kış aylarında ise Ankara’ya yakın Ilgaz Dağı, Kartalkaya, Erciyes veya Palandökende bulunan modern kayak merkezlerinde kayak keyfi sürebilirsiniz. Daha gurme bir tatil yapmak isteyenler ise ülkenin güneydoğusunda yer alan Gaziantep veya Şanlıurfa gibi yerleri tercih edebilir. Ayrıca yemekleri de dünya çapında değer gören yemekler arasındadır. Yeşili seven misafirlerimizi ise Karadeniz bölgesinde yer alan Trabzon, Rize gibi şehirlerde yüksek rakımda, şehrin yoğunluğundan uzak bir doğa tatili bekliyor. Sakinliğiyle bilinen, kara ve havayoluyla kolay ulaşılabilir ve dünyada az bilinen başkentler listesinde üçüncü sırada yer alan Ankara’da sağlık hizmeti almak için sizi de bekliyoruz!",
@@ -555,7 +491,6 @@
             "fr": "De plus, grâce à son emplacement central, il y a de nombreux sites touristiques près d'Ankara. Pendant les saisons chaudes, la plage d'Akçakoca, située au nord d'Ankara, offre à ses clients des vacances à la mer uniques avec ses hôtels de luxe et ses délicieux repas. Pour ceux qui le souhaitent, le transport vers des endroits comme Antalya, Muğla (Bodrum) ou Izmir (Kuşadası, Çeşme) dans le sud-ouest de notre pays peut être facilement fourni par avion à des prix abordables. En dehors de cela, à Nevşehir Cappadoce, le transport peut être fourni d'Ankara aux Cheminées de Fées et aux tours en montgolfière en seulement deux heures pour ceux qui le souhaitent. Pendant les mois d'hiver, vous pouvez skier dans des stations de ski modernes comme Ilgaz Dağı, Kartalkaya, Erciyes ou Palandöken, qui sont proches d'Ankara. Ceux qui veulent passer des vacances plus gourmandes peuvent choisir des endroits comme Gaziantep ou Şanlıurfa, situés dans le sud-est du pays. Leurs repas font également partie des repas appréciés dans le monde entier. Nos clients qui aiment la verdure attendent des vacances en pleine nature à haute altitude dans des villes comme Trabzon, Rize, situées dans la région de la mer Noire. Ankara, connue pour sa tranquillité, est facilement accessible par la route et par avion et attend que vous receviez des soins de santé à la troisième place sur la liste des capitales moins connues dans le monde!",
             "nl": "Bovendien zijn er dankzij de centrale ligging veel toeristische plekken in de buurt van Ankara. In de warme seizoenen biedt het Akçakoca-strand, gelegen in het noorden van Ankara, zijn gasten een unieke zeevakantie met zijn luxe hotels en heerlijke maaltijden. Voor degenen die dat wensen, kan transport naar plaatsen zoals Antalya, Muğla (Bodrum) of Izmir (Kuşadası, Çeşme) in het zuidwesten van ons land gemakkelijk worden verzorgd per vliegtuig tegen betaalbare prijzen. Afgezien hiervan kan in Nevşehir Cappadocië het transport van Ankara naar de Feeënschoorstenen en ballonvaarten in slechts twee uur worden verzorgd voor degenen die dat wensen. In de wintermaanden kunt u skiën in moderne skigebieden zoals Ilgaz Dağı, Kartalkaya, Erciyes of Palandöken, die dicht bij Ankara liggen. Degenen die een meer gastronomische vakantie willen, kunnen kiezen voor plaatsen zoals Gaziantep of Şanlıurfa, gelegen in het zuidoosten van het land. Hun maaltijden behoren ook tot de wereldwijd gewaardeerde maaltijden. Onze gasten die van groen houden, wachten op een natuurvakantie op grote hoogte in steden zoals Trabzon, Rize, gelegen in de regio van de Zwarte Zee. Ankara, bekend om zijn rust, is gemakkelijk bereikbaar over de weg en door de lucht en wacht op u om gezondheidszorg te ontvangen op de derde plaats op de lijst van minder bekende hoofdsteden ter wereld!"
         },
-
         {
             "id": "text-59",
             "tr": "Ziyaretiniz sırasında Türkiye’de gezebileceğiniz ufak bir gezi rehberi için tıklayın!",
@@ -564,7 +499,6 @@
             "fr": "Cliquez ici pour un petit guide de voyage que vous pouvez visiter en Turquie pendant votre visite!",
             "nl": "Klik hier voor een kleine reisgids die u kunt bezoeken in Turkije tijdens uw bezoek!"
         },
-
         {
             "id": "text-60",
             "tr": "İletişim",
@@ -573,16 +507,14 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-61",
-            "tr": "Kırkkonaklar Mahallesi, Şemsettin Günaltay Caddesi 241/2, Çankaya/ANKARA (Türkiye)",
-            "en": "Kirkkonaklar District, Semsettin Gunaltay Street, 241/2, Cankaya/ANKARA (Turkey)",
-            "de": "Kirkkonaklar Viertel, Semsettin Gunaltay Straße, 241/2, Cankaya/ANKARA (Türkei)",
-            "fr": "Quartier de Kirkkonaklar, rue Semsettin Gunaltay, 241/2, Cankaya/ANKARA (Turquie)",
-            "nl": "Kirkkonaklar District, Semsettin Gunaltay Street, 241/2, Cankaya/ANKARA (Turkije)"
+            "tr": "Kırkkonaklar Mahallesi, Şemsettin Günaltay <br> Caddesi 241/2, Çankaya/ANKARA (Türkiye)",
+            "en": "Kirkkonaklar District, Semsettin Gunaltay <br> Street, 241/2, Cankaya/ANKARA (Turkey)",
+            "de": "Kirkkonaklar Viertel, Semsettin Gunaltay <br> Straße, 241/2, Cankaya/ANKARA (Türkei)",
+            "fr": "Quartier de Kirkkonaklar, rue Semsettin <br> Gunaltay, 241/2, Cankaya/ANKARA (Turquie)",
+            "nl": "Kirkkonaklar District, Semsettin Gunaltay <br> Street, 241/2, Cankaya/ANKARA (Turkije)"
         },
-
         {
             "id": "text-62",
             "tr": "Yurtdışı :",
@@ -591,7 +523,6 @@
             "fr": "À l'étranger :",
             "nl": "Buitenland :"
         },
-
         {
             "id": "text-63",
             "tr": "Yurtiçi :",
@@ -600,7 +531,6 @@
             "fr": "Domestique :",
             "nl": "Binnenlands :"
         },
-
         {
             "id": "text-64",
             "tr": "Sosyal Medya",
@@ -609,16 +539,14 @@
             "fr": "Médias Sociaux",
             "nl": "Sociale Media"
         },
-
         {
             "id": "text-65",
-            "tr": "Bize sosyal medya hesaplarımızdan da ulaşabilirsiniz.",
-            "en": "You can also reach us from our social media accounts.",
-            "de": "Sie können uns auch über unsere Social-Media-Konten erreichen.",
-            "fr": "Vous pouvez également nous joindre via nos comptes de médias sociaux.",
-            "nl": "U kunt ons ook bereiken via onze sociale media-accounts."
+            "tr": "Bize sosyal medya hesaplarımızdan <br> da ulaşabilirsiniz.",
+            "en": "You can also reach us from our <br> social media accounts.",
+            "de": "Sie können uns auch über unsere <br> Social-Media-Konten erreichen.",
+            "fr": "Vous pouvez également nous joindre <br> via nos comptes de médias sociaux.",
+            "nl": "U kunt ons ook bereiken via <br> onze sociale media-accounts."
         },
-
         {
             "id": "text-66",
             "tr": "Hizmetlerimiz",
@@ -627,7 +555,6 @@
             "fr": "Services",
             "nl": "Diensten"
         },
-
         {
             "id": "text-67",
             "tr": "Ana Sayfa",
@@ -636,7 +563,6 @@
             "fr": "Accueil",
             "nl": "Home"
         },
-
         {
             "id": "text-68",
             "tr": "Hakkımızda",
@@ -645,7 +571,6 @@
             "fr": "À propos de nous",
             "nl": "Over ons"
         },
-
         {
             "id": "text-69",
             "tr": "Hizmetlerimiz",
@@ -654,7 +579,6 @@
             "fr": "Services",
             "nl": "Diensten"
         },
-
         {
             "id": "text-70",
             "tr": "İletişim",
@@ -663,7 +587,6 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-71",
             "tr": "Ana Sayfa",
@@ -672,7 +595,6 @@
             "fr": "Accueil",
             "nl": "Home"
         },
-
         {
             "id": "text-72",
             "tr": "Hakkımızda",
@@ -681,7 +603,6 @@
             "fr": "À propos de nous",
             "nl": "Over ons"
         },
-
         {
             "id": "text-73",
             "tr": "Hizmetlerimiz",
@@ -690,7 +611,6 @@
             "fr": "Services",
             "nl": "Diensten"
         },
-
         {
             "id": "text-74",
             "tr": "İletişim",
@@ -699,7 +619,6 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-75",
             "tr": "Medikal Hizmetlerimiz",
@@ -708,7 +627,6 @@
             "fr": "Services Médicaux",
             "nl": "Medische Diensten"
         },
-
         {
             "id": "text-76",
             "tr": "Modern tıp teknolojileri ile tam donanımlı hastane, klinik ve muayenehanelerde güvenli bir sağlık hizmeti için buradayız.",
@@ -717,7 +635,6 @@
             "fr": "Nous sommes là pour un service de santé sûr dans des hôpitaux, des cliniques et des salles d'examen entièrement équipés avec des technologies médicales modernes.",
             "nl": "We zijn hier voor een veilige gezondheidsdienst in volledig uitgeruste ziekenhuizen, klinieken en onderzoekskamers met moderne medische technologieën."
         },
-
         {
             "id": "text-77",
             "tr": "Diş Estetiği - İmplant",
@@ -726,7 +643,6 @@
             "fr": "Esthétique Dentaire - Implant",
             "nl": "Tandheelkundige Esthetiek - Implantaat"
         },
-
         {
             "id": "text-78",
             "tr": "Diş estetiği, diş etindeki çekilme ve asimetrik bozuklukları düzelterek, dişler ve diş etinin olması gerektiği standartlarda ulaşmasını sağlayan, yontulmuş, yıpranmış, renksiz, yanlış hizalanmış, kırılmış veya lekeli dişlerin düzenlenmesini sağlayarak size bir gülümseme makyajı sağlayan bir diş hekimliği uygulamasıdır.",
@@ -735,7 +651,6 @@
             "fr": "L'esthétique dentaire est une pratique dentaire qui vous offre un maquillage de sourire en corrigeant les dents usées, sans couleur, mal alignées, cassées ou tachées, permettant aux dents et aux gencives d'atteindre les normes qu'elles devraient être, en corrigeant les troubles de retrait et asymétriques dans les gencives.",
             "nl": "Tandheelkundige esthetiek is een tandheelkundige praktijk die u een glimlachmake-up biedt door de versleten, kleurloze, verkeerd uitgelijnde, gebroken of bevlekte tanden te corrigeren, waardoor de tanden en het tandvlees de normen kunnen bereiken die ze zouden moeten zijn, door de terugtrekking en asymmetrische stoornissen in het tandvlees te corrigeren."
         },
-
         {
             "id": "text-79",
             "tr": "İmplant, diş kaybının olduğu bölgelerde çene kemiği içerisine yerleştirilen diş kökünü taklit eden materyallerdir. Günümüz diş hekimliği uygulamalarında hastaların kaybettikleri estetik, fonksiyon ve fonasyonun tedavisinde öncelikli olarak implant destekli restorasyonlar kullanılmaktadırlar.",
@@ -744,7 +659,6 @@
             "fr": "Les implants sont des matériaux qui imitent la racine de la dent et sont placés dans l'os de la mâchoire dans les zones où la perte de dents se produit. Dans les applications dentaires d'aujourd'hui, les restaurations supportées par implant sont principalement utilisées dans le traitement de l'esthétique, de la fonction et de la phonation perdues des patients.",
             "nl": "Implantaten zijn materialen die de tandwortel nabootsen en worden geplaatst in het kaakbot op plaatsen waar tandverlies optreedt. In de tandheelkundige toepassingen van vandaag worden implantaatondersteunde restauraties voornamelijk gebruikt bij de behandeling van verloren esthetiek, functie en fonatie van patiënten."
         },
-
         {
             "id": "text-80",
             "tr": "Saç Ekimi",
@@ -753,7 +667,6 @@
             "fr": "Transplantation Capillaire",
             "nl": "Haartransplantatie"
         },
-
         {
             "id": "text-81",
             "tr": "Saç ekimi, saç kaybı yaşayan bireyler için kalıcı bir çözüm olarak kabul edilen cerrahi bir işlemdir. Saç ekimi genellikle androgenetik alopesi (erkek tipi kellik) veya diğer nedenlerden dolayı saç kaybı yaşayan kişilere uygulanır. Bu işlem, saç köklerinin alındığı donör bölgeden (genellikle arka baş ve yanlardaki alanlardan) alınan saç köklerinin, kellik yaşanan bölgelere (genellikle alın, şakaklar veya tepe bölgesi) nakledilmesini içerir.",
@@ -762,7 +675,6 @@
             "fr": "La transplantation capillaire est une intervention chirurgicale considérée comme une solution permanente pour les personnes souffrant de perte de cheveux. La transplantation capillaire est généralement pratiquée sur des personnes souffrant de perte de cheveux due à une alopécie androgénétique (calvitie masculine) ou d'autres raisons. Ce processus implique la transplantation de follicules pileux prélevés dans la zone donneuse (généralement l'arrière de la tête et les zones sur les côtés) vers les zones où la calvitie se produit (généralement le front, les tempes ou la couronne).",
             "nl": "Haartransplantatie is een chirurgische ingreep die wordt beschouwd als een permanente oplossing voor mensen die haarverlies ervaren. Haartransplantatie wordt meestal toegepast bij mensen die haarverlies ervaren als gevolg van androgene alopecia (mannelijke kaalheid) of andere redenen. Dit proces omvat het transplanteren van haarzakjes die uit het donorgebied zijn genomen (meestal de achterkant van het hoofd en de gebieden aan de zijkanten) naar de gebieden waar kaalheid optreedt (meestal het voorhoofd, de slapen of de kruin)."
         },
-
         {
             "id": "text-82",
             "tr": "Amaç; baş bölgesinde ekim yapıldığı belli olmayacak doğallıkta, kalıcı bir şekilde saçlı görünüm kazandırmaktır. Saç ekimi uygulaması ile kişiye kendi saçları hiç dökülmemiş gibi kalıcı olarak kazandırılmaktadır. Saç ekiminde amacımız; kişiye modern tıbbi uygulamalarla konforlu bir şekilde doğal saçlı görünümü tekrar sağlamaktır. Hangi yöntemin tercih edileceğine saç ve kafa deri analizi sonrası kişinin de öncelikleri göz önünde tutularak birlikte karar verilmektedir.",
@@ -771,7 +683,6 @@
             "fr": "Le but est de donner une apparence chevelue de manière permanente de manière naturelle là où la plantation est effectuée dans la région de la tête. Avec l'application de la transplantation capillaire, la personne se voit donner de manière permanente ses propres cheveux comme s'ils n'avaient jamais été perdus. Notre objectif dans la transplantation capillaire est de fournir à la personne une apparence chevelue naturelle confortablement avec des applications médicales modernes. Après l'analyse des cheveux et du cuir chevelu, la méthode à privilégier est décidée ensemble, en tenant compte des priorités de la personne.",
             "nl": "Het doel is om een permanent harige uitstraling op een natuurlijke manier te geven waar de beplanting in het hoofdgebied niet opvalt. Met de toepassing van de haartransplantatie krijgt de persoon permanent zijn eigen haar alsof het nooit is uitgevallen. Ons doel bij haartransplantatie is om de persoon comfortabel een natuurlijke harige uitstraling te geven met moderne medische toepassingen. Na de analyse van het haar en de hoofdhuid wordt samen besloten welke methode de voorkeur heeft, rekening houdend met de prioriteiten van de persoon."
         },
-
         {
             "id": "text-83",
             "tr": "Talep ettiğiniz hizmet listede yer almıyor mu? Bize ulaşın ve bilgi alın!",
@@ -780,7 +691,6 @@
             "fr": "Le service que vous avez demandé ne figure pas sur la liste? Contactez-nous et obtenez des informations!",
             "nl": "Staat de door u aangevraagde dienst niet op de lijst? Neem contact met ons op en krijg informatie!"
         },
-
         {
             "id": "text-84",
             "tr": "Bize Ulaşın",
@@ -789,7 +699,6 @@
             "fr": "Contactez-nous",
             "nl": "Neem contact met ons op"
         },
-
         {
             "id": "text-85",
             "tr": "Hizmet Paketlerimiz",
@@ -798,7 +707,6 @@
             "fr": "Forfaits de Services",
             "nl": "Servicepakketten"
         },
-
         {
             "id": "text-86",
             "tr": "Yolculuğunuzdaki bütün detayları düşünüyoruz, ihtiyaç ve isteklerinize göre seçenekler sunuyoruz.",
@@ -807,7 +715,6 @@
             "fr": "Nous pensons à tous les détails de votre voyage, nous offrons des options selon vos besoins et demandes.",
             "nl": "We denken aan alle details van uw reis, we bieden opties volgens uw behoeften en verzoeken."
         },
-
         {
             "id": "text-87",
             "tr": "Normal Paket",
@@ -816,7 +723,6 @@
             "fr": "Forfait Normal",
             "nl": "Normaal Pakket"
         },
-
         {
             "id": "text-88",
             "tr": "Üst Paket",
@@ -825,7 +731,6 @@
             "fr": "Forfait Top",
             "nl": "Top Pakket"
         },
-
         {
             "id": "text-89",
             "tr": "Premium Paket",
@@ -834,25 +739,22 @@
             "fr": "Forfait Premium",
             "nl": "Premium Pakket"
         },
-
         {
             "id": "text-90",
-            "tr": "İşlem öncesi bilgilendirme Talep ettiğiniz işlemle ilgili bilmeniz gereken herşeyi bu aşamada tarafınıza iletiyoruz.",
+            "tr": " <strong> İşlem öncesi bilgilendirme </strong> <br> <br> Talep ettiğiniz işlemle ilgili bilmeniz gereken herşeyi bu aşamada tarafınıza iletiyoruz.",
             "en": "Pre-operation briefing We inform you about everything you need to know about the procedure you requested at this stage.",
             "de": "Voroperation Briefing Wir informieren Sie in diesem Stadium über alles, was Sie über das von Ihnen angeforderte Verfahren wissen müssen.",
             "fr": "Briefing préopératoire Nous vous informons de tout ce que vous devez savoir sur la procédure que vous avez demandée à ce stade.",
             "nl": "Pre-operatieve briefing We informeren u in dit stadium over alles wat u moet weten over de procedure die u heeft aangevraagd."
         },
-
         {
             "id": "text-91",
-            "tr": "İşlem için gerekli tüm destekler Transfer: Sürecin başında ülkemize geldiğinizde sizi havaalanından alma ve süreç bitiminde tekrar havaalanına bırakma, otele ulaşım ve otelden alım hizmeti Otel: İşlem süreniz ve taleplerinize göre uygun bir otelde ağırlama",
-            "en": "All the necessary supports for the procedure Transfer: Picking you up from the airport at the beginning of the process when you come to our country and dropping you back to the airport at the end of the process, hotel transportation and pick-up service from the hotel Hotel: Hosting in a suitable hotel according to your procedure duration and requests",
-            "de": "Alle notwendigen Unterstützungen für das Verfahren Transfer: Abholung vom Flughafen zu Beginn des Prozesses, wenn Sie in unser Land kommen, und Rückgabe zum Flughafen am Ende des Prozesses, Hoteltransport und Abholservice vom Hotel Hotel: Unterbringung in einem geeigneten Hotel entsprechend Ihrer Verfahrensdauer und Anfragen",
-            "fr": "Tous les supports nécessaires pour la procédure Transfert: Vous chercher à l'aéroport au début du processus lorsque vous venez dans notre pays et vous ramener à l'aéroport à la fin du processus, transport à l'hôtel et service de ramassage à l'hôtel Hôtel: Hébergement dans un hôtel adapté à la durée de votre procédure et à vos demandes",
-            "nl": "Alle benodigde ondersteuningen voor de procedure Transfer: U ophalen van de luchthaven aan het begin van het proces wanneer u naar ons land komt en u terugbrengen naar de luchthaven aan het einde van het proces, hotelvervoer en ophaalservice van het hotel Hotel: Onderbrengen in een geschikt hotel volgens uw procedureduur en verzoeken"
+            "tr": "İşlem için gerekli tüm destekler<span> <strong style=\"color: #393e46;\">- Transfer: </strong> Sürecin başında ülkemize geldiğinizde sizi havaalanından alma ve süreç bitiminde tekrar havaalanına bırakma, otele ulaşım ve otelden alım hizmeti <br> <strong style=\"color: #393e46;\">- Otel: </strong> İşlem süreniz ve taleplerinize göre uygun bir otelde ağırlama</span>",
+            "en": "All the necessary supports for the procedure <span><strong style=\"color: #393e46;\">Transfer:</strong> Picking you up from the airport at the beginning of the process when you come to our country and dropping you back to the airport at the end of the process, hotel transportation and pick-up service from the hotel</span> <span><strong style=\"color: #393e46;\">Hotel:</strong> Hosting in a suitable hotel according to your procedure duration and requests</span>",
+            "de": "Alle notwendigen Unterstützungen für das Verfahren <span><strong style=\"color: #393e46;\">Transfer:</strong> Abholung vom Flughafen zu Beginn des Prozesses, wenn Sie in unser Land kommen, und Rückgabe zum Flughafen am Ende des Prozesses, Hoteltransport und Abholservice vom Hotel</span> <span><strong style=\"color: #393e46;\">Hotel:</strong> Unterbringung in einem geeigneten Hotel entsprechend Ihrer Verfahrensdauer und Anfragen</span>",
+            "fr": "Tous les supports nécessaires pour la procédure <span><strong style=\"color: #393e46;\">Transfert:</strong> Vous chercher à l'aéroport au début du processus lorsque vous venez dans notre pays et vous ramener à l'aéroport à la fin du processus, transport à l'hôtel et service de ramassage à l'hôtel</span> <span><strong style=\"color: #393e46;\">Hôtel:</strong> Hébergement dans un hôtel adapté à la durée de votre procédure et à vos demandes</span>",
+            "nl": "Alle benodigde ondersteuningen voor de procedure <span><strong style=\"color: #393e46;\">Transfer:</strong> U ophalen van de luchthaven aan het begin van het proces wanneer u naar ons land komt en u terugbrengen naar de luchthaven aan het einde van het proces, hotelvervoer en ophaalservice van het hotel</span> <span><strong style=\"color: #393e46;\">Hotel:</strong> Onderbrengen in een geschikt hotel volgens uw procedureduur en verzoeken</span>"
         },
-
         {
             "id": "text-92",
             "tr": "Yapılacak işlem saç ekimi, diş estetiği, implant, ...",
@@ -861,7 +763,6 @@
             "fr": "La procédure à effectuer transplantation capillaire, esthétique dentaire, implant, ...",
             "nl": "De uit te voeren procedure haartransplantatie, tandheelkundige esthetiek, implantaat, ..."
         },
-
         {
             "id": "text-93",
             "tr": "İşlem sonrası gerrekli tüm ilaçlar İşlem tipine göre değişkenlik gösterir, daha fazla bilgi için iletişime geçiniz.",
@@ -870,7 +771,6 @@
             "fr": "Tous les médicaments nécessaires après la procédure Il varie en fonction du type de procédure, pour plus d'informations, veuillez nous contacter.",
             "nl": "Alle noodzakelijke medicijnen na de procedure Het varieert afhankelijk van het type procedure, voor meer informatie, neem contact met ons op."
         },
-
         {
             "id": "text-94",
             "tr": "İşlem sonrası kontrol ve bakımlar İşlem tipine göre değişkenlik gösterir, daha fazla bilgi için iletişime geçiniz.",
@@ -879,7 +779,6 @@
             "fr": "Contrôles et soins post-procédure Il varie en fonction du type de procédure, pour plus d'informations, veuillez nous contacter.",
             "nl": "Na-procedure controles en zorg Het varieert afhankelijk van het type procedure, voor meer informatie, neem contact met ons op."
         },
-
         {
             "id": "text-95",
             "tr": "İşlem sonrası bir yıl boyunca iletişim desteği İşlem sonrası sormak istediklerinizi uzman desteğiyle cevaplıyoruz.",
@@ -888,7 +787,6 @@
             "fr": "Support de communication pendant un an après la procédure Nous répondons à vos questions après la procédure avec un support d'expert.",
             "nl": "Communicatieondersteuning gedurende een jaar na de procedure We beantwoorden uw vragen na de procedure met expertondersteuning."
         },
-
         {
             "id": "text-96",
             "tr": "Bir yıl boyunca gerekli durumda işlem, transfer ve konaklama hizmeti * Bir yıl boyunca işlemle alakalı oluşabilecek yan etki(ler) ve/veya yaşanan zorluklar için tekrar ülkemize gelerek ek işlem yaptırma imkanı (bunu bir ek sigorta gibi de düşünebilirsiniz, sağlık sigortanızın yanı sıra, yaptırdığınız işlemden sonra kullanıma bağlı oluşan ve küçük bir ek işlem gerektiren durumlarda verilen ekstra hizmet)",
@@ -897,7 +795,6 @@
             "fr": "Service de procédure, de transfert et d'hébergement si nécessaire pendant un an * La possibilité de revenir dans notre pays pour une procédure supplémentaire pour tout effet secondaire(s) et/ou difficultés qui peuvent survenir liées à la procédure pendant un an (vous pouvez également considérer cela comme une assurance supplémentaire, en plus de votre assurance maladie, un service supplémentaire fourni dans les cas qui surviennent après la procédure et nécessitent une petite procédure supplémentaire)",
             "nl": "Procedure, transfer- en accommodatieservice indien nodig gedurende een jaar * De mogelijkheid om voor een jaar opnieuw naar ons land te komen voor een aanvullende procedure voor eventuele bijwerking(en) en/of moeilijkheden die zich kunnen voordoen in verband met de procedure gedurende een jaar (u kunt dit ook beschouwen als een aanvullende verzekering, naast uw ziektekostenverzekering, een extra service die wordt geboden in gevallen die optreden na de procedure en een kleine aanvullende procedure vereisen)"
         },
-
         {
             "id": "text-97",
             "tr": "Talebiniz üzerine ek destekler Transfer, otel ve işlem ile ilgisi olmayan ama sizin için önem arzeden tüm hizmetler (kişisel ihtiyaç, kuaför, kozmetik hizmeti, alışveriş ihtiyacı, konsolosluk desteği gibi durumlarda yanınızda bulunma, vb.)",
@@ -906,7 +803,6 @@
             "fr": "Supports supplémentaires sur votre demande Transfert, hôtel et tous les services qui ne sont pas liés à la procédure mais qui sont importants pour vous (être avec vous dans des cas tels que les besoins personnels, coiffeur, service cosmétique, besoins d'achat, support consulaire, etc.)",
             "nl": "Aanvullende ondersteuning op uw verzoek Transfer, hotel en alle diensten die niet gerelateerd zijn aan de procedure maar belangrijk voor u zijn (bij u zijn in gevallen zoals persoonlijke behoeften, kapper, cosmetische service, winkelbehoeften, consulaire ondersteuning, enz.)"
         },
-
         {
             "id": "text-98",
             "tr": "Üst pakette yer alan tüm hizmetleri daha üst seviyeye taşıyoruz: Örnekler: Daha geniş ve daha konforlu havaalanı transfer aracı (isteğe göre özel bir araç veya marka) - Daha lüks otel (isteğe göre belli bir otel zinciri) - İsteğe göre bir cerrah veya diş hekimi (sosyal medyada rastladığınız ve hizmet almak istediğiniz kişiyle irtibata geçip size en özel fiyatı garanti ediyoruz)",
@@ -915,7 +811,6 @@
             "fr": "Nous portons tous les services inclus dans le forfait supérieur à un niveau supérieur: Exemples: Un véhicule de transfert aéroportuaire plus large et plus confortable (un véhicule privé ou une marque selon votre demande) - Un hôtel plus luxueux (une certaine chaîne d'hôtels selon votre demande) - Un chirurgien ou dentiste selon votre demande (nous vous garantissons le prix le plus spécial en contactant la personne que vous avez rencontrée sur les réseaux sociaux et que vous souhaitez recevoir un service de)",
             "nl": "We tillen alle diensten die zijn inbegrepen in het top pakket naar een hoger niveau: Voorbeelden: Een breder en comfortabeler luchthaventransportvoertuig (een privévoertuig of merk volgens uw verzoek) - Een luxueuzer hotel (een bepaalde hotelketen volgens uw verzoek) - Een chirurg of tandarts volgens uw verzoek (we garanderen u de meest speciale prijs door contact op te nemen met de persoon die u op sociale media bent tegengekomen en van wie u service wilt ontvangen)"
         },
-
         {
             "id": "text-99",
             "tr": "¹ transfer, otel ve işlem ile ilgisi olmayan ama sizin için önem arzeden tüm hizmetler (kişisel ihtiyaç, kuaför, kozmetik hizmeti, alışveriş ihtiyacı, konsolosluk desteği gibi durumlarda yanınızda bulunma, vb.)",
@@ -924,7 +819,6 @@
             "fr": "¹ transfert, hôtel et tous les services qui ne sont pas liés à la procédure mais qui sont importants pour vous (être avec vous dans des cas tels que les besoins personnels, coiffeur, service cosmétique, besoins d'achat, support consulaire, etc.)",
             "nl": "¹ transfer, hotel en alle diensten die niet gerelateerd zijn aan de procedure maar belangrijk voor u zijn (bij u zijn in gevallen zoals persoonlijke behoeften, kapper, cosmetische service, winkelbehoeften, consulaire ondersteuning, enz.)"
         },
-
         {
             "id": "text-100",
             "tr": "² işlem tipine göre değişkenlik gösterir, daha fazla bilgi için iletişime geçiniz.",
@@ -933,7 +827,6 @@
             "fr": "² Il varie en fonction du type de procédure, pour plus d'informations, veuillez nous contacter.",
             "nl": "² Het varieert afhankelijk van het type procedure, voor meer informatie, neem contact met ons op."
         },
-
         {
             "id": "text-101",
             "tr": "³ işlemden sonra profesyonel anlamda tüm kontroller yapılsa da, cilt hassasiyeti, ülkenizdeki hava şartları, yaşam koşullarınız, vb. Durumlardan dolayı, çok nadir de olsa yaşanabilecek her türlü sorunlarınıza bir yıl boyunca ücretsiz çözüm.",
@@ -942,7 +835,6 @@
             "fr": "³ Bien que tous les contrôles soient effectués professionnellement après la procédure, en raison de la sensibilité de la peau, des conditions météorologiques dans votre pays, de vos conditions de vie, etc., tout type de problèmes qui peuvent survenir très rarement sont des solutions gratuites pendant un an.",
             "nl": "³ Hoewel alle controles professioneel worden uitgevoerd na de procedure, zijn vanwege huidgevoeligheid, weersomstandigheden in uw land, uw leefomstandigheden, enz., eventuele problemen die zeer zelden kunnen optreden, gratis oplossingen gedurende een jaar."
         },
-
         {
             "id": "text-102",
             "tr": "Kısaca",
@@ -951,7 +843,6 @@
             "fr": "En Bref",
             "nl": "Kortom"
         },
-
         {
             "id": "text-103",
             "tr": "Süreç nasıl işliyor?",
@@ -960,7 +851,6 @@
             "fr": "Comment fonctionne le processus?",
             "nl": "Hoe werkt het proces?"
         },
-
         {
             "id": "text-104",
             "tr": "Tıbbi seyahat planınızdaki yapılması gereken bütün işlemlerin pürüzsüz bir şekilde halledilmesi için basit ve mantıklı bir yaklaşım ele alıyoruz. Güvenliğiniz ve rahatlığınız bizim için en az sağlığınız kadar önemlidir.",
@@ -969,7 +859,6 @@
             "fr": "Nous adoptons une approche simple et logique pour nous assurer que tous les procédures qui doivent être effectuées dans votre plan de voyage médical se déroulent sans heurts. Votre sécurité et votre confort sont aussi importants pour nous que votre santé.",
             "nl": "We hanteren een eenvoudige en logische benadering om ervoor te zorgen dat alle procedures die moeten worden uitgevoerd in uw medische reisplan soepel verlopen. Uw veiligheid en comfort zijn voor ons net zo belangrijk als uw gezondheid."
         },
-
         {
             "id": "text-105",
             "tr": "Adım 1",
@@ -978,7 +867,6 @@
             "fr": "Étape 1",
             "nl": "Stap 1"
         },
-
         {
             "id": "text-106",
             "tr": "Tanı Koyulması",
@@ -987,7 +875,6 @@
             "fr": "Diagnostic",
             "nl": "Diagnose"
         },
-
         {
             "id": "text-107",
             "tr": "Adım 2",
@@ -996,7 +883,6 @@
             "fr": "Étape 2",
             "nl": "Stap 2"
         },
-
         {
             "id": "text-108",
             "tr": "Uygun Hastane Bulunması",
@@ -1005,7 +891,6 @@
             "fr": "Trouver le bon hôpital",
             "nl": "Het juiste ziekenhuis vinden"
         },
-
         {
             "id": "text-109",
             "tr": "Adım 3",
@@ -1014,7 +899,6 @@
             "fr": "Étape 3",
             "nl": "Stap 3"
         },
-
         {
             "id": "text-110",
             "tr": "Tedavi Planı Hazırlanması",
@@ -1023,7 +907,6 @@
             "fr": "Préparation du Plan de Traitement",
             "nl": "Voorbereiding van Behandelingsplan"
         },
-
         {
             "id": "text-111",
             "tr": "Adım 4",
@@ -1031,8 +914,7 @@
             "de": "Schritt 4",
             "fr": "Étape 4",
             "nl": "Stap 4"
-        }, 
-
+        },
         {
             "id": "text-112",
             "tr": "Seyahat Organizasyonu",
@@ -1041,7 +923,6 @@
             "fr": "Organisation de Voyage",
             "nl": "Reisorganisatie"
         },
-
         {
             "id": "text-113",
             "tr": "İletişim",
@@ -1050,16 +931,14 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-114",
-            "tr": "Kırkkonaklar Mahallesi, Şemsettin Günaltay Caddesi 241/2, Çankaya/ANKARA (Türkiye)",
-            "en": "Kirkkonaklar District, Semsettin Gunaltay Street, 241/2, Cankaya/ANKARA (Turkey)",
-            "de": "Kirkkonaklar Viertel, Semsettin Gunaltay Straße, 241/2, Cankaya/ANKARA (Türkei)",
-            "fr": "Quartier de Kirkkonaklar, rue Semsettin Gunaltay, 241/2, Cankaya/ANKARA (Turquie)",
-            "nl": "Kirkkonaklar District, Semsettin Gunaltay Street, 241/2, Cankaya/ANKARA (Turkije)"
+            "tr": "Kırkkonaklar Mahallesi, Şemsettin Günaltay <br> Caddesi 241/2, Çankaya/ANKARA (Türkiye)",
+            "en": "Kirkkonaklar District, Semsettin Gunaltay <br> Street, 241/2, Cankaya/ANKARA (Turkey)",
+            "de": "Kirkkonaklar Viertel, Semsettin Gunaltay <br> Straße, 241/2, Cankaya/ANKARA (Türkei)",
+            "fr": "Quartier de Kirkkonaklar, rue Semsettin Gunaltay, <br> 241/2, Cankaya/ANKARA (Turquie)",
+            "nl": "Kirkkonaklar District, Semsettin Gunaltay Street, <br> 241/2, Cankaya/ANKARA (Turkije)"
         },
-
         {
             "id": "text-115",
             "tr": "Yurtdışı :",
@@ -1068,7 +947,6 @@
             "fr": "À l'étranger :",
             "nl": "Buitenland :"
         },
-
         {
             "id": "text-116",
             "tr": "Yurtiçi :",
@@ -1077,7 +955,6 @@
             "fr": "Intérieur :",
             "nl": "Binnenland :"
         },
-
         {
             "id": "text-117",
             "tr": "Sosyal Medya",
@@ -1086,16 +963,14 @@
             "fr": "Médias Sociaux",
             "nl": "Sociale Media"
         },
-
         {
             "id": "text-118",
-            "tr": "Bize sosyal medya hesaplarımızdan da ulaşabilirsiniz.",
-            "en": "You can also reach us from our social media accounts.",
-            "de": "Sie können uns auch über unsere Social-Media-Konten erreichen.",
-            "fr": "Vous pouvez également nous joindre via nos comptes de médias sociaux.",
-            "nl": "U kunt ons ook bereiken via onze sociale media-accounts."
+            "tr": "Bize sosyal medya hesaplarımızdan <br> da ulaşabilirsiniz.",
+            "en": "You can also reach us from our <br> social media accounts.",
+            "de": "Sie können uns auch über unsere <br> Social-Media-Konten erreichen.",
+            "fr": "Vous pouvez également nous joindre <br> via nos comptes de médias sociaux.",
+            "nl": "U kunt ons ook bereiken via <br> onze sociale media-accounts."
         },
-
         {
             "id": "text-119",
             "tr": "İletişim",
@@ -1104,7 +979,6 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-120",
             "tr": "Ana Sayfa",
@@ -1113,7 +987,6 @@
             "fr": "Accueil",
             "nl": "Home"
         },
-
         {
             "id": "text-121",
             "tr": "Hakkımızda",
@@ -1122,7 +995,6 @@
             "fr": "À Propos de Nous",
             "nl": "Over Ons"
         },
-
         {
             "id": "text-122",
             "tr": "Hizmetlerimiz",
@@ -1131,7 +1003,6 @@
             "fr": "Nos Services",
             "nl": "Onze Diensten"
         },
-
         {
             "id": "text-123",
             "tr": "İletişim",
@@ -1140,7 +1011,6 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-124",
             "tr": "Ana Sayfa",
@@ -1149,7 +1019,6 @@
             "fr": "Accueil",
             "nl": "Home"
         },
-
         {
             "id": "text-125",
             "tr": "Hakkımızda",
@@ -1158,7 +1027,6 @@
             "fr": "À Propos de Nous",
             "nl": "Over Ons"
         },
-
         {
             "id": "text-126",
             "tr": "Hizmetlerimiz",
@@ -1167,7 +1035,6 @@
             "fr": "Nos Services",
             "nl": "Onze Diensten"
         },
-
         {
             "id": "text-127",
             "tr": "İletişim",
@@ -1176,7 +1043,6 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-128",
             "tr": "İletişim",
@@ -1185,7 +1051,6 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-129",
             "tr": "Merhaba. Benim adım Hatice Barış. NDA Med.'in yönetim kurulu üyesi ve iletişim sorumlusuyum. İşlemleriniz ve seyahat planınızla ilgili bütün bilgileri size ben sunuyorum. Ayrıca diğer sorularınız için benimle irtibata geçmekten çekinmeyin. NDA Med. ailesi olarak ekibimize güvendiğiniz için size şimdiden teşekkür ederim.",
@@ -1194,7 +1059,6 @@
             "fr": "Bonjour. Je m'appelle Hatice Barış. Je suis membre du conseil d'administration de NDA Med. et je suis responsable de la communication. Je vous fournis toutes les informations sur vos transactions et votre plan de voyage. N'hésitez pas à me contacter pour toute autre question que vous pourriez avoir. En tant que famille NDA Med., je tiens à vous remercier par avance de faire confiance à notre équipe.",
             "nl": "Hallo. Mijn naam is Hatice Barış. Ik ben lid van de raad van bestuur van NDA Med. en ik ben verantwoordelijk voor de communicatie. Ik voorzie u van alle informatie over uw transacties en reisplan. Voel u ook vrij om contact met mij op te nemen voor eventuele andere vragen die u heeft. Als NDA Med. familie, wil ik u bij voorbaat bedanken voor het vertrouwen in ons team."
         },
-
         {
             "id": "text-130",
             "tr": "Bize Ulaşın",
@@ -1203,7 +1067,6 @@
             "fr": "Contactez-nous",
             "nl": "Neem contact met ons op"
         },
-
         {
             "id": "text-131",
             "tr": "Bize aşağıda bulunan iletişim adreslerimizden kolaylıkla ulaşabilirsiniz.",
@@ -1212,16 +1075,14 @@
             "fr": "Vous pouvez facilement nous joindre à partir de nos adresses de contact ci-dessous.",
             "nl": "U kunt ons gemakkelijk bereiken vanaf onze onderstaande contactadressen."
         },
-
         {
             "id": "text-132",
-            "tr": "Kırkkonaklar Mahallesi, Şemsettin Günaltay Caddesi 241/2, Çankaya/ANKARA (Türkiye)",
-            "en": "Kirkkonaklar District, Semsettin Gunaltay Street, 241/2, Cankaya/ANKARA (Turkey)",
-            "de": "Kirkkonaklar Viertel, Semsettin Gunaltay Straße, 241/2, Cankaya/ANKARA (Türkei)",
-            "fr": "Quartier de Kirkkonaklar, rue Semsettin Gunaltay, 241/2, Cankaya/ANKARA (Turquie)",
-            "nl": "Kirkkonaklar District, Semsettin Gunaltay Street, 241/2, Cankaya/ANKARA (Turkije)"
+            "tr": "Kırkkonaklar Mahallesi, Şemsettin <br> Günaltay Caddesi 241/2, Çankaya/ANKARA (Türkiye)",
+            "en": "Kirkkonaklar District, Semsettin <br> Gunaltay Street, 241/2, Cankaya/ANKARA (Turkey)",
+            "de": "Kirkkonaklar Viertel, Semsettin <br> Gunaltay Straße, 241/2, Cankaya/ANKARA (Türkei)",
+            "fr": "Quartier de Kirkkonaklar, rue Semsettin <br> Gunaltay, 241/2, Cankaya/ANKARA (Turquie)",
+            "nl": "Kirkkonaklar District, Semsettin <br> Gunaltay Street, 241/2, Cankaya/ANKARA (Turkije)"
         },
-
         {
             "id": "text-133",
             "tr": "Yurtdışı :",
@@ -1230,7 +1091,6 @@
             "fr": "À l'étranger :",
             "nl": "Buitenland :"
         },
-
         {
             "id": "text-134",
             "tr": "Yurtiçi :",
@@ -1239,7 +1099,6 @@
             "fr": "Intérieur :",
             "nl": "Binnenland :"
         },
-
         {
             "id": "text-135",
             "tr": "İletişim",
@@ -1248,16 +1107,14 @@
             "fr": "Contact",
             "nl": "Contact"
         },
-
         {
             "id": "text-136",
-            "tr": "Kırkkonaklar Mahallesi, Şemsettin Günaltay Caddesi 241/2, Çankaya/ANKARA (Türkiye)",
-            "en": "Kirkkonaklar District, Semsettin Gunaltay Street, 241/2, Cankaya/ANKARA (Turkey)",
-            "de": "Kirkkonaklar Viertel, Semsettin Gunaltay Straße, 241/2, Cankaya/ANKARA (Türkei)",
-            "fr": "Quartier de Kirkkonaklar, rue Semsettin Gunaltay, 241/2, Cankaya/ANKARA (Turquie)",
-            "nl": "Kirkkonaklar District, Semsettin Gunaltay Street, 241/2, Cankaya/ANKARA (Turkije)" 
+            "tr": "Kırkkonaklar Mahallesi, Şemsettin Günaltay <br> Caddesi 241/2, Çankaya/ANKARA (Türkiye)",
+            "en": "Kirkkonaklar District, Semsettin Gunaltay <br> Street, 241/2, Cankaya/ANKARA (Turkey)",
+            "de": "Kirkkonaklar Viertel, Semsettin Gunaltay <br> Straße, 241/2, Cankaya/ANKARA (Türkei)",
+            "fr": "Quartier de Kirkkonaklar, rue Semsettin Gunaltay, <br> 241/2, Cankaya/ANKARA (Turquie)",
+            "nl": "Kirkkonaklar District, Semsettin Gunaltay Street, <br> 241/2, Cankaya/ANKARA (Turkije)"
         },
-
         {
             "id": "text-137",
             "tr": "Yurtdışı :",
@@ -1266,7 +1123,6 @@
             "fr": "À l'étranger :",
             "nl": "Buitenland :"
         },
-
         {
             "id": "text-138",
             "tr": "Yurtiçi :",
@@ -1275,7 +1131,6 @@
             "fr": "Intérieur :",
             "nl": "Binnenland :"
         },
-
         {
             "id": "text-139",
             "tr": "Sosyal Medya",
@@ -1284,17 +1139,13 @@
             "fr": "Médias Sociaux",
             "nl": "Sociale Media"
         },
-
         {
             "id": "text-140",
-            "tr": "Bize sosyal medya hesaplarımızdan da ulaşabilirsiniz.",
-            "en": "You can also reach us from our social media accounts.",
-            "de": "Sie können uns auch über unsere Social-Media-Konten erreichen.",
-            "fr": "Vous pouvez également nous joindre via nos comptes de médias sociaux.",
-            "nl": "U kunt ons ook bereiken via onze sociale media-accounts."
+            "tr": "Bize sosyal medya hesaplarımızdan <br> da ulaşabilirsiniz.",
+            "en": "You can also reach us from our <br> social media accounts.",
+            "de": "Sie können uns auch über unsere <br> Social-Media-Konten erreichen.",
+            "fr": "Vous pouvez également nous joindre <br> via nos comptes de médias sociaux.",
+            "nl": "U kunt ons ook bereiken via <br> onze sociale media-accounts."
         }
-
-
     ]
-    
 }
