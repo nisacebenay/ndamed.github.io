@@ -804,6 +804,7 @@ summary {
 
 .special-services {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -821,9 +822,10 @@ summary {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
     text-align: center;
     align-items: center;
-
     display: flex;
     flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .sum1-content {
@@ -865,10 +867,11 @@ summary {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
     text-align: center;
     align-items: center;
-
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .sum2-content {
@@ -910,9 +913,10 @@ summary {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
     text-align: center;
     align-items: center;
-
     display: flex;
     flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .sum3-content {
@@ -955,9 +959,10 @@ summary {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
     text-align: center;
     align-items: center;
-
     display: flex;
     flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .sum4-content {
@@ -1001,6 +1006,8 @@ summary {
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .sum5-content {
@@ -1198,7 +1205,7 @@ summary {
     .sum3 img,
     .sum4 img,
     .sum5 img {
-        width: 60%;
+        width: 40%;
         height: 20%;
     }
 
@@ -1231,7 +1238,7 @@ summary {
     .sum3-content,
     .sum4-content,
     .sum5-content {
-        margin-top: 35%;
+        margin-top: 20%;
     }
 
     .contact-line {
@@ -1292,7 +1299,7 @@ summary {
     }
 
     section {
-        padding-top: 10%;
+        padding-top: 15%;
         padding-bottom: 5%;
     }
 
@@ -1302,33 +1309,42 @@ summary {
         width: 330px;
         height: 300px;
         margin-bottom: 5%;
-        margin-left: 5%;
+        margin-left: 1%;
     }
 
     .sum1 {
         width: 330px;
         height: 300px;
-        margin-left: 2%;
         margin-bottom: 5%;
-    }
-
-    .sum5 {
-        margin-right: 2%;
     }
 
     .sum3 {
         width: 330px;
         height: 300px;
         margin-bottom: 5%;
-        margin-left: 5%;
+        margin-left: 1%;
     }
 
-    .sum1-content,
-    .sum2-content,
-    .sum3-content,
-    .sum4-content,
+    .sum1-content {
+        margin-top: 15%;
+    }
+
+    .sum2-content {
+        margin-top: 15%;
+        padding: 2%;
+    }
+
+    .sum3-content {
+        margin-top: 15%;
+    }
+
+    .sum4-content {
+        margin-top: 15%;
+    }
+
     .sum5-content {
-        padding-bottom: 30%;
+        margin-top: 15%;
+        padding: 2%;
     }
 
     .contact-line {
