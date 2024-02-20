@@ -534,7 +534,7 @@ header {
     color: #5b9ad5;
     font: 300 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 4em;
-    margin-bottom: 0;
+    margin-bottom: 2%;
     background-color: #e1f2fb;
 }
 
@@ -542,7 +542,7 @@ header {
     color: #393e46;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     word-spacing: 2px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     margin-top: 0;
     padding-bottom: 2%;
@@ -863,7 +863,7 @@ header {
     color: #393e46;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     word-spacing: 2px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 }
 
