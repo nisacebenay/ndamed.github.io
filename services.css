@@ -1083,13 +1083,6 @@ tbody tr:last-child td {
     padding: 5%;
 }
 
-.treatment-plan-cards hr {
-    border: 1px solid #5b9ad5;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin-bottom: 0;
-}
-
 .step {
     display: flex;
     flex-direction: column;
@@ -1103,10 +1096,16 @@ tbody tr:last-child td {
 }
 
 .step h4 {
-    margin-bottom: 0;
     color: #393e46;
     font: 500 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
+}
+
+.step hr {
+    border: 0.5px solid #5b9ad5;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin: 0;
 }
 
 .step p {
@@ -1117,29 +1116,28 @@ tbody tr:last-child td {
 }
 
 .diagnose-img {
-    width: 40%;
-    height: 40%;
-    padding-top: 10%;
-    padding-left: 5%;
+    width: 35%;
+    height: 35%;
+    margin-left: 10%;
+    margin-top: 15%;
 }
 
 .hospital-img {
     width: 40%;
     height: 40%;
-    padding-top: 10%;
+    margin-top: 15%;
 }
 
 .calendar-img {
-    width: 38%;
-    height: 38%;
-    padding-top: 10%;
-    padding-bottom: 2%;
+    width: 30%;
+    height: 30%;
+    margin-top: 15%;
 }
 
 .suitcase-img {
-    width: 38%;
-    height: 38%;
-    padding-top: 10%;
+    width: 35%;
+    height: 35%;
+    margin-top: 10%;
 }
 
 /*#region MOBILE CONTENT*/
@@ -1147,6 +1145,11 @@ tbody tr:last-child td {
 
     .our-med-services {
         padding-top: 25%;
+        
+    }
+
+    .our-med-services h1 {
+        font-size: 3em;
     }
 
     .service {
@@ -1188,6 +1191,18 @@ tbody tr:last-child td {
     .packages {
         padding: 3;
         padding-top: 5%;
+    }
+
+    .packages h1 {
+        font-size: 3em;
+    }
+
+    .packages p {
+        font-size: 15px;
+    }
+
+    .packages-details p {
+        font-size: 10px;
     }
 
     #exit-preview {
@@ -1248,6 +1263,10 @@ tbody tr:last-child td {
         font-size: medium;
     }
 
+    .tbody th {
+        width: 5%;
+    }
+
     tbody th span {
         font-size: 80%;
         /* Reduce font size for smaller screens */
@@ -1278,10 +1297,11 @@ tbody tr:last-child td {
     .treatment-plan-cards {
         flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .step {
-        width: 50%;
+        width: 60%;
         margin-bottom: 5%;
     }
 
@@ -1336,7 +1356,7 @@ tbody tr:last-child td {
 @media only screen and (min-width: 600px) and (max-width: 834px) {
 
     .our-med-services {
-        padding-top: 15%;
+        padding: 15% 5% 5% 5%;
     }
 
     .service {
@@ -1393,19 +1413,6 @@ tbody tr:last-child td {
     td img {
         width: 50px;
         height: 50px;
-    }
-
-    .treatment-plan-cards {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .step {
-        width: 50%;
-        height: auto;
-        margin-bottom: 5%;
-        margin-left: 5%;
     }
 
     .treatment-plan p {
@@ -1493,18 +1500,19 @@ tbody tr:last-child td {
     .treatment-plan-cards {
         flex-direction: row;
         align-items: center;
+        justify-content: space-between;
+        padding: 5% 2% 5% 0%;
     }
 
     .step {
-        width: 50%;
-        height: 100%;
+        width: 30%;
+        height: 40%;
         margin-left: 5%;
     }
 
     .step img {
-        width: 40%;
-        height: 40%;
-        padding-top: 10%;
+        width: 20%;
+        height: 20%;
     }
 
     .treatment-plan p {

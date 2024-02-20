@@ -885,9 +885,9 @@
         },
         {
             "id": "text-108",
-            "tr": "Uygun Hastane Bulunması",
-            "en": "Finding the Right Hospital",
-            "de": "Das richtige Krankenhaus finden",
+            "tr": "Hastane Uygunluğu",
+            "en": "Hospital eligibility",
+            "de": "Krankenhaus<br>berechtigung",
             "fr": "Trouver le bon hôpital",
             "nl": "Het juiste ziekenhuis vinden"
         },
@@ -901,11 +901,11 @@
         },
         {
             "id": "text-110",
-            "tr": "Tedavi Planı Hazırlanması",
-            "en": "Preparation of Treatment Plan",
-            "de": "Vorbereitung des Behandlungsplans",
-            "fr": "Préparation du Plan de Traitement",
-            "nl": "Voorbereiding van Behandelingsplan"
+            "tr": "Tedavi Planlaması",
+            "en": "Treatment Planning",
+            "de": "Behandlungs<br>planung",
+            "fr": "Planification Du Traitement",
+            "nl": "Behandelings<br>planning"
         },
         {
             "id": "text-111",
