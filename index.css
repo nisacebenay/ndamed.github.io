@@ -1190,8 +1190,13 @@ summary {
     }
 
     .content {
-        padding-left: 2%;
-        word-wrap: break-all;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 35%;
+    }
+
+    .content li {
+        font-size: small;
     }
 
     section {

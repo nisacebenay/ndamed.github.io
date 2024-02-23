@@ -531,7 +531,7 @@ header {
 }
 
 .contact-person p {
-    margin: 5rem;
+    margin: 3rem;
     margin-top: 0;
     font: 300 1.3em/2 "Open Sans", "Helvetica Neue", sans-serif;
     color: var(--dkblue);
