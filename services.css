@@ -1277,7 +1277,6 @@ tbody tr:last-child td {
         /* Adjust cell padding for smaller screens */
     }
 
-
     .treatment-plan-cards {
         flex-direction: column;
         align-items: center;

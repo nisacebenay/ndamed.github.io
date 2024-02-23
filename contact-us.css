@@ -770,6 +770,14 @@ header {
     .contact-email a, .contact-whatsapp a, .contact-instagram a, .contact-facebook a {
         font-size: 1em;
     }
+
+    .number-section p {
+        font-size: 1em;
+    }
+
+    .number-section a {
+        padding: 0;
+    }
   }
   
   /* Medium screens (tablets) */
