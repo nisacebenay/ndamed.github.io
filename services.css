@@ -1277,22 +1277,6 @@ tbody tr:last-child td {
         /* Adjust cell padding for smaller screens */
     }
 
-    thead th p.promo {
-        position: relative;
-        /* Change position to relative */
-        top: 0;
-        /* Reset top position */
-        padding: 1.20em;
-        /* Adjust padding for smaller screens */
-        margin: 0;
-        /* Reset margin */
-        background: #5b9ad5;
-        /* Add background color */
-        color: #fff;
-        /* Set text color to white */
-        text-align: center;
-        /* Center align text */
-    }
 
     .treatment-plan-cards {
         flex-direction: column;

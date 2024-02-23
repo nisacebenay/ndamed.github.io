@@ -177,7 +177,7 @@
             "en": "Contact Us",
             "de": "Kontaktiere uns",
             "fr": "Contactez-nous",
-            "nl": "Neem contact met ons op"
+            "nl": "Contact"
         },
         {
             "id": "text-20",
@@ -317,11 +317,11 @@
         },
         {
             "id": "text-37",
-            "tr": "Yurtiçi",
-            "en": "Domestic",
-            "de": "Inländisch",
-            "fr": "Domestique",
-            "nl": "Binnenlands"
+            "tr": "Yurtiçi:",
+            "en": "Domestic:",
+            "de": "Inländisch:",
+            "fr": "Domestique:",
+            "nl": "Binnenlands:"
         },
         {
             "id": "text-38",

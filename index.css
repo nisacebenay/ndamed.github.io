@@ -1064,6 +1064,10 @@ summary {
         word-spacing: 1px;
     }
 
+    .content ul {
+        padding-left: 5%;
+    }
+
     .hr-1 {
         margin-left: 5%;
         margin-right: 35%;
