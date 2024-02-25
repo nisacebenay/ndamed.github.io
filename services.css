@@ -1254,6 +1254,12 @@ tbody tr:last-child td {
         /* Reduce top margin for smaller screens */
     }
 
+    table th:first-child {
+        width: 10px;
+        max-width: 100px;
+        white-space: normal;
+    }
+
     thead th {
         padding: 1em 0;
         /* Adjust header cell padding for smaller screens */
