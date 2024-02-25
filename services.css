@@ -1254,6 +1254,12 @@ tbody tr:last-child td {
         /* Reduce top margin for smaller screens */
     }
 
+    table th:first-child {
+        width: 10px;
+        max-width: 100px;
+        white-space: normal;
+    }
+
     thead th {
         padding: 1em 0;
         /* Adjust header cell padding for smaller screens */
@@ -1275,23 +1281,6 @@ tbody tr:last-child td {
     tbody td {
         padding: 0.5em;
         /* Adjust cell padding for smaller screens */
-    }
-
-    thead th p.promo {
-        position: relative;
-        /* Change position to relative */
-        top: 0;
-        /* Reset top position */
-        padding: 1.20em;
-        /* Adjust padding for smaller screens */
-        margin: 0;
-        /* Reset margin */
-        background: #5b9ad5;
-        /* Add background color */
-        color: #fff;
-        /* Set text color to white */
-        text-align: center;
-        /* Center align text */
     }
 
     .treatment-plan-cards {

@@ -177,7 +177,7 @@
             "en": "Contact Us",
             "de": "Kontaktiere uns",
             "fr": "Contactez-nous",
-            "nl": "Neem contact met ons op"
+            "nl": "Contact"
         },
         {
             "id": "text-20",
@@ -317,11 +317,11 @@
         },
         {
             "id": "text-37",
-            "tr": "Yurtiçi",
-            "en": "Domestic",
-            "de": "Inländisch",
-            "fr": "Domestique",
-            "nl": "Binnenlands"
+            "tr": "Yurtiçi:",
+            "en": "Domestic:",
+            "de": "Inländisch:",
+            "fr": "Domestique:",
+            "nl": "Binnenlands:"
         },
         {
             "id": "text-38",
@@ -415,7 +415,7 @@
             "id": "text-49",
             "tr": "NDA Med. Sağlık Turizmi Acentesi",
             "en": "NDA Med. Health Tourism Agency",
-            "de": "NDA Med. Gesundheitstourismusagentur",
+            "de": "NDA Med. <br> Gesundheitstourismusagentur",
             "fr": "NDA Med. Agence de tourisme de santé",
             "nl": "NDA Med. Gezondheidstoerisme Agentschap"
         },
@@ -517,19 +517,19 @@
         },
         {
             "id": "text-62",
-            "tr": "Yurtdışı :",
-            "en": "Abroad :",
-            "de": "Ausland :",
-            "fr": "À l'étranger :",
-            "nl": "Buitenland :"
+            "tr": "Yurtdışı:",
+            "en": "Abroad:",
+            "de": "Ausland:",
+            "fr": "À l'étranger:",
+            "nl": "Buitenland:"
         },
         {
             "id": "text-63",
-            "tr": "Yurtiçi :",
-            "en": "Domestic :",
-            "de": "Inländisch :",
-            "fr": "Domestique :",
-            "nl": "Binnenlands :"
+            "tr": "Yurtiçi:",
+            "en": "Domestic:",
+            "de": "Inländisch:",
+            "fr": "Domestique:",
+            "nl": "Binnenlands:"
         },
         {
             "id": "text-64",
@@ -941,19 +941,19 @@
         },
         {
             "id": "text-115",
-            "tr": "Yurtdışı :",
-            "en": "Abroad :",
-            "de": "Ausland :",
-            "fr": "À l'étranger :",
-            "nl": "Buitenland :"
+            "tr": "Yurtdışı:",
+            "en": "Abroad:",
+            "de": "Ausland:",
+            "fr": "À l'étranger:",
+            "nl": "Buitenland:"
         },
         {
             "id": "text-116",
-            "tr": "Yurtiçi :",
-            "en": "Domestic :",
-            "de": "Inland :",
-            "fr": "Intérieur :",
-            "nl": "Binnenland :"
+            "tr": "Yurtiçi:",
+            "en": "Domestic:",
+            "de": "Inländisch:",
+            "fr": "Intérieur:",
+            "nl": "Binnenland:"
         },
         {
             "id": "text-117",
@@ -1085,19 +1085,19 @@
         },
         {
             "id": "text-133",
-            "tr": "Yurtdışı :",
-            "en": "Abroad :",
-            "de": "Ausland :",
-            "fr": "À l'étranger :",
-            "nl": "Buitenland :"
+            "tr": "Yurtdışı:",
+            "en": "Abroad:",
+            "de": "Ausland:",
+            "fr": "À l'étranger:",
+            "nl": "Buitenland:"
         },
         {
             "id": "text-134",
-            "tr": "Yurtiçi :",
-            "en": "Domestic :",
-            "de": "Inland :",
-            "fr": "Intérieur :",
-            "nl": "Binnenland :"
+            "tr": "Yurtiçi:",
+            "en": "Domestic:",
+            "de": "Inländisch:",
+            "fr": "Intérieur:",
+            "nl": "Binnenland:"
         },
         {
             "id": "text-135",
@@ -1117,19 +1117,19 @@
         },
         {
             "id": "text-137",
-            "tr": "Yurtdışı :",
-            "en": "Abroad :",
-            "de": "Ausland :",
-            "fr": "À l'étranger :",
-            "nl": "Buitenland :"
+            "tr": "Yurtdışı:",
+            "en": "Abroad:",
+            "de": "Ausland:",
+            "fr": "À l'étranger:",
+            "nl": "Buitenland:"
         },
         {
             "id": "text-138",
-            "tr": "Yurtiçi :",
-            "en": "Domestic :",
-            "de": "Inland :",
-            "fr": "Intérieur :",
-            "nl": "Binnenland :"
+            "tr": "Yurtiçi:",
+            "en": "Domestic:",
+            "de": "Inländisch:",
+            "fr": "Intérieur:",
+            "nl": "Binnenland:"
         },
         {
             "id": "text-139",

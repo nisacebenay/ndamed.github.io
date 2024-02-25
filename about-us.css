@@ -203,6 +203,17 @@ header {
 /*#region Mobile Header */
 
 @media only screen and (max-width: 600px) {
+    header {
+        background-color: var(--white);
+        color: var(--blue);
+        height: 15%;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 500;
+    }
 
     .contact-banner {
         display: none;
@@ -258,25 +269,26 @@ header {
         padding-left: 5%;
     }
 
-    .language-selector-mobile{
+    .language-selector-mobile {
         padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
     }
 
-    .language-selector-mobile select{
+    .language-selector-mobile select {
         width: 100%;
         height: 100%;
     }
 
-    .btn{
+    .btn {
         padding-bottom: 20%;
     }
 
     .mobile-navbar {
         opacity: 0.6;
-        transition: opacity 0.6s ease 0s; opacity: 0;
+        transition: opacity 0.6s ease 0s;
+        opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -297,6 +309,17 @@ header {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
+    header {
+        background-color: var(--white);
+        color: var(--blue);
+        height: 10%;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 500;
+    }
     
     .contact-banner {
         display: none;
@@ -393,6 +416,17 @@ header {
 }
 
 @media only screen and (min-width: 835px) and (max-width: 1200px) {
+    header {
+        background-color: var(--white);
+        color: var(--blue);
+        height: 15%;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 500;
+    }
 
     .contact-banner {
         display: none;
@@ -505,6 +539,8 @@ header {
     padding-top: 8%;
     flex: 1;
     padding-bottom: 3%;
+    text-wrap: wrap;
+    padding-right: 10%;
 }
 
 .about-us-text h2 {
@@ -561,19 +597,20 @@ li {
     border-radius: 10%;
     float: right;
     position: absolute;
-    right: 30%;
+    right: 24%;
     top: 15%;
     z-index: 1;
     border: 5px solid #e0f4f7;
 }
 
 .img2 {
-    width: 35%;
+    width: 17%;
     height: auto;
     border-radius: 10%;
     float: right;
-    position: relative;
-    top: 5%;
+    position: absolute;
+    right: 2%;
+    top: 15%;
 }
 
 .img3 {
@@ -581,7 +618,7 @@ li {
     height: auto;
     border-radius: 10%;
     position: absolute;
-    right: 15%;
+    right: 12%;
     top: 35%;
     border: 5px solid #e0f4f7; ;
 }
@@ -684,7 +721,7 @@ li {
     border-radius: 10%;
     position: absolute;
     right: 55%;
-    top: 165%;
+    top: 150%;
 }
 
 .img5 {
@@ -743,6 +780,11 @@ li {
 
     .about-ankara-pics {
         display: none;
+    }
+
+    .about-us-text h2{
+        width: 90vw;
+       word-wrap: break-word;
     }
 
     .about-us-text p {
@@ -821,19 +863,21 @@ li {
         border-radius: 10%;
         float: right;
         position: absolute;
-        right: 30%;
-        top: 20%;
+        right: 15%;
+        top: 40%;
         z-index: 1;
         border: 5px solid #e0f4f7;
     }
 
     .img2 {
-        width: 40%;
+        width: 18%;
+        right: 2%;
+        top: 55%;
     }
 
     .img3 {
-        top: 50%;
-        right: 15%;
+        top: 18%;
+        right: 5%;
         width: 20%;
     }
 
@@ -858,15 +902,15 @@ li {
     }
 
     .img4 {
-        top: 145%;
-        height: 65%;
+        top: 100%;
+        height: 40%;
         width: 32%;
         right: 54%;
     }
 
     .img5 {
-        top: 45%;
-        height: 45%;
+        top: 35%;
+        height: 40%;
         width: 70%;
         left: 0;
     }

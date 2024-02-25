@@ -1064,6 +1064,10 @@ summary {
         word-spacing: 1px;
     }
 
+    .content ul {
+        padding-left: 5%;
+    }
+
     .hr-1 {
         margin-left: 5%;
         margin-right: 35%;
@@ -1186,8 +1190,13 @@ summary {
     }
 
     .content {
-        padding-left: 2%;
-        word-wrap: break-all;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 35%;
+    }
+
+    .content li {
+        font-size: small;
     }
 
     section {
@@ -1426,6 +1435,8 @@ footer {
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: 1fr;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding-bottom: 20px;
     display: flex;
 }
@@ -1444,6 +1455,7 @@ footer {
     text-decoration: none;
     display: block;
     position: static
+    
 }
 
 .address-section.mail-content {
@@ -1550,7 +1562,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .footer-social-title {
@@ -1571,6 +1583,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    align-self: left;
 }
 
 .footer-social-media-text {
@@ -1579,7 +1592,6 @@ footer {
     line-height: 1.5;
     word-wrap: break-word;
     align-items: center;
-    padding-top: 5px;
 }
 
 .instagram-section {
@@ -1596,7 +1608,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
+}   
 
 .social-media-instagram {
     color: #fff;
@@ -1625,7 +1637,7 @@ footer {
     line-height: 1.5;
     text-decoration: none;
     display: block;
-    position: static;
+    position: static; 
 }
 
 .social-media-instagram:hover {
