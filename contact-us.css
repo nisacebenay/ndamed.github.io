@@ -204,6 +204,10 @@ header {
 
 @media only screen and (max-width: 600px) {
 
+    header {
+        height: 15%;
+    }
+
     .contact-banner {
         display: none;
     }
@@ -291,12 +295,16 @@ header {
     }
 
     .logo {
-        padding-top: 4%;
+        padding-top: 5%;
     }
 
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
+
+    header {
+        height: 10%;
+    }
     
     .contact-banner {
         display: none;
@@ -784,7 +792,7 @@ header {
   @media only screen and (min-width: 600px) and (max-width: 834px) {
 
     .main {
-        padding-top: 20%;
+        padding-top: 5%;
     }
 
     .contact-box {

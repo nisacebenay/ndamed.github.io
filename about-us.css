@@ -802,7 +802,6 @@ li {
 @media only screen and (min-width: 600px) and (max-width: 834px) {
 
     .about-part {
-        padding-top: 10%;
         padding-right: 5%;
     }
 
@@ -894,7 +893,7 @@ li {
     }
 
     .about-ankara {
-        margin-top: 5%;
+        margin-top: 10%;
     }
 
     .about-ankara-pics {

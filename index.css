@@ -207,6 +207,10 @@ header {
 
 @media only screen and (max-width: 600px) {
 
+    header {
+        height: 15%;
+    }
+
     .contact-banner {
         display: none;
     }
@@ -301,6 +305,10 @@ header {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
+
+    header {
+        height: 10%;
+    }
 
     .contact-banner {
         display: none;
@@ -502,7 +510,7 @@ header {
 
 main {
     position: relative;
-    top: 15%;
+    top: 10%;
     display: flex;
     padding-bottom: 8%;
     background-image: url("./images/doc-copy.png");
@@ -608,7 +616,6 @@ main {
     align-items: center;
     justify-content: space-between;
     height: 20%;
-    margin-top: 5%;
 }
 
 .contact-line p {
