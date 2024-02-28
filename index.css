@@ -1414,6 +1414,10 @@ footer {
     justify-content: space-around;
 }
 
+.contact-content {
+
+}
+
 .contact-title-section {
     display: flex;
     flex-direction: row;

@@ -303,12 +303,7 @@ header {
     }
 
     .logo {
-        padding-left: 1em;
-    }
-
-    .logo img {
-        width: 10rem;
-        padding-top: 15%;
+        padding-top: 4%;
     }
 
 }
@@ -317,7 +312,7 @@ header {
     header {
         background-color: var(--white);
         color: var(--blue);
-        height: 12%;
+        height: 10%;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
         position: fixed;
         top: 0;
@@ -412,12 +407,9 @@ header {
         font-size: large;
     }
 
-    .logo img {
-        width: 13rem;
-    }
-
     .logo {
         padding-top: 4%;
+    
     }
 
 
@@ -536,18 +528,19 @@ header {
 
 .about-part {
     position: relative;
+    top: 10%;
     display: flex;
     background-color: #E1F2FB;
     padding-bottom: 5%;
     font-family: Arial, Helvetica, sans-serif;
-    top: 20%;
 }
 
 .about-us-text {
+    padding-top: 8%;
     flex: 1;
+    padding-bottom: 3%;
     text-wrap: wrap;
     padding-right: 10%;
-    padding-top: 3%;
 }
 
 .about-us-text h2 {
@@ -555,9 +548,10 @@ header {
     color: #5b9ad5;
     font: 400 1.4 "Open Sans", "Helvetica Neue", sans-serif; 
     font-weight: 400;
-    font-size: 4em;
-    margin-top: 1%;
+    font-size:3em;
+    margin-top: 2%;
     margin-bottom: 2%;
+    word-spacing: 5px;
 }
 
 .about-us-text hr {
@@ -574,7 +568,7 @@ header {
     color: #393e46;
     word-wrap: break-word;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .about-us-text ul {
@@ -592,7 +586,9 @@ li {
     flex-direction: column;
     flex: 1 1;
     align-items: center;
+    padding-top: 8%;
     padding-right: 3%;
+    padding-bottom: 8%;
 }
 
 .img1 {
@@ -602,7 +598,7 @@ li {
     float: right;
     position: absolute;
     right: 24%;
-    top: 5%;
+    top: 15%;
     z-index: 1;
     border: 5px solid #e0f4f7;
 }
@@ -614,7 +610,7 @@ li {
     float: right;
     position: absolute;
     right: 2%;
-    top: 2%;
+    top: 15%;
 }
 
 .img3 {
@@ -623,7 +619,7 @@ li {
     border-radius: 10%;
     position: absolute;
     right: 12%;
-    top: 20%;
+    top: 35%;
     border: 5px solid #e0f4f7; ;
 }
 
@@ -638,16 +634,15 @@ li {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 20%;
+    height: 30%;
     padding-right: 5%;
     padding-left: 5%;
-    top: 15%;
 }
 
 .ndamed-contact-img {
     border-radius: 50%;
-    width: 18%;
-    height: 70%;
+    width: 25%;
+    height: 75%;
 }
 
 .contact-line h4 {
@@ -695,8 +690,7 @@ li {
 
 .about-part2 {
     display: flex;
-    position: relative;
-    top: 20%;
+    padding-top: 3%;
     background-color: #E1F2FB;
     padding-bottom: 5%;
 }
@@ -746,20 +740,20 @@ li {
 }
 
 .img4 {
-    width: 21%;
+    width: 22%;
     height: auto;
     border-radius: 10%;
     position: absolute;
     right: 55%;
-    top: 5%;
+    top: 150%;
 }
 
 .img5 {
-    width: 45%;
+    width: 50%;
     height: auto;
     border-radius: 10%;
     position: relative;
-    top: 40%;
+    top: 45%;
     left: 8%;
     border: 8px solid #e0f4f7;
 }
@@ -832,7 +826,6 @@ li {
 @media only screen and (min-width: 600px) and (max-width: 834px) {
 
     .about-part {
-        top: 12%;
         padding-right: 5%;
     }
 
@@ -867,11 +860,8 @@ li {
         margin-right: 2%;
     }
 
-    .about-part2 {
-        top: 15%;
-    }
-
     .about-ankara {
+        padding-top: 15%;
         padding-left: 5%;
     }
 
@@ -955,13 +945,11 @@ li {
 /*#region FOOTER */
 
 footer {
-    height: 40%;
+    height: 50%;
     background-color: var(--dkblue);
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    position: relative;
-    top: 25%;
+    justify-content: space-evenly;
 }
 
 .contact-title-section {
@@ -975,7 +963,7 @@ footer {
     color: var(--white);
     font-size: 1.5em;
     font-weight: 600;
-    padding-left: 3%;
+    padding-left: 10px;
     padding-bottom: 30px;
 }
 
@@ -1110,9 +1098,8 @@ footer {
 
 .footer-social-media {
     display: flex;
-    width: 25%;
     flex-direction: column;
-    padding-bottom: 1.5%;
+    margin-bottom: 2%;
 }
 
 .footer-social-media-section {
@@ -1157,7 +1144,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
     padding-top: 5%;
 }
 
@@ -1213,14 +1200,13 @@ footer {
 
 .footer-map-container {
     height: 100%;
-    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 footer iframe {
-    height: 90%;
+    height: 85%;
     width: 100%;
     border-radius: 5%;
 }
@@ -1278,6 +1264,7 @@ footer iframe {
 
     footer {
         height: auto;
+        padding: 10px;
     }
     
     .contacts {
@@ -1329,8 +1316,6 @@ footer iframe {
     color: var(--white);
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 23%;
 }
 
 .bottom-banner p {
