@@ -664,6 +664,30 @@ li {
     line-height: 1.8;
 }
 
+.ndamed-contact-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-line-mail {
+    width: 55px;
+    height: 55px;
+}
+
+.contact-line-mail:hover,
+.contact-line-mail:focus {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(8%) saturate(126%) hue-rotate(263deg) brightness(113%) contrast(89%);
+    cursor: pointer;
+}
+
+.mail-container {
+    background-image: url(./icons-2/mail.svg);
+    background-size: cover;
+    text-align: center;
+}
+
 .about-part2 {
     display: flex;
     padding-top: 3%;
