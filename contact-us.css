@@ -97,7 +97,7 @@ header {
 
 .logo img {
     align-self: center;
-    max-height: 5rem;
+    max-height: 8rem;
 }
 
 .menu-container {
@@ -148,21 +148,21 @@ header {
     flex: 1;
     display: flex;
     justify-content: center;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+    border-top-right-radius: 2.5em;
+    border-top-left-radius: 2.5em;
     width: auto;
 }
 
 .navbar a {
     text-decoration: none;
     color:#393e46;
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: transparent;
     text-align: center;
     display: flex;
     text-wrap: nowrap;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 300;
 }
 
@@ -203,6 +203,10 @@ header {
 /*#region Mobile Header */
 
 @media only screen and (max-width: 600px) {
+
+    header {
+        height: 15%;
+    }
 
     .contact-banner {
         display: none;
@@ -291,12 +295,16 @@ header {
     }
 
     .logo {
-        padding-top: 4%;
+        padding-top: 5%;
     }
 
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
+
+    header {
+        height: 10%;
+    }
     
     .contact-banner {
         display: none;
@@ -784,7 +792,7 @@ header {
   @media only screen and (min-width: 600px) and (max-width: 834px) {
 
     .main {
-        padding-top: 20%;
+        padding-top: 5%;
     }
 
     .contact-box {
@@ -828,6 +836,7 @@ header {
   }
   
 
+  
 /*#region FOOTER */
 
 footer {
@@ -835,7 +844,7 @@ footer {
     background-color: var(--dkblue);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 5%;
     padding-bottom: 1%;
 }
@@ -855,7 +864,7 @@ footer {
     color: var(--white);
     font-size: 1.5em;
     font-weight: 600;
-    padding-left: 10px;
+    padding-left: 3%;
     padding-bottom: 30px;
 }
 
@@ -988,6 +997,7 @@ footer {
 
 .footer-social-media {
     display: flex;
+    width: 25%;
     flex-direction: column;
 }
 
@@ -1032,7 +1042,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     padding-top: 5%;
 }
 
@@ -1088,13 +1098,14 @@ footer {
 
 .footer-map-container {
     height: 100%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 footer iframe {
-    height: 85%;
+    height: 90%;
     width: 100%;
     border-radius: 5%;
 }
