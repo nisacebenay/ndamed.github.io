@@ -526,8 +526,8 @@ header {
     flex-direction: column;
     text-align: center;
     background-color: #e1f2fb;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 13%;
+    padding-bottom: 3%;
 }
 
 .our-med-services h1 {
@@ -568,7 +568,7 @@ header {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
     margin-bottom: 3%;
     box-sizing: content-box;
-    width: 98%;
+    width: 95%;
 }
 
 .service-content {
@@ -775,7 +775,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 20%;
+    height: 15%;
     padding-right: 10%;
     padding-left: 5%;
     margin-top: 5%;
@@ -1319,25 +1319,6 @@ tbody tr:last-child td {
         width: 30%;
         margin-right: 0;
         font-size: smaller;
-
-    }
-
-    .hand {
-        width: 15%;
-        height: 60%;
-        padding-right: 2%;
-    }
-
-    .prev {
-        display: none;
-    }
-
-    .next {
-        display: none;
-    }
-
-    .service hr {
-        margin-top: 8%;
     }
 
 }
