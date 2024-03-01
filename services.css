@@ -299,8 +299,13 @@ header {
         display: flex;
     }
 
+    .logo img {
+        max-height: 6rem;
+    }
+
     .logo {
-        padding-top: 5%;
+        padding-top: 6%;
+        padding-left: 0;
     }
 
 }
@@ -401,9 +406,13 @@ header {
         font-size: large;
     }
 
+    .logo img {
+        max-height: 6rem;
+    }
+
     .logo {
         padding-top: 3%;
-
+        padding-left: 0;
     }
 
 }
