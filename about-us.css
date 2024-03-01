@@ -302,8 +302,13 @@ header {
         display: flex;
     }
 
+    .logo img {
+        max-height: 6rem;
+    }
+
     .logo {
-        padding-top: 4%;
+        padding-top: 6%;
+        padding-left: 0;
     }
 
 }
@@ -762,8 +767,22 @@ li {
 @media only screen and (max-width: 600px) {
     
     .about-part {
-        padding-top: 10%;
-        padding-bottom: 20%;
+        padding-top: 20%;
+        padding-bottom: 15%;
+    }
+
+    .about-us-pics {
+        display: none;
+    }
+
+    .about-us-text h2{
+        width: 90vw;
+        word-wrap: break-word;
+    }
+
+    .about-us-text p {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .contact-line {
@@ -793,27 +812,14 @@ li {
 
     .about-part2 {
         flex-direction: column;
-    }
-
-    .about-us-pics {
-        display: none;
+        padding-bottom: 15%;
     }
 
     .about-ankara-pics {
         display: none;
     }
 
-    .about-us-text h2{
-        width: 90vw;
-       word-wrap: break-word;
-    }
-
-    .about-us-text p {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    .about-ankara {
+    .about-ankara-text {
         padding-left: 5%;
         padding-right: 5%;
     }

@@ -294,8 +294,13 @@ header {
         display: flex;
     }
 
+    .logo img {
+        max-height: 6rem;
+    }
+
     .logo {
-        padding-top: 5%;
+        padding-top: 7%;
+        padding-left: 0;
     }
 
 }
@@ -744,12 +749,22 @@ header {
       width: 100%;
     }
 
+    .contact-person img {
+        width: 8rem; /* Adjust as needed */
+        margin-top: 10%;
+    }
+
+    .contact-person hr {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
     .contact-person h4 {
         margin-bottom: 0;
     }
 
     .contact-person p {
-        margin: 3rem;
+        margin: 1.5rem;
     }
 
     .contact-area {
@@ -776,11 +791,6 @@ header {
     .contact-facebook img {
         margin-left: 0;
     }
-    
-    .contact-person img {
-      width: 8rem; /* Adjust as needed */
-      margin-top: 5%;
-    }
 
     .contact-address p {
         font-size: 1em;
@@ -797,10 +807,10 @@ header {
     .number-section a {
         padding: 0;
     }
-  }
+}
   
   /* Medium screens (tablets) */
-  @media only screen and (min-width: 600px) and (max-width: 834px) {
+@media only screen and (min-width: 600px) and (max-width: 834px) {
 
     .main {
         padding-top: 5%;
@@ -823,10 +833,10 @@ header {
     .contact-area {
         width: 90%;
     }
-  }
+}
   
   /* Large screens (desktops) */
-  @media only screen and (min-width: 835px) and (max-width: 1024px) {
+@media only screen and (min-width: 835px) and (max-width: 1024px) {
     .contact-box {
       flex-direction: row;
       height: 50%;
@@ -844,9 +854,8 @@ header {
     .contact-area {
         width: 50%;
     }
-  }
+}
   
-
 /*#region FOOTER */
 
 footer {
