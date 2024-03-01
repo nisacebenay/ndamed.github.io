@@ -406,9 +406,13 @@ header {
         font-size: large;
     }
 
+    .logo img {
+        max-height: 6rem;
+    }
+
     .logo {
         padding-top: 3%;
-
+        padding-left: 0;
     }
 
 }

@@ -402,9 +402,13 @@ header {
         font-size: large;
     }
 
-    .logo {
-        padding-top: 4%;
+    .logo img {
+        max-height: 6rem;
+    }
 
+    .logo {
+        padding-top: 3%;
+        padding-left: 0;
     }
 
 
@@ -1087,7 +1091,8 @@ summary {
     }
 
     .services-button {
-        margin-left: 25%;
+        margin-left: 30%;
+        width: 40%;
     }
 
     .about-button {

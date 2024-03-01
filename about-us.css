@@ -412,11 +412,14 @@ header {
         font-size: large;
     }
 
-    .logo {
-        padding-top: 4%;
-    
+    .logo img {
+        max-height: 6rem;
     }
 
+    .logo {
+        padding-top: 3%;
+        padding-left: 0;
+    }
 
 }
 
@@ -830,6 +833,8 @@ li {
 
     .about-part {
         padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 
     .about-us-pics {
@@ -838,10 +843,11 @@ li {
 
     .contact-line {
         position: relative;
-        top: 8%;
         height: 20%;
-        padding-right: 1;
-        padding-left: 5;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 
     .ndamed-contact-img {
@@ -853,7 +859,7 @@ li {
 
     .contact-line p {
         margin: 0;
-        padding: 1;
+        padding: 0;
     }
 
     .hand {
@@ -863,9 +869,10 @@ li {
         margin-right: 2%;
     }
 
-    .about-ankara {
-        padding-top: 15%;
-        padding-left: 5%;
+    .about-ankara-text {
+        padding-top: 5%;
+        margin: 2%;
+        padding-bottom: 5%;
     }
 
     .about-ankara-pics {

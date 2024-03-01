@@ -397,11 +397,14 @@ header {
         font-size: large;
     }
 
-    .logo {
-        padding-top: 4%;
-    
+    .logo img {
+        max-height: 6rem;
     }
 
+    .logo {
+        padding-top: 4%;
+        padding-left: 0;
+    }
 
 }
 
@@ -826,7 +829,7 @@ header {
     }
 
     .contact-person img {
-        width: 8rem; /* Adjust as needed */
+        width: 10rem; /* Adjust as needed */
         margin-top: 5%;
     }
 
