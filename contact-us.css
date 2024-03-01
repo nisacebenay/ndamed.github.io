@@ -528,20 +528,27 @@ header {
 }
 
 .contact-person img {
-    width: 10rem;
+    width: 15rem;
     border-radius: 50%;
 }
 
 .contact-person h4 {
     margin: 2rem;
-    font: 400 2em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    font: 400 3em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     color: var(--blue);
+}
+
+.contact-person hr {
+    width: 30%;
+    margin-bottom: 3rem;
+    border: 0.5px solid var(--blue);
+
 }
 
 .contact-person p {
     margin: 3rem;
     margin-top: 0;
-    font: 300 1.3em/2 "Open Sans", "Helvetica Neue", sans-serif;
+    font: 300 1.5em/2 "Open Sans", "Helvetica Neue", sans-serif;
     color: var(--dkblue);
 }
 
@@ -555,7 +562,7 @@ header {
 
 .contact-area h1 {
     margin: 1rem;
-    font: 400 2em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    font: 400 2.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     color: var(--white);
 }
 
@@ -567,7 +574,7 @@ header {
 
 .contact-area p {
     margin: 1rem;
-    font: 300 1.3em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    font: 300 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     color: var(--white);
 }
 
@@ -589,7 +596,7 @@ header {
 .contact-list a {
     color: var(--white);
     text-decoration: none;
-    font: 300 1.3em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
+    font: 300 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .contact-list a:hover {
@@ -624,6 +631,7 @@ header {
     flex-direction: row;
     margin-top: 1%;
     margin-bottom: 6%;
+    font-size: 1.2em;
 }
 
 .contact-email img {
@@ -648,6 +656,7 @@ header {
     flex-direction: row;
     margin-top: 1%;
     margin-bottom: 1%;
+    font-size: 1em;
 }
 
 .contact-whatsapp img {
@@ -670,6 +679,7 @@ header {
     flex-direction: row;
     margin-top: 5%;
     margin-bottom: 3%;
+    font-size: 1.3em;
 }
 
 .contact-instagram img {
@@ -694,6 +704,7 @@ header {
     flex-direction: row;
     margin-top: 5%;
     margin-bottom: 3%;
+    font-size: 1.3em;
 }
 
 .contact-facebook img {
