@@ -1987,7 +1987,7 @@ footer iframe {
     right: 0;
     flex-direction: column;
     position: fixed;
-    background-color: var(--white);
+    background-color: #E1F2FB;
     padding-left: 10em;
     padding-right: 10em;
     padding-bottom: 10em;
