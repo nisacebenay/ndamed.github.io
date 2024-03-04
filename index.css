@@ -585,10 +585,6 @@ main {
     margin-top: 0;
 }
 
-.content ul {
-    padding-left: 15%;
-}
-
 .content li {
     font: 500 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     color: #393e46;
