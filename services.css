@@ -519,6 +519,25 @@ header {
 
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+
+    header {
+        height: 20%;
+    }
+
+    .logo img {
+        max-height: 6rem;
+    }
+
+    .navbar a {
+        font-size: 17px;
+    }
+
+    .language-selector select {
+        margin-bottom: 12%;
+    }
+}
+
 
 /*#endregion MOBILE HEADER */
 
@@ -1150,382 +1169,383 @@ tbody tr:last-child td {
 }
 
 /*#region MOBILE CONTENT*/
+
 @media only screen and (max-width: 600px) {
 
-    .our-med-services {
-        padding-top: 25%;
-        
-    }
+        .our-med-services {
+            padding-top: 25%;
+            
+        }
 
-    .our-med-services h1 {
-        font-size: 3em;
-    }
+        .our-med-services h1 {
+            font-size: 3em;
+        }
 
-    .service {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+        .service {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-    .service img {
-        width: 30%;
-        height: 30%;
-        background-color: #5b9ad5;
-        border-radius: 50%;
-        border: #41506b 0.5px solid;
-    }
+        .service img {
+            width: 30%;
+            height: 30%;
+            background-color: #5b9ad5;
+            border-radius: 50%;
+            border: #41506b 0.5px solid;
+        }
 
-    .service-content {
-        text-align: center;
-    }
+        .service-content {
+            text-align: center;
+        }
 
-    .service-content hr {
-        margin-right: 30%;
-        margin-left: 30%;
-        margin-bottom: 5%;
-    }
+        .service-content hr {
+            margin-right: 30%;
+            margin-left: 30%;
+            margin-bottom: 5%;
+        }
 
-    .service-content p {
-        padding-left: 5%;
-        padding-right: 5%;
-        word-wrap: break-word;
-        word-spacing: 2px;
-        line-height: 1.5;
-    }
+        .service-content p {
+            padding-left: 5%;
+            padding-right: 5%;
+            word-wrap: break-word;
+            word-spacing: 2px;
+            line-height: 1.5;
+        }
 
-    br {
-        display: none;
-    }
+        br {
+            display: none;
+        }
 
-    .packages {
-        padding: 3;
-        padding-top: 5%;
-    }
+        .packages {
+            padding: 3;
+            padding-top: 5%;
+        }
 
-    .packages h1 {
-        font-size: 3em;
-    }
+        .packages h1 {
+            font-size: 3em;
+        }
 
-    .packages p {
-        font-size: 15px;
-    }
+        .packages p {
+            font-size: 15px;
+        }
 
-    .packages-details p {
-        font-size: 10px;
-    }
+        .packages-details p {
+            font-size: 10px;
+        }
 
-    #exit-preview {
-        position: fixed;
-        z-index: 501;
-        top: 1%;
-        right: 5%;
-        width: 9vh;
-        height: 9vh;
-        background-color: var(--blue);
-        color: var(--white);
-        border-radius: 50%;
-        opacity: 1;
-        border: none;
-        font-size: 30px;
-    }
+        #exit-preview {
+            position: fixed;
+            z-index: 501;
+            top: 1%;
+            right: 5%;
+            width: 9vh;
+            height: 9vh;
+            background-color: var(--blue);
+            color: var(--white);
+            border-radius: 50%;
+            opacity: 1;
+            border: none;
+            font-size: 30px;
+        }
 
-    .prev-zoom {
-        height: 10vh;
-        width: 10vh;
-        border-radius: 50%;
-        background-color: var(--blue);
-        opacity: 1;
-        border: none;
-        font-size: 35px;
-        color: var(--white);
-    }
+        .prev-zoom {
+            height: 10vh;
+            width: 10vh;
+            border-radius: 50%;
+            background-color: var(--blue);
+            opacity: 1;
+            border: none;
+            font-size: 35px;
+            color: var(--white);
+        }
 
-    .next-zoom {
-        height: 10vh;
-        width: 10vh;
-        border-radius: 50%;
-        background-color: var(--blue);
-        opacity: 1;
-        border: none;
-        font-size: 35px;
-        color: var(--white);
-    }
+        .next-zoom {
+            height: 10vh;
+            width: 10vh;
+            border-radius: 50%;
+            background-color: var(--blue);
+            opacity: 1;
+            border: none;
+            font-size: 35px;
+            color: var(--white);
+        }
 
-    td img {
-        width: 50px;
-        /* Adjust image size for mobile */
-        height: 50px;
-        /* Adjust image size for mobile */
-    }
+        td img {
+            width: 50px;
+            /* Adjust image size for mobile */
+            height: 50px;
+            /* Adjust image size for mobile */
+        }
 
-    table {
-        margin-top: 1em;
-        /* Reduce top margin for smaller screens */
-    }
+        table {
+            margin-top: 1em;
+            /* Reduce top margin for smaller screens */
+        }
 
-    table th:first-child {
-        width: 10px;
-        max-width: 100px;
-        white-space: normal;
-    }
+        table th:first-child {
+            width: 10px;
+            max-width: 100px;
+            white-space: normal;
+        }
 
-    thead th {
-        padding: 1em 0;
-        /* Adjust header cell padding for smaller screens */
-    }
+        thead th {
+            padding: 1em 0;
+            /* Adjust header cell padding for smaller screens */
+        }
 
-    thead th h2 {
-        font-size: medium;
-    }
+        thead th h2 {
+            font-size: medium;
+        }
 
-    .tbody th {
-        width: 5%;
-    }
+        .tbody th {
+            width: 5%;
+        }
 
-    tbody th span {
-        font-size: 80%;
-        /* Reduce font size for smaller screens */
-    }
+        tbody th span {
+            font-size: 80%;
+            /* Reduce font size for smaller screens */
+        }
 
-    tbody td {
-        padding: 0.5em;
-        /* Adjust cell padding for smaller screens */
-    }
+        tbody td {
+            padding: 0.5em;
+            /* Adjust cell padding for smaller screens */
+        }
 
-    .treatment-plan-cards {
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-    }
+        .treatment-plan-cards {
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+        }
 
-    .step {
-        width: 60%;
-        margin-bottom: 5%;
-    }
+        .step {
+            width: 60%;
+            margin-bottom: 5%;
+        }
 
-    .treatment-plan p {
-        padding-left: 3%;
-        padding-right: 3%;
-        word-wrap: break-word;
-        word-spacing: 2px;
-        line-height: 1.5;
-    }
+        .treatment-plan p {
+            padding-left: 3%;
+            padding-right: 3%;
+            word-wrap: break-word;
+            word-spacing: 2px;
+            line-height: 1.5;
+        }
 
-    .contact-line {
-        position: relative;
-        top: 5%;
-        height: 15%;
-        padding-right: 2%;
-        padding-left: 2%;
-    }
+        .contact-line {
+            position: relative;
+            top: 5%;
+            height: 15%;
+            padding-right: 2%;
+            padding-left: 2%;
+        }
 
-    .contact-line p {
-        font-size: medium;
-        padding-left: 2%;
-    }
+        .contact-line p {
+            font-size: medium;
+            padding-left: 2%;
+        }
 
-    .contact-button {
-        width: 30%;
-        margin-right: 0;
-        font-size: smaller;
-    }
+        .contact-button {
+            width: 30%;
+            margin-right: 0;
+            font-size: smaller;
+        }
 
 }
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
 
-    .our-med-services {
-        padding: 15% 5% 5% 5%;
-    }
+        .our-med-services {
+            padding: 15% 5% 5% 5%;
+        }
 
-    .service {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
+        .service {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
 
-    .service img {
-        width: 25%;
-        height: 25%;
-        background-color: #5b9ad5;
-        border-radius: 50%;
-        border: #41506b 0.5px solid;
-    }
+        .service img {
+            width: 25%;
+            height: 25%;
+            background-color: #5b9ad5;
+            border-radius: 50%;
+            border: #41506b 0.5px solid;
+        }
 
-    #exit-preview {
-        position: fixed;
-        z-index: 501;
-        top: 1%;
-        right: 5%;
-        width: 8vh;
-        height: 8vh;
-        background-color: var(--blue);
-        color: var(--white);
-        border-radius: 50%;
-        opacity: 1;
-        border: none;
-        font-size: 35px;
-    }
+        #exit-preview {
+            position: fixed;
+            z-index: 501;
+            top: 1%;
+            right: 5%;
+            width: 8vh;
+            height: 8vh;
+            background-color: var(--blue);
+            color: var(--white);
+            border-radius: 50%;
+            opacity: 1;
+            border: none;
+            font-size: 35px;
+        }
 
-    .prev-zoom {
-        height: 9vh;
-        width: 9vh;
-        border-radius: 50%;
-        background-color: var(--blue);
-        opacity: 1;
-        border: none;
-        font-size: 45px;
-        color: var(--white);
-    }
+        .prev-zoom {
+            height: 9vh;
+            width: 9vh;
+            border-radius: 50%;
+            background-color: var(--blue);
+            opacity: 1;
+            border: none;
+            font-size: 45px;
+            color: var(--white);
+        }
 
-    .next-zoom {
-        height: 9vh;
-        width: 9vh;
-        border-radius: 50%;
-        background-color: var(--blue);
-        opacity: 1;
-        border: none;
-        font-size: 45px;
-        color: var(--white);
-    }
+        .next-zoom {
+            height: 9vh;
+            width: 9vh;
+            border-radius: 50%;
+            background-color: var(--blue);
+            opacity: 1;
+            border: none;
+            font-size: 45px;
+            color: var(--white);
+        }
 
-    td img {
-        width: 50px;
-        height: 50px;
-    }
+        td img {
+            width: 50px;
+            height: 50px;
+        }
 
-    .treatment-plan p {
-        padding-left: 15%;
-        padding-right: 15%;
-        word-spacing: 1px;
-        line-height: 1.5;
-    }
+        .treatment-plan p {
+            padding-left: 15%;
+            padding-right: 15%;
+            word-spacing: 1px;
+            line-height: 1.5;
+        }
 
-    .contact-line {
-        position: relative;
-        top: 5%;
-        height: 12%;
-        padding: 0;
-    }
+        .contact-line {
+            position: relative;
+            top: 5%;
+            height: 12%;
+            padding: 0;
+        }
 
-    .contact-line p {
-        font-size: 20px;
-    }
+        .contact-line p {
+            font-size: 20px;
+        }
 
-    .contact-button {
-        width: 15%;
-        margin-right: 2%;
-    }
+        .contact-button {
+            width: 15%;
+            margin-right: 2%;
+        }
 
-    .hand {
-        width: 10%;
-        height: 60%;
-        margin-left: 2%;
-        padding-right: 2%;
-    }
+        .hand {
+            width: 10%;
+            height: 60%;
+            margin-left: 2%;
+            padding-right: 2%;
+        }
 
-    .prev {
-        display: none;
-    }
+        .prev {
+            display: none;
+        }
 
-    .next {
-        display: none;
-    }
+        .next {
+            display: none;
+        }
 }
 
-@media only screen and (min-width: 835px) and (max-width: 1024px) {
+@media only screen and (min-width: 835px) and (max-width: 1200px) {
 
-    .our-med-services {
-        padding-top: 10%;
-    }
+        .our-med-services {
+            padding-top: 10%;
+        }
 
-    #exit-preview {
-        position: fixed;
-        z-index: 501;
-        top: 1%;
-        right: 5%;
-        width: 10vh;
-        height: 10vh;
-        background-color: var(--blue);
-        color: var(--white);
-        border-radius: 50%;
-        opacity: 1;
-        border: none;
-        font-size: 35px;
-    }
+        #exit-preview {
+            position: fixed;
+            z-index: 501;
+            top: 1%;
+            right: 5%;
+            width: 10vh;
+            height: 10vh;
+            background-color: var(--blue);
+            color: var(--white);
+            border-radius: 50%;
+            opacity: 1;
+            border: none;
+            font-size: 35px;
+        }
 
-    .prev-zoom {
-        height: 12vh;
-        width: 12vh;
-        border-radius: 50%;
-        background-color: var(--blue);
-        opacity: 1;
-        border: none;
-        font-size: 45px;
-        color: var(--white);
-    }
+        .prev-zoom {
+            height: 12vh;
+            width: 12vh;
+            border-radius: 50%;
+            background-color: var(--blue);
+            opacity: 1;
+            border: none;
+            font-size: 45px;
+            color: var(--white);
+        }
 
-    .next-zoom {
-        height: 12vh;
-        width: 12vh;
-        border-radius: 50%;
-        background-color: var(--blue);
-        opacity: 1;
-        border: none;
-        font-size: 45px;
-        color: var(--white);
-    }
+        .next-zoom {
+            height: 12vh;
+            width: 12vh;
+            border-radius: 50%;
+            background-color: var(--blue);
+            opacity: 1;
+            border: none;
+            font-size: 45px;
+            color: var(--white);
+        }
 
-    .treatment-plan-cards {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 5% 2% 5% 0%;
-    }
+        .treatment-plan-cards {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5% 2% 5% 0%;
+        }
 
-    .step {
-        width: 30%;
-        height: 40%;
-        margin-left: 5%;
-    }
+        .step {
+            width: 30%;
+            height: 40%;
+            margin-left: 5%;
+        }
 
-    .step img {
-        width: 20%;
-        height: 20%;
-    }
+        .step img {
+            width: 20%;
+            height: 20%;
+        }
 
-    .treatment-plan p {
-        padding-left: 5%;
-        padding-right: 5%;
-        word-wrap: break-word;
-        word-spacing: 2px;
-        line-height: 1.5;
-    }
+        .treatment-plan p {
+            padding-left: 5%;
+            padding-right: 5%;
+            word-wrap: break-word;
+            word-spacing: 2px;
+            line-height: 1.5;
+        }
 
-    .contact-line {
-        position: relative;
-        top: 5%;
-        height: 12%;
-        padding: 0;
-    }
+        .contact-line {
+            position: relative;
+            top: 5%;
+            height: 12%;
+            padding: 0;
+        }
 
-    .hand {
-        width: 10%;
-        height: 50%;
-        margin-left: 3%;
-    }
+        .hand {
+            width: 10%;
+            height: 50%;
+            margin-left: 3%;
+        }
 
-    .contact-button {
-        margin-right: 3%;
-    }
+        .contact-button {
+            margin-right: 3%;
+        }
 
-    .prev {
-        display: none;
-    }
+        .prev {
+            display: none;
+        }
 
-    .next {
-        display: none;
-    }
+        .next {
+            display: none;
+        }
 }
 
 /*#endregion MOBILE CONTENT*/

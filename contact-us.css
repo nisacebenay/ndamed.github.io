@@ -500,6 +500,25 @@ header {
     }
 
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+
+    header {
+        height: 20%;
+    }
+
+    .logo img {
+        max-height: 6rem;
+    }
+
+    .navbar a {
+        font-size: 17px;
+    }
+
+    .language-selector select {
+        margin-bottom: 12%;
+    }
+}
     
 
 /*#endregion MOBILE HEADER */
@@ -839,7 +858,7 @@ header {
 }
   
   /* Large screens (desktops) */
-@media only screen and (min-width: 835px) and (max-width: 1024px) {
+@media only screen and (min-width: 835px) and (max-width: 1200px) {
     .contact-box {
       flex-direction: row;
       height: 50%;
@@ -856,6 +875,41 @@ header {
 
     .contact-area {
         width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+
+    .contact-person img {
+        width: 11rem; /* Adjust as needed */
+    }
+
+    .contact-person h4 {
+        font-size: 2em;
+    }
+
+    .contact-person p {
+        font-size: 1.3em;
+    }
+
+    .contact-area p {
+        font-size: 1.3em;
+    }
+
+    .contact-email a {
+        font-size: 1.1em;
+    }
+
+    .number-section a {
+        font-size: 1.2em;
+    }
+
+    .contact-instagram a {
+        font-size: 1em;
+    }
+
+    .contact-facebook a {
+        font-size: 1em;
     }
 }
   
