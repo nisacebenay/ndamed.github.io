@@ -507,7 +507,7 @@ header {
 
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
 
     header {
         height: 20%;
@@ -1432,7 +1432,7 @@ summary {
 
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
 
     .content {
         padding-left: 0;
@@ -1843,7 +1843,7 @@ footer iframe {
 
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
 
     footer {
         height: 50%;
