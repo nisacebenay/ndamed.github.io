@@ -200,6 +200,7 @@ header {
 }
 
 
+
 /*#region Mobile Header */
 
 @media only screen and (max-width: 600px) {
@@ -526,6 +527,8 @@ header {
     }
 
 }
+
+
     
 
 /*#endregion MOBILE HEADER */

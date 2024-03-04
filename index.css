@@ -507,26 +507,6 @@ header {
 
 }
 
-@media only screen and (min-width: 1200px) {
-
-    .logo img {
-        max-height: 6rem;
-    }
-
-    .menu-container {
-        padding-right: 3rem;
-    }
-
-    .navbar li {
-        border-top-left-radius: 2rem;
-        border-top-right-radius: 2rem;
-    }
-
-    .navbar a  {
-        font-size: 16px;
-        padding-bottom: 1rem;
-    }
-}
 
 /*#endregion MOBILE HEADER */
 
@@ -548,7 +528,7 @@ main {
     display: flex;
     flex-direction: column;
     padding-left: 1%;
-    padding-right: 45%;
+    padding-right: 50%;
     float: left;
     margin-top: 10%;
     padding-bottom: 0;
@@ -557,24 +537,24 @@ main {
 .content h1 {
     font: 400 1.5em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 50px;
-    padding-left: 5%;
+    padding-left: 10%;
     color: #5b9ad5;
     margin-bottom: 2%
 }
 
 .content h6 {
     font: 500 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
-    padding-left: 5%;
+    padding-left: 10%;
     color: #393e46;
-    font-size: 20px;
+    font-size: 1.2rem;
     line-height: 1.8;
     margin-bottom: 0;
 }
 
 .hr-1 {
     border: 1px solid #5b9ad5;
-    margin-left: 5%;
-    margin-right: 75%;
+    margin-left: 10%;
+    margin-right: 65%;
     margin-top: 0;
 }
 
@@ -606,14 +586,14 @@ main {
     min-height: 60px;
     min-width: 0;
     outline: none;
-    margin-left: 5%;
+    margin-left: 10%;
     text-align: center;
     text-decoration: none;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 30%;
+    width: 40%;
     margin-top: 2%;
 }
 
@@ -1425,30 +1405,6 @@ summary {
 
 }
 
-@media only screen and (min-width: 1200px) {
-
-    .content h6 {
-        font-size: 1rem;
-    }
-
-    .contact-line {
-        height: 20%;
-    }
-
-    .hand {
-        width: auto;
-        padding-left: 5%;
-    }
-
-    .isqua-line {
-        height: 28%;
-    }
-
-    .special-services {
-        margin: 0;
-    }
-}
-
 /*#endregion MOBILE CONTENT*/
 
 
@@ -1828,13 +1784,6 @@ footer iframe {
         padding-bottom: 3%;
     }
 
-}
-
-@media only screen and (min-width: 1200px) {
-
-    footer {
-        height: 50%;
-    }
 }
 
 /*#endregion FOOTER*/
