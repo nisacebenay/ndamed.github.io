@@ -703,13 +703,13 @@ header {
     border-radius: 50%;
     opacity: 1;
     border: none;
-    font-size: 25px;
+    font-size: 4vh;
     cursor: pointer;
 }
 
 .prev {
     position: absolute;
-    width: 5%;
+    width: 4%;
     border-radius: 50%;
     top: 40%;
     bottom: 5%;
@@ -730,7 +730,7 @@ header {
 }
 
 .next {
-    width: 5%;
+    width: 4%;
     position: absolute;
     right: 1%;
     top: 40%;
@@ -758,7 +758,7 @@ header {
     background-color: var(--blue);
     opacity: 1;
     border: none;
-    font-size: 30px;
+    font-size: 6vh;
     color: var(--white);
     cursor: pointer;
 }
@@ -770,7 +770,7 @@ header {
     background-color: var(--blue);
     opacity: 1;
     border: none;
-    font-size: 30px;
+    font-size: 6vh;
     color: var(--white);
     cursor: pointer;
 
@@ -1987,7 +1987,7 @@ footer iframe {
     right: 0;
     flex-direction: column;
     position: fixed;
-    background-color: var(--white);
+    background-color: #E1F2FB;
     padding-left: 10em;
     padding-right: 10em;
     padding-bottom: 10em;
