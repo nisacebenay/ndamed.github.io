@@ -988,14 +988,19 @@ li {
         font-size: 18px;
     }
 
-    .about-ankara-pics {
-        padding: 0;
-        margin: 2%;
+    .contact-line h4 {
+        margin-top: 2%;
+    }
+
+    .about-part2 {
+        margin-top: 2%;
     }
 
     .about-ankara-text {
         padding: 0;
-        margin: 3%;
+        margin-right: 3%;
+        margin-left: 2%;
+        padding-bottom: 5%;
     }   
 
     .img4 {
@@ -1382,6 +1387,13 @@ footer iframe {
         .footer-map-container {
             height: 100%;
         }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    
+    footer {
+        height: 50%;
+    }
 }
 
 /*#endregion MOBILE FOOTER*/
