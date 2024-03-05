@@ -916,7 +916,7 @@ header {
 /*#region FOOTER */
 
 footer {
-    height: 50%;
+    height: 40%;
     background-color: var(--dkblue);
     display: flex;
     align-items: center;
