@@ -1094,8 +1094,12 @@ summary {
         margin: 0;
     }
 
+    .content h1 {
+        padding-left: 5%;
+    }
+
     .content h6 {
-        margin-right: 5%;
+        padding-left: 5%;
         word-spacing: 1px;
     }
 
@@ -1150,7 +1154,7 @@ summary {
     .contact-line {
         position: relative;
         top: 10%;
-        height: 20%;
+        height: 15%;
     }
 
     .contact-line p {
