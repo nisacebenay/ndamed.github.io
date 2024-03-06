@@ -1234,6 +1234,18 @@ tbody tr:last-child td {
             font-size: 10px;
         }
 
+        .prev {
+            opacity: 0.9;
+            min-height: 5%;
+            width: 10%;
+        }
+
+        .next {
+            opacity: 0.9;
+            min-height: 5%;
+            width: 10%;
+        }
+
         #exit-preview {
             position: fixed;
             z-index: 501;

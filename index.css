@@ -526,7 +526,16 @@ header {
     }
 }
 
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
 
+    .logo  {
+        padding-top: 3%;
+    }
+
+    .logo img {
+        max-height: 8rem;
+    }
+  }
 
 /*#endregion MOBILE HEADER */
 
@@ -1459,6 +1468,38 @@ summary {
     .special-services {
         margin-left: 0;
         margin-right: 0;
+    }
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+
+    .content {
+        padding-right: 25%;
+        padding-left: 0%;
+    }
+
+    .content h6 {
+        font-size: 1em;
+        padding-left: 10%;
+    }
+
+    .content-h5 {
+        font-size: 1em;
+        padding-left: 0%;
+    }
+
+    .content ul {
+        padding-left: 5%;
+        font-size: 1em;
+    }
+
+    .services-button {
+        color: #F0F0F0;
+        background-color: #5b9ad5;
+    }
+
+    .contact-line {
+        height: 15%;
     }
 }
 
