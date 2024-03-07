@@ -1560,6 +1560,29 @@ tbody tr:last-child td {
         }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+
+    .diagnose-img {
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .hospital-img {
+        margin-top: 5%;
+    }
+
+    .calendar-img {
+        width: 35%;
+        height: 30%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .suitcase-img {
+        margin-top: 9%;
+    }
+}
+
 /*#endregion MOBILE CONTENT*/
 
 /*#endregion CONTENT*/
