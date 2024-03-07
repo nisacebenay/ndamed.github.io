@@ -336,7 +336,7 @@ header {
 
     .on {
         width: 40%;
-        background-color: rgba(241, 241, 241, 0.5);
+        background-color: rgba(241, 241, 241, 0.9);
     }
 
     .off {
@@ -437,7 +437,7 @@ header {
 
     .on {
         width: 40%;
-        background-color: rgba(241, 241, 241, 0.5);
+        background-color: rgba(241, 241, 241, 0.9);
     }
 
     .off {
@@ -524,9 +524,26 @@ header {
     .language-selector select {
         margin-bottom: 12%;
     }
+
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
+    }
 }
 
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
 
+    .logo  {
+        padding-top: 3%;
+    }
+
+    .logo img {
+        max-height: 8rem;
+    }
+
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
+    }
+  }
 
 /*#endregion MOBILE HEADER */
 
@@ -1094,8 +1111,12 @@ summary {
         margin: 0;
     }
 
+    .content h1 {
+        padding-left: 5%;
+    }
+
     .content h6 {
-        margin-right: 5%;
+        padding-left: 5%;
         word-spacing: 1px;
     }
 
@@ -1150,7 +1171,7 @@ summary {
     .contact-line {
         position: relative;
         top: 10%;
-        height: 20%;
+        height: 15%;
     }
 
     .contact-line p {
@@ -1455,6 +1476,38 @@ summary {
     .special-services {
         margin-left: 0;
         margin-right: 0;
+    }
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+
+    .content {
+        padding-right: 25%;
+        padding-left: 0%;
+    }
+
+    .content h6 {
+        font-size: 1em;
+        padding-left: 10%;
+    }
+
+    .content-h5 {
+        font-size: 1em;
+        padding-left: 0%;
+    }
+
+    .content ul {
+        padding-left: 5%;
+        font-size: 1em;
+    }
+
+    .services-button {
+        color: #F0F0F0;
+        background-color: #5b9ad5;
+    }
+
+    .contact-line {
+        height: 15%;
     }
 }
 
