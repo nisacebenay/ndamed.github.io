@@ -426,17 +426,6 @@ header {
 }
 
 @media only screen and (min-width: 835px) and (max-width: 1200px) {
-    header {
-        background-color: var(--white);
-        color: var(--blue);
-        height: 15%;
-        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 500;
-    }
 
     .contact-banner {
         display: none;
@@ -569,6 +558,21 @@ header {
         background-color: rgba(241, 241, 241, 0.9);
     }
     
+}
+
+@media only screen and (width: 1180px) and (height: 820px) and (orientation:landscape) {
+
+    .header {
+        height: 20%;
+    }
+
+    .logo {
+        padding-top: 3%;
+    }
+    
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
+    }
 }
 
 /*#endregion MOBILE HEADER */

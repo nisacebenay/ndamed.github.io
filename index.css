@@ -545,6 +545,17 @@ header {
     }
 }
 
+@media only screen and (width: 1180px) and (height: 820px) {
+
+    .logo {
+        padding-top: 3%;
+    }
+    
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
+    }
+}
+
 /*#endregion MOBILE HEADER */
 
 /*#endregion HEADER */

@@ -410,6 +410,10 @@ header {
 
 @media only screen and (min-width: 835px) and (max-width: 1200px) {
 
+    .header {
+        height: 30%;
+    }
+
     .contact-banner {
         display: none;
     }
@@ -476,7 +480,7 @@ header {
 
     .btn {
         padding-bottom: 7.4%;
-    };
+    }
 
     .mobile-navbar {
         opacity: 0.6;
@@ -520,7 +524,6 @@ header {
     }
 }
 
-
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
 
     .logo  {
@@ -531,6 +534,21 @@ header {
         max-height: 7rem;
     }
 
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
+    }
+}
+
+@media only screen and (width: 1180px) and (height: 820px) and (orientation:landscape) {
+
+    header {
+        height: 18%;
+    }
+
+    .logo {
+        padding-top: 3%;
+    }
+    
     .on {
         background-color: rgba(241, 241, 241, 0.9);
     }

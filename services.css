@@ -418,10 +418,6 @@ header {
 
 @media only screen and (min-width: 835px) and (max-width: 1200px) {
 
-    header {
-        height: 15%;
-    }
-
     .contact-banner {
         display: none;
     }
@@ -545,6 +541,18 @@ header {
         max-height: 7rem;
     }
 
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
+    }
+}
+
+@media only screen and (width: 1180px) and (height: 820px) and (orientation:landscape) {
+
+
+    .logo {
+        padding-top: 3%;
+    }
+    
     .on {
         background-color: rgba(241, 241, 241, 0.9);
     }
@@ -1469,7 +1477,7 @@ tbody tr:last-child td {
     }
 
     .prev {
-        width: 6cm;
+        width: 6%;
     }
 
     .next {
