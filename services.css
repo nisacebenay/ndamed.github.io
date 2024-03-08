@@ -338,9 +338,8 @@ header {
 
     .on {
         height: 100vh;
-        ;
         width: 40%;
-        background-color: rgba(241, 241, 241, 0.5);
+        background-color: rgba(241, 241, 241, 0.9);
     }
 
     .off {
@@ -446,7 +445,7 @@ header {
     .on {
         height: 100vh;
         width: 40%;
-        background-color: rgba(241, 241, 241, 0.5);
+        background-color: rgba(241, 241, 241, 0.9);
     }
 
     .off {
@@ -1379,25 +1378,25 @@ tbody tr:last-child td {
 
 @media only screen and (min-width: 600px) and (max-width: 834px) {
 
-        .our-med-services {
+    .our-med-services {
             padding: 15% 5% 5% 5%;
-        }
+    }
 
-        .service {
+    .service {
             display: flex;
             flex-direction: row;
             align-items: flex-start;
-        }
+    }
 
-        .service img {
+    .service img {
             width: 25%;
             height: 25%;
             background-color: #5b9ad5;
             border-radius: 50%;
             border: #41506b 0.5px solid;
-        }
+    }
 
-        #exit-preview {
+    #exit-preview {
             position: fixed;
             z-index: 501;
             top: 1%;
@@ -1410,9 +1409,9 @@ tbody tr:last-child td {
             opacity: 1;
             border: none;
             font-size: 35px;
-        }
+    }
 
-        .prev-zoom {
+    .prev-zoom {
             height: 9vh;
             width: 9vh;
             border-radius: 50%;
@@ -1421,9 +1420,9 @@ tbody tr:last-child td {
             border: none;
             font-size: 45px;
             color: var(--white);
-        }
+    }
 
-        .next-zoom {
+    .next-zoom {
             height: 9vh;
             width: 9vh;
             border-radius: 50%;
@@ -1432,50 +1431,50 @@ tbody tr:last-child td {
             border: none;
             font-size: 45px;
             color: var(--white);
-        }
+    }
 
-        td img {
+    td img {
             width: 50px;
             height: 50px;
-        }
+    }
 
-        .treatment-plan p {
+    .treatment-plan p {
             padding-left: 15%;
             padding-right: 15%;
             word-spacing: 1px;
             line-height: 1.5;
-        }
+    }
 
-        .contact-line {
+    .contact-line {
             position: relative;
             top: 5%;
             height: 12%;
             padding: 0;
-        }
+    }
 
-        .contact-line p {
+    .contact-line p {
             font-size: 20px;
-        }
+    }
 
-        .contact-button {
+    .contact-button {
             width: 15%;
             margin-right: 2%;
-        }
+    }
 
-        .hand {
+    .hand {
             width: 10%;
             height: 60%;
             margin-left: 2%;
             padding-right: 2%;
-        }
+    }
 
-        .prev {
-            display: none;
-        }
+    .prev {
+        width: 6cm;
+    }
 
-        .next {
-            display: none;
-        }
+    .next {
+        width: 6%;
+    }
 }
 
 @media only screen and (min-width: 835px) and (max-width: 1200px) {
@@ -1565,11 +1564,11 @@ tbody tr:last-child td {
     }
 
     .prev {
-        width: 6%;
+        width: 8%;
     }
 
     .next {
-        width: 6%;
+        width: 8%;
     }
 }
 
@@ -1596,6 +1595,16 @@ tbody tr:last-child td {
     }
 }
 
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+
+    .prev {
+        width: 8%;
+    }
+
+    .next {
+        width: 8%;
+    }
+}
 /*#endregion MOBILE CONTENT*/
 
 /*#endregion CONTENT*/
@@ -1936,8 +1945,7 @@ footer iframe {
 @media only screen and (min-width: 600px) and (max-width: 834px) {
 
     footer {
-        height: auto;
-        padding: 20px;
+        padding: 10px;
     }
 
     .contacts {
@@ -1984,6 +1992,25 @@ footer iframe {
     
     footer {
         height: 50%;
+    }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    
+    .footer {
+        padding: 10px;
+    }
+
+    .social-image {
+        height: 3rem;
+    }
+
+    .abroad-number {
+        padding-left: 0;
+    }
+
+    .domestic-number {
+        padding-left: 0;
     }
 }
 

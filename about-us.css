@@ -133,7 +133,8 @@ header {
     display: flex;
     flex-direction: column;
     height: 80%;;
-    transition: opacity 0.6s ease 0s; opacity: 0;
+    transition: opacity 0.6s ease 0s; 
+    opacity: 0;
 }
 
 .navbar ul {
@@ -349,7 +350,7 @@ header {
 
     .on {
         width: 40%;
-        background-color: rgba(241, 241, 241, 0.5);
+        background-color: rgba(241, 241, 241, 0.9);
     }
 
     .off {
@@ -398,7 +399,7 @@ header {
 
     .mobile-navbar {
         opacity: 0.6;
-        transition: opacity 0.6s ease 0s; opacity: 0;
+        transition: opacity 0.6s ease 0s; 
     }
 
     .mobile-navbar .active {
@@ -459,7 +460,7 @@ header {
 
     .on {
         width: 40%;
-        background-color: rgba(241, 241, 241, 0.5);
+        background-color: rgba(241, 241, 241, 0.9);
     }
 
     .off {
@@ -560,6 +561,14 @@ header {
     .on {
         background-color: rgba(241, 241, 241, 0.9);
     }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
+    }
+    
 }
 
 /*#endregion MOBILE HEADER */
@@ -1476,7 +1485,6 @@ footer iframe {
 @media only screen and (min-width: 600px) and (max-width: 834px) {
 
     footer {
-        height: auto;
         padding: 10px;
     }
     
@@ -1521,6 +1529,21 @@ footer iframe {
     
     footer {
         height: 50%;
+    }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+
+    .social-image {
+        height: 3rem;
+    }
+
+    .abroad-number {
+        padding-left: 0;
+    }
+
+    .domestic-number {
+        padding-left: 0;
     }
 }
 
