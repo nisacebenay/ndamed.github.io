@@ -420,7 +420,7 @@ header {
 @media only screen and (min-width: 835px) and (max-width: 1200px) {
 
     header {
-        height: auto;
+        height: 15%;
     }
 
     .contact-banner {
@@ -493,8 +493,6 @@ header {
         padding-bottom: 7.4%;
     }
 
-    ;
-
     .mobile-navbar {
         opacity: 0.6;
         transition: opacity 0.6s ease 0s;
@@ -535,6 +533,21 @@ header {
 
     .language-selector select {
         margin-bottom: 12%;
+    }
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+
+    .logo  {
+        padding-top: 3%;
+    }
+
+    .logo img {
+        max-height: 7rem;
+    }
+
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
     }
 }
 
@@ -721,7 +734,7 @@ header {
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .prev:hover {
@@ -743,7 +756,7 @@ header {
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .next:hover {
@@ -1467,11 +1480,11 @@ tbody tr:last-child td {
 
 @media only screen and (min-width: 835px) and (max-width: 1200px) {
 
-        .our-med-services {
+    .our-med-services {
             padding-top: 10%;
-        }
+    }
 
-        #exit-preview {
+    #exit-preview {
             position: fixed;
             z-index: 501;
             top: 1%;
@@ -1484,9 +1497,9 @@ tbody tr:last-child td {
             opacity: 1;
             border: none;
             font-size: 35px;
-        }
+    }
 
-        .prev-zoom {
+    .prev-zoom {
             height: 12vh;
             width: 12vh;
             border-radius: 50%;
@@ -1495,9 +1508,9 @@ tbody tr:last-child td {
             border: none;
             font-size: 45px;
             color: var(--white);
-        }
+    }
 
-        .next-zoom {
+    .next-zoom {
             height: 12vh;
             width: 12vh;
             border-radius: 50%;
@@ -1506,58 +1519,58 @@ tbody tr:last-child td {
             border: none;
             font-size: 45px;
             color: var(--white);
-        }
+    }
 
-        .treatment-plan-cards {
+    .treatment-plan-cards {
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
             padding: 5% 2% 5% 0%;
-        }
+    }
 
-        .step {
+    .step {
             width: 30%;
             height: 40%;
             margin-left: 5%;
-        }
+    }
 
-        .step img {
+    .step img {
             width: 20%;
             height: 20%;
-        }
+    }
 
-        .treatment-plan p {
+    .treatment-plan p {
             padding-left: 5%;
             padding-right: 5%;
             word-wrap: break-word;
             word-spacing: 2px;
             line-height: 1.5;
-        }
+    }
 
-        .contact-line {
+    .contact-line {
             position: relative;
             top: 5%;
             height: 12%;
             padding: 0;
-        }
+    }
 
-        .hand {
+    .hand {
             width: 10%;
             height: 50%;
             margin-left: 3%;
-        }
+    }
 
-        .contact-button {
+    .contact-button {
             margin-right: 3%;
-        }
+    }
 
-        .prev {
-            display: none;
-        }
+    .prev {
+        width: 6%;
+    }
 
-        .next {
-            display: none;
-        }
+    .next {
+        width: 6%;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {

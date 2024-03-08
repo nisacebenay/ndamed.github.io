@@ -18,7 +18,7 @@ body {
 header {
     background-color: var(--white);
     color: var(--blue);
-    height: 18%;
+    height: 15%;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
     position: fixed;
     top: 0;
@@ -517,6 +517,22 @@ header {
 
     .language-selector select {
         margin-bottom: 12%;
+    }
+}
+
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+
+    .logo  {
+        padding-top: 3%;
+    }
+
+    .logo img {
+        max-height: 7rem;
+    }
+
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
     }
 }
     

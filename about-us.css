@@ -1048,6 +1048,21 @@ li {
     .img3-alternative {
         left: 5%;
     }
+
+    .about-ankara-text {
+        padding-bottom: 2%;
+    }
+
+    .img4 {
+        height: 60%;
+        width: 45%;
+    }
+
+    .img5 {
+        top: 50%;
+        height: 60%;
+        width: 45%;
+    }
 }
 
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
