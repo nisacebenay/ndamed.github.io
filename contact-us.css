@@ -553,6 +553,36 @@ header {
         background-color: rgba(241, 241, 241, 0.9);
     }
 }
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+    
+    header {
+        height: 12%;
+    }
+
+    .logo img {
+        max-height: 8rem;
+    }
+    
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
+    }
+    
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+    
+    .logo img {
+        max-height: 8rem;
+    }
+    
+    .language-selector select {
+        margin-bottom: 0%;
+        margin-top: 10%;
+    }
+    
+}
     
 
 /*#endregion MOBILE HEADER */
@@ -944,6 +974,18 @@ header {
 
     .contact-facebook a {
         font-size: 1em;
+    }
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+    
+    .main {
+        margin-top: 20%;
+    }
+
+    .contact-list a {
+        font: 300 1.4em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
     }
 }
   
