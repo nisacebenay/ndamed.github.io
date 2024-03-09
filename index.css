@@ -556,6 +556,38 @@ header {
     }
 }
 
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+    
+    header {
+        height: 12%;
+    }
+
+    .logo img {
+        max-height: 8rem;
+    }
+    
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
+    }
+    
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+
+    
+    .logo img {
+        max-height: 8rem;
+    }
+    
+    .language-selector select {
+        margin-bottom: 0%;
+        margin-top: 10%;
+    }
+
+
+    
+}
+
 /*#endregion MOBILE HEADER */
 
 /*#endregion HEADER */
@@ -1520,6 +1552,71 @@ summary {
     .contact-line {
         height: 15%;
     }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+
+    .content {
+        margin-right: 25%;
+    }
+
+    .content h1 {
+        padding-left: 5%;
+    }
+
+    .hr-1 {
+        margin-left: 5%;
+        margin-right: 55%;
+    }
+    
+    .content h6 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .content h5 {
+        padding-left: 0%;
+        padding-right: 10%;
+    
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+
+    .content {
+        padding-left: 0%;  
+        padding-right: 25%;
+    }
+
+    .content h6 {
+        padding-left: 5%;
+    }
+
+    .content h5 {
+        padding-left: 5%;
+        padding-right: 25%;
+    }
+
+    .services-button {
+        color: #F0F0F0;
+        background-color: #5b9ad5;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+
+    main {
+        padding-bottom: 10%;
+    }
+
+    .contact-line {
+        height: 15%;    
+    }
+
+    .isqua-line {
+        height: 20%;
+    }
+
 }
 
 /*#endregion MOBILE CONTENT*/

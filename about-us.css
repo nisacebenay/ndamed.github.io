@@ -575,6 +575,35 @@ header {
     }
 }
 
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+    
+    header {
+        height: 12%;
+    }
+
+    .logo img {
+        max-height: 8rem;
+    }
+    
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
+    }
+    
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+    
+    .logo img {
+        max-height: 8rem;
+    }
+    
+    .language-selector select {
+        margin-bottom: 0%;
+        margin-top: 10%;
+    }
+    
+}
+
 /*#endregion MOBILE HEADER */
 
 /*#endregion HEADER */
@@ -1165,6 +1194,115 @@ li {
 
 }
 
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+
+    .about-us-text {
+        padding-right: 0%;
+    }
+
+    .about-us-text h2 {
+        padding-left: 2%;
+    }
+
+    .about-us-text p {
+        padding-left: 2%;
+    
+    } 
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+
+    .about-us-text {
+        padding-right: 0%;
+        max-width: 50%;
+    }
+    
+    .img1 {
+        display: block;
+        width: 18%;
+        height: auto;
+        border-radius: 10%;
+        float: right;
+        position: absolute;
+        right: 30%;
+        top: 33%;
+        border: 5px solid #e0f4f7;
+    }
+
+    .img2 {
+        width: 35%;
+        left: 1%;
+        top: 20%;
+    }
+
+    .img3 {
+        width: 40%;
+        top: 45%;
+        right: -5%;
+    }
+
+    .img1-alternative {
+        display: none;
+    }
+
+    .img2-alternative {
+        left: -10%;
+    }
+
+    .img3-alternative {
+        left: -15%;
+    }
+
+    .contact-line {
+        position: relative;
+        top: 1%;
+        height: 20%;
+    }
+
+    .ndamed-contact-img {
+        width: 20%;
+        height: 65%;
+    }
+
+    .about-ankara-pics {
+        padding-top: 0%;
+    }
+
+    .img4 {
+        top: 10%;
+        height: 45%;
+        width: 55%;
+        left: 40%;
+    }
+
+    .img5 {
+        top: 5%;
+        height: 45%;
+        width: 55%;
+        left: 5%;
+    }
+
+    .about-part2 {
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+
+    .about-part {
+        padding-top: 3%;
+    }
+
+    .about-us-text h2 {
+        padding-left: 3%;
+    }
+
+    .contact-line {
+        position: relative;
+        top: 1%;
+        height: 20%;
+    }
+}
 /*#endregion ABOUT US MOBILE */
 
 /*#region FOOTER */

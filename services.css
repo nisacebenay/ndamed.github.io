@@ -201,7 +201,6 @@ header {
     align-self: center;
 }
 
-
 /*#region Mobile Header */
 
 @media only screen and (max-width: 600px) {
@@ -556,6 +555,39 @@ header {
     .on {
         background-color: rgba(241, 241, 241, 0.9);
     }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+    
+    header {
+        height: 12%;
+    }
+
+    .logo {
+        padding-top: 4%;
+    }
+
+    .logo img {
+        max-height: 8rem;
+    }
+    
+    .on {
+        background-color: rgba(241, 241, 241, 0.9);
+    }
+    
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+    
+    .logo img {
+        max-height: 8rem;
+    }
+    
+    .language-selector select {
+        margin-bottom: 0%;
+        margin-top: 10%;
+    }
+    
 }
 
 
@@ -1613,6 +1645,16 @@ tbody tr:last-child td {
         width: 8%;
     }
 }
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+    
+    .our-med-services {
+        padding-top: 15%;
+    }
+    
+}
+
 /*#endregion MOBILE CONTENT*/
 
 /*#endregion CONTENT*/
