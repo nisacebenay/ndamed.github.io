@@ -183,7 +183,7 @@ async function setLanguage() {
 
     console.log(window.innerWidth);
     var logoclass = document.getElementsByClassName("main-header")[0];
-    logoclass.innerHTML += window.innerWidth;
+    // logoclass.innerHTML += window.innerWidth;
 
     // if (currentLanguage === "de" || currentLanguage === "nl") {
     //     if (img) {

@@ -305,7 +305,7 @@ header {
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 834px) {
+@media only screen and (min-width: 640px) and (max-width: 835px) {
 
     header {
         height: 10%;
@@ -408,10 +408,10 @@ header {
 
 }
 
-@media only screen and (min-width: 835px) and (max-width: 1200px) {
-
-    .header {
-        height: 30%;
+@media only screen and (min-width: 835px) and (max-width: 1024px) {
+    
+    header {
+        height: 10%;
     }
 
     .contact-banner {
@@ -424,9 +424,9 @@ header {
 
     .menu-container-mobile {
         height: 100vh;
-        top: 40%;
-        width: 5%;
+        width: 15%;
         position: absolute;
+        top: 40%;
         right: -5%;
         display: flex;
         flex-direction: column;
@@ -455,10 +455,11 @@ header {
         padding: 0;
         display: flex;
         flex-direction: column;
+
     }
 
     .menu-container-mobile li {
-        height: 40%;
+        height: 100%;
         width: 95%;
         align-items: center;
         align-content: center;
@@ -466,25 +467,26 @@ header {
         padding-left: 5%;
     }
 
-    .language-selector-mobile{
+    .language-selector-mobile {
         padding-top: 10%;
         padding-left: 5%;
         width: 50%;
         height: 5%;
     }
 
-    .language-selector-mobile select{
+    .language-selector-mobile select {
         width: 100%;
         height: 100%;
     }
 
     .btn {
-        padding-bottom: 7.4%;
+        padding-bottom: 11%;
     }
 
     .mobile-navbar {
         opacity: 0.6;
-        transition: opacity 0.6s ease 0s; opacity: 0;
+        transition: opacity 0.6s ease 0s;
+        opacity: 0;
     }
 
     .mobile-navbar .active {
@@ -499,89 +501,16 @@ header {
         font-size: large;
     }
 
-    .logo {
-        padding-top: 4%;
-    }
-
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1500px) {
-
-    header {
-        height: 20%;
-    }
-
     .logo img {
-        max-height: 6rem;
-    }
-
-    .navbar a {
-        font-size: 17px;
-    }
-
-    .language-selector select {
-        margin-bottom: 12%;
-    }
-}
-
-@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
-
-    .logo  {
-        padding-top: 3%;
-    }
-
-    .logo img {
-        max-height: 7rem;
-    }
-
-    .on {
-        background-color: rgba(241, 241, 241, 0.9);
-    }
-}
-
-@media only screen and (width: 1180px) and (height: 820px) and (orientation:landscape) {
-
-    header {
-        height: 18%;
+        max-height: 8rem;
     }
 
     .logo {
         padding-top: 3%;
-    }
-    
-    .on {
-        background-color: rgba(241, 241, 241, 0.9);
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
-    
-    header {
-        height: 12%;
+        padding-left: 2%;
     }
 
-    .logo img {
-        max-height: 8rem;
-    }
-    
-    .on {
-        background-color: rgba(241, 241, 241, 0.9);
-    }
-    
-}
 
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
-    
-    .logo img {
-        max-height: 8rem;
-    }
-    
-    .language-selector select {
-        margin-bottom: 0%;
-        margin-top: 10%;
-    }
-    
 }
     
 
@@ -896,7 +825,7 @@ header {
 }
   
   /* Medium screens (tablets) */
-@media only screen and (min-width: 600px) and (max-width: 834px) {
+@media only screen and (min-width: 600px) and (max-width: 835px) {
 
     .main {
         padding-top: 5%;
@@ -922,7 +851,8 @@ header {
 }
   
   /* Large screens (desktops) */
-@media only screen and (min-width: 835px) and (max-width: 1200px) {
+@media only screen and (min-width: 835px) and (max-width: 1024px) {
+
     .contact-box {
       flex-direction: row;
       height: 50%;
@@ -940,54 +870,18 @@ header {
     .contact-area {
         width: 50%;
     }
-}
 
-@media only screen and (min-width: 1200px) and (max-width: 1500px) {
-
-    .contact-person img {
-        width: 11rem; /* Adjust as needed */
+    .abroad-area a {
+        padding-left: 0%;
+        padding-right: 0%;
     }
 
-    .contact-person h4 {
-        font-size: 2em;
-    }
-
-    .contact-person p {
-        font-size: 1.3em;
-    }
-
-    .contact-area p {
-        font-size: 1.3em;
-    }
-
-    .contact-email a {
-        font-size: 1.1em;
-    }
-
-    .number-section a {
-        font-size: 1.2em;
-    }
-
-    .contact-instagram a {
-        font-size: 1em;
-    }
-
-    .contact-facebook a {
-        font-size: 1em;
+    .domestic-area a {
+        padding-left: 0%;
+        padding-right: 0%;
     }
 }
 
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
-    
-    .main {
-        margin-top: 20%;
-    }
-
-    .contact-list a {
-        font: 300 1.4em/1.4 "Open Sans", "Helvetica Neue", sans-serif;
-    }
-}
   
 /*#region FOOTER */
 
@@ -1311,7 +1205,7 @@ footer iframe {
       }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 834px) {
+@media only screen and (min-width: 600px) and (max-width: 835px) {
 
     footer {
         padding: 10px;
@@ -1353,21 +1247,6 @@ footer iframe {
         height: 100%;
     }
         
-}
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-
-    .social-image {
-        height: 3rem;
-    }
-
-    .abroad-number {
-        padding-left: 0;
-    }
-
-    .domestic-number {
-        padding-left: 0;
-    }
 }
 
 /*# MOBILE FOOTER END */

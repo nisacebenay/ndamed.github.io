@@ -309,7 +309,7 @@ header {
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 834px) {
+@media only screen and (min-width: 640px) and (max-width: 835px) {
 
     header {
         height: 10%;
@@ -415,7 +415,11 @@ header {
 
 }
 
-@media only screen and (min-width: 835px) and (max-width: 1200px) {
+@media only screen and (min-width: 835px) and (max-width: 1024px) {
+    
+    header {
+        height: 10%;
+    }
 
     .contact-banner {
         display: none;
@@ -427,9 +431,9 @@ header {
 
     .menu-container-mobile {
         height: 100vh;
-        top: 40%;
-        width: 5%;
+        width: 15%;
         position: absolute;
+        top: 40%;
         right: -5%;
         display: flex;
         flex-direction: column;
@@ -438,13 +442,11 @@ header {
     }
 
     .on {
-        height: 100vh;
         width: 40%;
         background-color: rgba(241, 241, 241, 0.9);
     }
 
     .off {
-        height: 10%;
         width: 10%;
         background-color: transparent;
     }
@@ -460,10 +462,11 @@ header {
         padding: 0;
         display: flex;
         flex-direction: column;
+
     }
 
     .menu-container-mobile li {
-        height: 40%;
+        height: 100%;
         width: 95%;
         align-items: center;
         align-content: center;
@@ -484,7 +487,7 @@ header {
     }
 
     .btn {
-        padding-bottom: 7.4%;
+        padding-bottom: 11%;
     }
 
     .mobile-navbar {
@@ -505,91 +508,17 @@ header {
         font-size: large;
     }
 
-    .logo {
-        padding-top: 0.5%;
-    }
-
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1500px) {
-
-    header {
-        height: 20%;
-    }
-
-    .logo img {
-        max-height: 6rem;
-    }
-
-    .navbar a {
-        font-size: 17px;
-    }
-
-    .language-selector select {
-        margin-bottom: 12%;
-    }
-}
-
-@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
-
-    .logo  {
-        padding-top: 3%;
-    }
-
-    .logo img {
-        max-height: 7rem;
-    }
-
-    .on {
-        background-color: rgba(241, 241, 241, 0.9);
-    }
-}
-
-@media only screen and (width: 1180px) and (height: 820px) and (orientation:landscape) {
-
-
-    .logo {
-        padding-top: 3%;
-    }
-    
-    .on {
-        background-color: rgba(241, 241, 241, 0.9);
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
-    
-    header {
-        height: 12%;
-    }
-
-    .logo {
-        padding-top: 4%;
-    }
-
     .logo img {
         max-height: 8rem;
     }
-    
-    .on {
-        background-color: rgba(241, 241, 241, 0.9);
-    }
-    
-}
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
-    
-    .logo img {
-        max-height: 8rem;
+    .logo {
+        padding-top: 3%;
+        padding-left: 2%;
     }
-    
-    .language-selector select {
-        margin-bottom: 0%;
-        margin-top: 10%;
-    }
-    
-}
 
+
+}
 
 /*#endregion MOBILE HEADER */
 
@@ -1416,7 +1345,7 @@ tbody tr:last-child td {
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 834px) {
+@media only screen and (min-width: 600px) and (max-width: 835px) {
 
     .our-med-services {
             padding: 15% 5% 5% 5%;
@@ -1517,7 +1446,7 @@ tbody tr:last-child td {
     }
 }
 
-@media only screen and (min-width: 835px) and (max-width: 1200px) {
+@media only screen and (min-width: 835px) and (max-width: 1024px) {
 
     .our-med-services {
             padding-top: 10%;
@@ -1610,49 +1539,6 @@ tbody tr:last-child td {
     .next {
         width: 8%;
     }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1500px) {
-
-    .diagnose-img {
-        margin-left: 10%;
-        margin-top: 10%;
-    }
-
-    .hospital-img {
-        margin-top: 5%;
-    }
-
-    .calendar-img {
-        width: 35%;
-        height: 30%;
-        margin-top: 10%;
-        margin-bottom: 5%;
-    }
-
-    .suitcase-img {
-        margin-top: 9%;
-    }
-}
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-
-    .prev {
-        width: 8%;
-    }
-
-    .next {
-        width: 8%;
-    }
-}
-
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
-    
-    .our-med-services {
-        padding-top: 15%;
-    }
-    
 }
 
 /*#endregion MOBILE CONTENT*/
